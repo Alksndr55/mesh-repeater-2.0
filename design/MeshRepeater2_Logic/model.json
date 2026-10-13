@@ -1,8 +1,8 @@
 {
   "project": "MeshRepeater2_Logic",
-  "revision": "V2.0-A2-INA219",
-  "schematic_revision": "V2.0-A2",
-  "schematic_date": "2026-10-12",
+  "revision": "V2.0-A3",
+  "schematic_revision": "V2.0-A3",
+  "schematic_date": "2026-10-13",
   "board": {
     "width": 90,
     "height": 60,
@@ -47,54 +47,6 @@
     "mounting_keepout_od_mm": 6.5
   },
   "parts": [
-    {
-      "ref": "J11",
-      "kind": "Connector2",
-      "value": "LC OUT - SYS 3V3",
-      "nets": {
-        "1": "FILTER_OUT",
-        "2": "SYS_3V3"
-      },
-      "footprint": "Meshcore:Connfly_DS1022_1x02RUF11_B_Horizontal__V2_J11",
-      "x": 86,
-      "y": 23,
-      "rotation": 0,
-      "mpn": "Connfly DS1022-1x40RUF11-B cut to2pins",
-      "lcsc": "",
-      "note": "U type1, A3.00 solder tail,B6.00 mating length,C6.07 abovePCB. Do not subtractAfromC. Mechanical v2 package; original functional pin numbers retained.",
-      "dnp": false,
-      "group": "filter",
-      "vendor": "Danomsk",
-      "vendor_url": "https://www.danomsk.ru/shop/7-kommutatsiya/121-razemy/306-soediniteli-pryamougolnye/202688-pls-40r2-ds1022-1x40ruf11-b-vilka-uglovaya-2-54mm-connfly/",
-      "qualification": "Initial mechanical replacement; exact mating parts, drawings, availability and footprint verification pending.",
-      "procurement_package": "Connfly_DS1022_1x02RUF11_B_Horizontal",
-      "procurement_checked_at": "2026-10-11",
-      "schematic_uuid": "4d4ae683-c931-5b98-a863-535e7892799b",
-      "sheet_path": "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/f41cb747-67df-583a-8b1a-9bd19e8f35ea",
-      "fit_naion": true,
-      "fit_lto2s": true,
-      "assembly_default_dnp": false,
-      "assembly": "Na-ion: FIT; LTO 2S: FIT",
-      "native_layer": "F.Cu",
-      "source_ref": "J11",
-      "source_revision": "S4.16",
-      "source_pose": {
-        "x": 53.5,
-        "y": 46.5,
-        "rotation": 180.0
-      },
-      "fit_naion_no_cold": true,
-      "value_lto2s": "LC OUT - SYS 3V3",
-      "value_naion_no_cold": "LC OUT - SYS 3V3",
-      "mpn_lto2s": "Connfly DS1022-1x40RUF11-B cut to2pins",
-      "mpn_naion_no_cold": "Connfly DS1022-1x40RUF11-B cut to2pins",
-      "original_mpn": "DS1021-1X40SF11-B",
-      "original_vendor_url": "https://www.danomsk.ru/shop/7-kommutatsiya/121-razemy/306-soediniteli-pryamougolnye/195992-pls-40-ds1021-1x40sf11-b-vilka-na-platu-shag-2-54mm-maks-dopust-tok-3a-connfly/",
-      "mechanical_selection_status": "PENDING_DAN_DRAWING_AND_BOM_CONFIRMATION",
-      "package": "1x2 / 2.54 / 90deg",
-      "package_short": "1x2 / 2.54 / 90deg",
-      "source_footprint_before_v2_graphic_variant": "Meshcore:Connfly_DS1022_1x02RUF11_B_Horizontal"
-    },
     {
       "ref": "R21",
       "kind": "R",
@@ -176,7 +128,7 @@
       "rotation": 180.0,
       "mpn": "User supplied NiceNano clone",
       "lcsc": "",
-      "note": "Filtered3.3V through removable J11 shunt directly to VCC, accepted based on user test of actual clone. Remove J11 BEFORE USB; all SYS_3V3 loads remain on the USB-fed side. Battery never connects to RAW/BAT; disable USB charger.",
+      "note": "SYS_3V3 from POWER J11 output copper star, direct modified-clone VCC. Remove the single POWER J11 shunt BEFORE USB; reinstall after disconnecting USB. USB also feeds RADIO through POWER NT2. RAW/BAT isolated and USB charger disabled.",
       "dnp": false,
       "group": "",
       "schematic_uuid": "ee07b44e-b539-5eed-9d12-b40254c75744",
@@ -293,7 +245,7 @@
       "nets": {
         "1": "ANT_RF",
         "2": "GND",
-        "3": "RADIO_3V3",
+        "3": "RADIO_LOCAL_3V3",
         "4": "RADIO_RST",
         "5": "RADIO_TXEN",
         "6": "RADIO_DIO1",
@@ -515,7 +467,7 @@
       "kind": "C",
       "value": "22uF 25V X5R",
       "nets": {
-        "1": "RADIO_3V3",
+        "1": "RADIO_LOCAL_3V3",
         "2": "GND"
       },
       "footprint": "Meshcore:C_0805_2012Metric__V2_C23",
@@ -558,7 +510,7 @@
       "kind": "C",
       "value": "100nF 50V X7R",
       "nets": {
-        "1": "RADIO_3V3",
+        "1": "RADIO_LOCAL_3V3",
         "2": "GND"
       },
       "footprint": "Meshcore:C_0805_2012Metric__V2_C24",
@@ -2160,8 +2112,8 @@
       "kind": "Inductor",
       "value": "60R@100MHz / 3A",
       "nets": {
-        "1": "SYS_3V3",
-        "2": "RADIO_3V3"
+        "1": "RADIO_3V3",
+        "2": "RADIO_LOCAL_3V3"
       },
       "footprint": "Meshcore:Ferrite_Murata_BLM21PG__V2_FB1",
       "x": 33.8,
@@ -2173,7 +2125,7 @@
       "group": "radio_power",
       "vendor": "Other supplier; Danomsk exact stock not confirmed",
       "vendor_url": "https://www.murata.com/en-eu/products/productdetail?partno=BLM21PG600SN1%23",
-      "note": "Separate radio supply branch. Ferrite60ohm at100MHz, conservative3A rating, DCRmax20mohm specifiedbyMurata. Nominal3mVdropat150mA. CustomCu lands per archivedMurataC31E6; mask/paste engineering choices. Prototype load-step/noise/resonance qualification required.",
+      "note": "Separate RADIO branch from POWER copper star NT2. FB1 feeds only HT-RA62 and C23/C24; no SYS connection on LOGIC.",
       "schematic_uuid": "210f9245-0a64-5fdd-bc17-c36c21789840",
       "sheet_path": "/105ad8a7-7e6b-542d-bfd4-ec797b1696df",
       "fit_naion": true,
@@ -2433,14 +2385,14 @@
       "kind": "Connector12",
       "value": "INTERBOARD 2x6 VERTICAL",
       "nets": {
-        "1": "FILTER_OUT",
+        "1": "SYS_3V3",
         "2": "GND",
-        "3": "FILTER_OUT",
+        "3": "SYS_3V3",
         "4": "GND",
-        "5": "FILTER_OUT",
+        "5": "RADIO_3V3",
         "6": "GND",
-        "7": "SYS_3V3",
-        "8": "GND",
+        "7": "RADIO_3V3",
+        "8": null,
         "9": "BAT",
         "10": "SDA",
         "11": "MODE",
@@ -2451,7 +2403,7 @@
       "y": 49.0,
       "rotation": 90,
       "group": "interboard",
-      "note": "Direct vertical connection through 12 isolated screen holes. Mirrored female pad grid gives physical 1:1 after LOGIC X180. Pin7 returns SYS_3V3 to INA219 only; remove J11 before USB as before. Exact generic pin section and mating limits require sample check.",
+      "note": "Direct vertical pair with continuous plastic-body shield cutout; pins1/3 SYS,5/7 RADIO,2/4/6 GND,8 NC,9 BAT,10 SDA,11 MODE,12 SCL. J11 is on POWER; remove before USB.",
       "mpn": "MTJ H8.5 2X6P 10PCS",
       "lcsc": "",
       "dnp": false,
@@ -3807,5 +3759,12 @@
     "Watchdog": 3,
     "Interconnect": 4
   },
-  "mechanical_selection": "docs/mechanical_selection.json"
+  "mechanical_selection": "docs/mechanical_selection.json",
+  "split_power_a3": {
+    "J11_board": "POWER",
+    "one_removable_shunt": true,
+    "SYS": "logic and peripherals",
+    "RADIO": "dedicated interboard branch to FB1, then RADIO_LOCAL_3V3 modem only",
+    "star": "NT2 on POWER"
+  }
 }

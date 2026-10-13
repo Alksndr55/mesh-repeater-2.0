@@ -1,0 +1,461 @@
+{
+  "snapshot_sha256": "4fde0d03000f7ec29ba5448b2247fd4e963a3a7771d993e50405e9e2583bce19",
+  "bulk_routes": [
+    {
+      "found": true,
+      "net": "BAT",
+      "from": [
+        "J8",
+        "1"
+      ],
+      "to": [
+        "R71",
+        "2"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 26.263038598787883,
+      "tracks": 3,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "7133dbb4-dff8-44b5-b6e7-4d0b410d93f9",
+        "fc670712-47a7-4e15-befd-6f9e85771d27",
+        "88cc1e25-c324-425d-94d2-198507c27a76"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          23000000,
+          9100000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "BAT_SYS",
+      "from": [
+        "R71",
+        "1"
+      ],
+      "to": [
+        "C53",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 11.62988815542512,
+      "tracks": 4,
+      "vias": 2,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "2153545d-8076-49f6-8759-a11861ce8cda",
+        "b4c18e40-f2e6-4893-afb2-fd889b080e7e",
+        "62db9ef7-9585-4570-b3c0-5ce4d9d5452e",
+        "d72f3c4d-bcf1-4bfd-b475-46b643ae01f4",
+        "d90aabac-608d-4830-a361-b20376433844",
+        "14d7d15f-2061-41dd-8f57-4857eac2a89b"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          53000000,
+          4500000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "BAT_SYS",
+      "from": [
+        "C53",
+        "1"
+      ],
+      "to": [
+        "R1",
+        "2"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 39.224410979236026,
+      "tracks": 13,
+      "vias": 2,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "845dfd17-600b-4039-912f-f61bc1e66b2b",
+        "147dfad1-4541-41a3-89fc-6d87e47d0554",
+        "77746f82-ccdf-4dc2-a3a7-6d93c2a8162f",
+        "1967d7b8-7e57-4e41-98a4-0fce3939380a",
+        "27ae2d03-6822-43c5-a361-0f1cc80f37d9",
+        "10853ec8-282e-4140-bfcd-5160562d6ec1",
+        "b01e71f0-bc40-4b83-9db3-e7a26c5d78f4",
+        "96115259-ad09-4e2e-b21b-f06517ccebba",
+        "6b7a9908-6b53-4a10-8bdc-6adf8281430f",
+        "8022fec8-555a-470a-98fc-c72287750415",
+        "c761d29d-186f-4204-aa5e-30a398cca3e7",
+        "858b3f6c-d2ea-4e08-addc-62efddd817aa",
+        "01b99584-5be7-4f64-8c53-55b2e9c20de4",
+        "7fbba97d-3761-49a4-adbe-fcd56d68c087",
+        "88203f32-4abc-431a-be69-25fb755f2d4a"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          46500000,
+          13400000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "CS_P",
+      "from": [
+        "L1",
+        "2"
+      ],
+      "to": [
+        "R56",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 24.445699267455513,
+      "tracks": 8,
+      "vias": 2,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "be095bda-e42a-495e-8dd1-ba1bd6453a34",
+        "cf3239d2-8d14-43b2-9675-052adde0e839",
+        "23343f24-21c2-411c-82ed-fce755e00168",
+        "ea291f12-40f1-4789-8c51-0c442c4be393",
+        "dd9719bc-7bc0-4399-9fe2-d775cec9766d",
+        "b1e45355-5911-4b59-a7af-1cf1065c8c6a",
+        "9e5c1ccc-0b08-472c-9bf8-ada09d8742ef",
+        "4a70d6ca-af53-4f2e-8ecb-bfa3d87cde6f",
+        "a3096f50-df14-4ef1-abdd-4fc244642687",
+        "65045064-4503-49cd-91be-2923dee2bfff"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          34300000,
+          41600000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "CHG_CS_M",
+      "from": [
+        "R56",
+        "2"
+      ],
+      "to": [
+        "R1",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 4.307499999999999,
+      "tracks": 1,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "a40957c4-6a7d-417e-aea3-db79d1f6e5f5"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          27700000,
+          33100000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "FILTER_OUT",
+      "from": [
+        "L4",
+        "2"
+      ],
+      "to": [
+        "J11",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 9.878427124746189,
+      "tracks": 4,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "18001ee3-5f01-4e56-80e1-f8a560a39985",
+        "a7e42e5d-c45b-4bd6-a4f3-d236516cfca4",
+        "a272c5ed-44cc-41d5-bac2-4a43d1812125",
+        "f09cda6d-0c42-469a-84bd-2d203dda24ba"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          77000000,
+          23000000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "SYS_3V3",
+      "from": [
+        "J11",
+        "2"
+      ],
+      "to": [
+        "NT2",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 2.58,
+      "tracks": 1,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        1.0
+      ],
+      "track_or_via_uuids": [
+        "ec054793-1080-485c-a363-776c02e9a369"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          86000000,
+          25500000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "SYS_3V3",
+      "from": [
+        "NT2",
+        "1"
+      ],
+      "to": [
+        "J101",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 55.705894629054534,
+      "tracks": 11,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.8,
+        1.0
+      ],
+      "track_or_via_uuids": [
+        "39ebfea6-2741-42e0-9a7d-bebd9b8477e4",
+        "f8ed3f4c-5c93-4c7a-ba61-9ecd7456ff4c",
+        "410ce0d8-39f3-4c50-a2da-4786c385731a",
+        "f4c7771a-4c00-45a9-b3d2-fc8f72317aff",
+        "199682e2-2ee3-4de9-9e83-c11c945f78fd",
+        "c7b3d958-dce0-412f-9ffe-45c26a306755",
+        "13d4fec7-fa49-44c4-a616-3ae6c096e72e",
+        "8d7bccdf-d7ca-446d-8c8d-b1782fb02183",
+        "eda910b8-0b4a-4ee2-9358-26ce1f5142f3",
+        "66a0ab19-0af7-4b63-ad1f-f39d9e578d42",
+        "ec054793-1080-485c-a363-776c02e9a369"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          83500000,
+          25500000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "SYS_3V3",
+      "from": [
+        "NT2",
+        "1"
+      ],
+      "to": [
+        "J101",
+        "3"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 57.99589462905453,
+      "tracks": 12,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.8,
+        1.0
+      ],
+      "track_or_via_uuids": [
+        "7f9fb717-20cb-464f-8b1f-d8553f71d6b3",
+        "39ebfea6-2741-42e0-9a7d-bebd9b8477e4",
+        "f8ed3f4c-5c93-4c7a-ba61-9ecd7456ff4c",
+        "410ce0d8-39f3-4c50-a2da-4786c385731a",
+        "f4c7771a-4c00-45a9-b3d2-fc8f72317aff",
+        "199682e2-2ee3-4de9-9e83-c11c945f78fd",
+        "c7b3d958-dce0-412f-9ffe-45c26a306755",
+        "13d4fec7-fa49-44c4-a616-3ae6c096e72e",
+        "8d7bccdf-d7ca-446d-8c8d-b1782fb02183",
+        "eda910b8-0b4a-4ee2-9358-26ce1f5142f3",
+        "66a0ab19-0af7-4b63-ad1f-f39d9e578d42",
+        "ec054793-1080-485c-a363-776c02e9a369"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          83500000,
+          25500000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "RADIO_3V3",
+      "from": [
+        "NT2",
+        "2"
+      ],
+      "to": [
+        "J101",
+        "5"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 20.366349186104046,
+      "tracks": 7,
+      "vias": 2,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "44b0153f-e25a-4163-8e24-375646a0eb73",
+        "0422d4a8-7fbb-4c22-983a-0eca30e3f058",
+        "15029222-6657-488e-9c4c-59af344fa734",
+        "e95273b9-ca15-4175-bfd2-a3432f467c73",
+        "6e436540-08b3-4213-a07e-387178abd2ed",
+        "53dbd4b0-78cc-4610-b40e-cb1a32926e53",
+        "23a8aacc-d2cf-4a55-905e-feb064acb47f",
+        "381a54eb-1047-47b8-b5c4-81c743c0e4ec",
+        "a3420667-3ac5-455b-b41e-eee132b9491b"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          81500000,
+          25500000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "RADIO_3V3",
+      "from": [
+        "NT2",
+        "2"
+      ],
+      "to": [
+        "J101",
+        "7"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 20.366349186104046,
+      "tracks": 7,
+      "vias": 2,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "f86977ba-5231-4eae-943c-20ec093ca5a8",
+        "0422d4a8-7fbb-4c22-983a-0eca30e3f058",
+        "15029222-6657-488e-9c4c-59af344fa734",
+        "e95273b9-ca15-4175-bfd2-a3432f467c73",
+        "6e436540-08b3-4213-a07e-387178abd2ed",
+        "53dbd4b0-78cc-4610-b40e-cb1a32926e53",
+        "23a8aacc-d2cf-4a55-905e-feb064acb47f",
+        "381a54eb-1047-47b8-b5c4-81c743c0e4ec",
+        "a3420667-3ac5-455b-b41e-eee132b9491b"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          81500000,
+          25500000
+        ]
+      ]
+    }
+  ],
+  "Kelvin_sense_paths": [
+    {
+      "found": true,
+      "net": "BAT",
+      "from": [
+        "R71",
+        "2"
+      ],
+      "to": [
+        "R73",
+        "1"
+      ],
+      "min_width_constraint_mm": 0,
+      "geometric_length_including_pad_pickups_mm": 3.4349392074797995,
+      "tracks": 1,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.2
+      ],
+      "track_or_via_uuids": [
+        "33030863-ae59-414b-a3fd-0af86ce38b2e"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          47600000,
+          5100000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "BAT_SYS",
+      "from": [
+        "R71",
+        "1"
+      ],
+      "to": [
+        "R72",
+        "1"
+      ],
+      "min_width_constraint_mm": 0,
+      "geometric_length_including_pad_pickups_mm": 9.049942733145384,
+      "tracks": 5,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.2
+      ],
+      "track_or_via_uuids": [
+        "d3d48f52-7ea7-4b13-923a-909e11c26e0a",
+        "e183352a-ee3d-4955-8d5f-6e7894d0396f",
+        "4ce74106-fd35-41e9-b35b-910e1af68b02",
+        "08ad68eb-b80f-47d7-add1-006a393ea319",
+        "6a61b9f1-96a9-49f2-bc9b-5ea380c60f29"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          52981250,
+          4518750
+        ]
+      ]
+    }
+  ],
+  "method": "Track centreline graph subdivided at same-layer endpoints and joins through overlapping copper widths. Copper endpoints inside a pad connect through that pad. DRC supplies the authoritative physical connectivity proof. Path numbers include centre-to-endpoint distance within pads; paths are engineering witnesses, not exact DC resistance extraction. Width-filtered bulk witnesses do not include unrelated thin sense branches."
+}

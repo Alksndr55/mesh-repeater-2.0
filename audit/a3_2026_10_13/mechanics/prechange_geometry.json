@@ -1,0 +1,820 @@
+{
+  "date": "2026-10-13",
+  "status": "READ_ONLY_PREPARATION",
+  "boards": {
+    "Power": {
+      "path": "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pcb",
+      "sha256": "24e7f986b5367bad9b9b7b468f39a2237bb83569585871b9a056a6da6072e729",
+      "relevant_footprints": [
+        {
+          "reference": "J101",
+          "footprint": "Ali_PinHeader_2x06_P2.54_L35_A3C6__V2_J101",
+          "xy": [
+            64.15,
+            11.0
+          ],
+          "angle": 90.0,
+          "pads": [
+            {
+              "pin": "1",
+              "net": "FILTER_OUT",
+              "xy": [
+                64.15,
+                11.0
+              ]
+            },
+            {
+              "pin": "2",
+              "net": "GND",
+              "xy": [
+                64.15,
+                8.46
+              ]
+            },
+            {
+              "pin": "3",
+              "net": "FILTER_OUT",
+              "xy": [
+                66.69,
+                11.0
+              ]
+            },
+            {
+              "pin": "4",
+              "net": "GND",
+              "xy": [
+                66.69,
+                8.46
+              ]
+            },
+            {
+              "pin": "5",
+              "net": "FILTER_OUT",
+              "xy": [
+                69.23,
+                11.0
+              ]
+            },
+            {
+              "pin": "6",
+              "net": "GND",
+              "xy": [
+                69.23,
+                8.46
+              ]
+            },
+            {
+              "pin": "7",
+              "net": "SYS_3V3",
+              "xy": [
+                71.77,
+                11.0
+              ]
+            },
+            {
+              "pin": "8",
+              "net": "GND",
+              "xy": [
+                71.77,
+                8.46
+              ]
+            },
+            {
+              "pin": "9",
+              "net": "BAT",
+              "xy": [
+                74.31,
+                11.0
+              ]
+            },
+            {
+              "pin": "10",
+              "net": "SDA",
+              "xy": [
+                74.31,
+                8.46
+              ]
+            },
+            {
+              "pin": "11",
+              "net": "MODE",
+              "xy": [
+                76.85,
+                11.0
+              ]
+            },
+            {
+              "pin": "12",
+              "net": "SCL",
+              "xy": [
+                76.85,
+                8.46
+              ]
+            }
+          ]
+        }
+      ],
+      "texts": []
+    },
+    "Logic": {
+      "path": "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pcb",
+      "sha256": "b9e6e4f621f9a685433c9bd22d7af0ff4e1639eb47f94c2509e6de6d401a66ca",
+      "relevant_footprints": [
+        {
+          "reference": "J10",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical__V2_J10",
+          "xy": [
+            35.7,
+            31.3
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "1",
+              "net": "WDT_MISO",
+              "xy": [
+                35.7,
+                31.3
+              ]
+            },
+            {
+              "pin": "2",
+              "net": "SYS_3V3",
+              "xy": [
+                38.24,
+                31.3
+              ]
+            },
+            {
+              "pin": "3",
+              "net": "WDT_SCK",
+              "xy": [
+                35.7,
+                33.84
+              ]
+            },
+            {
+              "pin": "4",
+              "net": "WDT_MOSI_RESET",
+              "xy": [
+                38.24,
+                33.84
+              ]
+            },
+            {
+              "pin": "5",
+              "net": "WDT_RESET",
+              "xy": [
+                35.7,
+                36.38
+              ]
+            },
+            {
+              "pin": "6",
+              "net": "GND",
+              "xy": [
+                38.24,
+                36.38
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "J201",
+          "footprint": "Ali_PinSocket_2x06_P2.54_H8.5_v2_mirror__V2_J201",
+          "xy": [
+            64.15,
+            49.0
+          ],
+          "angle": 90.0,
+          "pads": [
+            {
+              "pin": "1",
+              "net": "FILTER_OUT",
+              "xy": [
+                64.15,
+                49.0
+              ]
+            },
+            {
+              "pin": "2",
+              "net": "GND",
+              "xy": [
+                64.15,
+                51.54
+              ]
+            },
+            {
+              "pin": "3",
+              "net": "FILTER_OUT",
+              "xy": [
+                66.69,
+                49.0
+              ]
+            },
+            {
+              "pin": "4",
+              "net": "GND",
+              "xy": [
+                66.69,
+                51.54
+              ]
+            },
+            {
+              "pin": "5",
+              "net": "FILTER_OUT",
+              "xy": [
+                69.23,
+                49.0
+              ]
+            },
+            {
+              "pin": "6",
+              "net": "GND",
+              "xy": [
+                69.23,
+                51.54
+              ]
+            },
+            {
+              "pin": "7",
+              "net": "SYS_3V3",
+              "xy": [
+                71.77,
+                49.0
+              ]
+            },
+            {
+              "pin": "8",
+              "net": "GND",
+              "xy": [
+                71.77,
+                51.54
+              ]
+            },
+            {
+              "pin": "9",
+              "net": "BAT",
+              "xy": [
+                74.31,
+                49.0
+              ]
+            },
+            {
+              "pin": "10",
+              "net": "SDA",
+              "xy": [
+                74.31,
+                51.54
+              ]
+            },
+            {
+              "pin": "11",
+              "net": "MODE",
+              "xy": [
+                76.85,
+                49.0
+              ]
+            },
+            {
+              "pin": "12",
+              "net": "SCL",
+              "xy": [
+                76.85,
+                51.54
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "J11",
+          "footprint": "Connfly_DS1022_1x02RUF11_B_Horizontal__V2_J11",
+          "xy": [
+            86.0,
+            23.0
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "1",
+              "net": "FILTER_OUT",
+              "xy": [
+                86.0,
+                23.0
+              ]
+            },
+            {
+              "pin": "2",
+              "net": "SYS_3V3",
+              "xy": [
+                86.0,
+                25.54
+              ]
+            }
+          ]
+        }
+      ],
+      "texts": []
+    },
+    "Shield": {
+      "path": "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pcb",
+      "sha256": "66854e88ca8ffcfba0514f08ceff8c29d2ea8b6e5262a8d6ed48405f2f0ed8e3",
+      "relevant_footprints": [
+        {
+          "reference": "HS1",
+          "footprint": "Shield_Interconnect_2x06_NPTH_D2_CuVoid3",
+          "xy": [
+            64.15,
+            49.0
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                64.15,
+                49.0
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                64.15,
+                51.54
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                66.69,
+                49.0
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                66.69,
+                51.54
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                69.23,
+                49.0
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                69.23,
+                51.54
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                71.77,
+                49.0
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                71.77,
+                51.54
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                74.31,
+                49.0
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                74.31,
+                51.54
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                76.85,
+                49.0
+              ]
+            },
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                76.85,
+                51.54
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "GF1",
+          "footprint": "Shield_Foil_GND_Anchor",
+          "xy": [
+            45.0,
+            30.0
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "1",
+              "net": "GND",
+              "xy": [
+                45.0,
+                30.0
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "H304",
+          "footprint": "Shield_NPTH_D3_2_ContactOD6",
+          "xy": [
+            86.5,
+            56.5
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                86.5,
+                56.5
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "H303",
+          "footprint": "Shield_NPTH_D3_2_ContactOD6",
+          "xy": [
+            3.5,
+            56.5
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                3.5,
+                56.5
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "H302",
+          "footprint": "Shield_NPTH_D3_2_ContactOD6",
+          "xy": [
+            86.5,
+            3.5
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                86.5,
+                3.5
+              ]
+            }
+          ]
+        },
+        {
+          "reference": "H301",
+          "footprint": "Shield_NPTH_D3_2_ContactOD6",
+          "xy": [
+            3.5,
+            3.5
+          ],
+          "angle": 0.0,
+          "pads": [
+            {
+              "pin": "",
+              "net": "",
+              "xy": [
+                3.5,
+                3.5
+              ]
+            }
+          ]
+        }
+      ],
+      "texts": [
+        {
+          "text": "DISCONNECT ALL POWER BEFORE DISASSEMBLY",
+          "layer": "F.Silkscreen",
+          "xy": [
+            42.0,
+            55.2
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "M3 3.2mm / contact OD6 / PCB1.52mm",
+          "layer": "F.Silkscreen",
+          "xy": [
+            35.0,
+            49.6
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "J8 BAT: 1 + / 2 GND. J12 LTO: 1 BAT / 2 MID / 3 GND / 4 NC.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            24.9
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "10 SDA; 11 MODE; 12 SCL. Stands connect shield foil.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            34.5
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "Keep all four foil contacts clean. Use metal DIN433 M3 washers.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            42.7
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "12 x NPTH2.0mm / drill-to-foil gap0.50mm. Inspect pin fit.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            45.4
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "Before USB: REMOVE J11. Refit only after USB is disconnected.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            38.7
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "POWER below: CN3722 + TPS63802 + 2-stage LC",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            15.5
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "LOGIC above: NiceNano + HT-RA62 + RTC + watchdog",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            18.2
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "J7 SOLAR: 1 + / 2 GND. Panel 12V; Voc <=24V.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            22.2
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "J101 <-> J201: straight 2x6 pins THROUGH screen holes.",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            29.1
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "1/3/5 FILTER_OUT; 2/4/6/8 GND; 7 SYS_3V3; 9 BAT",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            31.8
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "COPPER SIDE DOWN / GND CONTACT OD6",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            11.2
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "Mesh Repeater 2.0 / SHIELD / V2.0-A2",
+          "layer": "F.Silkscreen",
+          "xy": [
+            45.0,
+            8.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "text": "Pin35mm / socket8.5mm / nominal engagement4.48mm.",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            6.1
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "Metal washers DIN433 3.2 x 6 x 0.5mm; 5 per corner.",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            8.799999
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "Below: stand 18mm + washer. Above: washer + stand 15mm.",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            11.5
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "RTC: CR2032 primary cell. D3 CHARGE / D4 DONE on POWER.",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            15.7
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "GPS: J4 Heltec T114 pinout; power enable nRF P0.24.",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            18.4
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "USB / firmware: REMOVE J11. ISP J10 is on LOGIC.",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            21.1
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "R15 130k   R16 49.9k",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            25.299999
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "R3 121k   R4 100k   C30 6.8pF",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            28.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "LTO 2S: fit BAL1/BAL2; omit COLD. R56 0R",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            30.7
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "Na-ion without COLD: omit cold parts; R56 0R",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            34.9
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "R15 40.2k   R16 49.9k",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            39.1
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "R3 61.9k   R4 100k   C30 12pF",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            41.8
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "Na-ion 1S: fit COLD; omit BAL1/BAL2. R56 1.8R",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            44.5
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "UPPER FACE / ASSEMBLY QUICK GUIDE",
+          "layer": "B.Silkscreen",
+          "xy": [
+            45.0,
+            48.8
+          ],
+          "angle": 180.0
+        },
+        {
+          "text": "Mesh Repeater 2.0 / SHIELD / V2.0-A2",
+          "layer": "B.Silkscreen",
+          "xy": [
+            35.0,
+            52.0
+          ],
+          "angle": 180.0
+        }
+      ]
+    }
+  },
+  "geometry": {
+    "male_model_envelope_xy_mm": [
+      15.64,
+      5
+    ],
+    "male_plastic_z_above_power_mm": [
+      23.5,
+      26
+    ],
+    "screen_z_above_power_mm": [
+      18.5,
+      20.02
+    ],
+    "assembled_plastic_clearance_mm": 3.48,
+    "assembly_issue": "Screen passes over connected upper plastic while mounting from above; individual holes cannot accept this sweep.",
+    "recommended_window_native_mm": [
+      61.9,
+      46.87,
+      79.1,
+      53.67
+    ],
+    "recommended_size_mm": [
+      17.2,
+      6.8
+    ],
+    "corner_radius_mm": 0.6,
+    "recommended_foil_clearance_mm": 0.5,
+    "geometry_qualification": "The body dimensions are the existing approximate model and nominal female envelope, not a documented maximum male body. Verify selected sample fits freely. No standoff change."
+  }
+}

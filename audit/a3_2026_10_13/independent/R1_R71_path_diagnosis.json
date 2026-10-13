@@ -1,0 +1,37 @@
+{
+  "scope": "Diagnostic centreline-only graph, not physical native copper continuity",
+  "status": "INCONCLUSIVE_CENTRELINE_ONLY_FALSE_NEGATIVE",
+  "physical_adjacency_proof": "native_wide_load_paths_draft.json",
+  "rows": [
+    {
+      "threshold": 0.8,
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.80mm route from source pad to target pad",
+      "narrow_segments": []
+    },
+    {
+      "threshold": 0.6,
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.60mm route from source pad to target pad",
+      "narrow_segments": []
+    },
+    {
+      "threshold": 0.5,
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.50mm route from source pad to target pad",
+      "narrow_segments": []
+    },
+    {
+      "threshold": 0.3,
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.30mm route from source pad to target pad",
+      "narrow_segments": []
+    },
+    {
+      "threshold": 0.15,
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.15mm route from source pad to target pad",
+      "narrow_segments": []
+    }
+  ]
+}

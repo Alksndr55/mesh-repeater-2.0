@@ -1,0 +1,544 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T01:28:57",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Meshcore:R_Vishay_WSL2512_A3__A3_R1 не соответствует посад. месту, указанному символом (Meshcore:R_2512_6332Metric__A3_R1)",
+            "items": [
+                {
+                    "description": "Посад. место R1",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 28.95
+                    },
+                    "uuid": "7d241941-596b-4f16-88c7-f3e736d2db4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Поле 'Datasheet' отличается (Плата: 'https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L', Схема: 'Yageo RC_L 2512 datasheet; manufacturer specifications')",
+            "items": [
+                {
+                    "description": "Посад. место R56",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 33.15
+                    },
+                    "uuid": "14553bcc-5b01-4b8b-9d11-ee9f153a5c18"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Meshcore:TestPoint_Pad_D1p5mm_A3_Edge_R0p9 не соответствует посад. месту, указанному символом (Meshcore:TestPoint_Pad_D1.5mm__V2_TP9)",
+            "items": [
+                {
+                    "description": "Посад. место TP9",
+                    "pos": {
+                        "x": 18.6,
+                        "y": 1.3
+                    },
+                    "uuid": "07e80dbf-e1ac-4b4e-8cd0-c5a079797f9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Meshcore:R_Vishay_WSL2512_A3__A3_R40 не соответствует посад. месту, указанному символом (Meshcore:R_2512_6332Metric__A3_R40)",
+            "items": [
+                {
+                    "description": "Посад. место R40",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 32.5
+                    },
+                    "uuid": "dd6849a6-e602-49ed-bf8a-34a9e308480c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Meshcore:R_Vishay_WSL2512_A3__A3_R41 не соответствует посад. месту, указанному символом (Meshcore:R_2512_6332Metric__A3_R41)",
+            "items": [
+                {
+                    "description": "Посад. место R41",
+                    "pos": {
+                        "x": 75.5,
+                        "y": 32.5
+                    },
+                    "uuid": "9ac94c7f-8012-4887-8794-6c801187f9fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Meshcore:R_Vishay_WSL2512_A3__A3_R55 не соответствует посад. месту, указанному символом (Meshcore:R_2512_6332Metric__A3_R55)",
+            "items": [
+                {
+                    "description": "Посад. место R55",
+                    "pos": {
+                        "x": 49.0,
+                        "y": 28.0
+                    },
+                    "uuid": "134a74ab-2ddb-47e2-a6b0-8a7fd391e255"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Meshcore:TestPoint_Pad_D1p5mm_A3_Edge_R0p9 не соответствует посад. месту, указанному символом (Meshcore:TestPoint_Pad_D1.5mm__V2_TP1)",
+            "items": [
+                {
+                    "description": "Посад. место TP1",
+                    "pos": {
+                        "x": 29.6,
+                        "y": 1.3
+                    },
+                    "uuid": "94bfdd5a-911e-4ba7-91a3-a3af1eec6ab0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Meshcore:TestPoint_Pad_D1p5mm_A3_Edge_R0p9 не соответствует посад. месту, указанному символом (Meshcore:TestPoint_Pad_D1.5mm__V2_TP6)",
+            "items": [
+                {
+                    "description": "Посад. место TP6",
+                    "pos": {
+                        "x": 7.6,
+                        "y": 1.3
+                    },
+                    "uuid": "bc5248ee-aea3-4aad-9cbf-8688ee8a4c22"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от R3 на F.Cu",
+                    "pos": {
+                        "x": 19.9125,
+                        "y": 36.6
+                    },
+                    "uuid": "39c5827b-2f4f-4f74-9c84-0a24549de938"
+                },
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 0,0530 mm",
+                    "pos": {
+                        "x": 21.95,
+                        "y": 38.8
+                    },
+                    "uuid": "1154301f-02e2-472b-8eb6-34e67670ab52"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от R3 на F.Cu",
+                    "pos": {
+                        "x": 18.0875,
+                        "y": 36.6
+                    },
+                    "uuid": "df20403e-1145-4438-868f-ad48673ffeaa"
+                },
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-FB)] от R4 на F.Cu",
+                    "pos": {
+                        "x": 18.4125,
+                        "y": 38.8
+                    },
+                    "uuid": "1ee24788-8ca2-40c3-96b1-36cd1a65a0f6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-FB)] от R4 на F.Cu",
+                    "pos": {
+                        "x": 18.4125,
+                        "y": 38.8
+                    },
+                    "uuid": "1ee24788-8ca2-40c3-96b1-36cd1a65a0f6"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от C30 на F.Cu",
+                    "pos": {
+                        "x": 20.05,
+                        "y": 38.8
+                    },
+                    "uuid": "8b597339-8ebd-4ff8-898f-e5c424de7c86"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 10 [Net-(U1-FB)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 30.125
+                    },
+                    "uuid": "a4ca0582-a426-48a2-9b7e-76bf9392f7d6"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от R3 на F.Cu",
+                    "pos": {
+                        "x": 18.0875,
+                        "y": 36.6
+                    },
+                    "uuid": "df20403e-1145-4438-868f-ad48673ffeaa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [/2. Converter/SYS_PRE] на F.Cu, длина 0,9899 mm",
+                    "pos": {
+                        "x": 51.4,
+                        "y": 32.3
+                    },
+                    "uuid": "e770f1bd-64cd-43aa-8f60-24be29702729"
+                },
+                {
+                    "description": "Дорожка [/2. Converter/SYS_PRE] на F.Cu, длина 1,9799 mm",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 27.5
+                    },
+                    "uuid": "260631e3-4c3c-4bcc-a720-bb7d372e3946"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,0505 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CS_P] от R56 на F.Cu",
+                    "pos": {
+                        "x": 22.0375,
+                        "y": 33.15
+                    },
+                    "uuid": "1d8040e3-937e-4a49-a543-3d70e34b3c55"
+                },
+                {
+                    "description": "Перех. отв. [Net-(U1-COM2)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.0,
+                        "y": 34.6
+                    },
+                    "uuid": "679f83e7-079c-45c0-b50a-73154c119edb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,1701 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.855,
+                        "y": 28.95
+                    },
+                    "uuid": "267581f6-2cac-4de8-bbc4-e709ef6851fc"
+                },
+                {
+                    "description": "Перех. отв. [CHG_G_SHUNT] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.25,
+                        "y": 27.1
+                    },
+                    "uuid": "4fa79f02-41c1-4bd0-9c26-78b1720a9dd9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,0202 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.855,
+                        "y": 28.95
+                    },
+                    "uuid": "267581f6-2cac-4de8-bbc4-e709ef6851fc"
+                },
+                {
+                    "description": "Перех. отв. [CS_P] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 30.8
+                    },
+                    "uuid": "dddd5ef3-5a5e-4a0d-a5af-dd044afb271d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи CHG_CS_M и CS_P)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.855,
+                        "y": 28.95
+                    },
+                    "uuid": "267581f6-2cac-4de8-bbc4-e709ef6851fc"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 1,5556 mm",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 30.8
+                    },
+                    "uuid": "6ac993b0-fbd6-40ea-bfc4-026a7b276378"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Нарушение зазора между отв. (ограничения настроек отверстия зазор 0,2500 mm; текущий 0,1702 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.855,
+                        "y": 28.95
+                    },
+                    "uuid": "267581f6-2cac-4de8-bbc4-e709ef6851fc"
+                },
+                {
+                    "description": "Перех. отв. [CS_P] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 30.8
+                    },
+                    "uuid": "dddd5ef3-5a5e-4a0d-a5af-dd044afb271d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (ограничения настроек отверстия зазор 0,2500 mm; текущий 0,2005 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CS_P] от R56 на F.Cu",
+                    "pos": {
+                        "x": 22.0375,
+                        "y": 33.15
+                    },
+                    "uuid": "1d8040e3-937e-4a49-a543-3d70e34b3c55"
+                },
+                {
+                    "description": "Перех. отв. [Net-(U1-COM2)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.0,
+                        "y": 34.6
+                    },
+                    "uuid": "679f83e7-079c-45c0-b50a-73154c119edb"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Посад. место R56",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 33.15
+                    },
+                    "uuid": "14553bcc-5b01-4b8b-9d11-ee9f153a5c18"
+                },
+                {
+                    "description": "Посад. место L1",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 37.5
+                    },
+                    "uuid": "a3d22e58-93ee-4e6d-8cb5-4e35dabc6f47"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Посад. место R1",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 28.95
+                    },
+                    "uuid": "7d241941-596b-4f16-88c7-f3e736d2db4a"
+                },
+                {
+                    "description": "Посад. место L1",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 37.5
+                    },
+                    "uuid": "a3d22e58-93ee-4e6d-8cb5-4e35dabc6f47"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Апертура передней паяльной маски объединяет элементы с различ. цепями",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 1,5556 mm",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 30.8
+                    },
+                    "uuid": "6ac993b0-fbd6-40ea-bfc4-026a7b276378"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.855,
+                        "y": 28.95
+                    },
+                    "uuid": "267581f6-2cac-4de8-bbc4-e709ef6851fc"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Апертура передней паяльной маски объединяет элементы с различ. цепями",
+            "items": [
+                {
+                    "description": "Перех. отв. [CS_P] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 30.8
+                    },
+                    "uuid": "dddd5ef3-5a5e-4a0d-a5af-dd044afb271d"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.855,
+                        "y": 28.95
+                    },
+                    "uuid": "267581f6-2cac-4de8-bbc4-e709ef6851fc"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(C15-Pad1)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 55.5,
+                        "y": 34.5
+                    },
+                    "uuid": "0708d2b1-ac3f-4102-bf7d-5a8f51f6a4fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(C16-Pad1)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 73.5,
+                        "y": 34.5
+                    },
+                    "uuid": "04705608-d994-472d-b2d5-0d958588f935"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/2. Converter/SYS_PRE] на F.Cu, длина 1,9799 mm",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 27.5
+                    },
+                    "uuid": "260631e3-4c3c-4bcc-a720-bb7d372e3946"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/2. Converter/SYS_PRE] на F.Cu, длина 0,9899 mm",
+                    "pos": {
+                        "x": 51.4,
+                        "y": 32.3
+                    },
+                    "uuid": "e770f1bd-64cd-43aa-8f60-24be29702729"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

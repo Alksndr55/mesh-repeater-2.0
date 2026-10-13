@@ -1,0 +1,42 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+{
+  "virtual_R3_pose": [
+    19.3,
+    35.7,
+    180
+  ],
+  "R3_courtyard": [
+    17.595,
+    34.725,
+    21.005,
+    36.675
+  ],
+  "courtyard_conflicts": [
+    {
+      "ref": "R56",
+      "box": [
+        20.845,
+        31.195,
+        28.555,
+        35.105
+      ]
+    }
+  ],
+  "unplaced": [
+    "C7",
+    "TP6"
+  ],
+  "CAD_written": false
+}

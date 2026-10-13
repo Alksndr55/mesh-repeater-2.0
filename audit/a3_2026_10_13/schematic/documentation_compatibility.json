@@ -1,0 +1,261 @@
+{
+  "ok": true,
+  "scope": "Current A3 documentation navigation; old A1 technical proposals explicitly labeled historical, no CAD/PCB modification",
+  "checks": {
+    "local_links": 48,
+    "missing_links": [],
+    "A3_pinmap_present": true
+  },
+  "inputs": {
+    "README.md": "bbf18814ddbfaf8f8f2d33a5c1933aaad621bbcfed5315ed80b87dd0ac9b484c",
+    "docs\\V2_ASSEMBLY_INSTRUCTIONS_RU.md": "d7998daa490a1c60db8c8439c01d280f4680289a9de95f3c41759c9543691504",
+    "docs\\V2_LIMITATIONS_RU.md": "0e5ec2282c1fca595a8020fbd9051a40907abe61b4516e0c66041eb525c6bb84",
+    "docs\\NATIVE_BOARD_CHECK_RU.md": "f04eefa2f77a54893dca829764f89013ee22c2102e1485de33fff366e812c498",
+    "docs\\cad_workflow_RU.md": "2ad2596cc0e3ce5031e4cf148bc4a975271185a195622c80e908770fedf3d886",
+    "docs\\ELECTRICAL_PARTITION_RU.md": "476bff91fccbd21a402850a1f492a9c420b19d2bc59e90f152f83ec10d20e435",
+    "docs\\INITIAL_CAD_WORKFLOW_RU.md": "fd48b8d72d08597f36351340360d8aebbcf5560b6aafe33537bf0a3fec08b820",
+    "docs\\mechanics_findings_RU.md": "b530a9fc8fe70d8ff794160c46a87bebf8d9d996e2292fbc66fbb6abe0457fb5"
+  },
+  "links": [
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_sch",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "output/pdf/MeshRepeater2_Power_A3_schematic.pdf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pcb",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_sch",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "output/pdf/MeshRepeater2_Logic_A3_schematic.pdf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pcb",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Shield/README_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pcb",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/V2_ASSEMBLY_INSTRUCTIONS_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/interboard_connections.csv",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/interboard_cable.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "bom/V2_A3_COMPONENT_BOM.csv",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "bom/DAN_NEW_PARTS.csv",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/feature_a3_single_face_split_power.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/feature_ina219_vertical.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "design/v2_electrical_contract.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/NATIVE_BOARD_CHECK_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "audit/a3_2026_10_13/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "audit/a3_2026_10_13/mechanics/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/V2_LIMITATIONS_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/cad_workflow_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/mechanics/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/STEP_TRANSPORT_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "archive/v1_S4_16/",
+      "exists": true
+    },
+    {
+      "document": "docs\\V2_ASSEMBLY_INSTRUCTIONS_RU.md",
+      "target": "V2_LIMITATIONS_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\V2_ASSEMBLY_INSTRUCTIONS_RU.md",
+      "target": "mechanics/assembly_geometry_report.json",
+      "exists": true
+    },
+    {
+      "document": "docs\\V2_LIMITATIONS_RU.md",
+      "target": "mechanics/assembly_geometry_report.json",
+      "exists": true
+    },
+    {
+      "document": "docs\\cad_workflow_RU.md",
+      "target": "NATIVE_BOARD_CHECK_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\ELECTRICAL_PARTITION_RU.md",
+      "target": "V2_ASSEMBLY_INSTRUCTIONS_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\ELECTRICAL_PARTITION_RU.md",
+      "target": "NATIVE_BOARD_CHECK_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\INITIAL_CAD_WORKFLOW_RU.md",
+      "target": "V2_ASSEMBLY_INSTRUCTIONS_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\INITIAL_CAD_WORKFLOW_RU.md",
+      "target": "NATIVE_BOARD_CHECK_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "V2_ASSEMBLY_INSTRUCTIONS_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "NATIVE_BOARD_CHECK_RU.md",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "../bom/DAN_NEW_PARTS.csv",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanical_selection.json",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "../tools/cad/build_v2_mechanical_library.py",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/MeshRepeater2_stack_dimensions.svg",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/assembly_geometry_report.json",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/MeshRepeater2_assembly.step.gz",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/MeshRepeater2_exploded.step.gz",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/MeshRepeater2_assembly_native_3D.png",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/MeshRepeater2_exploded_native_3D.png",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "mechanics/MeshRepeater2_exploded_below_native_3D.png",
+      "exists": true
+    },
+    {
+      "document": "docs\\mechanics_findings_RU.md",
+      "target": "../output/pdf/MeshRepeater2_assembly_dimensions.pdf",
+      "exists": true
+    }
+  ]
+}

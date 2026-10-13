@@ -1,0 +1,153 @@
+[
+  {
+    "round": 0,
+    "removed_orphan": [
+      {
+        "uuid": "f1e1bb96-5d87-4d9a-96f7-0b66ded15a96",
+        "net": "MODE",
+        "start": [
+          51.5,
+          47.6
+        ],
+        "end": [
+          48.9,
+          45.0
+        ],
+        "layer": "F.Cu",
+        "kind": "track"
+      },
+      {
+        "uuid": "e79b1819-19e9-41ff-b43c-cb1f3cd82497",
+        "net": "BAT",
+        "start": [
+          21.9,
+          47.7
+        ],
+        "end": [
+          21.8,
+          47.6
+        ],
+        "layer": "B.Cu",
+        "kind": "track"
+      }
+    ]
+  },
+  {
+    "round": 0,
+    "route": {
+      "net": "RADIO_3V3",
+      "width_mm": 0.8,
+      "start": [
+        69.23,
+        49.0
+      ],
+      "end": [
+        71.77,
+        49.0
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 27
+    }
+  },
+  {
+    "round": 0,
+    "route": {
+      "net": "RADIO_3V3",
+      "width_mm": 0.8,
+      "start": [
+        71.77,
+        49.0
+      ],
+      "end": [
+        75.76,
+        16.8
+      ],
+      "segments": 9,
+      "vias": [
+        [
+          73.4,
+          22.8
+        ]
+      ],
+      "visited": 87667
+    }
+  },
+  {
+    "round": 0,
+    "route": {
+      "net": "MODE",
+      "width_mm": 0.25,
+      "start": [
+        48.9125,
+        45.0
+      ],
+      "end": [
+        76.85,
+        49.0
+      ],
+      "segments": 26,
+      "vias": [],
+      "visited": 24968
+    }
+  },
+  {
+    "round": 0,
+    "route": {
+      "net": "SYS_3V3",
+      "width_mm": 0.8,
+      "start": [
+        64.15,
+        49.0
+      ],
+      "end": [
+        66.69,
+        49.0
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 26
+    }
+  },
+  {
+    "round": 0,
+    "route": {
+      "net": "SYS_3V3",
+      "width_mm": 0.8,
+      "start": [
+        64.15,
+        49.0
+      ],
+      "end": [
+        50.9125,
+        38.035
+      ],
+      "segments": 14,
+      "vias": [
+        [
+          51.1,
+          36.9
+        ]
+      ],
+      "visited": 85090
+    }
+  },
+  {
+    "round": 0,
+    "route": {
+      "net": "BAT",
+      "width_mm": 0.25,
+      "start": [
+        74.31,
+        49.0
+      ],
+      "end": [
+        21.8,
+        47.6
+      ],
+      "segments": 30,
+      "vias": [],
+      "visited": 229488
+    }
+  }
+]

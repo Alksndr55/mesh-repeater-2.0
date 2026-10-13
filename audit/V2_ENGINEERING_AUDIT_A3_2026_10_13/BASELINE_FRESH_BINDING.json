@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:/Program Files/KiCad/10.0/bin/kicad-cli.exe",
+    "sch",
+    "export",
+    "netlist",
+    "--format",
+    "kicadxml",
+    "--output",
+    "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\BASELINE_S4_16_netlist.xml",
+    "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\CAD_CHECK\\BASELINE_S4_16\\Meshcore_NaIon.kicad_sch"
+  ],
+  "exit_code": 0,
+  "fresh_sha256": "2f175fa342976c1db87aaf03c054253b6b4c4a7215466bae7c8d47e74c3656f0",
+  "frozen_sha256": "14b479e30ab779ca2c8af2465e6ccee1ccf8aeb26e435c4c3a84bb1cc51662d3",
+  "fresh_pin_graph_equals_frozen_contract_source": true,
+  "fresh_groups": 102
+}

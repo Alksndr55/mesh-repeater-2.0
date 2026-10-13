@@ -1,0 +1,41 @@
+{"check": "route_before_0", "counts": {"violations": 6, "unconnected_items": 5, "schematic_parity": 0, "ignored_checks": 0}, "types": {"shorting_items": 1, "hole_clearance": 1, "clearance": 1, "track_dangling": 3}}
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+{"check": "route_clean_0", "counts": {"violations": 4, "unconnected_items": 4, "schematic_parity": 0, "ignored_checks": 0}, "types": {"shorting_items": 1, "hole_clearance": 1, "clearance": 1, "track_dangling": 1}}
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+RADIO_3V3 visited 27 segments 1 vias 0
+Traceback (most recent call last):
+  File "C:\Users\Alksndr\Desktop\codex\Meshcore\v2\audit\a3_2026_10_13\logic\rework_logic_a3.py", line 181, in <module>
+    elif args.action=='route': route(args.rounds)
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alksndr\Desktop\codex\Meshcore\v2\audit\a3_2026_10_13\logic\rework_logic_a3.py", line 170, in route
+    info=router.route(b,net,start,end,width,router.item_layers(a['description']),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alksndr\Desktop\codex\Meshcore\v2\tools\cad\complete_v2_routes.py", line 85, in route
+    if target is None:raise RuntimeError(('no route',net,start,end,visited))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ('no route', 'RADIO_3V3', (71.77, 49.0), (75.76, 16.8), 1800)
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.

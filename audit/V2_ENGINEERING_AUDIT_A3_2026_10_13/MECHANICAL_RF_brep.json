@@ -1,0 +1,176 @@
+{
+  "method": "Independent FreeCAD BRep read. No CAD/FCStd save; temporary decompressed STEP confined to audit directory and deleted. All mechanical/connector models are nominal envelopes, not hardware qualification.",
+  "models": {
+    "Heltec_HT_RA62_Approx": {
+      "sha256": "8f01259c84ab23507bb623e440bbcba2db85635ddbbfbc85315013359566e15e",
+      "bbox": [
+        -8.25000000000017,
+        -8.5,
+        0.05,
+        8.25000000000026,
+        8.5,
+        2.7
+      ],
+      "valid": true,
+      "solid_count": 45
+    },
+    "SMA_KLS1_SMA002_B_Approx": {
+      "sha256": "6d4fe1194d68cf1f6bb598c5a9eca8142b4ff96218b0d503e7e3cd4f3e645574",
+      "bbox": [
+        -3.175,
+        -3.0,
+        -3.5,
+        3.175,
+        11.46,
+        9.5
+      ],
+      "valid": true,
+      "solid_count": 12
+    },
+    "S869M000S003_Approx": {
+      "sha256": "f014778833906a7ee87329e0ef6e8959c5eaa838f1694c58b1b39a34db635efd",
+      "bbox": [
+        -1.5,
+        -1.5,
+        0.0,
+        1.5,
+        1.5,
+        1.3
+      ],
+      "valid": true,
+      "solid_count": 8
+    },
+    "NiceNano_Clone_Approx": {
+      "sha256": "d0171b50564695dc8925d020891c3b814ea1b3340944900e3f424e6dfdfda088",
+      "bbox": [
+        -8.89,
+        -17.5,
+        -2.5,
+        8.89,
+        16.51,
+        10.700000000000001
+      ],
+      "valid": true,
+      "solid_count": 91
+    },
+    "Ali_PinHeader_2x06_P2.54_L35_A3C6": {
+      "sha256": "6c3b89f1642be4b67bbb3d6e4cd25c2380da0effc8cfce1dea55820ecc9f2a53",
+      "bbox": [
+        -1.23,
+        -14.17,
+        -3.0,
+        3.77,
+        1.4700000000000006,
+        32.0
+      ],
+      "valid": true,
+      "solid_count": 14
+    },
+    "Ali_PinSocket_2x06_P2.54_H8.5_v2_mirror": {
+      "sha256": "ed5ad656238fbe0fe461e4a34226c43435d43953d97af4fec3e923c6837a92d0",
+      "bbox": [
+        -3.77,
+        -14.17,
+        -3.15,
+        1.23,
+        1.4700000000000006,
+        8.5
+      ],
+      "valid": true,
+      "solid_count": 13
+    },
+    "SW_TE_1825027_2_Side": {
+      "sha256": "d53707421560c16fdad511f3a99bb7216d5d0036c81b053b67006d0c5dc47316",
+      "bbox": [
+        -4.205,
+        -4.01,
+        -3.51,
+        4.205,
+        3.05,
+        7.01
+      ],
+      "valid": true,
+      "solid_count": 8
+    },
+    "TDK_B57861S_Vertical_Approx": {
+      "sha256": "605a437a0adc4d4ea826ad05a57c8fddf7ad756bc49f4fd55659f5e829762dc2",
+      "bbox": [
+        -0.125,
+        -1.205,
+        -1.6,
+        2.665,
+        1.205,
+        12.5
+      ],
+      "valid": true,
+      "solid_count": 3
+    }
+  },
+  "boards": {
+    "POWER": {
+      "step_uncompressed_sha256": "af29a0331bf2450a107542c0645982e0e1d39da1e6585dfbcdb2b1a21dff0d8a",
+      "nominal_dielectric_mm": 1.43,
+      "solid_count": 832,
+      "assembled_bbox": [
+        0.0,
+        -60.0,
+        -1.84,
+        93.25,
+        0.0,
+        33.56
+      ]
+    },
+    "SHIELD": {
+      "step_uncompressed_sha256": "7be6b19e61a65f42cee11f6f5ad0a7ccbfd0192014997a7c449cbffce2392b5a",
+      "nominal_dielectric_mm": 1.475,
+      "solid_count": 2,
+      "assembled_bbox": [
+        0.0,
+        -60.0,
+        20.019999999999992,
+        90.0,
+        0.0,
+        21.53
+      ]
+    },
+    "LOGIC": {
+      "step_uncompressed_sha256": "8bb5b548155ca3875f285057d6fef208ffbab3698e0b58ecef966a5e53c8171a",
+      "nominal_dielectric_mm": 1.43,
+      "solid_count": 947,
+      "assembled_bbox": [
+        -4.75,
+        -67.21000000000001,
+        26.800000000000004,
+        93.25,
+        1.2500000000000024,
+        41.00999999999999
+      ]
+    }
+  },
+  "collisions": [
+    {
+      "pair": [
+        "POWER",
+        "SHIELD"
+      ],
+      "candidate_solid_pairs": 24,
+      "intersection_mm3": 0.0
+    },
+    {
+      "pair": [
+        "SHIELD",
+        "LOGIC"
+      ],
+      "candidate_solid_pairs": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "pair": [
+        "POWER",
+        "LOGIC"
+      ],
+      "candidate_solid_pairs": 12,
+      "intersection_mm3": 0.0
+    }
+  ]
+}

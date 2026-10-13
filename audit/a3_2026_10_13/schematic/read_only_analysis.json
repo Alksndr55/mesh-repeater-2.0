@@ -1,0 +1,352 @@
+{
+  "mode": "read-only requirements analysis; no schematic, model or PCB mutations",
+  "source_sha256": {
+    "POWER": "8047db72825784315a9204b069fcbf96249d16ccbbe3642f6936bea83b4631c0",
+    "LOGIC": "bd86ec187e55fda26c2089d62869faf38c81319e0b2f769aa08807a3daf57efe"
+  },
+  "existing_exact_endpoints": {
+    "POWER/R1": {
+      "kind": "R",
+      "value": "0.28R 1%",
+      "footprint": "Meshcore:R_1206_3216Metric__V2_R1",
+      "mpn": "PT1206FR-7W0R28L",
+      "nets": {
+        "1": "CHG_CS_M",
+        "2": "BAT_SYS"
+      },
+      "note": "Base 0.28 ohm 1% 0.5W current shunt, unchanged for both batteries. Thermal option adds R56 upstream. CN3722 CSP senses upstream of R56, BAT downstream of R1; Kelvin connections. Cold ~96mA; warm ~665mA with three parallel AO3401A; bypass/no thermal nominal 714mA."
+    },
+    "POWER/R40": {
+      "kind": "R",
+      "value": "22mR 1%",
+      "footprint": "Meshcore:R_Vishay_WSL1206_18__V2_R40",
+      "mpn": "WSL1206R0220FEA",
+      "nets": {
+        "1": "FILTER_MID",
+        "2": "FILTER_C1"
+      },
+      "note": "22mOhm series with the whole capacitor bank, not with load current."
+    },
+    "POWER/R41": {
+      "kind": "R",
+      "value": "22mR 1%",
+      "footprint": "Meshcore:R_Vishay_WSL1206_18__V2_R41",
+      "mpn": "WSL1206R0220FEA",
+      "nets": {
+        "1": "FILTER_OUT",
+        "2": "FILTER_C2"
+      },
+      "note": "22mOhm series with the whole capacitor bank, not with load current."
+    },
+    "POWER/R55": {
+      "kind": "R",
+      "value": "47mR 1%",
+      "footprint": "Meshcore:R_Vishay_WSL1206_18__V2_R55",
+      "mpn": "WSL1206R0470FEA",
+      "nets": {
+        "1": "SYS_PRE",
+        "2": "SYS_LC_IN"
+      },
+      "note": "47mOhm series resistor after local TPS63802 C14/FB sense, before L3. Voltage loss I*0.047 ohm, dissipated power I^2*0.047 ohm."
+    },
+    "POWER/R56": {
+      "kind": "R",
+      "value": "1.8 ohm 1% 0.125W",
+      "footprint": "Meshcore:R_0805_2012Metric__V2_R56",
+      "mpn": "RC0805FR-071R8L",
+      "nets": {
+        "1": "CS_P",
+        "2": "CHG_CS_M"
+      },
+      "note": "Optional cold-current series shunt 1.8 ohm 1%, in series with R1 0.28 ohm. Cold CC approximately96mA, dissipation approximately16.6mW. LTO or no-thermal build: fit0R jumper here; R1 stays0.28ohm."
+    },
+    "POWER/R71": {
+      "kind": "R",
+      "value": "0.1R 1% 1W",
+      "footprint": "Meshcore:R_2512_6332Metric__V2_R71",
+      "mpn": "RL2512FK-070R1L",
+      "nets": {
+        "1": "BAT_SYS",
+        "2": "BAT"
+      },
+      "note": "0.1 ohm stock INA219 calibration. Kelvin pickups at inner shunt pad edges. Normal 1.25A causes 125mV drop and 156mW; 1W device is not qualified for continuous 4A. TCR +/-600ppm/C for chosen Yageo 0.1ohm."
+    },
+    "POWER/J8": {
+      "kind": "Connector2",
+      "value": "Na-ion 1S",
+      "footprint": "Meshcore:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal__V2_J8",
+      "mpn": "JST S2B-XH-A(LF)(SN)",
+      "nets": {
+        "1": "BAT",
+        "2": "GND"
+      },
+      "note": " Mechanical v2 package; original functional pin numbers retained."
+    },
+    "POWER/J12": {
+      "kind": "Connector4",
+      "value": "LTO 2S + MID -",
+      "footprint": "Meshcore:KLS_XH_L_KLS1_2_50_04_R_Horizontal__V2_J12",
+      "mpn": "KLS L-KLS1-2.50-04-R",
+      "nets": {
+        "1": "BAT",
+        "2": "LTO_MID",
+        "3": "GND",
+        "4": null
+      },
+      "note": "4 positions: pins1..3 preserve former LTO nets; pin4 is NC. Matching4pole cable housing required. Mechanical v2 package; original functional pin numbers retained."
+    },
+    "POWER/J101": {
+      "kind": "Connector12",
+      "value": "INTERBOARD 2x6 VERTICAL",
+      "footprint": "Meshcore:Ali_PinHeader_2x06_P2.54_L35_A3C6__V2_J101",
+      "mpn": "E-SIMPO L35mm A3C6 2x6P",
+      "nets": {
+        "1": "FILTER_OUT",
+        "2": "GND",
+        "3": "FILTER_OUT",
+        "4": "GND",
+        "5": "FILTER_OUT",
+        "6": "GND",
+        "7": "SYS_3V3",
+        "8": "GND",
+        "9": "BAT",
+        "10": "SDA",
+        "11": "MODE",
+        "12": "SCL"
+      },
+      "note": "Direct vertical connection through 12 isolated screen holes. Mirrored female pad grid gives physical 1:1 after LOGIC X180. Pin7 returns SYS_3V3 to INA219 only; remove J11 before USB as before. Exact generic pin section and mating limits require sample check."
+    },
+    "LOGIC/J11": {
+      "kind": "Connector2",
+      "value": "LC OUT - SYS 3V3",
+      "footprint": "Meshcore:Connfly_DS1022_1x02RUF11_B_Horizontal__V2_J11",
+      "mpn": "Connfly DS1022-1x40RUF11-B cut to2pins",
+      "nets": {
+        "1": "FILTER_OUT",
+        "2": "SYS_3V3"
+      },
+      "note": "U type1, A3.00 solder tail,B6.00 mating length,C6.07 abovePCB. Do not subtractAfromC. Mechanical v2 package; original functional pin numbers retained."
+    },
+    "LOGIC/J201": {
+      "kind": "Connector12",
+      "value": "INTERBOARD 2x6 VERTICAL",
+      "footprint": "Meshcore:Ali_PinSocket_2x06_P2.54_H8.5_v2_mirror__V2_J201",
+      "mpn": "MTJ H8.5 2X6P 10PCS",
+      "nets": {
+        "1": "FILTER_OUT",
+        "2": "GND",
+        "3": "FILTER_OUT",
+        "4": "GND",
+        "5": "FILTER_OUT",
+        "6": "GND",
+        "7": "SYS_3V3",
+        "8": "GND",
+        "9": "BAT",
+        "10": "SDA",
+        "11": "MODE",
+        "12": "SCL"
+      },
+      "note": "Direct vertical connection through 12 isolated screen holes. Mirrored female pad grid gives physical 1:1 after LOGIC X180. Pin7 returns SYS_3V3 to INA219 only; remove J11 before USB as before. Exact generic pin section and mating limits require sample check."
+    },
+    "LOGIC/FB1": {
+      "kind": "Inductor",
+      "value": "60R@100MHz / 3A",
+      "footprint": "Meshcore:Ferrite_Murata_BLM21PG__V2_FB1",
+      "mpn": "BLM21PG600SN1D",
+      "nets": {
+        "1": "SYS_3V3",
+        "2": "RADIO_3V3"
+      },
+      "note": "Separate radio supply branch. Ferrite60ohm at100MHz, conservative3A rating, DCRmax20mohm specifiedbyMurata. Nominal3mVdropat150mA. CustomCu lands per archivedMurataC31E6; mask/paste engineering choices. Prototype load-step/noise/resonance qualification required."
+    },
+    "LOGIC/M2": {
+      "kind": "HT_RA62",
+      "value": "HT-RA62",
+      "footprint": "Meshcore:HT_RA62__V2_M2",
+      "mpn": "HT-RA62 band variant TBD",
+      "nets": {
+        "1": "ANT_RF",
+        "2": "GND",
+        "3": "RADIO_3V3",
+        "4": "RADIO_RST",
+        "5": "RADIO_TXEN",
+        "6": "RADIO_DIO1",
+        "7": "RADIO_TXEN",
+        "8": null,
+        "9": "GND",
+        "10": "RADIO_BUSY",
+        "11": "RADIO_RXEN",
+        "12": "SCK_RF",
+        "13": "MISO_RF",
+        "14": "MOSI_RF",
+        "15": "CS_RF",
+        "16": "GND"
+      },
+      "note": "HT-RA62 antenna through pin 1 ANT to J13 SMA. Module RF selector: fit R1=0 ohm for ANT; remove/do not fit R2 for IPEX. HF/LF band variant must match the antenna and firmware."
+    },
+    "LOGIC/C23": {
+      "kind": "C",
+      "value": "22uF 25V X5R",
+      "footprint": "Meshcore:C_0805_2012Metric__V2_C23",
+      "mpn": "CL21A226MAQNNNE",
+      "nets": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "Local22uF25V0805 radio bypass afterFB1; exactsameDanomskpartasC14. DC-biased effective capacitance requires prototype qualification."
+    },
+    "LOGIC/C24": {
+      "kind": "C",
+      "value": "100nF 50V X7R",
+      "footprint": "Meshcore:C_0805_2012Metric__V2_C24",
+      "mpn": "CL21B104KBCNNNC",
+      "nets": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "Local100nF radio bypass directly between M2 VCC/GND, afterFB1."
+    },
+    "LOGIC/U6": {
+      "kind": "ATtiny13A",
+      "value": "ATtiny13A-SSU",
+      "footprint": "Meshcore:SOIC-8_3.9x4.9mm_P1.27mm__V2_U6",
+      "mpn": "ATTINY13A-SSU",
+      "nets": {
+        "1": "WDT_RESET",
+        "2": "WDT_INPUT",
+        "3": null,
+        "4": "GND",
+        "5": "WDT_MOSI_RESET",
+        "6": "WDT_MISO",
+        "7": "WDT_SCK",
+        "8": "SYS_3V3"
+      },
+      "note": "User project watchdog/main.c: PB3 rising-edge heartbeat, PB0 open-drain reset. 1350 WDT ticks (~3h) then1s reset; source firmware unchanged. Danomsk S4.6 approved substitution. Совпадает точный MPN; в наличии две детали."
+    },
+    "LOGIC/R38": {
+      "kind": "R",
+      "value": "1k",
+      "footprint": "Meshcore:R_0805_2012Metric__V2_R38",
+      "mpn": "RC0805FR-071KL",
+      "nets": {
+        "1": "RADIO_TXEN",
+        "2": "WDT_INPUT"
+      },
+      "note": "Watchdog monitors modem TXEN at user request; no MCU heartbeat GPIO. Danomsk S4.6 approved substitution. 1kΩ, 0805, 1%; Yageo вместо Uni-Ohm. Покупка кратно 10 шт."
+    },
+    "LOGIC/R39": {
+      "kind": "R",
+      "value": "100k",
+      "footprint": "Meshcore:R_0805_2012Metric__V2_R39",
+      "mpn": "RC0805FR-07100KL",
+      "nets": {
+        "1": "WDT_INPUT",
+        "2": "GND"
+      },
+      "note": "Required pulldown from the source watchdog project; idle input is low. Danomsk S4.6 approved substitution. 100kΩ, 0805, 1%; Yageo вместо Uni-Ohm. Покупка кратно 10 шт."
+    },
+    "LOGIC/NT1": {
+      "kind": "NetTie",
+      "value": "Cu link / cut for FL1",
+      "footprint": "Meshcore:RF_Cut_Link_0p6__V2_NT1",
+      "mpn": "PCB copper / not purchased",
+      "nets": {
+        "1": "ANT_RF",
+        "2": "ANT_SMA"
+      },
+      "note": "Permanent RF copper bypass under optional FL1. Not a purchased component. Leave continuous when FL1 is absent; cut central bar before fitting FL1. Inspect complete isolation before soldering the filter."
+    },
+    "LOGIC/R37": {
+      "kind": "R",
+      "value": "0R",
+      "footprint": "Meshcore:R_0805_2012Metric__V2_R37",
+      "mpn": "RC0805FR-070RL",
+      "nets": {
+        "1": "WDT_MOSI_RESET",
+        "2": "MCU_RESET"
+      },
+      "note": "Removable reset link: remove before ISP, restore after programming. PB0 must only sink or float in normal use. Danomsk S4.6 approved substitution. 0Ω, 0805; замена обычной перемычки по назначению. Покупка кратно 10 шт."
+    },
+    "LOGIC/Q2": {
+      "kind": "PMOS_GSD",
+      "value": "AO3401A",
+      "footprint": "Meshcore:SOT-23__V2_Q2",
+      "mpn": "AO3401A",
+      "nets": {
+        "1": "GPS_GATE",
+        "2": "SYS_3V3",
+        "3": "GPS_3V3"
+      },
+      "note": "GPS high-side switch; AO3401A AOS, G1 S2 D3. Default off through R42; driven low by Q3."
+    },
+    "LOGIC/Q3": {
+      "kind": "NMOS_GSD",
+      "value": "2N7002K",
+      "footprint": "Meshcore:SOT-23__V2_Q3",
+      "mpn": "2N7002K",
+      "nets": {
+        "1": "GPS_EN_GATE",
+        "2": "GND",
+        "3": "GPS_GATE"
+      },
+      "note": "CJ 2N7002K SOT23, G1 S2 D3. Sink only 33uA from R42. P0.24 HIGH enables GPS."
+    }
+  },
+  "proposed_interboard_pinmap": {
+    "1": "SYS_3V3",
+    "2": "GND",
+    "3": "SYS_3V3",
+    "4": "GND",
+    "5": "RADIO_3V3",
+    "6": "GND",
+    "7": "RADIO_3V3",
+    "8": null,
+    "9": "BAT",
+    "10": "SDA",
+    "11": "MODE",
+    "12": "SCL"
+  },
+  "one_J11_topology": {
+    "POWER/J11": {
+      "1": "FILTER_OUT",
+      "2": "SYS_3V3"
+    },
+    "LOGIC/FB1": {
+      "1": "RADIO_3V3",
+      "2": "RADIO_LOCAL_3V3"
+    },
+    "LOGIC/M2/3": "RADIO_LOCAL_3V3",
+    "LOGIC/C23/1": "RADIO_LOCAL_3V3",
+    "LOGIC/C24/1": "RADIO_LOCAL_3V3",
+    "POWER/NT2": {
+      "1": "SYS_3V3",
+      "2": "RADIO_3V3"
+    }
+  },
+  "USB_behavior": "With J11 removed, SYS_3V3 still powers RADIO_3V3 through copper NT2 star on POWER; FILTER_OUT remains disconnected. NiceNano USB supplies logic/peripherals and modem, including POWER INA219. There is no separate modem power switch; watchdog performs logic reset, GPS has its own Q2 PMOS/Q3 NMOS switch.",
+  "shunts_for_2512": [
+    "R1",
+    "R55",
+    "R56",
+    "R71"
+  ],
+  "also_lowohm_damping_resistors_for_2512": [
+    "R40",
+    "R41"
+  ],
+  "balancer_not_measurement_shunts": [
+    "R47",
+    "R51"
+  ],
+  "schematic_changes_required": [
+    "Move J11 symbol from LOGIC Interconnect to POWER Interconnect",
+    "Add explicit NT2 net-tie copper-star symbol on POWER",
+    "Update J101/J201 exact pin map with three GND and pin8 NC",
+    "Rename FB1 output and M2/C23/C24 supply to RADIO_LOCAL_3V3",
+    "Change lowohm resistor Footprint and Package/MPN fields consistently in all variants",
+    "Set J8 value Na-ion and J12 value LTO",
+    "Replace interconnect text and USB warning; preserve all nRF52840 GPIO",
+    "Emit native XML/ERC and PDF after final model poses/library synchronization"
+  ],
+  "baseline_policy": "Do not modify frozen v2_electrical_contract.json or immutable S4.16. Add a separate narrow A3 authorization contract."
+}

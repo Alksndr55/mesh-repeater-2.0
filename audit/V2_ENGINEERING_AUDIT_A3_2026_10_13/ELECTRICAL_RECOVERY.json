@@ -1,0 +1,67 @@
+{
+  "native_topology": "R15.1=BAT(rawbeforeR71); R71.2=BAT,R71.1=BAT_SYS,U2.10=BAT_SYS. R71voltage dropdoesnotdirectlyfeedEN.",
+  "datasheet": "TI SLVSEU9D p6 table8.5: EN rising1.07/1.10/1.13V,falling0.97/1.00/1.03V; no separateENhysteresisrow. p5 VIN>1.8VuntilPG; p6 UVLOrising1.6/1.7/1.79V,falling1.2/1.25/1.29VonceVOUT>=1.8V.",
+  "Pout_W": 1.65,
+  "eta_assumed": 0.9,
+  "R71_ohm": 0.1,
+  "EN_hysteresis": {
+    "Na": {
+      "nominal_raw_V": 0.180561122244489,
+      "derived_min_raw_V": 0.07216006438451329,
+      "derived_max_raw_V": 0.2891558492360095,
+      "assumptions": "R0.1%; arithmeticboundsfromindependentENthresholdrows; equalENleakageatboththresholds, noTCR."
+    },
+    "LTO": {
+      "nominal_raw_V": 0.36052104208416835,
+      "derived_min_raw_V": 0.14400020820862505,
+      "derived_max_raw_V": 0.5776681691711751,
+      "assumptions": "R0.1%; arithmeticboundsfromindependentENthresholdrows; equalENleakageatboththresholds, noTCR."
+    }
+  },
+  "cases": [
+    {
+      "Eoc_V": 1.8,
+      "cell_ESR_ohm": 0,
+      "Ibat_A": 1.0837719419747216,
+      "raw_BAT_V": 1.8,
+      "VIN_BAT_SYS_V": 1.691622805802528,
+      "drop_R71_V": 0.10837719419747216
+    },
+    {
+      "Eoc_V": 1.986172344689379,
+      "cell_ESR_ohm": 0,
+      "Ibat_A": 0.9704665738516893,
+      "raw_BAT_V": 1.986172344689379,
+      "VIN_BAT_SYS_V": 1.8891256873042102,
+      "drop_R71_V": 0.09704665738516893
+    },
+    {
+      "Eoc_V": 1.986172344689379,
+      "cell_ESR_ohm": 0.2,
+      "Ibat_A": 1.1087217736230695,
+      "raw_BAT_V": 1.7644279899647652,
+      "VIN_BAT_SYS_V": 1.653555812602458,
+      "drop_R71_V": 0.11087217736230695
+    },
+    {
+      "Eoc_V": 2.0,
+      "cell_ESR_ohm": 0.2,
+      "Ibat_A": 1.0972653558335435,
+      "raw_BAT_V": 1.7805469288332914,
+      "VIN_BAT_SYS_V": 1.670820393249937,
+      "drop_R71_V": 0.10972653558335435
+    },
+    {
+      "Eoc_V": 3.9657314629258518,
+      "cell_ESR_ohm": 0,
+      "Ibat_A": 0.4678123545644475,
+      "raw_BAT_V": 3.9657314629258518,
+      "VIN_BAT_SYS_V": 3.918950227469407,
+      "drop_R71_V": 0.04678123545644475
+    }
+  ],
+  "LCbank_energy_min_J": 0.0035936999999999996,
+  "LCbank_charge_min_C": 0.002178,
+  "note": "Analyticconstantpower/resistivesourceestimatesonly. eta90%assumptionnotlowBATguarantee; actualstartup/currentlimit/celldynamicsunknown.",
+  "additional_input_current_to_charge_LC_2ms_A": 1.0052870090634438
+}

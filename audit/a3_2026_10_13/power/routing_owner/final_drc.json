@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T01:06:23",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Сверленое отверстие слишком близко к другому отверстию (заданные ограничения платы мин. 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(D1-K)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 33.6,
+                        "y": 21.2
+                    },
+                    "uuid": "454acedf-0261-4e58-888d-5e713b4a1b99"
+                },
+                {
+                    "description": "Перех. отв. [Net-(D1-K)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 33.6,
+                        "y": 21.1
+                    },
+                    "uuid": "f937c290-16bc-47ec-8003-fc7dd0229c0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        }
+    ]
+}

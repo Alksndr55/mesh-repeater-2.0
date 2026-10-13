@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Mesh Repeater 2.0 / middle shield")
-		(date "2026-10-12")
-		(rev "V2.0-A2")
+		(title "Mesh Repeater 2.0 / средний экран")
+		(date "2026-10-13")
+		(rev "V2.0-A3")
 		(company "Designed by @Alksndritm")
 	)
 	(layers
@@ -41,36 +41,13 @@
 	)
 	(setup
 		(stackup
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 1"
-				(type "core")
-				(thickness 1.475)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0)
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
-			(copper_finish "None")
+			(layer "F.SilkS" (type "Top Silk Screen"))
+			(layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+			(layer "F.Cu" (type "copper") (thickness 0.035))
+			(layer "dielectric 1" (type "core") (thickness 1.475) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+			(layer "B.Cu" (type "copper") (thickness 0))
+			(layer "B.Mask" (type "Bottom Solder Mask") (thickness 0))
+			(layer "B.SilkS" (type "Bottom Silk Screen"))
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -125,166 +102,6 @@
 			(scaleselection 1)
 			(outputdirectory "")
 		)
-	)
-	(footprint "Shield:Shield_Interconnect_2x06_NPTH_D2_CuVoid3"
-		(layer "F.Cu")
-		(uuid "0e3e5311-bd3a-4aa5-8cf9-07f9d09cb16e")
-		(at 64.15 49)
-		(descr "12 separate NPTH2.0mm, pitch2.54. Drill-to-foil clearance0.50mm; Cuvoid3.0mm overlaps adjacent copper clearances while FR4 drill web0.54mm remains. Generic pin fit subject to incoming dimensional control.")
-		(property "Reference" "HS1"
-			(at 6.35 5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fa289e7-b938-44f5-83cf-1c1ac149ac9d")
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "INTERCONNECT PASS-THROUGH"
-			(at 6.35 5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab4552db-9066-4feb-ae3c-94de5c7031d6")
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc5c0c84-b4a5-4069-895a-a0c00570d624")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78be83af-8502-4b85-b048-06a468a05a52")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -1.25)
-			(end 13.95 3.79)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7a024456-6565-4b5e-bf87-0c41c851b642")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "afc41c9b-f218-4b70-bf2c-a4bfab0beb25")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 2.54)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "19cc6456-78c8-4904-b4f4-529ab6589c5f")
-		)
-		(pad "" np_thru_hole circle
-			(at 2.54 0)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "892c7db9-7f0c-41eb-95c2-a47b1e76285c")
-		)
-		(pad "" np_thru_hole circle
-			(at 2.54 2.54)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "777dd810-402b-4554-b365-cf2f5e7d10f4")
-		)
-		(pad "" np_thru_hole circle
-			(at 5.08 0)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "de323fb9-2467-4164-b3ba-07b947c434b1")
-		)
-		(pad "" np_thru_hole circle
-			(at 5.08 2.54)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "1b3d742d-8c33-4ef2-9fc5-6a38a7c3df08")
-		)
-		(pad "" np_thru_hole circle
-			(at 7.62 0)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "d468306a-b6f4-4361-82dc-6750d6414041")
-		)
-		(pad "" np_thru_hole circle
-			(at 7.62 2.54)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "bed91d8e-ee8c-4c6b-80ad-1766bbf9afe6")
-		)
-		(pad "" np_thru_hole circle
-			(at 10.16 0)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "fd2cadd3-a038-432f-ba93-c02bc9218017")
-		)
-		(pad "" np_thru_hole circle
-			(at 10.16 2.54)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "9a4717b2-a290-4857-99de-0c6d7b0431ba")
-		)
-		(pad "" np_thru_hole circle
-			(at 12.7 0)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "a36eabef-d332-48ce-b08f-c04895cfa2af")
-		)
-		(pad "" np_thru_hole circle
-			(at 12.7 2.54)
-			(size 2 2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(clearance 0.5)
-			(uuid "d3c2947f-e49e-4422-b965-867543711ef0")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Shield:Shield_Foil_GND_Anchor"
 		(layer "F.Cu")
@@ -453,6 +270,156 @@
 			(layers "*.Cu" "*.Mask")
 			(clearance 0.3)
 			(uuid "f69d81c6-1aef-4d3c-b73d-05f58f6fd804")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Shield:Shield_Interconnect_Window17p2x6p8_R0p6"
+		(layer "F.Cu")
+		(uuid "696fdb67-8a8a-498c-8e49-6d51c73159a8")
+		(at 64.15 49)
+		(descr "A3 physical milled opening 17.2x6.8mm R0.6 for the connected upper insulator of the 2x6 long-pin header. Minimum foil clearance 0.5mm. Existing connector model is nominal; qualify the actual male body and assembly alignment on a sample.")
+		(property "Reference" "HS1"
+			(at 6.35 1.27 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf84f78-1d61-4fef-a081-2a895e4dba98")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "ОКНО МЕЖПЛАТНОГО РАЗЪЁМА"
+			(at 6.35 1.27 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e55e1d22-d7df-4768-90fc-9c5a0aecf327")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d717e3e-9712-42e5-973a-3feaeace2bf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a049500-4f77-4063-add9-284b6665f6e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.25 4.07)
+			(end -2.25 -1.53)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "32a52d9c-ff58-4998-885b-10750b47de50")
+		)
+		(fp_line
+			(start -1.65 -2.13)
+			(end 14.35 -2.13)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a25b439d-93a5-4236-a3f7-8957866adb8e")
+		)
+		(fp_line
+			(start 14.35 4.67)
+			(end -1.65 4.67)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b5c4a9be-7594-4739-b457-f83be4638f38")
+		)
+		(fp_line
+			(start 14.95 -1.53)
+			(end 14.95 4.07)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f93b342a-fe00-45cd-af14-d3ca2e5b3a80")
+		)
+		(fp_arc
+			(start -2.25 -1.53)
+			(mid -2.074264 -1.954264)
+			(end -1.65 -2.13)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c13ce965-9897-49a9-82df-e047d2b746d7")
+		)
+		(fp_arc
+			(start -1.65 4.67)
+			(mid -2.074264 4.494264)
+			(end -2.25 4.07)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bd2b75ef-1fdf-4342-8eaa-94d0cb2ed359")
+		)
+		(fp_arc
+			(start 14.35 -2.13)
+			(mid 14.774264 -1.954264)
+			(end 14.95 -1.53)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1ee063a-9d9b-4809-b2ae-e3b43e9fac12")
+		)
+		(fp_arc
+			(start 14.95 4.07)
+			(mid 14.774264 4.494264)
+			(end 14.35 4.67)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9e1ddc25-f5ac-4815-a2db-f9ea007d5584")
+		)
+		(fp_rect
+			(start -2.4 -2.28)
+			(end 15.1 4.82)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e6a138f3-09d4-438d-844e-6de7768f5b14")
 		)
 		(embedded_fonts no)
 	)
@@ -784,144 +751,109 @@
 		(layer "Edge.Cuts")
 		(uuid "9e735d67-41b8-4661-baed-493b47159d02")
 	)
-	(gr_text "DISCONNECT ALL POWER BEFORE DISASSEMBLY"
-		(at 42 55.2 0)
+	(gr_text "Экран устанавливать медью к POWER"
+		(at 31 49 0)
 		(layer "F.SilkS")
-		(uuid "27c1b531-7268-4bab-b34f-1c632cf04ba0")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.18)
-				(bold yes)
-			)
-		)
-	)
-	(gr_text "M3 3.2mm / contact OD6 / PCB1.52mm"
-		(at 35 49.6 0)
-		(layer "F.SilkS")
-		(uuid "979d5157-fa12-4484-bbc4-ab26e16666a3")
+		(uuid "b6a53750-a506-44ff-ae4c-dd520ae087b9")
 		(effects
 			(font
 				(size 0.85 0.85)
-				(thickness 0.12)
+				(thickness 0.13)
 			)
 		)
 	)
-	(gr_text "J8 BAT: 1 + / 2 GND. J12 LTO: 1 BAT / 2 MID / 3 GND / 4 NC."
-		(at 45 24.9 0)
+	(gr_text "2,4,6 GND; 8 NC; 9 BAT; 10 SDA; 11 MODE; 12 SCL"
+		(at 45 39 0)
 		(layer "F.SilkS")
-		(uuid "2e1e73fa-bc6b-4fe1-b960-2d52a40c8e68")
-		(effects
-			(font
-				(size 0.88 0.88)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "10 SDA; 11 MODE; 12 SCL. Stands connect shield foil."
-		(at 45 34.5 0)
-		(layer "F.SilkS")
-		(uuid "fdc415da-e93f-4259-8b7e-4e503caa63d5")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "Keep all four foil contacts clean. Use metal DIN433 M3 washers."
-		(at 45 42.7 0)
-		(layer "F.SilkS")
-		(uuid "b34f8de3-9bc6-476f-bb04-a38213499101")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "12 x NPTH2.0mm / drill-to-foil gap0.50mm. Inspect pin fit."
-		(at 45 45.4 0)
-		(layer "F.SilkS")
-		(uuid "db378b66-4e39-4f4d-af56-39222b37d6e8")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "Before USB: REMOVE J11. Refit only after USB is disconnected."
-		(at 45 38.7 0)
-		(layer "F.SilkS")
-		(uuid "c97ebcf9-868c-4159-a572-7787c532bb84")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.18)
-				(bold yes)
-			)
-		)
-	)
-	(gr_text "POWER below: CN3722 + TPS63802 + 2-stage LC"
-		(at 45 15.5 0)
-		(layer "F.SilkS")
-		(uuid "d38b1775-d6d6-4fb9-85d4-295c5989ac2b")
+		(uuid "5a9e92a5-c049-4a1b-a412-831da48b0661")
 		(effects
 			(font
 				(size 0.95 0.95)
-				(thickness 0.12)
+				(thickness 0.13)
 			)
 		)
 	)
-	(gr_text "LOGIC above: NiceNano + HT-RA62 + RTC + watchdog"
-		(at 45 18.2 0)
+	(gr_text "LOGIC: Nice!Nano, HT-RA62, часы CR2032, ватчдог"
+		(at 45 18 0)
 		(layer "F.SilkS")
-		(uuid "74e692cc-1106-4025-9a79-38c05f5287ce")
+		(uuid "01396f2e-3215-4e30-b1da-669d0d70ff8e")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 		)
 	)
-	(gr_text "J7 SOLAR: 1 + / 2 GND. Panel 12V; Voc <=24V."
-		(at 45 22.2 0)
+	(gr_text "90 × 60 мм; FR4 1,52 мм; медь 35 мкм"
+		(at 45 21 0)
 		(layer "F.SilkS")
-		(uuid "afa06b92-74a5-463a-8568-9b485f89f59c")
+		(uuid "99f06edc-721d-468f-adea-56411a05e910")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 		)
 	)
-	(gr_text "J101 <-> J201: straight 2x6 pins THROUGH screen holes."
-		(at 45 29.1 0)
+	(gr_text "Панель 12 В; заряд до 0,8 А"
+		(at 45 24 0)
 		(layer "F.SilkS")
-		(uuid "8c6e2458-74e8-4218-8fc7-751d0ed81f93")
+		(uuid "269f270b-4223-4065-bce1-21a426c6d5b4")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 		)
 	)
-	(gr_text "1/3/5 FILTER_OUT; 2/4/6/8 GND; 7 SYS_3V3; 9 BAT"
-		(at 45 31.8 0)
+	(gr_text "J7: 1 SOLAR+; 2 GND"
+		(at 45 27 0)
 		(layer "F.SilkS")
-		(uuid "516273f5-7863-40d5-b893-01bcad9262ed")
+		(uuid "7ecd9b12-4344-4868-a874-6ab221da8fc6")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 		)
 	)
-	(gr_text "COPPER SIDE DOWN / GND CONTACT OD6"
-		(at 45 11.2 0)
+	(gr_text "J8 Na-ion 1S: 1 BAT+; 2 GND"
+		(at 45 30 0)
 		(layer "F.SilkS")
-		(uuid "4e0f628b-59ad-46ba-bfe2-968fa087a394")
+		(uuid "c27a8b1f-b481-4ed3-87fe-5d5c98c52658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.13)
+			)
+		)
+	)
+	(gr_text "J12 LTO 2S: 1 BAT+; 2 MID; 3 GND; 4 NC"
+		(at 45 33 0)
+		(layer "F.SilkS")
+		(uuid "f2f39eda-0648-4556-bda9-6ff6a1e43689")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.13)
+			)
+		)
+	)
+	(gr_text "Опции: Na-ion — COLD; LTO — BAL1/BAL2"
+		(at 45 42 0)
+		(layer "F.SilkS")
+		(uuid "5a6abe39-0eef-47a4-96f0-9bfbd3f6038a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.13)
+			)
+		)
+	)
+	(gr_text "J8 и J12 вместе не подключать!"
+		(at 35 45 0)
+		(layer "F.SilkS")
+		(uuid "8dcc3a72-1c27-474a-8ab9-77c96f7952c3")
 		(effects
 			(font
 				(size 1 1)
@@ -930,10 +862,45 @@
 			)
 		)
 	)
-	(gr_text "Mesh Repeater 2.0 / SHIELD / V2.0-A2"
-		(at 45 8 0)
+	(gr_text "J101/J201: 1,3 SYS_3V3; 5,7 RADIO_3V3"
+		(at 45 36 0)
 		(layer "F.SilkS")
-		(uuid "b8c6c26b-3d14-4fc0-a706-0e08bce0d2a2")
+		(uuid "8c46bf60-cd17-4176-88f3-7a965f2b05e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "POWER: CN3722, TPS63802, LC, INA219"
+		(at 45 15 0)
+		(layer "F.SilkS")
+		(uuid "b297a305-b130-4a9a-a333-3b0f1a2469d7")
+		(effects
+			(font
+				(size 1.05 1.05)
+				(thickness 0.13)
+			)
+		)
+	)
+	(gr_text "СНЯТЬ J11 ДО USB! Вернуть после отключения USB."
+		(at 45 56 0)
+		(layer "F.SilkS")
+		(uuid "f7d47ac9-4e3e-4429-afec-1820c6d45720")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.22)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "Mesh Repeater 2.0 — ЭКРАН A3"
+		(at 35 8 0)
+		(layer "F.SilkS")
+		(uuid "935026b6-5e58-49f4-ad21-da5e741f6cb3")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -942,167 +909,118 @@
 			)
 		)
 	)
-	(gr_text "Pin35mm / socket8.5mm / nominal engagement4.48mm."
-		(at 45 6.1 180)
+	(gr_text "Экран устанавливать медью к POWER"
+		(at 31 11 180)
 		(layer "B.SilkS")
-		(uuid "46ba1305-746d-42b7-9972-bc2a7d992a59")
+		(uuid "1ddeb13c-f9ac-4065-8a82-4a84e9106ab1")
 		(effects
 			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
+				(size 0.85 0.85)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "Metal washers DIN433 3.2 x 6 x 0.5mm; 5 per corner."
-		(at 45 8.799999 180)
+	(gr_text "2,4,6 GND; 8 NC; 9 BAT; 10 SDA; 11 MODE; 12 SCL"
+		(at 45 21 180)
 		(layer "B.SilkS")
-		(uuid "24aae05f-f5f5-4b5e-8d4e-c6d6e0afe515")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "Below: stand 18mm + washer. Above: washer + stand 15mm."
-		(at 45 11.5 180)
-		(layer "B.SilkS")
-		(uuid "24b8d64a-bb78-4603-a74a-7331aaa19912")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "RTC: CR2032 primary cell. D3 CHARGE / D4 DONE on POWER."
-		(at 45 15.7 180)
-		(layer "B.SilkS")
-		(uuid "87ae6cba-4e58-4204-a206-954c31d5d367")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "GPS: J4 Heltec T114 pinout; power enable nRF P0.24."
-		(at 45 18.4 180)
-		(layer "B.SilkS")
-		(uuid "d805e53e-65c3-4111-a42d-ee3b499b6472")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "USB / firmware: REMOVE J11. ISP J10 is on LOGIC."
-		(at 45 21.1 180)
-		(layer "B.SilkS")
-		(uuid "b0c28fc4-67b2-4868-8a91-db8e4d095655")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.18)
-				(bold yes)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "R15 130k   R16 49.9k"
-		(at 45 25.299999 180)
-		(layer "B.SilkS")
-		(uuid "bfacd107-d2fa-425b-8033-102ee35d1206")
+		(uuid "03355b88-4f4b-4b2b-ba52-31b3ddf8169a")
 		(effects
 			(font
 				(size 0.95 0.95)
-				(thickness 0.12)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "R3 121k   R4 100k   C30 6.8pF"
-		(at 45 28 180)
+	(gr_text "Опции: Na-ion — COLD; LTO — BAL1/BAL2"
+		(at 45 18 180)
 		(layer "B.SilkS")
-		(uuid "6dfcd6b6-fc53-4995-94a5-87156f609dda")
+		(uuid "d196344e-300e-49d6-bec1-fdc91372a059")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "LTO 2S: fit BAL1/BAL2; omit COLD. R56 0R"
-		(at 45 30.7 180)
+	(gr_text "J12 LTO 2S: 1 BAT+; 2 MID; 3 GND; 4 NC"
+		(at 45 27 180)
 		(layer "B.SilkS")
-		(uuid "22157e3e-3d3b-493c-8d6b-b0c3bff8c9b2")
+		(uuid "43635700-7a23-4113-b0fe-ce5e82542c1b")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "Na-ion without COLD: omit cold parts; R56 0R"
-		(at 45 34.9 180)
+	(gr_text "J8 Na-ion 1S: 1 BAT+; 2 GND"
+		(at 45 30 180)
 		(layer "B.SilkS")
-		(uuid "5e4ef210-1ed7-4f3e-9f61-3f6c1274dec6")
+		(uuid "cd20b59a-d7ff-41ec-9ebd-193a415c75ec")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "R15 40.2k   R16 49.9k"
-		(at 45 39.1 180)
+	(gr_text "J7: 1 SOLAR+; 2 GND"
+		(at 45 33 180)
 		(layer "B.SilkS")
-		(uuid "e651b126-b6c7-45af-870a-b29c48e05d31")
+		(uuid "3c20bdd2-c0bd-4d2c-baeb-5d81745ea646")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "R3 61.9k   R4 100k   C30 12pF"
-		(at 45 41.8 180)
+	(gr_text "Панель 12 В; заряд до 0,8 А"
+		(at 45 36 180)
 		(layer "B.SilkS")
-		(uuid "444bdd28-1908-448a-9ac1-679db7796b66")
+		(uuid "30f3020e-0a57-471b-99fc-2bedfbe85866")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "Na-ion 1S: fit COLD; omit BAL1/BAL2. R56 1.8R"
-		(at 45 44.5 180)
+	(gr_text "90 × 60 мм; FR4 1,52 мм; медь 35 мкм"
+		(at 45 39 180)
 		(layer "B.SilkS")
-		(uuid "9926c4ec-92b6-437c-b5b7-6b8489e1bdb2")
+		(uuid "3c826027-b99e-4cb0-83e0-b9409d698422")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.13)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "UPPER FACE / ASSEMBLY QUICK GUIDE"
-		(at 45 48.8 180)
+	(gr_text "LOGIC: Nice!Nano, HT-RA62, часы CR2032, ватчдог"
+		(at 45 42 180)
 		(layer "B.SilkS")
-		(uuid "8f5f1e27-460b-4670-8dea-603a16e2f605")
+		(uuid "5a31e9db-08a1-4782-98f3-9dac9ad430fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.13)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "J8 и J12 вместе не подключать!"
+		(at 35 15 180)
+		(layer "B.SilkS")
+		(uuid "4d98e2f5-c280-4f75-b9e2-90844cf134b9")
 		(effects
 			(font
 				(size 1 1)
@@ -1112,10 +1030,48 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Mesh Repeater 2.0 / SHIELD / V2.0-A2"
+	(gr_text "J101/J201: 1,3 SYS_3V3; 5,7 RADIO_3V3"
+		(at 45 24 180)
+		(layer "B.SilkS")
+		(uuid "79902750-5d1d-4296-986d-7cf935b7c83b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "POWER: CN3722, TPS63802, LC, INA219"
+		(at 45 45 180)
+		(layer "B.SilkS")
+		(uuid "0a38c9e4-ceb7-4662-a543-58348a1aaa3b")
+		(effects
+			(font
+				(size 1.05 1.05)
+				(thickness 0.13)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "СНЯТЬ J11 ДО USB! Вернуть после отключения USB."
+		(at 45 4 180)
+		(layer "B.SilkS")
+		(uuid "bfc28fdf-9dde-4aa8-b3f4-f4827145693e")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.22)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Mesh Repeater 2.0 — ЭКРАН A3"
 		(at 35 52 180)
 		(layer "B.SilkS")
-		(uuid "3ea58e1f-7916-414c-8d86-4896ea6bd5fe")
+		(uuid "476ccaf7-3371-4e55-b162-7773df45ff57")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -1147,7 +1103,7 @@
 		)
 		(polygon
 			(pts
-				(xy 62.65 47.5) (xy 78.35 47.5) (xy 78.35 53.04) (xy 62.65 53.04)
+				(xy 61.4 46.37) (xy 79.6 46.37) (xy 79.6 54.17) (xy 61.4 54.17)
 			)
 		)
 		(filled_polygon
@@ -1195,53 +1151,23 @@
 				(xy 2.657624 54.791837) (xy 2.657623 54.791838) (xy 2.441875 54.916399) (xy 2.44186 54.916409) (xy 2.244229 55.068057)
 				(xy 2.244217 55.068067) (xy 2.068067 55.244217) (xy 2.068057 55.244229) (xy 1.916409 55.44186) (xy 1.916399 55.441875)
 				(xy 1.791838 55.657623) (xy 1.696499 55.887789) (xy 1.696495 55.887799) (xy 1.63202 56.128423) (xy 1.632018 56.128431)
-				(xy 1.632018 56.128435) (xy 1.5995 56.375435) (xy 0.3005 56.375435) (xy 0.3005 48.881908) (xy 62.6495 48.881908)
-				(xy 62.6495 48.88238) (xy 62.6495 49.118094) (xy 62.649651 49.120014) (xy 62.649599 49.120018) (xy 62.65 49.125105)
-				(xy 62.65 51.414893) (xy 62.649599 51.419982) (xy 62.649651 51.419987) (xy 62.6495 51.421906) (xy 62.6495 51.658094)
-				(xy 62.649651 51.660014) (xy 62.649599 51.660018) (xy 62.65 51.665105) (xy 62.65 53.04) (xy 64.024894 53.04)
-				(xy 64.029982 53.0404) (xy 64.029987 53.040349) (xy 64.031906 53.0405) (xy 64.031908 53.0405) (xy 64.268094 53.0405)
-				(xy 64.270013 53.040349) (xy 64.270017 53.0404) (xy 64.275106 53.04) (xy 66.564894 53.04) (xy 66.569982 53.0404)
-				(xy 66.569987 53.040349) (xy 66.571906 53.0405) (xy 66.571908 53.0405) (xy 66.808094 53.0405) (xy 66.810013 53.040349)
-				(xy 66.810017 53.0404) (xy 66.815106 53.04) (xy 69.104894 53.04) (xy 69.109982 53.0404) (xy 69.109987 53.040349)
-				(xy 69.111906 53.0405) (xy 69.111908 53.0405) (xy 69.348094 53.0405) (xy 69.350013 53.040349) (xy 69.350017 53.0404)
-				(xy 69.355106 53.04) (xy 71.644894 53.04) (xy 71.649982 53.0404) (xy 71.649987 53.040349) (xy 71.651906 53.0405)
-				(xy 71.651908 53.0405) (xy 71.888094 53.0405) (xy 71.890013 53.040349) (xy 71.890017 53.0404) (xy 71.895106 53.04)
-				(xy 74.184894 53.04) (xy 74.189982 53.0404) (xy 74.189987 53.040349) (xy 74.191906 53.0405) (xy 74.191908 53.0405)
-				(xy 74.428094 53.0405) (xy 74.430013 53.040349) (xy 74.430017 53.0404) (xy 74.435106 53.04) (xy 76.724894 53.04)
-				(xy 76.729982 53.0404) (xy 76.729987 53.040349) (xy 76.731906 53.0405) (xy 76.731908 53.0405) (xy 76.968094 53.0405)
-				(xy 76.970013 53.040349) (xy 76.970017 53.0404) (xy 76.975106 53.04) (xy 78.35 53.04) (xy 78.35 51.665105)
-				(xy 78.3504 51.660018) (xy 78.350349 51.660014) (xy 78.3505 51.658094) (xy 78.3505 51.421906) (xy 78.350349 51.419987)
-				(xy 78.3504 51.419982) (xy 78.35 51.414893) (xy 78.35 49.125105) (xy 78.3504 49.120018) (xy 78.350349 49.120014)
-				(xy 78.3505 49.118094) (xy 78.3505 48.881906) (xy 78.350349 48.879987) (xy 78.3504 48.879982) (xy 78.35 48.874893)
-				(xy 78.35 47.5) (xy 76.975106 47.5) (xy 76.970017 47.499599) (xy 76.970013 47.499651) (xy 76.968093 47.4995)
-				(xy 76.968092 47.4995) (xy 76.731908 47.4995) (xy 76.731907 47.4995) (xy 76.729987 47.499651) (xy 76.729982 47.499599)
-				(xy 76.724894 47.5) (xy 74.435106 47.5) (xy 74.430017 47.499599) (xy 74.430013 47.499651) (xy 74.428093 47.4995)
-				(xy 74.428092 47.4995) (xy 74.191908 47.4995) (xy 74.191907 47.4995) (xy 74.189987 47.499651) (xy 74.189982 47.499599)
-				(xy 74.184894 47.5) (xy 71.895106 47.5) (xy 71.890017 47.499599) (xy 71.890013 47.499651) (xy 71.888093 47.4995)
-				(xy 71.888092 47.4995) (xy 71.651908 47.4995) (xy 71.651907 47.4995) (xy 71.649987 47.499651) (xy 71.649982 47.499599)
-				(xy 71.644894 47.5) (xy 69.355106 47.5) (xy 69.350017 47.499599) (xy 69.350013 47.499651) (xy 69.348093 47.4995)
-				(xy 69.348092 47.4995) (xy 69.111908 47.4995) (xy 69.111907 47.4995) (xy 69.109987 47.499651) (xy 69.109982 47.499599)
-				(xy 69.104894 47.5) (xy 66.815106 47.5) (xy 66.810017 47.499599) (xy 66.810013 47.499651) (xy 66.808093 47.4995)
-				(xy 66.808092 47.4995) (xy 66.571908 47.4995) (xy 66.571907 47.4995) (xy 66.569987 47.499651) (xy 66.569982 47.499599)
-				(xy 66.564894 47.5) (xy 64.275106 47.5) (xy 64.270017 47.499599) (xy 64.270013 47.499651) (xy 64.268093 47.4995)
-				(xy 64.268092 47.4995) (xy 64.031908 47.4995) (xy 64.031907 47.4995) (xy 64.029987 47.499651) (xy 64.029982 47.499599)
-				(xy 64.024894 47.5) (xy 62.65 47.5) (xy 62.65 48.874893) (xy 62.649652 48.879312) (xy 62.649765 48.879683)
-				(xy 62.649622 48.881136) (xy 62.6495 48.881908) (xy 0.3005 48.881908) (xy 0.3005 3.375435) (xy 1.5995 3.375435)
-				(xy 1.5995 3.624565) (xy 1.632018 3.871565) (xy 1.632019 3.871569) (xy 1.63202 3.871576) (xy 1.696495 4.1122)
-				(xy 1.696498 4.112207) (xy 1.791836 4.342373) (xy 1.791838 4.342376) (xy 1.916399 4.558124) (xy 1.916409 4.558139)
-				(xy 2.068057 4.75577) (xy 2.068067 4.755782) (xy 2.244217 4.931932) (xy 2.244229 4.931942) (xy 2.44186 5.08359)
-				(xy 2.441869 5.083596) (xy 2.441873 5.083599) (xy 2.657627 5.208164) (xy 2.887793 5.303502) (xy 2.887796 5.303502)
-				(xy 2.887799 5.303504) (xy 3.128423 5.367979) (xy 3.128424 5.367979) (xy 3.128435 5.367982) (xy 3.375435 5.4005)
-				(xy 3.375439 5.4005) (xy 3.624561 5.4005) (xy 3.624565 5.4005) (xy 3.871565 5.367982) (xy 4.112207 5.303502)
-				(xy 4.342373 5.208164) (xy 4.558127 5.083599) (xy 4.755776 4.931938) (xy 4.931938 4.755776) (xy 5.083599 4.558127)
-				(xy 5.208164 4.342373) (xy 5.303502 4.112207) (xy 5.367982 3.871565) (xy 5.4005 3.624565) (xy 5.4005 3.375435)
-				(xy 84.5995 3.375435) (xy 84.5995 3.624565) (xy 84.632018 3.871565) (xy 84.632019 3.871569) (xy 84.63202 3.871576)
-				(xy 84.696495 4.1122) (xy 84.696498 4.112207) (xy 84.791836 4.342373) (xy 84.791838 4.342376) (xy 84.916399 4.558124)
-				(xy 84.916409 4.558139) (xy 85.068057 4.75577) (xy 85.068067 4.755782) (xy 85.244217 4.931932) (xy 85.244229 4.931942)
-				(xy 85.44186 5.08359) (xy 85.441869 5.083596) (xy 85.441873 5.083599) (xy 85.657627 5.208164) (xy 85.887793 5.303502)
-				(xy 85.887796 5.303502) (xy 85.887799 5.303504) (xy 86.128423 5.367979) (xy 86.128424 5.367979)
-				(xy 86.128435 5.367982) (xy 86.375435 5.4005) (xy 86.375439 5.4005) (xy 86.624561 5.4005) (xy 86.624565 5.4005)
-				(xy 86.871565 5.367982) (xy 87.112207 5.303502) (xy 87.342373 5.208164) (xy 87.558127 5.083599)
+				(xy 1.632018 56.128435) (xy 1.5995 56.375435) (xy 0.3005 56.375435) (xy 0.3005 54.17) (xy 61.4 54.17)
+				(xy 79.6 54.17) (xy 79.6 46.37) (xy 61.4 46.37) (xy 61.4 54.17) (xy 0.3005 54.17) (xy 0.3005 3.375435)
+				(xy 1.5995 3.375435) (xy 1.5995 3.624565) (xy 1.632018 3.871565) (xy 1.632019 3.871569) (xy 1.63202 3.871576)
+				(xy 1.696495 4.1122) (xy 1.696498 4.112207) (xy 1.791836 4.342373) (xy 1.791838 4.342376) (xy 1.916399 4.558124)
+				(xy 1.916409 4.558139) (xy 2.068057 4.75577) (xy 2.068067 4.755782) (xy 2.244217 4.931932) (xy 2.244229 4.931942)
+				(xy 2.44186 5.08359) (xy 2.441869 5.083596) (xy 2.441873 5.083599) (xy 2.657627 5.208164) (xy 2.887793 5.303502)
+				(xy 2.887796 5.303502) (xy 2.887799 5.303504) (xy 3.128423 5.367979) (xy 3.128424 5.367979) (xy 3.128435 5.367982)
+				(xy 3.375435 5.4005) (xy 3.375439 5.4005) (xy 3.624561 5.4005) (xy 3.624565 5.4005) (xy 3.871565 5.367982)
+				(xy 4.112207 5.303502) (xy 4.342373 5.208164) (xy 4.558127 5.083599) (xy 4.755776 4.931938) (xy 4.931938 4.755776)
+				(xy 5.083599 4.558127) (xy 5.208164 4.342373) (xy 5.303502 4.112207) (xy 5.367982 3.871565) (xy 5.4005 3.624565)
+				(xy 5.4005 3.375435) (xy 84.5995 3.375435) (xy 84.5995 3.624565) (xy 84.632018 3.871565) (xy 84.632019 3.871569)
+				(xy 84.63202 3.871576) (xy 84.696495 4.1122) (xy 84.696498 4.112207) (xy 84.791836 4.342373) (xy 84.791838 4.342376)
+				(xy 84.916399 4.558124) (xy 84.916409 4.558139) (xy 85.068057 4.75577) (xy 85.068067 4.755782) (xy 85.244217 4.931932)
+				(xy 85.244229 4.931942) (xy 85.44186 5.08359) (xy 85.441869 5.083596) (xy 85.441873 5.083599) (xy 85.657627 5.208164)
+				(xy 85.887793 5.303502) (xy 85.887796 5.303502) (xy 85.887799 5.303504) (xy 86.128423 5.367979)
+				(xy 86.128424 5.367979) (xy 86.128435 5.367982) (xy 86.375435 5.4005) (xy 86.375439 5.4005) (xy 86.624561 5.4005)
+				(xy 86.624565 5.4005) (xy 86.871565 5.367982) (xy 87.112207 5.303502) (xy 87.342373 5.208164) (xy 87.558127 5.083599)
 				(xy 87.755776 4.931938) (xy 87.931938 4.755776) (xy 88.083599 4.558127) (xy 88.208164 4.342373)
 				(xy 88.303502 4.112207) (xy 88.367982 3.871565) (xy 88.4005 3.624565) (xy 88.4005 3.375435) (xy 88.367982 3.128435)
 				(xy 88.303502 2.887793) (xy 88.208164 2.657627) (xy 88.083599 2.441873) (xy 88.083596 2.441869)

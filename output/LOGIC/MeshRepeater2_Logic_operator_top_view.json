@@ -1,6 +1,6 @@
 {
   "source_native_view": "MeshRepeater2_Logic_back.svg",
-  "native_source_sha256": "2f0afca6221d29505711df831abcce447f0529e6d505e02a175bf70aabcba8f7",
+  "native_source_sha256": "a34edce3d22ca62510b8221b341161c074d653248ffb67595dbe743f69c5582d",
   "board_assembly_rotation": "X 180 degrees; native F components face down",
   "image_transform": "KiCad native --mirror B view, followed by in-plane 180 degree rotation",
   "svg_transform": "rotate(180 44.9961 29.9974)",

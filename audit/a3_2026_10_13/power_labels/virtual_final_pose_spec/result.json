@@ -1,0 +1,35 @@
+{
+  "virtual_final_spec": true,
+  "R3_pose": [
+    19,
+    36.6,
+    180
+  ],
+  "R1_pose": [
+    24.7,
+    28.55
+  ],
+  "R56_pose": [
+    24.7,
+    33.15
+  ],
+  "Q4_x": 31,
+  "TP_y": 1.3,
+  "WSL_maker_refs": [
+    "R1",
+    "R55",
+    "R40",
+    "R41"
+  ],
+  "WSL_maker_pads_mm": [
+    1.65,
+    3.68
+  ],
+  "WSL_pitch_mm": 5.71,
+  "WSL_courtyard_half_mm": [
+    3.93,
+    2.09
+  ],
+  "unplaced": [],
+  "CAD_written": false
+}

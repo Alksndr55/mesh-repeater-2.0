@@ -1,0 +1,869 @@
+{
+  "scope": "A3 read-only subaudit; these checks do not replace full PCB/schematic comparison or a main firmware build",
+  "bom": {
+    "row_count": 179,
+    "unique_positions": 179,
+    "model_count": 179,
+    "disagreements": [],
+    "variants": {
+      "NaIon_COLD": {
+        "fitted_positions": 162,
+        "purchased_components": 145,
+        "unselected_purchased_MPN": [
+          "M2"
+        ]
+      },
+      "NaIon_NoCOLD": {
+        "fitted_positions": 138,
+        "purchased_components": 121,
+        "unselected_purchased_MPN": [
+          "M2"
+        ]
+      },
+      "LTO_2S": {
+        "fitted_positions": 151,
+        "purchased_components": 134,
+        "unselected_purchased_MPN": [
+          "R15",
+          "C30",
+          "R48",
+          "R49",
+          "R50",
+          "C58",
+          "R52",
+          "R53",
+          "R54",
+          "C59",
+          "M2"
+        ]
+      }
+    }
+  },
+  "logic_interface_nets": [
+    {
+      "code": "1",
+      "name": "/2. RTC_IO/GPS_EN_GATE",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "Q3",
+          "pin": "1",
+          "pinfunction": "G_1",
+          "pintype": "input"
+        },
+        {
+          "ref": "R43",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R44",
+          "pin": "2",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "name": "/2. RTC_IO/GPS_GATE",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "Q2",
+          "pin": "1",
+          "pinfunction": "G_1",
+          "pintype": "input"
+        },
+        {
+          "ref": "Q3",
+          "pin": "3",
+          "pinfunction": "D_3",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R42",
+          "pin": "2",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": "/RADIO_BUSY",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "7",
+          "pinfunction": "P0.29_/_BUSY_7",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M2",
+          "pin": "10",
+          "pinfunction": "BUSY_10",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "name": "/RADIO_DIO1",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "2",
+          "pinfunction": "P0.10_/_DIO1_2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M2",
+          "pin": "6",
+          "pinfunction": "DIO1_6",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "name": "/RADIO_LOCAL_3V3",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "C23",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "C24",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB1",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M2",
+          "pin": "3",
+          "pinfunction": "3V3_3",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "name": "/RADIO_RST",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "1",
+          "pinfunction": "P0.09_/_RADIO_RST_1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M2",
+          "pin": "4",
+          "pinfunction": "RST_4",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": "/RADIO_RXEN",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "21",
+          "pinfunction": "P0.17_/_RXEN_21",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M2",
+          "pin": "11",
+          "pinfunction": "RXEN_11",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": "GPS_3V3",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "C56",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "C57",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "J4",
+          "pin": "7",
+          "pinfunction": "VCC_7",
+          "pintype": "passive"
+        },
+        {
+          "ref": "Q2",
+          "pin": "3",
+          "pinfunction": "D_3",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R45",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "8",
+          "pinfunction": "VCC_GPS_8",
+          "pintype": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": "GPS_EN",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "18",
+          "pinfunction": "P0.24_/_GPS_EN_/_DIGITAL_OUT_18",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R44",
+          "pin": "1",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": "GPS_RX_EXT",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J4",
+          "pin": "4",
+          "pinfunction": "RXD_GPS_4",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "6",
+          "pinfunction": "1Y_/_GPS_RX_6",
+          "pintype": "output"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": "GPS_RX_MCU",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "19",
+          "pinfunction": "P0.22_/_GPS_RX_19",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "3",
+          "pinfunction": "2Y_/_MCU_RX_3",
+          "pintype": "output"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "GPS_TX_EXT",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J4",
+          "pin": "5",
+          "pinfunction": "TXD_GPS_5",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R45",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "5",
+          "pinfunction": "2A_/_GPS_TX_5",
+          "pintype": "input"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name": "GPS_TX_MCU",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "20",
+          "pinfunction": "P0.20_/_GPS_TX_20",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R46",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U7",
+          "pin": "2",
+          "pinfunction": "1A_/_MCU_TX_2",
+          "pintype": "input"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name": "MCU_RESET",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M1",
+          "pin": "10",
+          "pinfunction": "RESET_10",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R33",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R37",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "SW2",
+          "pin": "1",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name": "MODE",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J201",
+          "pin": "11",
+          "pinfunction": "MODE_11",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "2",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "name": "RADIO_3V3",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "FB1",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "J201",
+          "pin": "5",
+          "pinfunction": "RADIO_3V3_5",
+          "pintype": "passive"
+        },
+        {
+          "ref": "J201",
+          "pin": "7",
+          "pinfunction": "RADIO_3V3_7",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name": "RADIO_TXEN",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "M2",
+          "pin": "5",
+          "pinfunction": "TXEN_=_DIO2_5",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M2",
+          "pin": "7",
+          "pinfunction": "DIO2_=_TXEN_7",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R21",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R38",
+          "pin": "1",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "name": "SCL",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J201",
+          "pin": "12",
+          "pinfunction": "SCL_12",
+          "pintype": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "pinfunction": "3_3",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M1",
+          "pin": "16",
+          "pinfunction": "P0.11_/_SCL_16",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R30",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "8",
+          "pinfunction": "SCL_8",
+          "pintype": "input"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "name": "SDA",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J201",
+          "pin": "10",
+          "pinfunction": "SDA_10",
+          "pintype": "passive"
+        },
+        {
+          "ref": "J3",
+          "pin": "4",
+          "pinfunction": "4_4",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M1",
+          "pin": "15",
+          "pinfunction": "P1.04_/_SDA_15",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R29",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U4",
+          "pin": "7",
+          "pinfunction": "SDA_7",
+          "pintype": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name": "UART_RX",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J5",
+          "pin": "4",
+          "pinfunction": "4_4",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M1",
+          "pin": "24",
+          "pinfunction": "P0.08_/_UART_RX_24",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "name": "UART_TX",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J5",
+          "pin": "3",
+          "pinfunction": "3_3",
+          "pintype": "passive"
+        },
+        {
+          "ref": "M1",
+          "pin": "25",
+          "pinfunction": "P0.06_/_UART_TX_25",
+          "pintype": "passive"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "name": "WDT_MISO",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J10",
+          "pin": "1",
+          "pinfunction": "1_1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "6",
+          "pinfunction": "PB1_/_MISO_6",
+          "pintype": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "name": "WDT_MOSI_RESET",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J10",
+          "pin": "4",
+          "pinfunction": "4_4",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R37",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "5",
+          "pinfunction": "PB0_/_RESET_OD_/_MOSI_5",
+          "pintype": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "name": "WDT_RESET",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J10",
+          "pin": "5",
+          "pinfunction": "5_5",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R36",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "1",
+          "pinfunction": "PB5_/_RESET_1",
+          "pintype": "input"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "name": "WDT_SCK",
+      "class": "Default",
+      "nodes": [
+        {
+          "ref": "J10",
+          "pin": "3",
+          "pinfunction": "3_3",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U6",
+          "pin": "7",
+          "pinfunction": "PB2_/_SCK_7",
+          "pintype": "input"
+        }
+      ]
+    }
+  ],
+  "exports": {
+    "POWER": {
+      "pcb_sha_match": true,
+      "artifact_count": 14,
+      "bad_artifacts": []
+    },
+    "LOGIC": {
+      "pcb_sha_match": true,
+      "artifact_count": 17,
+      "bad_artifacts": []
+    },
+    "SHIELD": {
+      "pcb_sha_match": true,
+      "artifact_count": 13,
+      "bad_artifacts": []
+    }
+  },
+  "dan_cards": [
+    {
+      "article": "128935",
+      "retrieved_date": "2026-10-13",
+      "stock": 724,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 128935 2,00 Р за 1 шт. от 30 шт. - 1,70 Р от 100 шт. - 1,40 Р На складе: 724 В корзину Описание и характеристики Производитель : CONNFLY Наименование Значение Тип разъема джампер Аналоги ДЖАМПЕР-6cb(2.54mm)(MJ-0-A 2.54 mm), RUICHI 1,40 Р за 1 шт. от 10 шт. - 1,20 Р от 30 шт. - 1,00 Р ДЖАМПЕР-6cb(2.54mm)(KLS1-203A-C-B-6.5) черный, Высота: 6мм/ 2,54мм/ закрытый / чёрный, KLS 2,90 Р за 1 шт. от 10 шт. - 2,55 Р от 30 шт. - 2,15 Р На складе: 762 ДЖАМПЕР-MJ-C-6.47 (L-KLS1-203A-C-B-6.5)(2.54х6.47мм 2к.закр), KLS 3,80 Р за 1 шт. от 10 шт. -",
+      "html_sha256": "d8ccef8f316c4f980efdc30e85b57392c846747aec479fab32e4f8f27f9c90a9"
+    },
+    {
+      "article": "134726",
+      "retrieved_date": "2026-10-13",
+      "stock": 409,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 134726 0,65 Р за 1 шт. от 30 шт. - 0,60 Р от 100 шт. - 0,55 Р На складе: 409, продаётся по 10 шт. В корзину Описание и характеристики Производитель : YAGEO Наименование Значение Сопротивление 10 Ом Точность 1% PDF RC0805_спецификация PDF Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Самовывоз Омск, Больничный переулок, д. 6 ПН-ПТ - 9:00-18:00, СБ - 10:00-16:00 Предварительная комплектация заказа Транспортные компании Почта России - от 300 руб. / до 15 кг. Выбор тр",
+      "html_sha256": "d78a7c042c6eacd050589976f865cd2acb77870ac9ef53c3cb2e3ddb3a626dc2"
+    },
+    {
+      "article": "145965",
+      "retrieved_date": "2026-10-13",
+      "stock": 53,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 145965 5,90 Р за 1 шт. от 10 шт. - 5,40 Р от 30 шт. - 4,90 Р На складе: 53, продаётся по 10 шт. В корзину Описание и характеристики Производитель : YAGEO 1W Наименование Значение Сопротивление 0.1 Ом Точность 1% PDF RL_спецификация PDF Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Самовывоз Омск, Больничный переулок, д. 6 ПН-ПТ - 9:00-18:00, СБ - 10:00-16:00 Предварительная комплектация заказа Транспортные компании Почта России - от 300 руб. / до 15 кг. Выбор тран",
+      "html_sha256": "aa0f7f9486cfd590a0356ce0ac077138c2b001fa2fdcaced33d8152fdc243fe6"
+    },
+    {
+      "article": "167075",
+      "retrieved_date": "2026-10-13",
+      "stock": 47,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 167075 11,50 Р за 1 шт. от 5 шт. - 10,50 Р от 10 шт. - 9,50 Р На складе: 47 В корзину Описание и характеристики Производитель : JST Характеристики :  2.50мм, угловая, закрытая Наименование Значение Тип разъема межблочного питания Назначение вилка PDF даташит PDF Аналоги XH 02MR (DS1069-2MRW6SA) вилка на плату угловая, (CWF-2R)  шаг 2.5mm, CONNFLY 3,50 Р за 1 шт. от 10 шт. - 3,20 Р от 30 шт. - 2,90 Р На складе: 116 Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Само",
+      "html_sha256": "43d3bdaa12c4736de73a14c4f8ee8697160c1a084383e692d89b5a9da50c2407"
+    },
+    {
+      "article": "188548",
+      "retrieved_date": "2026-10-13",
+      "stock": 166,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 188548 18,50 Р за 1 шт. от 4 шт. - 17,50 Р от 8 шт. - 16,50 Р На складе: 166 В корзину Описание и характеристики Производитель : CONNFLY Наименование Значение Форма стойки шестигранная Длина корпуса 15 мм Материал латунь никелированная Тип крепления винт/отв. под винт Диаметр корпуса 5.5 мм Внутренний размер/резьба М3 PDF спецификация PDF Аналоги Стойка PCHSN-15 шестигранная, 15mm, М3, латунь , Китай 16,50 Р за 1 шт. от 5 шт. - 14,90 Р от 15 шт. - 12,80 Р Стойка DA5M3*15, 5*15мм,  никель, винт/отв М3, Vogt 35,67 Р за 1 шт. от 8 шт. ",
+      "html_sha256": "1ad7e41a1867d4317b44efde9832daed45b05dffea8b04fbc51edf5952761b80"
+    },
+    {
+      "article": "199312",
+      "retrieved_date": "2026-10-13",
+      "stock": 127,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 199312 18,22 Р за 1 шт. от 5 шт. - 16,54 Р от 15 шт. - 14,73 Р На складе: 127 В корзину Описание и характеристики Производитель : Tyco/TE Вес : 0,003 кг Характеристики : 7.11*7.01*3,68мм/ OFF - (ON) SPST-NO / 160gf/ 24В (DC) / 50мА/  пайка PDF чертеж PDF Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Самовывоз Омск, Больничный переулок, д. 6 ПН-ПТ - 9:00-18:00, СБ - 10:00-16:00 Предварительная комплектация заказа Транспортные компании Почта России - от 300 руб. / д",
+      "html_sha256": "70379dbb67bbb923978f12bc14313044b1545b437fb000d6ab0562b3f9c31d01"
+    },
+    {
+      "article": "201995",
+      "retrieved_date": "2026-10-13",
+      "stock": 6746,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 201995 0,95 Р за 1 шт. от 20 шт. - 0,85 Р от 70 шт. - 0,75 Р На складе: 6746 В корзину Описание и характеристики Производитель : CONNFLY Характеристики : 2.54мм Наименование Значение Тип разъема межблочного питания Назначение контакты PDF спецификация PDF Аналоги Контакты для розеток BLS (BLD), 2.54мм, RUICHI 0,99 Р за 1 шт. от 20 шт. - 0,84 Р от 80 шт. - 0,68 Р На складе: 1902 Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Самовывоз Омск, Больничный переулок, д. 6",
+      "html_sha256": "df0a162d341d1b491820592e020389346a406ec683be9a567117cda4493ed956"
+    },
+    {
+      "article": "202688",
+      "retrieved_date": "2026-10-13",
+      "stock": 470,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 202688 16,30 Р за 1 шт. от 5 шт. - 15,40 Р от 10 шт. - 14,30 Р На складе: 470 В корзину Описание и характеристики Производитель : CONNFLY Характеристики :  2.54мм Наименование Значение Тип разъема штыревой разъем Назначение вилка PDF спецификация PDF Аналоги PLS-40R2 (KLS1-207-1-40-R2) вилка угловая, KLS 16,50 Р за 1 шт. от 5 шт. - 15,40 Р от 15 шт. - 14,40 Р На складе: 51 Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Самовывоз Омск, Больничный переулок, д. 6 ПН-П",
+      "html_sha256": "b0ae72f7e5baa3b7cbc3ae5bfe66d4b01d3597ee509da93f77892c28ef102784"
+    },
+    {
+      "article": "203367",
+      "retrieved_date": "2026-10-13",
+      "stock": 5490,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 203367 1,00 Р за 1 шт. от 15 шт. - 0,90 Р от 40 шт. - 0,80 Р На складе: 5490 В корзину Описание и характеристики Производитель : KLS Наименование Значение Тип разъема межблочного питания Назначение контакты Аналоги Контакты для розеток CHU(XH)(T-DS1069-SC600), CONNFLY 0,80 Р за 1 шт. от 20 шт. - 0,72 Р от 70 шт. - 0,63 Р На складе: 1382 Контакты для розеток XHP (SXH-001T-P0.6), JST 2,20 Р за 1 шт. от 20 шт. - 2,00 Р от 70 шт. - 1,80 Р На складе: 150 Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским ",
+      "html_sha256": "5b261ed04fca545d23abd8fae96a8fa4d22fe64f9fc0dbd9819062a1052e80d3"
+    },
+    {
+      "article": "204874",
+      "retrieved_date": "2026-10-13",
+      "stock": 150,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 204874 2,20 Р за 1 шт. от 20 шт. - 2,00 Р от 70 шт. - 1,80 Р На складе: 150 В корзину Описание и характеристики Производитель : JST Характеристики : Наименование Значение Тип разъема межблочного питания Назначение контакты Аналоги Контакты для розеток CHU(XH)(CWF, KLS1-2.50-T), KLS 1,00 Р за 1 шт. от 15 шт. - 0,90 Р от 40 шт. - 0,80 Р На складе: 5490 Контакты для розеток CHU(XH)(T-DS1069-SC600), CONNFLY 0,80 Р за 1 шт. от 20 шт. - 0,72 Р от 70 шт. - 0,63 Р На складе: 1382 Легко оплатить Оплата наличными при получении товара Предопла",
+      "html_sha256": "790f659fecdcd2bbd36da66055dfb26319eb10b62d2bd821921047dfa068efe6"
+    },
+    {
+      "article": "205451",
+      "retrieved_date": "2026-10-13",
+      "stock": null,
+      "out_of_stock": true,
+      "main_product_excerpt": "БЕЗ контактов (контакты 203549, 203367)/ 2.5мм  , KLS CHU-4 (XH 04F)(L-KLS1-2.50-04-H) розетка кабельная, БЕЗ контактов (контакты 203549, 203367)/ 2.5мм  , KLS Товара нет в наличии. Описание и характеристики Производитель : KLS Характеристики : БЕЗ контактов (",
+      "html_sha256": "029e50277eea38b9e040507ed709940ea6bc86d14d1480cf10496f60c0fa6a39"
+    },
+    {
+      "article": "206757",
+      "retrieved_date": "2026-10-13",
+      "stock": 52,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 206757 13,50 Р за 1 шт. от 5 шт. - 12,50 Р от 15 шт. - 11,20 Р На складе: 52 В корзину Описание и характеристики Производитель : RUICHI Характеристики : Наименование Значение Форма стойки шестигранная Длина корпуса 18 мм Материал латунь Тип крепления винт/отв. под винт Диаметр корпуса 5.5 мм Внутренний размер/резьба М3 Аналоги Стойка DA5M3*18, 5*18мм,  никель, винт/отв М3, Vogt 36,43 Р за 1 шт. от 8 шт. - 32,95 Р от 20 шт. - 29,60 Р Стойка H-L1800-2400-5-03-1N1W (DA5M3*18) 5*18мм,  никель, винт/отв М3, (PCHSN-18), CONNFLY 27,00 Р за",
+      "html_sha256": "36f53bf165b197cbfc2f86475a7f059456c099ef17cc51809dceba24a63ac50a"
+    },
+    {
+      "article": "208362",
+      "retrieved_date": "2026-10-13",
+      "stock": 170,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 208362 4,50 Р за 1 шт. от 10 шт. - 4,00 Р На складе: 170 В корзину Описание и характеристики Производитель : CONNFLY Характеристики : БЕЗ контактов (контакты 178228, 201995)/ шаг 2,54мм./макс.допуст.ток: 3А. требуются контакты T-DS1071-SC600 Наименование Значение Тип разъема межблочного питания Назначение розетка Аналоги BLS-1X04 розетка обж., шаг 2,54мм. / макс.допуст.ток: 3А., Китай 4,50 Р за 1 шт. от 10 шт. - 4,00 Р от 30 шт. - 3,50 Р Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Уд",
+      "html_sha256": "bd9549622ef9243fdbd24afb4eda3db1ce5e6239fd5461b525425bd1aec5d6c4"
+    },
+    {
+      "article": "38160",
+      "retrieved_date": "2026-10-13",
+      "stock": 70,
+      "out_of_stock": false,
+      "main_product_excerpt": "Код товара: 38160 4,40 Р за 1 шт. от 10 шт. - 4,00 Р от 30 шт. - 3,60 Р На складе: 70 В корзину Описание и характеристики Производитель : KLS Характеристики :  2.50мм, закрытая Наименование Значение Тип разъема межблочного питания Назначение вилка Легко оплатить Оплата наличными при получении товара Предоплата по счету банковским переводом Удобно получить заказ Самовывоз Омск, Больничный переулок, д. 6 ПН-ПТ - 9:00-18:00, СБ - 10:00-16:00 Предварительная комплектация заказа Транспортные компании Почта России - от 300 руб. / до 15 кг. Выбор тран",
+      "html_sha256": "f2f8df3bd195fa786b39f8c2759487048b7e19e92d4c7da68f01cc07fc5e7057"
+    }
+  ],
+  "watchdog": {
+    "original_hex_sha256": "8d38a4213ea91b9ad8d99638ac21ccfd80c2d75d24d1545856dba421195e5790",
+    "rebuilt_hex_sha256": "8d38a4213ea91b9ad8d99638ac21ccfd80c2d75d24d1545856dba421195e5790",
+    "hex_identical": true,
+    "compiler": "AVR GCC 7.3.0 / Arduino atmel3.6.1-arduino7",
+    "flash_bytes": 406,
+    "ram_bytes": 4
+  },
+  "main_firmware": {
+    "repository": "https://github.com/meshcore-dev/MeshCore",
+    "sha": "a366955cb2f67b8e6842d4f00d2b6a554dddd88a",
+    "environment_reviewed": "ProMicro_repeater",
+    "source_version": "v1.17.1",
+    "archive_file_count": 1025,
+    "full_build_executed": true,
+    "limitation": "Actual isolated PlatformIO attempt reached SDK compilation. Canonical CPLUS_INCLUDE_PATH fixed system-header probe, but ARM assembler cannot create object paths of 262-268 characters on Windows; final firmware not produced.",
+    "adc_override_search": {
+      "MeshCore-a366955cb2f67b8e6842d4f00d2b6a554dddd88a/variants/promicro/PromicroBoard.h": [
+        [
+          8,
+          "#define  ADC_MULTIPLIER   (1.815f) // dependent on voltage divider resistors. TODO: more accurate battery tracking"
+        ],
+        [
+          13,
+          "  float adc_mult = ADC_MULTIPLIER;"
+        ],
+        [
+          34,
+          "      adc_mult = ADC_MULTIPLIER;}"
+        ],
+        [
+          42,
+          "      return ADC_MULTIPLIER;"
+        ]
+      ]
+    },
+    "full_build_success": false,
+    "attempt_executed": true,
+    "compilation_started": true,
+    "result_manifest": "SOFTWARE_BOM_MAIN_BUILD_RESULT.json"
+  },
+  "pcb_headers": {
+    "POWER": "(title_block\n\t\t(title \"Mesh Repeater 2.0 — POWER\")\n\t\t(date \"2026-10-12\")\n\t\t(rev \"V2.0-A2\")\n\t\t(company \"Designed by @Alksndritm\")\n\t)",
+    "LOGIC": "(title_block\n\t\t(title \"Mesh Repeater 2.0 — LOGIC\")\n\t\t(date \"2026-10-12\")\n\t\t(rev \"V2.0-A2\")\n\t\t(company \"Designed by @Alksndritm\")\n\t)",
+    "SHIELD": "(title_block\n\t\t(title \"Mesh Repeater 2.0 / средний экран\")\n\t\t(date \"2026-10-13\")\n\t\t(rev \"V2.0-A3\")\n\t\t(company \"Designed by @Alksndritm\")\n\t)"
+  },
+  "adc_ideal_calculation": {
+    "divider_ratio": 2,
+    "reference_volts": 0.6,
+    "gain": "1/6",
+    "bits": 12,
+    "ideal_mV_per_count": 1.7578125,
+    "stock_mV_per_count": 1.815,
+    "stock_error_percent": 3.2533333333333303,
+    "reading_at_3_915V_ideal": 4.042368,
+    "assumptions": "Ideal SAADC gain/reference and nominal external 2.2M/2.2M divider; actual cloned board leakage/reference not measured. Positive telemetry error does not establish a charging/UV safety fault."
+  },
+  "source_hashes": {
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_boards_promicro_nrf52840.json": "3845a59c3fe8b81ae1d40390c52855723f4ecde5e974c9743f0432543e522831",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_commit.json": "5c20cbe1fd00ab7e3661110bb5a3aae63c0fa858a0e1e3160ed71ad61fdae51e",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_platformio.ini": "75ce1d31bd4f7f216388a07c103ea298f29ea90704c1dab4f3bfa81a0a979747",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_source.zip": "d40f37a95e7efa075d6e2d19b04b3e7b25937f4873dedada32955179bfcf628a",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_AutoDiscoverRTCClock.cpp": "6eea0258aefea446beabc0c8374b99dc650d9b5d81e620cd6ba2b6a4753e9301",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_AutoDiscoverRTCClock.h": "61b9bcf6d5cece7bb692e0bc3548f0684c481a63c4b4a3c6a396c9588f6065dc",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_NRF52Board.cpp": "da46ff3e1ca063d68d799e89bd9290a05c75631f8065a8c535a17a8e6d5f3c48",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_radiolib_CustomSX1262.h": "06c15c5eb8aa74e19a34801624fdfe566cdbffb97a50ae988e005a4bc9d18f5a",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_radiolib_CustomSX1262Wrapper.h": "fa04caf6932975e68f428099ba0f5fc2676fca203803c2e07d2ee2a338ea07ae",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_sensors_EnvironmentSensorManager.cpp": "9933cd7b713c351fb848b798e105a2ede6f7d759c6d8fd612e0b50cdbc4d34c1",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_sensors_EnvironmentSensorManager.h": "650b8920a403dc970df5f0d514ae2fbc731588d6fdbc31dad4d27b919584e2aa",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_src_helpers_sensors_MicroNMEALocationProvider.h": "a4c6f62fe0b255e6f7eb2c0708cf68c3a5c9e698cdb31eaf715220674610aab1",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_tree.json": "29d6734f8339eabbfe7b96d72fd40a333bcb141ab47b312b0dac7c464adc8c16",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_platformio.ini": "a922a73233d9ebc58b4ca94a5c436c2b25ebb67ff1128d4410df1414f18ec608",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_PromicroBoard.cpp": "37aa08b67a6136cd074a8bbbce58766d51df8973bba2ac9ac96962de1ab7ab43",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_PromicroBoard.h": "16010e8ce1d063f3bdd6e7b6be42ddcd21413965c6a4e8dc1eacb0565b35ed5b",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_target.cpp": "2ac9967ffa4a37b2e16dab087f6881f75c214469e623763b772d04ed1db4a7a0",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_target.h": "357252035dabc203e31dee514fbd6951c9e53c5fd45a853866be2a7920a18b05",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_variant.cpp": "341ce85dcd57de1d6cefea1077a82dda49a27ac2e2b7c5f86dbd259562bbcfb8",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_MeshCore_variants_promicro_variant.h": "a6f577bc4feee4c433d59da2c849c048afb0621406c1c82a5c83c4c11d594ca7",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_nRF52_cores_nRF5_Uart.cpp": "369f8847272f7884aabacce10a395099616212df614f7728931e212f3fce9df5",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_nRF52_cores_nRF5_Uart.h": "f26b2a82c40925d5ebcdaa5806dd7767941098389d22aa55379c7ba7c190dacf",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_nRF52_cores_nRF5_wiring_analog.cpp": "fbee344f60b64ee53b2ad8b5474d4a33fb1ad24ce1e88d7b34fa720830e74527",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_nRF52_tree.json": "ed6cc4421b9a6c7898d95ef52a00260454b72debea5542f9b2befde50f3a38bc",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_nRF52_wiring_analog_nRF52.c": "e4d340de0a4b74c955128cfbb79f75a33e9f7efa9b760749fb859f2db76d30bc",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_Adafruit_INA219_1_2_3.cpp": "45125fb5243b2df74500137956507ddc96e2601f66df4ac6b37e55de135ffce6",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_RTClib_2_1_3_RTC_DS3231.cpp": "28d56d02233c4abc58fce75ddd9b4da027f687108a0023e88212df54a8b80c13",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_Heltec_L76K_pinmap.png": "02a3d7be94031da51626e354a07d428b23ee87ee88dbde4af12466ba78ead337",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_Heltec_L76K_pinmap2.png": "4a7997ba3ca4da12b08adf083d6555f1c4d12cb8cf75c0e102b91f5b17e53af0",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_Heltec_T114_page1.png": "79c5781dda07fa17aab2db4f05607d2fc522f5dfdeb7a7e2a35a11e4f02dfdd5",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_Heltec_T114_V2_1.pdf": "aac78b1a5b9aa06302980c68b5e250f912f26ca4fe68c3eb86aeb2e7f61b34e1",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_Heltec_T114_V2_1.txt": "1af4e323f0de1a2928b712e500e94de833cea0733c461a55ccfc1babdd87e8a7",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_TI_DCT_land.png": "47a46aa8a0a2458e8bb8f3541ee3b17b88089f8665a1fbd6496b760c3534d7c0",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_TI_SN74LVC2G125.pdf": "15dab14095892f561bc7407dde6c7fb2fb75d92c6bdafc34e949e5dca1fed340",
+    "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_TI_SN74LVC2G125.txt": "722fd94df08f9df572ddc29a94b2c47c487f77cb9b6a60a21048095fd7638754",
+    "design\\watchdog_reference\\main.c": "6aae1df101c6970fc6ba2acd2c3b5997890ed22e2c62e27717cde22b482e0089",
+    "design\\watchdog_reference\\Makefile": "6db1d4d6a15dc0c3f893eab0180ef9f4c84209461d83a551d6c2956de29965b8",
+    "design\\watchdog_reference\\watchdog.hex": "8d38a4213ea91b9ad8d99638ac21ccfd80c2d75d24d1545856dba421195e5790",
+    "bom\\V2_A3_COMPONENT_BOM.csv": "f22399079561599afaea6b3ac375f2186a2e09c852e3985b82e70f46043fc007",
+    "bom\\V2_COMPONENT_BOM.csv": "4b9eb7cfa7cfbabc17ad3e75bbbcf7eb03818f6b545da2aea2470e09909f6b67",
+    "bom\\DAN_NEW_PARTS.csv": "ecf92c7d30e135832c559756d5f7e437fd175a783750676f3119e727d331e0d9",
+    "bom\\NOTES_RU.txt": "e8938bfc13241b158fd2b99b6eb945908827fcb08578f1cdca47d646004d058f",
+    "docs\\V2_ASSEMBLY_INSTRUCTIONS_RU.md": "9c425a329150da350cd1c64d03f3b7dea0d40ce3a98e0cc97ba368ce80e8ad6c",
+    "docs\\V2_CHANGES_FROM_S4_16_RU.md": "cb86621800bc7e562097601808784b5656293947f0fd7028b21dc8abe5247f54",
+    "output\\pdf\\SCHEMATIC_MANIFEST.json": "6bcc2ed6fd0fec5f7be16af5df3302566476c7f5d69f470e62413d04c4063064"
+  }
+}

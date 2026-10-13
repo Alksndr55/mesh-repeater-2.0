@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "Filtered3.3V through removable J11 shunt directly to VCC, accepted based on user test of actual clone. Remove J11 BEFORE USB; all SYS_3V3 loads remain on the USB-fed side. Battery never connects to RAW/BAT; disable USB charger."
+	(property "Description" "SYS_3V3 from POWER J11 output copper star, direct modified-clone VCC. Remove the single POWER J11 shunt BEFORE USB; reinstall after disconnecting USB. USB also feeds RADIO through POWER NT2. RAW/BAT isolated and USB charger disabled."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

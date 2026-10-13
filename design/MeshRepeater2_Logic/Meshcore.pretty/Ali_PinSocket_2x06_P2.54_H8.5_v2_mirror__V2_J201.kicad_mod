@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "Direct vertical connection through 12 isolated screen holes. Mirrored female pad grid gives physical 1:1 after LOGIC X180. Pin7 returns SYS_3V3 to INA219 only; remove J11 before USB as before. Exact generic pin section and mating limits require sample check."
+	(property "Description" "Direct vertical pair with continuous plastic-body shield cutout; pins1/3 SYS,5/7 RADIO,2/4/6 GND,8 NC,9 BAT,10 SDA,11 MODE,12 SCL. J11 is on POWER; remove before USB."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

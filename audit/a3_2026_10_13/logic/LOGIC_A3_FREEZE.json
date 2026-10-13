@@ -1,0 +1,46 @@
+{
+  "board_sha256": "ea936c8edc2d1d19b65868ca1c8f1fd98aeee777667ff6ef7b1d5d688f4b944b",
+  "strict_native_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0,
+    "ignored_checks": 0
+  },
+  "RF_copper_preserved": true,
+  "ISP_pad_geometry_nets_preserved": true,
+  "all_non_J11_footprint_poses_preserved": true,
+  "all_GND_via_positions_preserved": true,
+  "all_track_angles_45_90": true,
+  "component_label_coverage": 56,
+  "front_labels": 39,
+  "back_labels": 40,
+  "silk_font_min_mm": 0.8,
+  "back_labels_projected_body_centres": true,
+  "no_group_callouts": true,
+  "radio_independent_feed": true,
+  "radio_local_neck_mm": [
+    2.2,
+    0.4
+  ],
+  "final_views": [
+    "audit/a3_2026_10_13/logic/views/LOGIC_front_labels.png",
+    "audit/a3_2026_10_13/logic/views/LOGIC_back_labels_projected.png"
+  ],
+  "read_only_final_native_export_sha256": "f34fc129298e14f057a9cd04200cd81d6f3d8e23360fa268a114f01738578ea0",
+  "branding_restored": true,
+  "connector_back_pinouts_preserved": [
+    "J3",
+    "J4",
+    "J5",
+    "J10",
+    "J13",
+    "J201"
+  ],
+  "final_drc": "audit/a3_2026_10_13/logic/drc_pinouts_final.json",
+  "final_drc_sha256": "040f5f572c37a3290296746a5ac6b9224107344a0fcd120e5a05adba683265f0",
+  "PNG_sha256": {
+    "LOGIC_front_labels.png": "afa97f16252328001680d66da6de28b3d386890087deec39c1835cc5441230c6",
+    "LOGIC_back_labels_projected.png": "bd649ce23a37b7979a52eec2b6ed1a04f7577e8e67d9d9311ea81f10da132535"
+  },
+  "back_projection_visual_palette": "Native F.Fab light grey, native B.SilkS black; only display SVG palette changes, no CAD edit"
+}

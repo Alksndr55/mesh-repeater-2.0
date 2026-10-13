@@ -44,3 +44,10 @@ audit/power_layout_candidate.png
 # Local FreeCAD backups and STEP diagnostic logs
 *.FCBak
 /audit/fixes_2026_10_12/step_diagnosis_*.log
+
+# A3 engineering-audit environments remain local; retain small build logs.
+/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/CAD_CHECK/
+/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_BUILD_TMP/*
+!/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_BUILD_TMP/*.log
+/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_MeshCore_source.zip
+/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/git_diff_before.patch

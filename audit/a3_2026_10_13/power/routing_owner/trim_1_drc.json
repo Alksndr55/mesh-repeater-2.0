@@ -1,0 +1,178 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T00:54:26",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на F.Cu, длина 19,4000 mm",
+                    "pos": {
+                        "x": 26.6,
+                        "y": 5.5
+                    },
+                    "uuid": "fc670712-47a7-4e15-befd-6f9e85771d27"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT] от R73 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 7.7
+                    },
+                    "uuid": "185e7f7b-b7ce-4de5-b27e-686f302f3160"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. пл. 9 [BAT] у J101",
+                    "pos": {
+                        "x": 74.31,
+                        "y": 11.0
+                    },
+                    "uuid": "a3ac6d1b-9f2b-47bf-be24-08c790abcca1"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT] от R73 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 7.7
+                    },
+                    "uuid": "185e7f7b-b7ce-4de5-b27e-686f302f3160"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от R72 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 10.2
+                    },
+                    "uuid": "24c433b0-5dea-4525-ae66-131279dc3b3c"
+                },
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 2,2627 mm",
+                    "pos": {
+                        "x": 48.1,
+                        "y": 11.8
+                    },
+                    "uuid": "2153545d-8076-49f6-8759-a11861ce8cda"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [CHG_G_SHUNT] от R58 на F.Cu",
+                    "pos": {
+                        "x": 42.9,
+                        "y": 33.3875
+                    },
+                    "uuid": "e176d39a-93a1-43c1-9b8b-fa20fe24cb1f"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,0125 mm",
+                    "pos": {
+                        "x": 41.9875,
+                        "y": 33.2875
+                    },
+                    "uuid": "9ac60e09-761c-4f4f-b0f4-e23d83f62aaf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 9 [Net-(U1-COM2)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 30.775
+                    },
+                    "uuid": "272a2d9f-bf15-4d48-9d05-e802aebabf9c"
+                },
+                {
+                    "description": "Дорожка [Net-(U1-COM2)] на F.Cu, длина 0,3500 mm",
+                    "pos": {
+                        "x": 23.85,
+                        "y": 36.2
+                    },
+                    "uuid": "aaf2222d-1bac-4474-b4fd-6625c185334f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на B.Cu, длина 0,4243 mm",
+                    "pos": {
+                        "x": 4.2,
+                        "y": 49.7
+                    },
+                    "uuid": "a6b97199-dfed-44c8-8445-fbd5e77aa285"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 0,9192 mm",
+                    "pos": {
+                        "x": 22.3,
+                        "y": 30.35
+                    },
+                    "uuid": "d8c8177d-4d86-4d0b-bd8b-fde437d53728"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,0125 mm",
+                    "pos": {
+                        "x": 41.9875,
+                        "y": 33.2875
+                    },
+                    "uuid": "9ac60e09-761c-4f4f-b0f4-e23d83f62aaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

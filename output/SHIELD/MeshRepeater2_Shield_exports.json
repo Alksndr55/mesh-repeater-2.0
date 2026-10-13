@@ -1,62 +1,62 @@
 {
   "pcb": "design\\MeshRepeater2_Shield\\MeshRepeater2_Shield.kicad_pcb",
-  "sha256": "66854e88ca8ffcfba0514f08ceff8c29d2ea8b6e5262a8d6ed48405f2f0ed8e3",
+  "sha256": "fd02b80ebdb509977bdfcd35df0430205db56f994914720b82cdbae6d73e3bec",
   "artifacts": [
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield.step",
-      "sha256": "bfadf74ca40929a00bcb1ad7cf5929de2276a78833d0b0a7eeb6ee5c07e0b589"
+      "sha256": "7be6b19e61a65f42cee11f6f5ad0a7ccbfd0192014997a7c449cbffce2392b5a"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_assembly_top.png",
-      "sha256": "7935fa39d3d33ea2d939b5bc80f6d682336be5f431dae48f2de3991b6accf7ad"
+      "sha256": "411624bd0dc3f42c68677130b2f49026344797a65a1124f45d14ebec425b457c"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_assembly_top.svg",
-      "sha256": "389678b444b45bc3cc6eca08f06c4b7c1d6ffa1b58f78fe5c3e5fe12d11ad6c9"
+      "sha256": "2c9434acac7ec02010c4554170f331bafc0b43e6b9e42c748c0b9487aa635500"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_back.png",
-      "sha256": "ea0c216c738ed1ad974b8707a34350d7f4c882effb059294a1eed8340848924e"
+      "sha256": "aff0628af08039b974467040fefa1f10a83e8932cacc55e93a0cc9c2f0fc911d"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_back.svg",
-      "sha256": "602308265719ed4ba83c45d64db8794d26ee27d349a43766517fe353ea6f67e3"
+      "sha256": "c97d9a798bd4a2dadbccbdad7254f4bb92034a92578021c8559adab927f01726"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_back_assembly.png",
-      "sha256": "ea0c216c738ed1ad974b8707a34350d7f4c882effb059294a1eed8340848924e"
+      "sha256": "aff0628af08039b974467040fefa1f10a83e8932cacc55e93a0cc9c2f0fc911d"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_back_assembly.svg",
-      "sha256": "faa3125e6b4fb83817413cf1303153251c7631a2c090e9b98c5bad3310803dee"
+      "sha256": "05dcfe4b12fd8a714c9d99ffbc21c8bb6fbcf7803dcefd68966e937ce7b7bd30"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_drc.json",
-      "sha256": "00db072a569939d273b4cb5f4591d854909148da8a42e1b64d5813a4e6c09bce"
+      "sha256": "cac571120a01dec109d332f58dfabd44aa6251ba388041cb7204d2fde4bb6dcc"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_front.png",
-      "sha256": "d239cb5a36dcf83ff4097f5af7e455dc9c727876e0994ef405d371d9de2ebeaf"
+      "sha256": "598c2fb40281f2650ae1cdccdfe8a99c6a7a575b7d5026a36f8f7888515a3d80"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_front.svg",
-      "sha256": "f799f10999eecddf6948bd0cb176173257ef7a824ed6e59bb4cbfc65615ae6f1"
+      "sha256": "057ee17486d7c42287207b6014842f895541bb9e3443149d92f2e1fd2ccb9671"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_front_assembly.png",
-      "sha256": "032a2244cbf7cf28734204a2198ac71a4bd2db15e3ea1025229c27e57318986c"
+      "sha256": "523a9798ac3d7478ef86063575ae05f937ec107331e58894ff9c5e9aad7220da"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_front_assembly.svg",
-      "sha256": "22ba0b1aba335f9be73e74a6c7418c09120093c86251e11aa5490f2d680b844d"
+      "sha256": "1d5ba72e88c2fb7093be1f44c2fb8635aadb4e499904f318b861df6b7b78e580"
     },
     {
       "path": "output\\SHIELD\\MeshRepeater2_Shield_step_export.log",
-      "sha256": "7d7eb2bb37e8c11043f09a736affc7a59e2e838e7eda500959f9c730031250e8"
+      "sha256": "2c2ac8e5659696ccbf400a143cd758ef74b785593e7c147ef2905ba00d70f3d0"
     }
   ],
   "step_options": {
-    "minimum_point_distance": "0.001mm",
+    "minimum_point_distance": "0.01mm",
     "include_tracks": true,
     "include_zones": true
   },

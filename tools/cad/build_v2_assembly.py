@@ -127,7 +127,13 @@ def main():
             # The declared long header intentionally crosses the middle board.
             # Its narrow XY envelope is excluded only from the conservative
             # vertical-gap summary; every solid remains in Boolean collisions.
-            pass_window=(61.5,-13.2,79.6,-6.3)
+            declared_window=contract['shield'].get('connector_window')
+            if declared_window:
+                x0,y0,x1,y1=declared_window['native_bounds_mm']
+                board_height=contract['shield']['height']
+                pass_window=(x0,y0-board_height,x1,y1-board_height)
+            else:
+                pass_window=(61.5,-13.2,79.6,-6.3)
             nonpassing=[];passing=[]
             for solid in boards['POWER'].Solids:
                 sb=solid.BoundBox
@@ -143,7 +149,7 @@ def main():
                 'logic_envelope_to_screen_mm':boards['LOGIC'].BoundBox.ZMin-boards['SHIELD'].BoundBox.ZMax,
                 'power_nonpassing_envelope_to_screen_mm':boards['SHIELD'].BoundBox.ZMin-nonpassing_z,
                 'intentional_header_passage':{'active':direct_vertical,'excluded_solids_from_gap_only':len(passing),'window_xy_mm':list(pass_window),'Boolean_collision_check_includes_all_solids':True},
-                'note':'Long header pins cross the screen through declared NPTH holes; a negative whole-export gap is expected. Ordinary component clearance and full BRep intersections are checked separately. Undocumented NiceNano, SMA and modem models remain approximate.'}
+                'note':'The long header intentionally passes through the declared screen opening; a negative whole-export gap is expected. Only the vertical-gap summary excludes passing header solids; full BRep intersections include every solid. Undocumented NiceNano, SMA and modem models remain approximate.'}
             collisions=[]
             for na,nb in [('POWER','SHIELD'),('SHIELD','LOGIC'),('POWER','LOGIC')]:
                 ba,bb=boards[na].BoundBox,boards[nb].BoundBox

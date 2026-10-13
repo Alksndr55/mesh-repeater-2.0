@@ -1,0 +1,86 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T00:56:56",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на F.Cu, длина 2,6000 mm",
+                    "pos": {
+                        "x": 47.6,
+                        "y": 5.1
+                    },
+                    "uuid": "33030863-ae59-414b-a3fd-0af86ce38b2e"
+                },
+                {
+                    "description": "PTH конт. пл. 9 [BAT] у J101",
+                    "pos": {
+                        "x": 74.31,
+                        "y": 11.0
+                    },
+                    "uuid": "a3ac6d1b-9f2b-47bf-be24-08c790abcca1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на B.Cu, длина 4,1000 mm",
+                    "pos": {
+                        "x": 40.4,
+                        "y": 34.4
+                    },
+                    "uuid": "052bf6e0-b1df-49c0-b4bb-b6f89e18bff3"
+                },
+                {
+                    "description": "Конт. пл. 2 [CHG_G_SHUNT] от R58 на F.Cu",
+                    "pos": {
+                        "x": 42.9,
+                        "y": 33.3875
+                    },
+                    "uuid": "e176d39a-93a1-43c1-9b8b-fa20fe24cb1f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 9 [Net-(U1-COM2)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 30.775
+                    },
+                    "uuid": "272a2d9f-bf15-4d48-9d05-e802aebabf9c"
+                },
+                {
+                    "description": "Дорожка [Net-(U1-COM2)] на F.Cu, длина 0,3500 mm",
+                    "pos": {
+                        "x": 23.85,
+                        "y": 36.2
+                    },
+                    "uuid": "aaf2222d-1bac-4474-b4fd-6625c185334f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

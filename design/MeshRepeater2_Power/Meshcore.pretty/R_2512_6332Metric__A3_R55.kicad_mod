@@ -1,0 +1,295 @@
+(footprint "R_2512_6332Metric__A3_R55"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -2.63 0)
+		(layer "F.SilkS")
+		(uuid "63653259-4b99-487e-9358-394daa9cd434")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_2512_6332Metric__A3_R55"
+		(at 0 2.63 0)
+		(layer "F.Fab")
+		(uuid "4a0d5718-4126-4856-963b-38e11388425f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cbbe531-367e-4d13-92cc-9c25ae33c716")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "47mOhm series resistor after local TPS63802 C14/FB sense, before L3. Voltage loss I*0.047 ohm, dissipated power I^2*0.047 ohm."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8d41aba-53e4-46c9-ad01-52d109a7b958")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "118e4dd4-f63d-457d-a294-3e1a30985f80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "WSL1206R0470FEA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ecdeda4c-939d-4512-934e-eaeb64bc7dce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9505cdf0-2146-4797-86ff-869066694b00")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Vendor" "ChipDip / Vishay"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8f69cae8-015f-47a0-8c1e-4a549e0c6f83")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Vendor URL" "https://www.chipdip.ru/product/wsl1206r0470fea-current-sense-resistors-smd-1-4watt-vishay-8005236780"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b8552186-6861-4c02-a180-99250b1659d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Fit_NaIon" "yes"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7261e032-b00f-47f3-9395-4638c0580e67")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Fit_LTO_2S" "yes"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "088220fc-f676-4f5c-8339-70c429663e27")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value_NaIon" "47mR 1%"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6c203300-dc41-4ef0-81e4-7ff723b37a41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value_LTO_2S" "47mR 1%"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ef9f7d97-327e-4832-b40a-852a1c1e7ff5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Assembly" "Na-ion: FIT; LTO 2S: FIT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "22e76fb9-93c0-4486-8158-48d4c93bc3a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Nominal" "47mR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7a27abe6-d421-484e-b55c-6e5f25bffecb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN_NaIon" "WSL1206R0470FEA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4f9481e0-7aa7-4aef-9b06-7f49f04c27d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN_LTO_2S" "WSL1206R0470FEA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "391684d4-f1b7-4b98-b5c3-47e5c8dc8332")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Fit_NaIon_NoCold" "yes"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fbe08fa2-557e-4965-aa6a-8db55669f5f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value_NaIon_NoCold" "47mR 1%"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8a8cded9-bf44-4b06-99eb-10d17cc5ffd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN_NaIon_NoCold" "WSL1206R0470FEA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "98ee249b-9e03-4d5c-b99e-14f16c3aa527")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.177064 -1.71)
+		(end 2.177064 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e1d0bf2-7bc5-4206-b26c-3d299105e128")
+	)
+	(fp_line
+		(start -2.177064 1.71)
+		(end 2.177064 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea97f3ba-7018-40e9-be9a-17d782a23bfb")
+	)
+	(fp_rect
+		(start -3.83 -1.93)
+		(end 3.83 1.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aee14681-7a56-4012-91b7-56f3f252d7e7")
+	)
+	(fp_rect
+		(start -3.15 -1.6)
+		(end 3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c9b9cb3d-2c76-4399-a556-a42067967223")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "98db9b3e-e2a6-4f75-a39c-8c25f71d22e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9625 0)
+		(size 1.225 3.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.204082)
+		(uuid "b3b67a2e-71c3-4d98-9863-fe91bf7e966d")
+	)
+	(pad "2" smd roundrect
+		(at 2.9625 0)
+		(size 1.225 3.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.204082)
+		(uuid "aa00cb32-27b4-4ce1-bc59-44876dbfb1ae")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

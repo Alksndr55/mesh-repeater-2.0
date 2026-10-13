@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "inputs": {
     "POWER": {
       "path": "output\\POWER\\MeshRepeater2_Power.step",
-      "sha256": "21f88568dd0075f8b26ee18e28f483044d7c253d421c0926e046beac43baad66",
+      "sha256": "af29a0331bf2450a107542c0645982e0e1d39da1e6585dfbcdb2b1a21dff0d8a",
       "board_bbox": [
         0.0,
         -60.0,
@@ -23,13 +23,13 @@
       "anchoring_note": "Dielectric center plus half nominal PCB thickness defines the F outer plane. Native STEP component offset above copper is preserved; mask is not a STEP solid.",
       "verified_pcb_source": {
         "path": "design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_pcb",
-        "sha256": "24e7f986b5367bad9b9b7b468f39a2237bb83569585871b9a056a6da6072e729",
+        "sha256": "be0c865aff7f217989bab9ab264dd0a0c2cda1ecd81906dd05bbb1ab731a2f44",
         "export_manifest": "output\\POWER\\MeshRepeater2_Power_exports.json"
       }
     },
     "SHIELD": {
       "path": "output\\SHIELD\\MeshRepeater2_Shield.step",
-      "sha256": "bfadf74ca40929a00bcb1ad7cf5929de2276a78833d0b0a7eeb6ee5c07e0b589",
+      "sha256": "7be6b19e61a65f42cee11f6f5ad0a7ccbfd0192014997a7c449cbffce2392b5a",
       "board_bbox": [
         0.0,
         -60.0,
@@ -49,13 +49,13 @@
       "anchoring_note": "Front foil outer face anchored to the lower screen contact plane. Body plus single foil thickness measured from STEP.",
       "verified_pcb_source": {
         "path": "design\\MeshRepeater2_Shield\\MeshRepeater2_Shield.kicad_pcb",
-        "sha256": "66854e88ca8ffcfba0514f08ceff8c29d2ea8b6e5262a8d6ed48405f2f0ed8e3",
+        "sha256": "fd02b80ebdb509977bdfcd35df0430205db56f994914720b82cdbae6d73e3bec",
         "export_manifest": "output\\SHIELD\\MeshRepeater2_Shield_exports.json"
       }
     },
     "LOGIC": {
       "path": "output\\LOGIC\\MeshRepeater2_Logic.step",
-      "sha256": "ec64231cd3d647744c214de50301ceac66ac159179740ac8f7285ed1d9907af5",
+      "sha256": "8bb5b548155ca3875f285057d6fef208ffbab3698e0b58ecef966a5e53c8171a",
       "board_bbox": [
         0.0,
         -60.0,
@@ -75,14 +75,14 @@
       "anchoring_note": "Dielectric center plus half nominal PCB thickness defines the F outer plane. Native STEP component offset above copper is preserved; mask is not a STEP solid.",
       "verified_pcb_source": {
         "path": "design\\MeshRepeater2_Logic\\MeshRepeater2_Logic.kicad_pcb",
-        "sha256": "b9e6e4f621f9a685433c9bd22d7af0ff4e1639eb47f94c2509e6de6d401a66ca",
+        "sha256": "ea936c8edc2d1d19b65868ca1c8f1fd98aeee777667ff6ef7b1d5d688f4b944b",
         "export_manifest": "output\\LOGIC\\MeshRepeater2_Logic_exports.json"
       }
     }
   },
   "coordinate_convention": "CAD X = native PCB X; CAD Y = \u2212physical PCB Y; CAD Z points up. LOGIC and SHIELD rotate 180\u00b0 about X.",
   "stack_source": "docs/mechanical_selection.json",
-  "stack_contract_sha256": "9440103c48c255b4683f861ac3884d5d6a2c5bb9ae43cdb1bb187722eeca430e",
+  "stack_contract_sha256": "23e5571f88c1ad8e2fd7014b50db51efb607cefd8402e3e8df31ccc87d854b14",
   "artifacts": {
     "MeshRepeater2_assembly": {
       "bbox_mm": [
@@ -126,14 +126,14 @@
           "active": true,
           "excluded_solids_from_gap_only": 13,
           "window_xy_mm": [
-            61.5,
-            -13.2,
-            79.6,
-            -6.3
+            61.9,
+            -13.130000000000003,
+            79.1,
+            -6.329999999999998
           ],
           "Boolean_collision_check_includes_all_solids": true
         },
-        "note": "Long header pins cross the screen through declared NPTH holes; a negative whole-export gap is expected. Ordinary component clearance and full BRep intersections are checked separately. Undocumented NiceNano, SMA and modem models remain approximate."
+        "note": "The long header intentionally passes through the declared screen opening; a negative whole-export gap is expected. Only the vertical-gap summary excludes passing header solids; full BRep intersections include every solid. Undocumented NiceNano, SMA and modem models remain approximate."
       },
       "hardware_to_component_clearances": [
         {

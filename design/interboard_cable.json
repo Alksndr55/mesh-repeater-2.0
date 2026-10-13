@@ -1,16 +1,16 @@
 {
   "project": "Mesh Repeater2.0",
-  "revision": "V2_VERTICAL_INA219_A2",
-  "date": "2026-10-12",
-  "status": "SAVED_NATIVE_DIRECT_VERTICAL_INTERCONNECT_SAMPLE_MATING_UNQUALIFIED",
+  "revision": "V2.0-A3",
+  "date": "2026-10-13",
+  "status": "A3_NATIVE_DIRECT_INTERCONNECT_SPLIT_SYS_RADIO",
   "connector_POWER": "J101",
   "connector_LOGIC": "J201",
   "contacts": 12,
-  "cable_route": "No ribbon cable. Direct long posts through isolated middle-screen apertures.",
+  "cable_route": "Direct long posts through one continuous connector-plastic cutout in SHIELD.",
   "geometry_status": "Nominal L35/H8.5 dimensions and reversed upper-board orientation; incoming pin/fit and assembly tolerance verification required.",
   "connections": [
     {
-      "net": "FILTER_OUT",
+      "net": "SYS_3V3",
       "power": {
         "ref": "J101",
         "pin": "1"
@@ -29,56 +29,56 @@
       "logic": {
         "ref": "J201",
         "pin": "2"
-      }
-    },
-    {
-      "net": "FILTER_OUT",
-      "power": {
-        "ref": "J101",
-        "pin": "3"
-      },
-      "logic": {
-        "ref": "J201",
-        "pin": "3"
-      }
-    },
-    {
-      "net": "GND",
-      "power": {
-        "ref": "J101",
-        "pin": "4"
-      },
-      "logic": {
-        "ref": "J201",
-        "pin": "4"
-      }
-    },
-    {
-      "net": "FILTER_OUT",
-      "power": {
-        "ref": "J101",
-        "pin": "5"
-      },
-      "logic": {
-        "ref": "J201",
-        "pin": "5"
-      }
-    },
-    {
-      "net": "GND",
-      "power": {
-        "ref": "J101",
-        "pin": "6"
-      },
-      "logic": {
-        "ref": "J201",
-        "pin": "6"
       }
     },
     {
       "net": "SYS_3V3",
       "power": {
         "ref": "J101",
+        "pin": "3"
+      },
+      "logic": {
+        "ref": "J201",
+        "pin": "3"
+      }
+    },
+    {
+      "net": "GND",
+      "power": {
+        "ref": "J101",
+        "pin": "4"
+      },
+      "logic": {
+        "ref": "J201",
+        "pin": "4"
+      }
+    },
+    {
+      "net": "RADIO_3V3",
+      "power": {
+        "ref": "J101",
+        "pin": "5"
+      },
+      "logic": {
+        "ref": "J201",
+        "pin": "5"
+      }
+    },
+    {
+      "net": "GND",
+      "power": {
+        "ref": "J101",
+        "pin": "6"
+      },
+      "logic": {
+        "ref": "J201",
+        "pin": "6"
+      }
+    },
+    {
+      "net": "RADIO_3V3",
+      "power": {
+        "ref": "J101",
         "pin": "7"
       },
       "logic": {
@@ -87,7 +87,7 @@
       }
     },
     {
-      "net": "GND",
+      "net": null,
       "power": {
         "ref": "J101",
         "pin": "8"

@@ -1,0 +1,109 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T01:33:45",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,1839 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [BAT_SYS] на B.Cu, длина 4,1719 mm",
+                    "pos": {
+                        "x": 23.65,
+                        "y": 29.6
+                    },
+                    "uuid": "4d81c364-728a-423d-9869-46d670ef5b5b"
+                },
+                {
+                    "description": "Перех. отв. [CS_P] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 26.5,
+                        "y": 31.2
+                    },
+                    "uuid": "dd9719bc-7bc0-4399-9fe2-d775cec9766d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,1179 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на B.Cu, длина 0,3000 mm",
+                    "pos": {
+                        "x": 27.7,
+                        "y": 32.1
+                    },
+                    "uuid": "0c2000ce-c858-435e-b189-6ca7b8a8b3da"
+                },
+                {
+                    "description": "Дорожка [BAT_SYS] на B.Cu, длина 4,1719 mm",
+                    "pos": {
+                        "x": 23.65,
+                        "y": 29.6
+                    },
+                    "uuid": "4d81c364-728a-423d-9869-46d670ef5b5b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,1179 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на B.Cu, длина 0,3000 mm",
+                    "pos": {
+                        "x": 27.7,
+                        "y": 32.1
+                    },
+                    "uuid": "0c2000ce-c858-435e-b189-6ca7b8a8b3da"
+                },
+                {
+                    "description": "Дорожка [BAT_SYS] на B.Cu, длина 8,1000 mm",
+                    "pos": {
+                        "x": 26.6,
+                        "y": 32.55
+                    },
+                    "uuid": "6813504d-c9c7-49c7-a1c5-642eacf05ab3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Посад. место R1",
+                    "pos": {
+                        "x": 24.7,
+                        "y": 28.7
+                    },
+                    "uuid": "7d241941-596b-4f16-88c7-f3e736d2db4a"
+                },
+                {
+                    "description": "Посад. место D2",
+                    "pos": {
+                        "x": 31.0,
+                        "y": 24.5
+                    },
+                    "uuid": "921f9a41-0b57-4bba-938d-3917a2b88082"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        }
+    ]
+}

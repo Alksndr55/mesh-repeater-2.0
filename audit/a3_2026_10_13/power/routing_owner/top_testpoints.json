@@ -1,0 +1,131 @@
+{
+  "poses": {
+    "TP6": [
+      7.6,
+      1.2
+    ],
+    "TP9": [
+      18.6,
+      1.2
+    ],
+    "TP1": [
+      29.6,
+      1.2
+    ]
+  },
+  "pad_diameter_mm": 1.5,
+  "mask_diameter_mm": 1.6,
+  "courtyard_radius_mm": 0.9,
+  "component_hardware": false,
+  "footprint": "Meshcore:TestPoint_Pad_D1p5mm_A3_Edge_R0p9",
+  "routes": [
+    {
+      "net": "BAT",
+      "width_mm": 0.25,
+      "start": [
+        29.6,
+        1.2
+      ],
+      "end": [
+        22.75,
+        9.3
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 4487
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.25,
+      "start": [
+        18.6,
+        1.2
+      ],
+      "end": [
+        11.35,
+        9.3
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 12855
+    }
+  ],
+  "removed_old_leaf_copper": [
+    {
+      "net": "BAT",
+      "uuid": "8cc9fcf5-451c-43cc-9a8c-9454b63a853c"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "7838638a-e3cc-421a-97d5-f709d5186aab"
+    },
+    {
+      "net": "CS_P",
+      "uuid": "46d9aec2-12bf-4ba7-b139-bcc214a87e62"
+    },
+    {
+      "net": "CHG_CS_M",
+      "uuid": "92768946-92fd-4c05-88a8-97f811197f64"
+    },
+    {
+      "net": "BAT",
+      "uuid": "0bbc2edc-64b8-493f-9cf6-c28b75be5054"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "65787298-4731-4f25-b596-7fa51a671d55"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "27032392-dd68-4a2c-9af6-c7f27c46ccb8"
+    },
+    {
+      "net": "CS_P",
+      "uuid": "196c8af1-de5f-4729-a730-da8a561463ff"
+    },
+    {
+      "net": "CHG_CS_M",
+      "uuid": "e17614d5-2b94-47cf-bb86-fd3e16ff6da7"
+    },
+    {
+      "net": "BAT",
+      "uuid": "05238b54-be4a-451e-8d32-f6afa49aa03a"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "f4896ef6-3a27-4f20-bcc9-f9ea09fe075a"
+    },
+    {
+      "net": "BAT",
+      "uuid": "61099919-89f6-4ce1-b371-b1507635c235"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "3e87bbce-0fb8-4245-bd41-be69715aecd2"
+    },
+    {
+      "net": "BAT",
+      "uuid": "3c56a2b1-e575-4c49-8949-b96e080e73ca"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "645b490e-41b9-4531-9657-6e6e23dee91f"
+    },
+    {
+      "net": "BAT",
+      "uuid": "b3e025ae-53a4-4a52-94af-017926664676"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "74fc6738-6f64-46e0-a3af-6edd699c3562"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "39cb9a90-1a80-47c8-a401-aca74abf41ae"
+    },
+    {
+      "net": "SOLAR",
+      "uuid": "060c7cdd-a6cd-416c-b10b-0703f58fbdcd"
+    }
+  ]
+}

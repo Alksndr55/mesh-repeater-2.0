@@ -1,0 +1,1367 @@
+{
+  "routes": [
+    {
+      "net": "BAT",
+      "width_mm": 0.8,
+      "start": [
+        22.75,
+        9.3
+      ],
+      "end": [
+        47.0375,
+        4.5
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 4191
+    },
+    {
+      "net": "BAT_SYS",
+      "width_mm": 0.8,
+      "start": [
+        52.9625,
+        4.5
+      ],
+      "end": [
+        46.525,
+        13.4
+      ],
+      "segments": 4,
+      "vias": [
+        [
+          50.7,
+          9.200000000000001
+        ],
+        [
+          48.1,
+          11.8
+        ]
+      ],
+      "visited": 31403
+    },
+    {
+      "net": "CS_P",
+      "width_mm": 0.8,
+      "start": [
+        35.1,
+        42.45
+      ],
+      "end": [
+        21.7375,
+        33.15
+      ],
+      "segments": 8,
+      "vias": [
+        [
+          30.900000000000002,
+          41.6
+        ],
+        [
+          26.3,
+          30.700000000000003
+        ]
+      ],
+      "visited": 38337
+    },
+    {
+      "net": "FILTER_OUT",
+      "width_mm": 0.8,
+      "start": [
+        76.95,
+        23.0
+      ],
+      "end": [
+        86.0,
+        23.0
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 1914
+    },
+    {
+      "net": "SYS_3V3",
+      "width_mm": 1.0,
+      "start": [
+        86.0,
+        25.54
+      ],
+      "end": [
+        83.5,
+        25.54
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 25
+    },
+    {
+      "net": "SYS_3V3",
+      "width_mm": 0.8,
+      "start": [
+        83.5,
+        25.54
+      ],
+      "end": [
+        66.69,
+        11.0
+      ],
+      "segments": 13,
+      "vias": [],
+      "visited": 118627
+    },
+    {
+      "net": "RADIO_3V3",
+      "width_mm": 0.8,
+      "start": [
+        81.5,
+        25.54
+      ],
+      "end": [
+        69.23,
+        11.0
+      ],
+      "segments": 7,
+      "vias": [
+        [
+          80.10000000000001,
+          24.1
+        ],
+        [
+          74.8,
+          16.3
+        ]
+      ],
+      "visited": 41147
+    },
+    {
+      "net": "Net-(C15-Pad1)",
+      "width_mm": 0.2,
+      "start": [
+        57.5,
+        35.4
+      ],
+      "end": [
+        54.5375,
+        32.5
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 53
+    },
+    {
+      "net": "BAT",
+      "width_mm": 0.8,
+      "start": [
+        2.0,
+        47.0
+      ],
+      "end": [
+        4.2,
+        49.7
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 408
+    },
+    {
+      "net": "BAT",
+      "width_mm": 0.8,
+      "start": [
+        3.3,
+        17.5
+      ],
+      "end": [
+        11.3,
+        25.7
+      ],
+      "segments": 6,
+      "vias": [],
+      "visited": 32872
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.2,
+      "start": [
+        4.5,
+        19.0
+      ],
+      "end": [
+        3.3,
+        11.5
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 1951
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.2,
+      "start": [
+        19.0,
+        24.15
+      ],
+      "end": [
+        20.3625,
+        26.875
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 702
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.2,
+      "start": [
+        20.3625,
+        26.875
+      ],
+      "end": [
+        23.325,
+        23.95
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 8948
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.2,
+      "start": [
+        48.525,
+        37.495
+      ],
+      "end": [
+        41.65,
+        36.4
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 435
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.2,
+      "start": [
+        66.0875,
+        5.0
+      ],
+      "end": [
+        47.65,
+        36.4
+      ],
+      "segments": 3,
+      "vias": [
+        [
+          64.7,
+          6.4
+        ]
+      ],
+      "visited": 103654
+    },
+    {
+      "net": "SOLAR",
+      "width_mm": 0.2,
+      "start": [
+        72.0875,
+        5.0
+      ],
+      "end": [
+        66.0875,
+        5.0
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 1981
+    },
+    {
+      "net": "/4. Thermal/CHG_TSENSE",
+      "width_mm": 0.2,
+      "start": [
+        49.9,
+        43.15
+      ],
+      "end": [
+        47.275,
+        41.305
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 204
+    },
+    {
+      "net": "BAT_SYS",
+      "width_mm": 0.8,
+      "start": [
+        21.95,
+        38.8
+      ],
+      "end": [
+        26.6,
+        40.65
+      ],
+      "segments": 7,
+      "vias": [],
+      "visited": 2495
+    },
+    {
+      "net": "BAT_SYS",
+      "width_mm": 0.8,
+      "start": [
+        43.2,
+        12.8
+      ],
+      "end": [
+        42.3,
+        12.8
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 115
+    },
+    {
+      "net": "BAT_SYS",
+      "width_mm": 0.8,
+      "start": [
+        48.1,
+        11.8
+      ],
+      "end": [
+        45.425,
+        16.399999
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 2487
+    },
+    {
+      "net": "Net-(U1-FB)",
+      "width_mm": 0.2,
+      "start": [
+        18.4125,
+        38.8
+      ],
+      "end": [
+        20.05,
+        38.8
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 16
+    },
+    {
+      "net": "Net-(U1-FB)",
+      "width_mm": 0.2,
+      "start": [
+        20.05,
+        38.8
+      ],
+      "end": [
+        20.0875,
+        36.5
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 65
+    },
+    {
+      "net": "Net-(U1-FB)",
+      "width_mm": 0.2,
+      "start": [
+        20.0875,
+        36.5
+      ],
+      "end": [
+        19.7625,
+        30.125
+      ],
+      "segments": 5,
+      "vias": [],
+      "visited": 1873
+    },
+    {
+      "net": "SDA",
+      "width_mm": 0.2,
+      "start": [
+        59.475,
+        9.865
+      ],
+      "end": [
+        61.3,
+        14.2
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 633
+    },
+    {
+      "net": "SDA",
+      "width_mm": 0.2,
+      "start": [
+        67.9,
+        14.1
+      ],
+      "end": [
+        74.31,
+        8.46
+      ],
+      "segments": 6,
+      "vias": [],
+      "visited": 2438
+    },
+    {
+      "net": "SCL",
+      "width_mm": 0.2,
+      "start": [
+        59.475,
+        8.595
+      ],
+      "end": [
+        76.85,
+        8.46
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          61.6,
+          5.7
+        ]
+      ],
+      "visited": 21089
+    },
+    {
+      "net": "SYS_3V3",
+      "width_mm": 0.2,
+      "start": [
+        55.05,
+        5.8
+      ],
+      "end": [
+        54.525,
+        8.595
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 168
+    },
+    {
+      "net": "SYS_3V3",
+      "width_mm": 0.8,
+      "start": [
+        55.05,
+        5.8
+      ],
+      "end": [
+        62.6,
+        4.9
+      ],
+      "segments": 7,
+      "vias": [],
+      "visited": 5832
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "width_mm": 0.2,
+      "start": [
+        49.4125,
+        7.7
+      ],
+      "end": [
+        51.8,
+        10.65
+      ],
+      "segments": 4,
+      "vias": [
+        [
+          50.400000000000006,
+          7.7
+        ],
+        [
+          51.800000000000004,
+          9.600000000000001
+        ]
+      ],
+      "visited": 17837
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "width_mm": 0.2,
+      "start": [
+        51.8,
+        10.65
+      ],
+      "end": [
+        54.525,
+        11.135
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 162
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "width_mm": 0.2,
+      "start": [
+        49.4125,
+        10.2
+      ],
+      "end": [
+        51.8,
+        12.55
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 428
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "width_mm": 0.2,
+      "start": [
+        51.8,
+        12.55
+      ],
+      "end": [
+        54.525,
+        12.405
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 104
+    },
+    {
+      "net": "/4. Thermal/CHG_VTH",
+      "width_mm": 0.2,
+      "start": [
+        43.575,
+        40.035
+      ],
+      "end": [
+        40.5875,
+        45.5
+      ],
+      "segments": 6,
+      "vias": [],
+      "visited": 2035
+    },
+    {
+      "net": "Net-(C16-Pad1)",
+      "width_mm": 0.2,
+      "start": [
+        75.5,
+        35.4
+      ],
+      "end": [
+        72.5375,
+        32.5
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 53
+    },
+    {
+      "net": "/2. Converter/SYS_PRE",
+      "width_mm": 0.8,
+      "start": [
+        43.35,
+        25.65
+      ],
+      "end": [
+        45.5,
+        27.775
+      ],
+      "segments": 5,
+      "vias": [],
+      "visited": 1051
+    },
+    {
+      "net": "/2. Converter/SYS_PRE",
+      "width_mm": 0.8,
+      "start": [
+        45.5,
+        27.775
+      ],
+      "end": [
+        49.0,
+        25.0375
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 481
+    },
+    {
+      "net": "/2. Converter/SYS_PRE",
+      "width_mm": 0.8,
+      "start": [
+        45.5,
+        27.775
+      ],
+      "end": [
+        45.5,
+        32.975
+      ],
+      "segments": 6,
+      "vias": [],
+      "visited": 5068
+    },
+    {
+      "net": "/2. Converter/SYS_PRE",
+      "width_mm": 0.8,
+      "start": [
+        45.5,
+        32.975
+      ],
+      "end": [
+        51.0,
+        33.4
+      ],
+      "segments": 0,
+      "vias": [],
+      "visited": 0
+    },
+    {
+      "net": "/2. Converter/SYS_LC_IN",
+      "width_mm": 0.8,
+      "start": [
+        49.0,
+        30.9625
+      ],
+      "end": [
+        53.05,
+        24.3
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          50.300000000000004,
+          29.700000000000003
+        ],
+        [
+          51.7,
+          27.700000000000003
+        ]
+      ],
+      "visited": 16535
+    },
+    {
+      "net": "CS_P",
+      "width_mm": 0.2,
+      "start": [
+        19.7625,
+        28.175
+      ],
+      "end": [
+        23.3,
+        33.1
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          18.400000000000002,
+          28.200000000000003
+        ],
+        [
+          19.8,
+          31.6
+        ]
+      ],
+      "visited": 19011
+    },
+    {
+      "net": "CS_P",
+      "width_mm": 0.8,
+      "start": [
+        27.7,
+        38.4
+      ],
+      "end": [
+        31.0625,
+        29.7
+      ],
+      "segments": 3,
+      "vias": [
+        [
+          29.0,
+          30.8
+        ]
+      ],
+      "visited": 11339
+    },
+    {
+      "net": "CS_P",
+      "width_mm": 0.8,
+      "start": [
+        31.0625,
+        29.7
+      ],
+      "end": [
+        34.4,
+        29.9
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 1867
+    },
+    {
+      "net": "CS_P",
+      "width_mm": 0.8,
+      "start": [
+        42.9,
+        35.2125
+      ],
+      "end": [
+        40.6,
+        30.8875
+      ],
+      "segments": 3,
+      "vias": [
+        [
+          44.1,
+          35.2
+        ]
+      ],
+      "visited": 13467
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.8,
+      "start": [
+        27.6625,
+        28.95
+      ],
+      "end": [
+        27.6625,
+        33.15
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 41
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.8,
+      "start": [
+        32.9375,
+        28.75
+      ],
+      "end": [
+        27.6625,
+        28.95
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          32.9,
+          28.0
+        ],
+        [
+          29.6,
+          28.3
+        ]
+      ],
+      "visited": 5842
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.4,
+      "start": [
+        37.3875,
+        28.75
+      ],
+      "end": [
+        32.9375,
+        28.75
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 45
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.8,
+      "start": [
+        41.4875,
+        28.75
+      ],
+      "end": [
+        37.3875,
+        28.75
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          41.5,
+          28.0
+        ]
+      ],
+      "visited": 4897
+    },
+    {
+      "net": "DONE",
+      "width_mm": 0.2,
+      "start": [
+        14.0375,
+        28.825
+      ],
+      "end": [
+        72.0625,
+        2.4
+      ],
+      "segments": 11,
+      "vias": [
+        [
+          17.8,
+          26.200000000000003
+        ],
+        [
+          70.5,
+          2.4000000000000004
+        ]
+      ],
+      "visited": 193724
+    },
+    {
+      "net": "Net-(D4-A)",
+      "width_mm": 0.2,
+      "start": [
+        73.9125,
+        5.0
+      ],
+      "end": [
+        73.9375,
+        2.4
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 26
+    },
+    {
+      "net": "MODE",
+      "width_mm": 0.2,
+      "start": [
+        53.0,
+        14.5
+      ],
+      "end": [
+        39.6,
+        14.5
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 35
+    },
+    {
+      "net": "Net-(U1-COM1)",
+      "width_mm": 0.2,
+      "start": [
+        14.8125,
+        34.5
+      ],
+      "end": [
+        14.0375,
+        30.775
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 113
+    },
+    {
+      "net": "Net-(U1-COM1)",
+      "width_mm": 0.2,
+      "start": [
+        14.85,
+        37.099999
+      ],
+      "end": [
+        14.8125,
+        34.5
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 26
+    },
+    {
+      "net": "Net-(D3-A)",
+      "width_mm": 0.2,
+      "start": [
+        66.0625,
+        2.4
+      ],
+      "end": [
+        67.9125,
+        5.0
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          66.10000000000001,
+          3.6
+        ],
+        [
+          68.9,
+          4.5
+        ]
+      ],
+      "visited": 3328
+    },
+    {
+      "net": "/2. Converter/FILTER_MID",
+      "width_mm": 0.8,
+      "start": [
+        62.95,
+        28.775
+      ],
+      "end": [
+        60.4625,
+        32.5
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 330
+    },
+    {
+      "net": "FILTER_OUT",
+      "width_mm": 0.8,
+      "start": [
+        81.5,
+        23.0
+      ],
+      "end": [
+        78.4625,
+        32.5
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 1336
+    },
+    {
+      "net": "CHG_G_SHUNT",
+      "width_mm": 0.2,
+      "start": [
+        31.0625,
+        27.8
+      ],
+      "end": [
+        29.25,
+        27.1125
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 667
+    },
+    {
+      "net": "CHG_G_SHUNT",
+      "width_mm": 0.2,
+      "start": [
+        41.7,
+        33.0
+      ],
+      "end": [
+        39.6125,
+        27.8
+      ],
+      "segments": 6,
+      "vias": [
+        [
+          39.0,
+          33.0
+        ]
+      ],
+      "visited": 16133
+    },
+    {
+      "net": "CHG_G_SHUNT",
+      "width_mm": 0.2,
+      "start": [
+        42.0,
+        33.2875
+      ],
+      "end": [
+        42.9,
+        36.55
+      ],
+      "segments": 6,
+      "vias": [],
+      "visited": 12928
+    },
+    {
+      "net": "Net-(U1-VG)",
+      "width_mm": 0.2,
+      "start": [
+        14.0375,
+        26.225
+      ],
+      "end": [
+        16.55,
+        23.6
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 26
+    },
+    {
+      "net": "CHRG",
+      "width_mm": 0.2,
+      "start": [
+        14.0375,
+        28.175
+      ],
+      "end": [
+        67.9375,
+        2.4
+      ],
+      "segments": 17,
+      "vias": [
+        [
+          18.400000000000002,
+          20.0
+        ],
+        [
+          70.0,
+          3.1
+        ]
+      ],
+      "visited": 204047
+    },
+    {
+      "net": "Net-(U1-TEMP)",
+      "width_mm": 0.2,
+      "start": [
+        11.0125,
+        29.7
+      ],
+      "end": [
+        14.0375,
+        29.475
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 234
+    },
+    {
+      "net": "Net-(U1-MPPT)",
+      "width_mm": 0.2,
+      "start": [
+        11.0125,
+        32.299999
+      ],
+      "end": [
+        11.0125,
+        34.9
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 26
+    },
+    {
+      "net": "Net-(U1-MPPT)",
+      "width_mm": 0.2,
+      "start": [
+        14.0375,
+        30.125
+      ],
+      "end": [
+        11.0125,
+        32.299999
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 89
+    },
+    {
+      "net": "Net-(U1-COM3)",
+      "width_mm": 0.2,
+      "start": [
+        17.65,
+        33.6
+      ],
+      "end": [
+        19.7625,
+        29.475
+      ],
+      "segments": 4,
+      "vias": [],
+      "visited": 727
+    },
+    {
+      "net": "Net-(C6-Pad1)",
+      "width_mm": 0.2,
+      "start": [
+        25.6125,
+        36.25
+      ],
+      "end": [
+        25.65,
+        38.5
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 23
+    },
+    {
+      "net": "/4. Thermal/CHG_VSHORT",
+      "width_mm": 0.2,
+      "start": [
+        48.525,
+        40.035
+      ],
+      "end": [
+        48.6,
+        47.5
+      ],
+      "segments": 4,
+      "vias": [
+        [
+          47.1,
+          40.0
+        ]
+      ],
+      "visited": 3520
+    },
+    {
+      "net": "Net-(D1-K)",
+      "width_mm": 0.8,
+      "start": [
+        35.1,
+        32.55
+      ],
+      "end": [
+        33.15,
+        24.5
+      ],
+      "segments": 16,
+      "vias": [
+        [
+          39.7,
+          31.5
+        ],
+        [
+          42.1,
+          25.400000000000002
+        ]
+      ],
+      "visited": 29208
+    },
+    {
+      "net": "/4. Thermal/CHG_WARM",
+      "width_mm": 0.2,
+      "start": [
+        40.6,
+        41.15
+      ],
+      "end": [
+        42.325,
+        37.495
+      ],
+      "segments": 4,
+      "vias": [
+        [
+          41.7,
+          40.0
+        ]
+      ],
+      "visited": 8847
+    },
+    {
+      "net": "/4. Thermal/CHG_WARM",
+      "width_mm": 0.2,
+      "start": [
+        48.525,
+        38.765
+      ],
+      "end": [
+        42.325,
+        37.495
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 314
+    },
+    {
+      "net": "BAT",
+      "width_mm": 0.2,
+      "start": [
+        47.0375,
+        4.5
+      ],
+      "end": [
+        47.5875,
+        7.7
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 174
+    },
+    {
+      "net": "BAT_SYS",
+      "width_mm": 0.2,
+      "start": [
+        52.9625,
+        4.5
+      ],
+      "end": [
+        47.5875,
+        10.2
+      ],
+      "segments": 6,
+      "vias": [],
+      "visited": 2796
+    },
+    {
+      "net": "CS_P",
+      "width_mm": 0.8,
+      "start": [
+        34.95,
+        30.45
+      ],
+      "end": [
+        31.3,
+        29.7
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 4662
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.8,
+      "start": [
+        29.9,
+        28.0
+      ],
+      "end": [
+        28.4,
+        28.3
+      ],
+      "segments": 21,
+      "vias": [
+        [
+          27.700000000000003,
+          40.1
+        ]
+      ],
+      "visited": 149008
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.8,
+      "start": [
+        33.1,
+        28.2
+      ],
+      "end": [
+        31.9375,
+        28.75
+      ],
+      "segments": 3,
+      "vias": [
+        [
+          32.6,
+          28.0
+        ]
+      ],
+      "visited": 3918
+    },
+    {
+      "net": "CHG_CS_M",
+      "width_mm": 0.4,
+      "start": [
+        37.3875,
+        28.75
+      ],
+      "end": [
+        35.5,
+        28.0
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 217
+    },
+    {
+      "net": "BAT_SYS",
+      "width_mm": 0.8,
+      "start": [
+        19.9125,
+        36.6
+      ],
+      "end": [
+        21.95,
+        38.8
+      ],
+      "segments": 3,
+      "vias": [],
+      "visited": 818
+    },
+    {
+      "net": "Net-(U1-FB)",
+      "width_mm": 0.2,
+      "start": [
+        18.0875,
+        36.6
+      ],
+      "end": [
+        18.4125,
+        38.8
+      ],
+      "segments": 2,
+      "vias": [],
+      "visited": 80
+    },
+    {
+      "net": "Net-(U1-FB)",
+      "width_mm": 0.2,
+      "start": [
+        18.4125,
+        38.8
+      ],
+      "end": [
+        20.05,
+        38.8
+      ],
+      "segments": 1,
+      "vias": [],
+      "visited": 16
+    },
+    {
+      "net": "Net-(U1-FB)",
+      "width_mm": 0.2,
+      "start": [
+        19.7625,
+        30.125
+      ],
+      "end": [
+        18.0875,
+        36.6
+      ],
+      "segments": 5,
+      "vias": [],
+      "visited": 329
+    },
+    {
+      "net": "/2. Converter/SYS_PRE",
+      "width_mm": 0.8,
+      "start": [
+        51.4,
+        32.3
+      ],
+      "end": [
+        50.0,
+        27.5
+      ],
+      "segments": 5,
+      "vias": [
+        [
+          50.300000000000004,
+          32.6
+        ],
+        [
+          51.6,
+          31.1
+        ]
+      ],
+      "visited": 14317
+    }
+  ],
+  "candidate_failures": [
+    "('no route', 'Net-(U1-COM2)', (19.7625, 30.775), (23.85, 36.2), 125)",
+    "('no route', 'Net-(U1-COM2)', (19.7625, 30.775), (23.85, 36.2), 125)"
+  ],
+  "initial_owner_sha256": "3a61a95a4b66ca3f4892ab71e0ddf765f652f9761023d39372ffcec79d91aed4"
+}

@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "units": "mm",
   "project": "Mesh Repeater ver2.0",
-  "status": "Current selected vertical parts/models; final assembled STEP binding and actual incoming hardware mating qualification pending",
+  "status": "A3_NATIVE_DESIGN_NOMINAL_STACK_SAMPLE_MATING_UNQUALIFIED",
   "board": {
     "width": 90,
     "height": 60,
@@ -29,19 +29,25 @@
     },
     "expected_step_core_plus_foil_mm": 1.51,
     "cad_note": "KiCad uses a two-copper-layer container. B.Cu is empty and has zero stackup thickness. The manufactured shield has copper on one side only. The native nominal total is 1.52 mm; STEP omits the 0.01 mm front mask.",
-    "pin_apertures": {
-      "quantity": 12,
-      "NPTH_drill_mm": 2.0,
-      "minimum_drill_to_foil_clearance_mm": 0.5,
-      "FR4_minimum_nominal_drill_web_mm": 0.54,
-      "copper_only_array_clearance_native_xy_mm": [
-        62.65,
-        47.5,
-        78.35,
-        53.04
+    "connector_window": {
+      "native_bounds_mm": [
+        61.9,
+        46.87,
+        79.1,
+        53.67
       ],
-      "continuous_connected_foil_around_array": true,
-      "qualification": "Native design dimensions; actual pin-to-foil mechanical clearance and board alignment require incoming samples."
+      "width_height_mm": [
+        17.2,
+        6.8
+      ],
+      "corner_radius_mm": 0.6,
+      "foil_clearance_mm": 0.5,
+      "individual_pin_drills_removed": 12,
+      "footprint": "Shield_Interconnect_Window17p2x6p8_R0p6",
+      "passage_qualification": "Nominal existing body envelope only; verify actual selected header body and alignment on sample before fabrication.",
+      "quantity": 1,
+      "kind": "milled_through_window",
+      "continuous_connected_foil_around_window": true
     }
   },
   "mounting": {
@@ -814,22 +820,22 @@
       "J201"
     ],
     "pin_map": {
-      "1": "FILTER_OUT",
+      "1": "SYS_3V3",
       "2": "GND",
-      "3": "FILTER_OUT",
+      "3": "SYS_3V3",
       "4": "GND",
-      "5": "FILTER_OUT",
+      "5": "RADIO_3V3",
       "6": "GND",
-      "7": "SYS_3V3",
-      "8": "GND",
+      "7": "RADIO_3V3",
+      "8": null,
       "9": "BAT",
       "10": "SDA",
       "11": "MODE",
       "12": "SCL"
     },
-    "connection": "Direct vertical1:1 through isolated screen holes; no ribbon cable or half-twist",
-    "assembly_current_limit": "0.5A source design bound, not bench qualification. Each FILTER_OUT contact must withstand it; parallel pins do not multiply the rated assembly current. INA SYS return1mA maximum. Generic male current/contact resistance requires actual qualification.",
-    "route": "Pins pass through twelve separate NPTH2.0mm apertures. Copper cleared at least0.50mm from drill and across array.",
+    "connection": "Direct vertical 1:1 through one milled plastic-body screen window; no ribbon cable.",
+    "assembly_current_limit": "Two SYS, two RADIO, three GND contacts; independent routed branches after one POWER J11. Generic header rating/contact resistance and current sharing require sample qualification. Parallel pins do not establish a multiplied assembly rating.",
+    "route": "Common header plastic passes through the 17.2 x 6.8 mm R0.6 window; copper clearance 0.50 mm.",
     "header_power": {
       "first_pin": [
         64.15,
@@ -852,14 +858,15 @@
     "nominal_engagement_mm": 4.48,
     "upper_plastic_to_socket_mm": 1.52,
     "orientation_warning": "Generic unkeyed pair: use board pin1 marks. LOGIC is flippedX180 and uses a mirrored female footprint; do not replace with an ordinary unmirrored footprint.",
-    "SYS_3V3_return": "Pin7 is downstream J11 SYS_3V3 returned from LOGIC only to U12.5 and C63.1; it does not feed the converter or bypass J11.",
-    "additional_signals": "Pin10 SDA and12 SCL use existing M1.15/M1.16; 7bit INA address0x40."
+    "additional_signals": "Pin10 SDA and12 SCL use existing M1.15/M1.16; 7bit INA address0x40.",
+    "power_branches": "POWER J11 -> NT2: pins1/3 SYS, pins5/7 RADIO; INA219 supplied locally from SYS, pin8 NC."
   },
   "assembly": {
     "lower_components": "F up",
     "upper_components": "F down via 180 degrees about X",
     "visible_upper_silk": "B",
-    "isp": "Baseline native location; service after disassembly."
+    "isp": "Baseline native location; service after disassembly.",
+    "J11": "One removable POWER jumper; remove before USB, reinstall after USB disconnect."
   },
   "stack": {
     "pcb_thickness": 1.52,
@@ -907,30 +914,12 @@
     "Incoming inspection: usable female thread depth and approximate RUICHI stud dimensions.",
     "Check all connector footprints against the actual ordered MPNs before fabrication.",
     "Original JST XHP-2 direct stock is not verified; supplier alternatives have qualified availability notes.",
-    "Qualify generic Ali male section/straightness, female mating depth and actual pin-to-screen clearance.",
-    "Refresh final assembly geometry from current native boards; old IDC clearances are historical."
+    "Qualify generic Ali male section/straightness, female mating depth and actual pin-to-screen clearance."
   ],
   "assembly_cad_dimensions": {
-    "status": "PREVIOUS_IDC_EXPORT_HISTORICAL_REFRESH_REQUIRED",
+    "status": "USE_NATIVE_REPORT_ONLY_IF_ALL_CURRENT_SOURCE_HASHES_MATCH",
     "source": "docs/mechanics/assembly_geometry_report.json",
-    "note": "Previous IDC exports/clearances and cable outer envelope do not qualify the current Ali vertical assembly. Refresh after final native boards and actual Ali3D exports.",
-    "previous_values": {
-      "uncabled_bbox_mm": [
-        -4.75,
-        -67.21000000000001,
-        -3.48,
-        93.25,
-        2.8000000000000025,
-        42.080000000000005
-      ],
-      "uncabled_dimensions_mm": [
-        98.0,
-        70.01,
-        45.56
-      ],
-      "source": "docs/mechanics/assembly_geometry_report.json",
-      "note": "The complete CAD envelope includes projecting connector bodies and the lower M3 stud. The 44.98 mm nut-to-head chain is not the complete height. Cable outside the screen and actual connector mating remain provisional; with the native southern connector at physical Y=67.21 mm, a planned northern cable loop Y <= -23 mm makes the complete Y envelope at least about 90.21 mm before actual mating and slack allowances."
-    }
+    "note": "Current assembly geometry is in the bound native report. Selected standoffs, washers and L35/H8.5 heights are unchanged. "
   },
   "mechanical_fixes": {
     "date": "2026-10-12",
@@ -1204,5 +1193,5 @@
     },
     "reason": "A2 replaces IDC/ribbon cable with Ali direct vertical pins and adds INA219."
   },
-  "revision": "V2.0-A2-INA219"
+  "revision": "V2.0-A3"
 }

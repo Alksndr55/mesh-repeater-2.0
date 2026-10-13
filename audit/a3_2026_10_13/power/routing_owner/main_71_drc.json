@@ -1,0 +1,140 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T01:12:15",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на B.Cu, длина 0,7778 mm",
+                    "pos": {
+                        "x": 34.95,
+                        "y": 30.45
+                    },
+                    "uuid": "40931bc7-aeba-4fff-a388-af48d3495345"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 0,2828 mm",
+                    "pos": {
+                        "x": 31.3,
+                        "y": 29.7
+                    },
+                    "uuid": "46d9aec2-12bf-4ba7-b139-bcc214a87e62"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_CS_M] на B.Cu, длина 0,4243 mm",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 28.0
+                    },
+                    "uuid": "92768946-92fd-4c05-88a8-97f811197f64"
+                },
+                {
+                    "description": "Дорожка [CHG_CS_M] на F.Cu, длина 0,9899 mm",
+                    "pos": {
+                        "x": 28.4,
+                        "y": 28.3
+                    },
+                    "uuid": "d257b5a0-f0b1-4391-ac93-039c46d6e5b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_CS_M] на B.Cu, длина 0,2828 mm",
+                    "pos": {
+                        "x": 33.1,
+                        "y": 28.2
+                    },
+                    "uuid": "b74642a2-7f35-4900-adf4-b2c01cf78ccf"
+                },
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 31.9375,
+                        "y": 28.75
+                    },
+                    "uuid": "1b4873c0-ff0d-4d0d-b692-b3a36256b245"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q6 на F.Cu",
+                    "pos": {
+                        "x": 37.3875,
+                        "y": 28.75
+                    },
+                    "uuid": "983cf651-f76a-4a6f-a7a6-ffcc0c3a9042"
+                },
+                {
+                    "description": "Дорожка [CHG_CS_M] на B.Cu, длина 0,2828 mm",
+                    "pos": {
+                        "x": 35.5,
+                        "y": 28.0
+                    },
+                    "uuid": "2160bc55-4b4e-4b9a-9d74-eebd404e7abe"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 0,2828 mm",
+                    "pos": {
+                        "x": 31.3,
+                        "y": 29.7
+                    },
+                    "uuid": "46d9aec2-12bf-4ba7-b139-bcc214a87e62"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_CS_M] на B.Cu, длина 0,4243 mm",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 28.0
+                    },
+                    "uuid": "92768946-92fd-4c05-88a8-97f811197f64"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "virtual_R3_pose": [
+    19.3,
+    35.7,
+    180
+  ],
+  "R3_courtyard": [
+    17.595,
+    34.725,
+    21.005,
+    36.675
+  ],
+  "courtyard_conflicts": [
+    {
+      "ref": "R56",
+      "box": [
+        20.845,
+        31.195,
+        28.555,
+        35.105
+      ]
+    }
+  ],
+  "unplaced": [
+    "C7",
+    "TP6"
+  ],
+  "CAD_written": false
+}

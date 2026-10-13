@@ -1,0 +1,339 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T01:08:53",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 0,7778 mm",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 29.9
+                    },
+                    "uuid": "24a3301b-9f2b-4bb8-9fb4-a34eaff4a90d"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CHG_G_SHUNT)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Перех. отв. [CHG_G_SHUNT] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 34.85,
+                        "y": 27.1
+                    },
+                    "uuid": "08577ed3-0ef0-4b64-a786-23a0f972408b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CHG_G_SHUNT)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q6 на F.Cu",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 27.8
+                    },
+                    "uuid": "d24910b6-ad38-42f3-907f-b024ab3c9d4b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CHG_G_SHUNT)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,0375 mm",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 27.7625
+                    },
+                    "uuid": "8847cf37-1519-4551-98ed-fe28ff80f5e3"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,9369 mm",
+                    "pos": {
+                        "x": 34.85,
+                        "y": 27.1
+                    },
+                    "uuid": "585376d6-2c4b-404a-9037-8c225c519199"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CHG_G_SHUNT)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 4,1000 mm",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 27.8
+                    },
+                    "uuid": "34ef3b71-ef59-424c-b355-bf26136fbc42"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CHG_CS_M] на F.Cu, длина 4,5000 mm",
+                    "pos": {
+                        "x": 37.4,
+                        "y": 28.8
+                    },
+                    "uuid": "e07f1796-f45d-4ef0-bd7d-7987091cdf67"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CS_P)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Перех. отв. [CS_P] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 34.95,
+                        "y": 30.45
+                    },
+                    "uuid": "cbc5a675-1fb5-4a3c-a4d8-b684008f6677"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CS_P)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 0,2000 mm",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 29.7
+                    },
+                    "uuid": "7b7d59a5-063c-4d64-8dd8-157a4a2015ae"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 4,0000 mm",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 29.9
+                    },
+                    "uuid": "440387cb-061f-4bcd-8037-37cc2cd2ca88"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CS_P)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 0,0125 mm",
+                    "pos": {
+                        "x": 34.9625,
+                        "y": 30.45
+                    },
+                    "uuid": "24837f63-cbea-4d39-b0f7-810e4d20a93f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи Net-(D1-K) и CS_P)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 4,1000 mm",
+                    "pos": {
+                        "x": 39.6125,
+                        "y": 29.9
+                    },
+                    "uuid": "302fe799-36e2-443e-908b-16dbd63ac0bb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Апертура передней паяльной маски объединяет элементы с различ. цепями",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q6 на F.Cu",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 27.8
+                    },
+                    "uuid": "d24910b6-ad38-42f3-907f-b024ab3c9d4b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Апертура передней паяльной маски объединяет элементы с различ. цепями",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 26.45
+                    },
+                    "uuid": "0492da7a-7418-4b7f-b985-932a02cea55a"
+                },
+                {
+                    "description": "Конт. пл. 2 [CS_P] от Q6 на F.Cu",
+                    "pos": {
+                        "x": 35.5125,
+                        "y": 29.7
+                    },
+                    "uuid": "ec89b9f2-5e91-4af2-9288-ca75ebd7a0fc"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

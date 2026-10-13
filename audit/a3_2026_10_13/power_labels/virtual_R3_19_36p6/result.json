@@ -1,0 +1,16 @@
+{
+  "virtual_R3_pose": [
+    19,
+    36.6,
+    180
+  ],
+  "R3_courtyard": [
+    17.295,
+    35.625,
+    20.705,
+    37.575
+  ],
+  "courtyard_conflicts": [],
+  "unplaced": [],
+  "CAD_written": false
+}

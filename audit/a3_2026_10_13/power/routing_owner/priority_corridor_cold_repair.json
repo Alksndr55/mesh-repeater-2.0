@@ -1,0 +1,30 @@
+[
+  {
+    "uuid": "e07f1796-f45d-4ef0-bd7d-7987091cdf67",
+    "net": "CHG_CS_M"
+  },
+  {
+    "uuid": "4a9e0901-6de9-453a-888b-689163a1ff8a",
+    "net": "CHG_CS_M"
+  },
+  {
+    "uuid": "1e221af6-d59f-4f30-a1a3-d93eab250014",
+    "net": "CHG_CS_M"
+  },
+  {
+    "uuid": "7748d75c-a6c4-4d2f-b0db-6618f4947844",
+    "net": "CHG_CS_M"
+  },
+  {
+    "uuid": "478866eb-039e-4a03-8f22-d867c4fbf9bf",
+    "net": "CHG_CS_M"
+  },
+  {
+    "uuid": "440387cb-061f-4bcd-8037-37cc2cd2ca88",
+    "net": "CS_P"
+  },
+  {
+    "uuid": "062ef53b-fa17-4c58-903e-29d96ff91eb5",
+    "net": "CHG_G_SHUNT"
+  }
+]

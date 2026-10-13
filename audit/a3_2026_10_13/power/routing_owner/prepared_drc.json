@@ -1,0 +1,2088 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T00:48:36",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(C15-Pad1)] на F.Cu, длина 17,4000 mm",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 35.4
+                    },
+                    "uuid": "e3d47e8c-9455-4387-a4d4-ea690a4bfbcb"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(C15-Pad1)] от R40 на F.Cu",
+                    "pos": {
+                        "x": 54.5375,
+                        "y": 32.5
+                    },
+                    "uuid": "362ec67c-e53c-4a05-a038-0ea1eb566493"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на B.Cu, длина 2,8284 mm",
+                    "pos": {
+                        "x": 2.0,
+                        "y": 47.0
+                    },
+                    "uuid": "890dc75e-ac15-4e31-a31e-e3046ed19949"
+                },
+                {
+                    "description": "Дорожка [BAT] на B.Cu, длина 0,4243 mm",
+                    "pos": {
+                        "x": 4.2,
+                        "y": 49.7
+                    },
+                    "uuid": "a6b97199-dfed-44c8-8445-fbd5e77aa285"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на B.Cu, длина 0,2828 mm",
+                    "pos": {
+                        "x": 11.3,
+                        "y": 25.7
+                    },
+                    "uuid": "d8f3763f-52d3-4f8e-8667-f0f4e1f1f116"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT] от TP1 на F.Cu",
+                    "pos": {
+                        "x": 3.3,
+                        "y": 17.5
+                    },
+                    "uuid": "655acd8f-5082-4a48-81c1-96f2c66f639a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [BAT] от R71 на F.Cu",
+                    "pos": {
+                        "x": 47.0375,
+                        "y": 4.5
+                    },
+                    "uuid": "84391346-a3d9-4873-85be-2bba8d822f34"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT] от R73 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 7.7
+                    },
+                    "uuid": "185e7f7b-b7ce-4de5-b27e-686f302f3160"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [BAT] от R71 на F.Cu",
+                    "pos": {
+                        "x": 47.0375,
+                        "y": 4.5
+                    },
+                    "uuid": "84391346-a3d9-4873-85be-2bba8d822f34"
+                },
+                {
+                    "description": "Дорожка [BAT] на F.Cu, длина 16,2000 mm",
+                    "pos": {
+                        "x": 25.7,
+                        "y": 6.0
+                    },
+                    "uuid": "58cd72fd-6cb9-4443-b28b-aa5fccf518a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. пл. 9 [BAT] у J101",
+                    "pos": {
+                        "x": 74.31,
+                        "y": 11.0
+                    },
+                    "uuid": "a3ac6d1b-9f2b-47bf-be24-08c790abcca1"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT] от R73 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 7.7
+                    },
+                    "uuid": "185e7f7b-b7ce-4de5-b27e-686f302f3160"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [SOLAR] на B.Cu, длина 5,1000 mm",
+                    "pos": {
+                        "x": 4.5,
+                        "y": 19.0
+                    },
+                    "uuid": "39cb9a90-1a80-47c8-a401-aca74abf41ae"
+                },
+                {
+                    "description": "Конт. пл. 1 [SOLAR] от TP9 на F.Cu",
+                    "pos": {
+                        "x": 3.3,
+                        "y": 11.5
+                    },
+                    "uuid": "6d49ac8a-2b3d-46d0-8e80-da49c3549d6a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [SOLAR] на F.Cu, длина 0,7778 mm",
+                    "pos": {
+                        "x": 19.0,
+                        "y": 24.15
+                    },
+                    "uuid": "7627eed3-908d-439a-a877-7966014df561"
+                },
+                {
+                    "description": "Дорожка [SOLAR] на F.Cu, длина 1,3625 mm",
+                    "pos": {
+                        "x": 20.3625,
+                        "y": 26.875
+                    },
+                    "uuid": "d71a21bc-9e63-4f83-9eb2-625009eddf7d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [SOLAR] на F.Cu, длина 1,3625 mm",
+                    "pos": {
+                        "x": 20.3625,
+                        "y": 26.875
+                    },
+                    "uuid": "d71a21bc-9e63-4f83-9eb2-625009eddf7d"
+                },
+                {
+                    "description": "Дорожка [SOLAR] на B.Cu, длина 2,7224 mm",
+                    "pos": {
+                        "x": 23.325,
+                        "y": 23.95
+                    },
+                    "uuid": "acd3f796-cc7c-4f02-990d-f4bf97ada5b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 8 [SOLAR] от U10 на F.Cu",
+                    "pos": {
+                        "x": 48.525,
+                        "y": 37.495
+                    },
+                    "uuid": "42a9beb5-22a9-4928-aa28-878f5bb8f770"
+                },
+                {
+                    "description": "Дорожка [SOLAR] на F.Cu, длина 6,0000 mm",
+                    "pos": {
+                        "x": 41.65,
+                        "y": 36.4
+                    },
+                    "uuid": "0d1771fb-984a-4f49-aacd-7ff787b7dd7a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [SOLAR] от R10 на F.Cu",
+                    "pos": {
+                        "x": 66.0875,
+                        "y": 5.0
+                    },
+                    "uuid": "ec952f9c-a6d1-4d3a-b799-993fd4d3222d"
+                },
+                {
+                    "description": "Дорожка [SOLAR] на F.Cu, длина 1,5556 mm",
+                    "pos": {
+                        "x": 47.65,
+                        "y": 36.4
+                    },
+                    "uuid": "2a378359-a6a9-47b3-bc5e-f99e2f74283e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [SOLAR] от R11 на F.Cu",
+                    "pos": {
+                        "x": 72.0875,
+                        "y": 5.0
+                    },
+                    "uuid": "2c0fb9ec-a4e0-4f3e-a655-6cec2abddd70"
+                },
+                {
+                    "description": "Конт. пл. 1 [SOLAR] от R10 на F.Cu",
+                    "pos": {
+                        "x": 66.0875,
+                        "y": 5.0
+                    },
+                    "uuid": "ec952f9c-a6d1-4d3a-b799-993fd4d3222d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [/4. Thermal/CHG_TSENSE] от C61 на F.Cu",
+                    "pos": {
+                        "x": 49.9,
+                        "y": 43.15
+                    },
+                    "uuid": "1cca8e06-d51c-4577-b5bb-1cb6ecefccd3"
+                },
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_TSENSE] на F.Cu, длина 1,7607 mm",
+                    "pos": {
+                        "x": 47.275,
+                        "y": 41.305
+                    },
+                    "uuid": "e2d35446-bee6-4138-89e5-86203f57164d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 1,2021 mm",
+                    "pos": {
+                        "x": 26.6,
+                        "y": 40.65
+                    },
+                    "uuid": "036e100f-42d6-4606-bbe4-ce12fb8f03d8"
+                },
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 0,0530 mm",
+                    "pos": {
+                        "x": 21.95,
+                        "y": 38.8
+                    },
+                    "uuid": "1154301f-02e2-472b-8eb6-34e67670ab52"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 0,2828 mm",
+                    "pos": {
+                        "x": 42.3,
+                        "y": 12.8
+                    },
+                    "uuid": "f2282d20-2585-4b93-83a0-a667fc1af4c6"
+                },
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 2,3000 mm",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 12.8
+                    },
+                    "uuid": "858b3f6c-d2ea-4e08-addc-62efddd817aa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от C53 на F.Cu",
+                    "pos": {
+                        "x": 46.525,
+                        "y": 13.4
+                    },
+                    "uuid": "00c747d9-ad01-4ebf-92e4-8415fbe0c2ea"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от C13 на F.Cu",
+                    "pos": {
+                        "x": 45.425,
+                        "y": 16.399999
+                    },
+                    "uuid": "6e69521e-9913-4461-bbcb-b93ec17b2a81"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от C53 на F.Cu",
+                    "pos": {
+                        "x": 46.525,
+                        "y": 13.4
+                    },
+                    "uuid": "00c747d9-ad01-4ebf-92e4-8415fbe0c2ea"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от R72 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 10.2
+                    },
+                    "uuid": "24c433b0-5dea-4525-ae66-131279dc3b3c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от R72 на F.Cu",
+                    "pos": {
+                        "x": 47.5875,
+                        "y": 10.2
+                    },
+                    "uuid": "24c433b0-5dea-4525-ae66-131279dc3b3c"
+                },
+                {
+                    "description": "Конт. пл. 1 [BAT_SYS] от R71 на F.Cu",
+                    "pos": {
+                        "x": 52.9625,
+                        "y": 4.5
+                    },
+                    "uuid": "5403bd0a-0460-422a-abc1-3534e8dc096f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-FB)] от R4 на F.Cu",
+                    "pos": {
+                        "x": 18.4125,
+                        "y": 38.8
+                    },
+                    "uuid": "1ee24788-8ca2-40c3-96b1-36cd1a65a0f6"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от C30 на F.Cu",
+                    "pos": {
+                        "x": 20.05,
+                        "y": 38.8
+                    },
+                    "uuid": "8b597339-8ebd-4ff8-898f-e5c424de7c86"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от C30 на F.Cu",
+                    "pos": {
+                        "x": 20.05,
+                        "y": 38.8
+                    },
+                    "uuid": "8b597339-8ebd-4ff8-898f-e5c424de7c86"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от R3 на F.Cu",
+                    "pos": {
+                        "x": 20.0875,
+                        "y": 36.5
+                    },
+                    "uuid": "df20403e-1145-4438-868f-ad48673ffeaa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-FB)] от R3 на F.Cu",
+                    "pos": {
+                        "x": 20.0875,
+                        "y": 36.5
+                    },
+                    "uuid": "df20403e-1145-4438-868f-ad48673ffeaa"
+                },
+                {
+                    "description": "Конт. пл. 10 [Net-(U1-FB)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 30.125
+                    },
+                    "uuid": "a4ca0582-a426-48a2-9b7e-76bf9392f7d6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [SDA] от U12 на F.Cu",
+                    "pos": {
+                        "x": 59.475,
+                        "y": 9.865
+                    },
+                    "uuid": "143ed8de-e090-48af-8317-7b4e48a6b665"
+                },
+                {
+                    "description": "Дорожка [SDA] на F.Cu, длина 6,5000 mm",
+                    "pos": {
+                        "x": 61.3,
+                        "y": 14.2
+                    },
+                    "uuid": "306f2314-0a53-4506-bdbe-e2ef47ca64f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [SDA] на F.Cu, длина 2,9000 mm",
+                    "pos": {
+                        "x": 67.9,
+                        "y": 14.1
+                    },
+                    "uuid": "17cd78b7-e7c3-4627-a783-64cef65a431c"
+                },
+                {
+                    "description": "PTH конт. пл. 10 [SDA] у J101",
+                    "pos": {
+                        "x": 74.31,
+                        "y": 8.46
+                    },
+                    "uuid": "3cc4be61-f206-43a5-b811-4c22e0831e88"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [SCL] от U12 на F.Cu",
+                    "pos": {
+                        "x": 59.475,
+                        "y": 8.595
+                    },
+                    "uuid": "9245fb8b-6dab-4cb7-a4ad-9b1b7773be68"
+                },
+                {
+                    "description": "PTH конт. пл. 12 [SCL] у J101",
+                    "pos": {
+                        "x": 76.85,
+                        "y": 8.46
+                    },
+                    "uuid": "694cd6a3-fd5e-4e8f-98c6-31f7376f08eb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 5 [SYS_3V3] от U12 на F.Cu",
+                    "pos": {
+                        "x": 54.525,
+                        "y": 8.595
+                    },
+                    "uuid": "a0f5a66d-eb39-4707-b46b-918c2320bae2"
+                },
+                {
+                    "description": "PTH конт. пл. 1 [SYS_3V3] у J101",
+                    "pos": {
+                        "x": 64.15,
+                        "y": 11.0
+                    },
+                    "uuid": "14a2e6a3-7774-4066-b04a-a83b6e4e1e07"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [SYS_3V3] от C63 на F.Cu",
+                    "pos": {
+                        "x": 55.05,
+                        "y": 5.8
+                    },
+                    "uuid": "0797d94e-6d7a-4410-b64c-a7fe01f9a7a6"
+                },
+                {
+                    "description": "Конт. пл. 5 [SYS_3V3] от U12 на F.Cu",
+                    "pos": {
+                        "x": 54.525,
+                        "y": 8.595
+                    },
+                    "uuid": "a0f5a66d-eb39-4707-b46b-918c2320bae2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. пл. 1 [SYS_3V3] у J101",
+                    "pos": {
+                        "x": 64.15,
+                        "y": 11.0
+                    },
+                    "uuid": "14a2e6a3-7774-4066-b04a-a83b6e4e1e07"
+                },
+                {
+                    "description": "PTH конт. пл. 3 [SYS_3V3] у J101",
+                    "pos": {
+                        "x": 66.69,
+                        "y": 11.0
+                    },
+                    "uuid": "4162545f-9f18-4aa4-adbe-63ecaa2749e5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [SYS_3V3] от NT2 на F.Cu",
+                    "pos": {
+                        "x": 83.5,
+                        "y": 25.54
+                    },
+                    "uuid": "2b85cf36-eb44-4f0b-9350-29a98172f36a"
+                },
+                {
+                    "description": "PTH конт. пл. 2 [SYS_3V3] у J11",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 25.54
+                    },
+                    "uuid": "bbbb7b3e-b765-4dd4-80be-9bf754f9af3d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [SYS_3V3] от NT2 на F.Cu",
+                    "pos": {
+                        "x": 83.5,
+                        "y": 25.54
+                    },
+                    "uuid": "2b85cf36-eb44-4f0b-9350-29a98172f36a"
+                },
+                {
+                    "description": "PTH конт. пл. 3 [SYS_3V3] у J101",
+                    "pos": {
+                        "x": 66.69,
+                        "y": 11.0
+                    },
+                    "uuid": "4162545f-9f18-4aa4-adbe-63ecaa2749e5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U12-IN-)] от R73 на F.Cu",
+                    "pos": {
+                        "x": 49.4125,
+                        "y": 7.7
+                    },
+                    "uuid": "5daa8a01-0cce-4ec5-8fc3-a317dd7fb4cb"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U12-IN-)] от C64 на F.Cu",
+                    "pos": {
+                        "x": 51.8,
+                        "y": 10.65
+                    },
+                    "uuid": "4ebf3210-16d3-4b30-a3b9-45a5694e1b3d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U12-IN-)] от C64 на F.Cu",
+                    "pos": {
+                        "x": 51.8,
+                        "y": 10.65
+                    },
+                    "uuid": "4ebf3210-16d3-4b30-a3b9-45a5694e1b3d"
+                },
+                {
+                    "description": "Конт. пл. 7 [Net-(U12-IN-)] от U12 на F.Cu",
+                    "pos": {
+                        "x": 54.525,
+                        "y": 11.135
+                    },
+                    "uuid": "83582468-344c-48b7-b291-2427800ff07d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U12-IN+)] от R72 на F.Cu",
+                    "pos": {
+                        "x": 49.4125,
+                        "y": 10.2
+                    },
+                    "uuid": "a174775f-ba75-4e36-a08b-f406d4768114"
+                },
+                {
+                    "description": "Конт. пл. 1 [Net-(U12-IN+)] от C64 на F.Cu",
+                    "pos": {
+                        "x": 51.8,
+                        "y": 12.55
+                    },
+                    "uuid": "3fced56b-301c-418d-8b2c-b2f098e4eddd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U12-IN+)] от C64 на F.Cu",
+                    "pos": {
+                        "x": 51.8,
+                        "y": 12.55
+                    },
+                    "uuid": "3fced56b-301c-418d-8b2c-b2f098e4eddd"
+                },
+                {
+                    "description": "Конт. пл. 8 [Net-(U12-IN+)] от U12 на F.Cu",
+                    "pos": {
+                        "x": 54.525,
+                        "y": 12.405
+                    },
+                    "uuid": "ac3284f9-3334-4099-9a60-b9bdb97703b7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [/4. Thermal/CHG_VTH] от U10 на F.Cu",
+                    "pos": {
+                        "x": 43.575,
+                        "y": 40.035
+                    },
+                    "uuid": "6eff2cd7-074b-4738-bf9f-04144fddfe21"
+                },
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_VTH] на F.Cu, длина 1,2905 mm",
+                    "pos": {
+                        "x": 40.5875,
+                        "y": 45.5
+                    },
+                    "uuid": "6567f217-ad41-4f86-9e32-e5a2b16a92a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(C16-Pad1)] на F.Cu, длина 17,4000 mm",
+                    "pos": {
+                        "x": 75.5,
+                        "y": 35.4
+                    },
+                    "uuid": "a4898176-49f0-4c03-8376-fbc7040fee10"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(C16-Pad1)] от R41 на F.Cu",
+                    "pos": {
+                        "x": 72.5375,
+                        "y": 32.5
+                    },
+                    "uuid": "62a4ce27-67cb-4bce-af5b-db54d376b1bc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [/2. Converter/SYS_PRE] на B.Cu, длина 0,8500 mm",
+                    "pos": {
+                        "x": 43.35,
+                        "y": 25.65
+                    },
+                    "uuid": "de9b1e24-be88-4569-957c-65130bafc93a"
+                },
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от C54 на F.Cu",
+                    "pos": {
+                        "x": 45.5,
+                        "y": 27.775
+                    },
+                    "uuid": "4e61ddc6-c70b-4869-8334-8b1387576a48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от C54 на F.Cu",
+                    "pos": {
+                        "x": 45.5,
+                        "y": 27.775
+                    },
+                    "uuid": "4e61ddc6-c70b-4869-8334-8b1387576a48"
+                },
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от R55 на F.Cu",
+                    "pos": {
+                        "x": 49.0,
+                        "y": 25.0375
+                    },
+                    "uuid": "deba7ba5-c90c-4f33-a8eb-6f55c70f691b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от C54 на F.Cu",
+                    "pos": {
+                        "x": 45.5,
+                        "y": 27.775
+                    },
+                    "uuid": "4e61ddc6-c70b-4869-8334-8b1387576a48"
+                },
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от C55 на F.Cu",
+                    "pos": {
+                        "x": 45.5,
+                        "y": 32.975
+                    },
+                    "uuid": "d27cf353-df91-445e-ae00-dca8581560af"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от C55 на F.Cu",
+                    "pos": {
+                        "x": 45.5,
+                        "y": 32.975
+                    },
+                    "uuid": "d27cf353-df91-445e-ae00-dca8581560af"
+                },
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/SYS_PRE] от TP3 на F.Cu",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 33.4
+                    },
+                    "uuid": "043bc3a6-af01-4898-a063-8ea60f9d9514"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [/2. Converter/SYS_LC_IN] от R55 на F.Cu",
+                    "pos": {
+                        "x": 49.0,
+                        "y": 30.9625
+                    },
+                    "uuid": "42ca70d8-43e7-4060-9e2e-be8b80b465b5"
+                },
+                {
+                    "description": "Дорожка [/2. Converter/SYS_LC_IN] на F.Cu, длина 1,3000 mm",
+                    "pos": {
+                        "x": 53.05,
+                        "y": 24.3
+                    },
+                    "uuid": "1d3e018f-b98c-4610-b1bc-d71674df4633"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 13 [CS_P] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 28.175
+                    },
+                    "uuid": "0255f88c-ded9-4e75-b06c-15497748e7dc"
+                },
+                {
+                    "description": "Конт. пл. 1 [CS_P] от R56 на F.Cu",
+                    "pos": {
+                        "x": 21.7375,
+                        "y": 33.15
+                    },
+                    "uuid": "1d8040e3-937e-4a49-a543-3d70e34b3c55"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CS_P] от R56 на F.Cu",
+                    "pos": {
+                        "x": 21.7375,
+                        "y": 33.15
+                    },
+                    "uuid": "1d8040e3-937e-4a49-a543-3d70e34b3c55"
+                },
+                {
+                    "description": "Конт. пл. 2 [CS_P] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 31.0625,
+                        "y": 29.7
+                    },
+                    "uuid": "6b92aa1e-8f2b-4776-91e5-98558c46b106"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [CS_P] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 31.0625,
+                        "y": 29.7
+                    },
+                    "uuid": "6b92aa1e-8f2b-4776-91e5-98558c46b106"
+                },
+                {
+                    "description": "Дорожка [CS_P] на B.Cu, длина 1,6500 mm",
+                    "pos": {
+                        "x": 34.4,
+                        "y": 29.9
+                    },
+                    "uuid": "84a529a7-8a05-4424-bdcf-930b4e11a07c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 5,6500 mm",
+                    "pos": {
+                        "x": 33.8,
+                        "y": 42.45
+                    },
+                    "uuid": "9ec6556b-32eb-4ac5-976d-276b17608f0d"
+                },
+                {
+                    "description": "Конт. пл. 1 [CS_P] от R58 на F.Cu",
+                    "pos": {
+                        "x": 42.9,
+                        "y": 35.2125
+                    },
+                    "uuid": "265ec425-e748-4604-aabe-c96fb49866c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CS_P] от R58 на F.Cu",
+                    "pos": {
+                        "x": 42.9,
+                        "y": 35.2125
+                    },
+                    "uuid": "265ec425-e748-4604-aabe-c96fb49866c3"
+                },
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 1,3965 mm",
+                    "pos": {
+                        "x": 40.6,
+                        "y": 30.8875
+                    },
+                    "uuid": "51cf8a5d-b9fa-406e-9060-d7789a145037"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.6625,
+                        "y": 28.95
+                    },
+                    "uuid": "e53425f6-2a94-4c73-9b77-4e218dee4b4b"
+                },
+                {
+                    "description": "Конт. пл. 2 [CHG_CS_M] от R56 на F.Cu",
+                    "pos": {
+                        "x": 27.6625,
+                        "y": 33.15
+                    },
+                    "uuid": "03aeaa5c-0b31-41c7-b743-c6d41836f253"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 32.9375,
+                        "y": 28.75
+                    },
+                    "uuid": "1b4873c0-ff0d-4d0d-b692-b3a36256b245"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_CS_M] от R1 на F.Cu",
+                    "pos": {
+                        "x": 27.6625,
+                        "y": 28.95
+                    },
+                    "uuid": "e53425f6-2a94-4c73-9b77-4e218dee4b4b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q6 на F.Cu",
+                    "pos": {
+                        "x": 37.3875,
+                        "y": 28.75
+                    },
+                    "uuid": "983cf651-f76a-4a6f-a7a6-ffcc0c3a9042"
+                },
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 32.9375,
+                        "y": 28.75
+                    },
+                    "uuid": "1b4873c0-ff0d-4d0d-b692-b3a36256b245"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q7 на F.Cu",
+                    "pos": {
+                        "x": 41.4875,
+                        "y": 28.75
+                    },
+                    "uuid": "3a0f4477-3808-4a8f-8c77-4baecc495e9a"
+                },
+                {
+                    "description": "Конт. пл. 3 [CHG_CS_M] от Q6 на F.Cu",
+                    "pos": {
+                        "x": 37.3875,
+                        "y": 28.75
+                    },
+                    "uuid": "983cf651-f76a-4a6f-a7a6-ffcc0c3a9042"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 5 [DONE] от U1 на F.Cu",
+                    "pos": {
+                        "x": 14.0375,
+                        "y": 28.825
+                    },
+                    "uuid": "c18811a0-61c6-44c1-9c38-c3bf0004b32a"
+                },
+                {
+                    "description": "Конт. пл. 1 [DONE] от D4 на F.Cu",
+                    "pos": {
+                        "x": 72.0625,
+                        "y": 2.4
+                    },
+                    "uuid": "1bf9b59d-0204-421f-964c-cd9126631133"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(D4-A)] от R11 на F.Cu",
+                    "pos": {
+                        "x": 73.9125,
+                        "y": 5.0
+                    },
+                    "uuid": "e5dc1337-cb7a-48c7-9c1b-b6e016b2d122"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(D4-A)] от D4 на F.Cu",
+                    "pos": {
+                        "x": 73.9375,
+                        "y": 2.4
+                    },
+                    "uuid": "7f3821c8-c68e-4b61-be23-0876addf0dbc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [MODE] на B.Cu, длина 21,3000 mm",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 14.5
+                    },
+                    "uuid": "10925984-6063-4667-871b-764c702a0195"
+                },
+                {
+                    "description": "Дорожка [MODE] на B.Cu, длина 12,3000 mm",
+                    "pos": {
+                        "x": 39.6,
+                        "y": 14.5
+                    },
+                    "uuid": "8798d82a-5bc6-4031-9927-482c77268eca"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-COM1)] от R5 на F.Cu",
+                    "pos": {
+                        "x": 14.8125,
+                        "y": 34.5
+                    },
+                    "uuid": "25c3d3a5-bb76-4bac-96b8-ca5a0b011178"
+                },
+                {
+                    "description": "Конт. пл. 8 [Net-(U1-COM1)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 14.0375,
+                        "y": 30.775
+                    },
+                    "uuid": "800f0fb6-ea2d-43c6-9e66-cf8711ea212f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-COM1)] от C5 на F.Cu",
+                    "pos": {
+                        "x": 14.85,
+                        "y": 37.099999
+                    },
+                    "uuid": "6b6f4231-fd48-4348-86f8-abf1fcba68c3"
+                },
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-COM1)] от R5 на F.Cu",
+                    "pos": {
+                        "x": 14.8125,
+                        "y": 34.5
+                    },
+                    "uuid": "25c3d3a5-bb76-4bac-96b8-ca5a0b011178"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(D3-A)] от D3 на F.Cu",
+                    "pos": {
+                        "x": 66.0625,
+                        "y": 2.4
+                    },
+                    "uuid": "8cebdf9d-fd25-47c0-a20d-8e47bae16651"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(D3-A)] от R10 на F.Cu",
+                    "pos": {
+                        "x": 67.9125,
+                        "y": 5.0
+                    },
+                    "uuid": "03260d18-465c-46d2-a38e-7f2ad1b9392e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [/2. Converter/FILTER_MID] на F.Cu, длина 5,7750 mm",
+                    "pos": {
+                        "x": 62.95,
+                        "y": 23.0
+                    },
+                    "uuid": "16b37edc-e995-44be-925f-e651726fbe7a"
+                },
+                {
+                    "description": "Конт. пл. 1 [/2. Converter/FILTER_MID] от R40 на F.Cu",
+                    "pos": {
+                        "x": 60.4625,
+                        "y": 32.5
+                    },
+                    "uuid": "799f3f65-f1ea-47a5-8077-d1633b42354d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [FILTER_OUT] от L4 на F.Cu",
+                    "pos": {
+                        "x": 76.95,
+                        "y": 23.0
+                    },
+                    "uuid": "4aaf9b0d-056f-4583-8c37-9e335599e10a"
+                },
+                {
+                    "description": "Конт. пл. 1 [FILTER_OUT] от R41 на F.Cu",
+                    "pos": {
+                        "x": 78.4625,
+                        "y": 32.5
+                    },
+                    "uuid": "e731df9c-0578-4eed-a488-35b921647fe1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. пл. 1 [FILTER_OUT] у J11",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 23.0
+                    },
+                    "uuid": "06b187ca-4e42-4ee8-8ef9-ab1c7cc03299"
+                },
+                {
+                    "description": "Конт. пл. 2 [FILTER_OUT] от L4 на F.Cu",
+                    "pos": {
+                        "x": 76.95,
+                        "y": 23.0
+                    },
+                    "uuid": "4aaf9b0d-056f-4583-8c37-9e335599e10a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 31.0625,
+                        "y": 27.8
+                    },
+                    "uuid": "b5b05890-5d31-45c1-964e-466efffb4d36"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,0125 mm",
+                    "pos": {
+                        "x": 29.25,
+                        "y": 27.1125
+                    },
+                    "uuid": "3cb09524-ef61-40cd-b1f9-6efb5d23e22b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,4066 mm",
+                    "pos": {
+                        "x": 41.7,
+                        "y": 33.0
+                    },
+                    "uuid": "acd66cc7-9d29-40d9-9127-aad83c47cb15"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,2121 mm",
+                    "pos": {
+                        "x": 39.6125,
+                        "y": 27.8
+                    },
+                    "uuid": "dfdad179-1a86-4f43-80de-952b21fd4aaf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 1,1490 mm",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 33.2875
+                    },
+                    "uuid": "8160c8ad-5207-49a7-928d-47d2293a110f"
+                },
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на B.Cu, длина 14,5664 mm",
+                    "pos": {
+                        "x": 42.9,
+                        "y": 36.55
+                    },
+                    "uuid": "e9707e67-d4ca-4597-9e07-e7b384927f2b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-VG)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 14.0375,
+                        "y": 26.225
+                    },
+                    "uuid": "0fb10175-1381-4ba0-8f29-60d54781d3b4"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-VG)] от C3 на F.Cu",
+                    "pos": {
+                        "x": 16.55,
+                        "y": 23.6
+                    },
+                    "uuid": "b3ec0d1e-40bc-4d23-ba37-cc13c31ff9b7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [CHRG] от U1 на F.Cu",
+                    "pos": {
+                        "x": 14.0375,
+                        "y": 28.175
+                    },
+                    "uuid": "ced4bb2c-ce37-4d8d-93eb-06b13fdc3d06"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHRG] от D3 на F.Cu",
+                    "pos": {
+                        "x": 67.9375,
+                        "y": 2.4
+                    },
+                    "uuid": "5db9d49d-c341-47f8-bbc9-7408821160a2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-TEMP)] от R9 на F.Cu",
+                    "pos": {
+                        "x": 11.0125,
+                        "y": 29.7
+                    },
+                    "uuid": "d6218093-cec1-4dc5-bbe8-51039cc4f204"
+                },
+                {
+                    "description": "Конт. пл. 6 [Net-(U1-TEMP)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 14.0375,
+                        "y": 29.475
+                    },
+                    "uuid": "3dca10d4-b134-49f7-ad57-983e7437a6ce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-MPPT)] от R7 на F.Cu",
+                    "pos": {
+                        "x": 11.0125,
+                        "y": 32.299999
+                    },
+                    "uuid": "c6fbf352-80bc-48df-9f51-7d7903ded8bc"
+                },
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-MPPT)] от R8 на F.Cu",
+                    "pos": {
+                        "x": 11.0125,
+                        "y": 34.9
+                    },
+                    "uuid": "5072de79-138d-4aff-8e86-c964f633d449"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 7 [Net-(U1-MPPT)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 14.0375,
+                        "y": 30.125
+                    },
+                    "uuid": "343f0404-27c3-4395-acb4-f32a2c72a341"
+                },
+                {
+                    "description": "Конт. пл. 2 [Net-(U1-MPPT)] от R7 на F.Cu",
+                    "pos": {
+                        "x": 11.0125,
+                        "y": 32.299999
+                    },
+                    "uuid": "c6fbf352-80bc-48df-9f51-7d7903ded8bc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 9 [Net-(U1-COM2)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 30.775
+                    },
+                    "uuid": "272a2d9f-bf15-4d48-9d05-e802aebabf9c"
+                },
+                {
+                    "description": "Дорожка [Net-(U1-COM2)] на F.Cu, длина 0,3500 mm",
+                    "pos": {
+                        "x": 23.85,
+                        "y": 36.2
+                    },
+                    "uuid": "aaf2222d-1bac-4474-b4fd-6625c185334f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(U1-COM3)] от C7 на F.Cu",
+                    "pos": {
+                        "x": 17.65,
+                        "y": 33.6
+                    },
+                    "uuid": "6ff9e8de-6274-435a-9ace-801cf2db62d3"
+                },
+                {
+                    "description": "Конт. пл. 11 [Net-(U1-COM3)] от U1 на F.Cu",
+                    "pos": {
+                        "x": 19.7625,
+                        "y": 29.475
+                    },
+                    "uuid": "49ea66f1-d9bd-49df-b0df-e080531a8e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [Net-(C6-Pad1)] от R6 на F.Cu",
+                    "pos": {
+                        "x": 25.6125,
+                        "y": 36.25
+                    },
+                    "uuid": "afbce6a6-20b6-4f2a-b104-277722707d64"
+                },
+                {
+                    "description": "Конт. пл. 1 [Net-(C6-Pad1)] от C6 на F.Cu",
+                    "pos": {
+                        "x": 25.65,
+                        "y": 38.5
+                    },
+                    "uuid": "2c6cd415-3a23-4885-a32b-6aec8af79f25"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. пл. 7 [RADIO_3V3] у J101",
+                    "pos": {
+                        "x": 71.77,
+                        "y": 11.0
+                    },
+                    "uuid": "b81ad583-b6e1-4c2b-a37e-1a3a46de2d87"
+                },
+                {
+                    "description": "PTH конт. пл. 5 [RADIO_3V3] у J101",
+                    "pos": {
+                        "x": 69.23,
+                        "y": 11.0
+                    },
+                    "uuid": "4582c1bb-5a74-4eb0-99e5-e3797d0fab0c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [RADIO_3V3] от NT2 на F.Cu",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 25.54
+                    },
+                    "uuid": "344188df-ea9c-486a-b148-910357b08bce"
+                },
+                {
+                    "description": "PTH конт. пл. 7 [RADIO_3V3] у J101",
+                    "pos": {
+                        "x": 71.77,
+                        "y": 11.0
+                    },
+                    "uuid": "b81ad583-b6e1-4c2b-a37e-1a3a46de2d87"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 6 [/4. Thermal/CHG_VSHORT] от U10 на F.Cu",
+                    "pos": {
+                        "x": 48.525,
+                        "y": 40.035
+                    },
+                    "uuid": "c1c284b9-b797-4a5c-bfc2-a5aacd3d7772"
+                },
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_VSHORT] на F.Cu, длина 1,8385 mm",
+                    "pos": {
+                        "x": 48.6,
+                        "y": 47.5
+                    },
+                    "uuid": "3966b535-9ffe-4dcb-b96d-9d3119bf9159"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [Net-(D1-K)] от L1 на F.Cu",
+                    "pos": {
+                        "x": 35.1,
+                        "y": 32.55
+                    },
+                    "uuid": "d3efe323-0368-4e0e-bed4-1aac8cc206e4"
+                },
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 0,9192 mm",
+                    "pos": {
+                        "x": 33.15,
+                        "y": 24.5
+                    },
+                    "uuid": "e4ca189a-96d3-4aa3-8ca1-5d98422a77e6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_WARM] на B.Cu, длина 5,7000 mm",
+                    "pos": {
+                        "x": 40.6,
+                        "y": 41.15
+                    },
+                    "uuid": "deb4d517-3aee-4d09-bd9c-796d393708ea"
+                },
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_WARM] на F.Cu, длина 0,7849 mm",
+                    "pos": {
+                        "x": 42.325,
+                        "y": 37.495
+                    },
+                    "uuid": "04cfd8a2-e75a-4770-bd0c-e66958d1e6f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 7 [/4. Thermal/CHG_WARM] от U10 на F.Cu",
+                    "pos": {
+                        "x": 48.525,
+                        "y": 38.765
+                    },
+                    "uuid": "c7fda6d6-04c7-4483-a7b3-acfd025bffab"
+                },
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_WARM] на F.Cu, длина 3,2700 mm",
+                    "pos": {
+                        "x": 42.325,
+                        "y": 37.495
+                    },
+                    "uuid": "bc03b29f-dd9a-4656-bc42-9377d8f5e8e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на F.Cu, длина 16,2000 mm",
+                    "pos": {
+                        "x": 25.7,
+                        "y": 6.0
+                    },
+                    "uuid": "58cd72fd-6cb9-4443-b28b-aa5fccf518a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Перех. отв. [BAT] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 4.5,
+                        "y": 50.0
+                    },
+                    "uuid": "0cc53d60-e7e8-4174-ab6e-7a16ae0b1314"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на B.Cu, длина 3,7000 mm",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 9.3
+                    },
+                    "uuid": "2e4b7ef1-af7e-4789-96da-41f747c04882"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [BAT] на B.Cu, длина 2,8284 mm",
+                    "pos": {
+                        "x": 2.0,
+                        "y": 47.0
+                    },
+                    "uuid": "890dc75e-ac15-4e31-a31e-e3046ed19949"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [SOLAR] на F.Cu, длина 2,5000 mm",
+                    "pos": {
+                        "x": 2.0,
+                        "y": 19.0
+                    },
+                    "uuid": "645b490e-41b9-4531-9657-6e6e23dee91f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [SOLAR] на B.Cu, длина 3,8000 mm",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 15.0
+                    },
+                    "uuid": "0397b43f-8767-472b-ae02-977c03a2d4e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [SOLAR] на B.Cu, длина 2,7224 mm",
+                    "pos": {
+                        "x": 23.325,
+                        "y": 23.95
+                    },
+                    "uuid": "acd3f796-cc7c-4f02-990d-f4bf97ada5b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_TSENSE] на F.Cu, длина 1,7607 mm",
+                    "pos": {
+                        "x": 47.275,
+                        "y": 41.305
+                    },
+                    "uuid": "e2d35446-bee6-4138-89e5-86203f57164d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [BAT_SYS] на F.Cu, длина 1,3375 mm",
+                    "pos": {
+                        "x": 22.95,
+                        "y": 31.0
+                    },
+                    "uuid": "4840519d-4e5f-4fed-b652-ad69bbf1efb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [SDA] на F.Cu, длина 2,9000 mm",
+                    "pos": {
+                        "x": 67.9,
+                        "y": 14.1
+                    },
+                    "uuid": "17cd78b7-e7c3-4627-a783-64cef65a431c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [SDA] на F.Cu, длина 6,5000 mm",
+                    "pos": {
+                        "x": 61.3,
+                        "y": 14.2
+                    },
+                    "uuid": "306f2314-0a53-4506-bdbe-e2ef47ca64f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/2. Converter/SYS_PRE] на F.Cu, длина 1,2728 mm",
+                    "pos": {
+                        "x": 42.95,
+                        "y": 23.4
+                    },
+                    "uuid": "a007bd44-49b4-44fb-8bbe-0f5ddefb201f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 1,3965 mm",
+                    "pos": {
+                        "x": 40.6,
+                        "y": 30.8875
+                    },
+                    "uuid": "51cf8a5d-b9fa-406e-9060-d7789a145037"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 5,6500 mm",
+                    "pos": {
+                        "x": 33.8,
+                        "y": 42.45
+                    },
+                    "uuid": "9ec6556b-32eb-4ac5-976d-276b17608f0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на B.Cu, длина 1,6500 mm",
+                    "pos": {
+                        "x": 34.4,
+                        "y": 29.9
+                    },
+                    "uuid": "84a529a7-8a05-4424-bdcf-930b4e11a07c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [MODE] на B.Cu, длина 12,3000 mm",
+                    "pos": {
+                        "x": 39.6,
+                        "y": 14.5
+                    },
+                    "uuid": "8798d82a-5bc6-4031-9927-482c77268eca"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 1,1490 mm",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 33.2875
+                    },
+                    "uuid": "8160c8ad-5207-49a7-928d-47d2293a110f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,4066 mm",
+                    "pos": {
+                        "x": 41.7,
+                        "y": 33.0
+                    },
+                    "uuid": "acd66cc7-9d29-40d9-9127-aad83c47cb15"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на B.Cu, длина 14,5664 mm",
+                    "pos": {
+                        "x": 42.9,
+                        "y": 36.55
+                    },
+                    "uuid": "e9707e67-d4ca-4597-9e07-e7b384927f2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Перех. отв. [/4. Thermal/CHG_VSHORT] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 48.6,
+                        "y": 47.5
+                    },
+                    "uuid": "e95701c0-09c2-4eef-820c-6ad8cae269ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_WARM] на F.Cu, длина 0,7849 mm",
+                    "pos": {
+                        "x": 42.325,
+                        "y": 37.495
+                    },
+                    "uuid": "04cfd8a2-e75a-4770-bd0c-e66958d1e6f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_WARM] на F.Cu, длина 3,2700 mm",
+                    "pos": {
+                        "x": 42.325,
+                        "y": 37.495
+                    },
+                    "uuid": "bc03b29f-dd9a-4656-bc42-9377d8f5e8e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [/4. Thermal/CHG_WARM] на B.Cu, длина 5,7000 mm",
+                    "pos": {
+                        "x": 40.6,
+                        "y": 41.15
+                    },
+                    "uuid": "deb4d517-3aee-4d09-bd9c-796d393708ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+  "scope": "Read-only nominal F side accessibility of proposed top edge bare test pads, not a DRC or routing approval",
+  "board_sha256": "17aa57d94ebcd84436fd510ebc3df5ad4ebf4af9cf782e9608e2008d2b24af3f",
+  "proposed_row_y_mm": 1.2,
+  "top_connector_bodies_native_FFab": {
+    "J7": [
+      8.85,
+      0.05,
+      16.35,
+      11.65
+    ],
+    "J8": [
+      20.25,
+      0.05,
+      27.75,
+      11.65
+    ],
+    "J12": [
+      32.7,
+      0.05,
+      45.3,
+      11.75
+    ]
+  },
+  "checks": [
+    {
+      "reference": "TP6",
+      "candidate_mm": [
+        7.6,
+        1.2
+      ],
+      "physical_pad_diameter_mm": 1.5,
+      "real_courtyard_outer_radius_mm": 0.9,
+      "copper_to_board_edge_mm": 0.44999999999999996,
+      "pad_to_nominal_header_body_mm": {
+        "J7": 0.5,
+        "J8": 11.9,
+        "J12": 24.35
+      },
+      "real_courtyard_to_header_courtyard_mm": {
+        "J7": 0.12500000000000033,
+        "J8": 11.524999999999999,
+        "J12": 23.975
+      },
+      "pad_to_M3_washer_radius_3p25_mm": {
+        "H1": 0.7010637094172631,
+        "H4": 92.34988323812334,
+        "H2": 74.9335163286167,
+        "H3": 51.45178085508165
+      },
+      "unobstructed_45degree_pad_centre_route_to_source_mm": null,
+      "source_for_estimate": null,
+      "geometry_clear": true
+    },
+    {
+      "reference": "TP9",
+      "candidate_mm": [
+        18.2,
+        1.2
+      ],
+      "physical_pad_diameter_mm": 1.5,
+      "real_courtyard_outer_radius_mm": 0.9,
+      "copper_to_board_edge_mm": 0.44999999999999996,
+      "pad_to_nominal_header_body_mm": {
+        "J7": 1.0999999999999979,
+        "J8": 1.3000000000000007,
+        "J12": 13.750000000000004
+      },
+      "real_courtyard_to_header_courtyard_mm": {
+        "J7": 0.725,
+        "J8": 0.9249999999999993,
+        "J12": 13.375000000000002
+      },
+      "pad_to_M3_washer_radius_3p25_mm": {
+        "H1": 10.878844041120935,
+        "H4": 83.8804870264156,
+        "H2": 64.33871523521641,
+        "H3": 53.22045088952026
+      },
+      "unobstructed_45degree_pad_centre_route_to_source_mm": 10.937362902255703,
+      "source_for_estimate": "J7",
+      "geometry_clear": true
+    },
+    {
+      "reference": "TP1",
+      "candidate_mm": [
+        29.5,
+        1.2
+      ],
+      "physical_pad_diameter_mm": 1.5,
+      "real_courtyard_outer_radius_mm": 0.9,
+      "copper_to_board_edge_mm": 0.44999999999999996,
+      "pad_to_nominal_header_body_mm": {
+        "J7": 12.399999999999999,
+        "J8": 1.0,
+        "J12": 2.450000000000003
+      },
+      "real_courtyard_to_header_courtyard_mm": {
+        "J7": 12.025,
+        "J8": 0.6249999999999986,
+        "J12": 2.0750000000000015
+      },
+      "pad_to_M3_washer_radius_3p25_mm": {
+        "H1": 22.101532522057013,
+        "H4": 75.41718957505358,
+        "H2": 53.04638463566293,
+        "H3": 57.10720088500209
+      },
+      "unobstructed_45degree_pad_centre_route_to_source_mm": 10.895941546018394,
+      "source_for_estimate": "J8",
+      "geometry_clear": true
+    }
+  ],
+  "geometry_accessible": true,
+  "not_qualified": "Actual component maximum body dimensions and probe tip diameter are not specified. Copper routes and fresh DRC must be completed by routing owner. No CAD changed."
+}

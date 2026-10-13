@@ -1,0 +1,477 @@
+{
+  "ok": true,
+  "scope": "Actual A3 PCB/model/native XML connectivity assignments, unchanged component poses and user-authorized interface; DRC and physical assembly/EMI validation separate",
+  "checks": [
+    {
+      "name": "POWER exact model/PCB reference set",
+      "pass": true,
+      "detail": {
+        "model_only": [],
+        "pcb_only": []
+      }
+    },
+    {
+      "name": "POWER no duplicate PCB references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "POWER all native endpoint groups match saved copper net assignment",
+      "pass": true,
+      "detail": {
+        "missing_pins": [],
+        "native_only": [],
+        "pcb_only": []
+      }
+    },
+    {
+      "name": "POWER exact model/PCB position and angle",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "POWER exact current footprint IDs",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "POWER exact component values",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "POWER track segments only 0/45/90 degrees",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "POWER no old enlarged-group Gxx x1.5 callouts",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "LOGIC exact model/PCB reference set",
+      "pass": true,
+      "detail": {
+        "model_only": [],
+        "pcb_only": []
+      }
+    },
+    {
+      "name": "LOGIC no duplicate PCB references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LOGIC all native endpoint groups match saved copper net assignment",
+      "pass": true,
+      "detail": {
+        "missing_pins": [],
+        "native_only": [],
+        "pcb_only": []
+      }
+    },
+    {
+      "name": "LOGIC exact model/PCB position and angle",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "LOGIC exact current footprint IDs",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "LOGIC exact component values",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "LOGIC track segments only 0/45/90 degrees",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "LOGIC no old enlarged-group Gxx x1.5 callouts",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "INA219 six added A2 positions remain only POWER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INA219 exact circuit nets U12",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1": "GND",
+          "2": "GND",
+          "3": "SDA",
+          "4": "SCL",
+          "5": "SYS_3V3",
+          "6": "GND",
+          "7": "INA_VIN_M",
+          "8": "INA_VIN_P"
+        },
+        "actual": {
+          "1": "GND",
+          "2": "GND",
+          "3": "SDA",
+          "4": "SCL",
+          "5": "SYS_3V3",
+          "6": "GND",
+          "7": "INA_VIN_M",
+          "8": "INA_VIN_P"
+        }
+      }
+    },
+    {
+      "name": "INA219 exact values, packages and fit variants U12",
+      "pass": true,
+      "detail": {
+        "physical_footprint": "Meshcore:SOIC-8_3.9x4.9mm_P1.27mm",
+        "expected_footprint": "Meshcore:SOIC-8_3.9x4.9mm_P1.27mm"
+      }
+    },
+    {
+      "name": "INA219 exact circuit nets R71",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1": "BAT_SYS",
+          "2": "BAT"
+        },
+        "actual": {
+          "1": "BAT_SYS",
+          "2": "BAT"
+        }
+      }
+    },
+    {
+      "name": "INA219 exact values, packages and fit variants R71",
+      "pass": true,
+      "detail": {
+        "physical_footprint": "Meshcore:R_2512_6332Metric",
+        "expected_footprint": "Meshcore:R_2512_6332Metric"
+      }
+    },
+    {
+      "name": "INA219 exact circuit nets R72",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1": "BAT_SYS",
+          "2": "INA_VIN_P"
+        },
+        "actual": {
+          "1": "BAT_SYS",
+          "2": "INA_VIN_P"
+        }
+      }
+    },
+    {
+      "name": "INA219 exact values, packages and fit variants R72",
+      "pass": true,
+      "detail": {
+        "physical_footprint": "Meshcore:R_0805_2012Metric",
+        "expected_footprint": "Meshcore:R_0805_2012Metric"
+      }
+    },
+    {
+      "name": "INA219 exact circuit nets R73",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1": "BAT",
+          "2": "INA_VIN_M"
+        },
+        "actual": {
+          "1": "BAT",
+          "2": "INA_VIN_M"
+        }
+      }
+    },
+    {
+      "name": "INA219 exact values, packages and fit variants R73",
+      "pass": true,
+      "detail": {
+        "physical_footprint": "Meshcore:R_0805_2012Metric",
+        "expected_footprint": "Meshcore:R_0805_2012Metric"
+      }
+    },
+    {
+      "name": "INA219 exact circuit nets C63",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1": "SYS_3V3",
+          "2": "GND"
+        },
+        "actual": {
+          "1": "SYS_3V3",
+          "2": "GND"
+        }
+      }
+    },
+    {
+      "name": "INA219 exact values, packages and fit variants C63",
+      "pass": true,
+      "detail": {
+        "physical_footprint": "Meshcore:C_0805_2012Metric",
+        "expected_footprint": "Meshcore:C_0805_2012Metric"
+      }
+    },
+    {
+      "name": "INA219 exact circuit nets C64",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1": "INA_VIN_P",
+          "2": "INA_VIN_M"
+        },
+        "actual": {
+          "1": "INA_VIN_P",
+          "2": "INA_VIN_M"
+        }
+      }
+    },
+    {
+      "name": "INA219 exact values, packages and fit variants C64",
+      "pass": true,
+      "detail": {
+        "physical_footprint": "Meshcore:C_0805_2012Metric",
+        "expected_footprint": "Meshcore:C_0805_2012Metric"
+      }
+    },
+    {
+      "name": "POWER exact A3 twelve-pin interconnect",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LOGIC exact A3 twelve-pin interconnect",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "J11 one removable bridge moves entirely to POWER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NT2 is the only copper SYS/RADIO star",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Separate RADIO connector branch feeds only FB1 input on LOGIC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Local modem supply feeds only M2/C23/C24 after FB1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FB1 no longer connects to SYS on LOGIC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "A3 exact 2512 package and MPN R1",
+      "pass": true,
+      "detail": {
+        "physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "mpn": "WSL2512R2800FEA"
+      }
+    },
+    {
+      "name": "A3 exact 2512 package and MPN R40",
+      "pass": true,
+      "detail": {
+        "physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "mpn": "WSL2512R0220FEA"
+      }
+    },
+    {
+      "name": "A3 exact 2512 package and MPN R41",
+      "pass": true,
+      "detail": {
+        "physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "mpn": "WSL2512R0220FEA"
+      }
+    },
+    {
+      "name": "A3 exact 2512 package and MPN R55",
+      "pass": true,
+      "detail": {
+        "physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "mpn": "WSL2512R0470FEA"
+      }
+    },
+    {
+      "name": "A3 exact 2512 package and MPN R56",
+      "pass": true,
+      "detail": {
+        "physical": "Meshcore:R_2512_6332Metric",
+        "expected_physical": "Meshcore:R_2512_6332Metric",
+        "mpn": "RC2512FK-071R8L"
+      }
+    },
+    {
+      "name": "A3 exact 2512 package and MPN R71",
+      "pass": true,
+      "detail": {
+        "physical": "Meshcore:R_2512_6332Metric",
+        "expected_physical": "Meshcore:R_2512_6332Metric",
+        "mpn": "RL2512FK-070R1L"
+      }
+    },
+    {
+      "name": "R56 cold 1.8R/0R options retain proper 2512 ordering codes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Accepted 2R 0805 balancer remains R47",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Accepted 2R 0805 balancer remains R51",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw battery endpoints remain before R71",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "J8/J12 assembly names are Na-ion/LTO",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Unchanged electrical MPNs retain all three frozen assembly variants",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "POWER all components have one F.Cu mounting face",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "POWER 2512 physical-package library ID R1",
+      "pass": true,
+      "detail": {
+        "actual": "Meshcore:R_Vishay_WSL2512_A3__A3_R1",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "model_source": "Meshcore:R_Vishay_WSL2512_A3"
+      }
+    },
+    {
+      "name": "POWER 2512 physical-package library ID R40",
+      "pass": true,
+      "detail": {
+        "actual": "Meshcore:R_Vishay_WSL2512_A3__A3_R40",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "model_source": "Meshcore:R_Vishay_WSL2512_A3"
+      }
+    },
+    {
+      "name": "POWER 2512 physical-package library ID R41",
+      "pass": true,
+      "detail": {
+        "actual": "Meshcore:R_Vishay_WSL2512_A3__A3_R41",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "model_source": "Meshcore:R_Vishay_WSL2512_A3"
+      }
+    },
+    {
+      "name": "POWER 2512 physical-package library ID R55",
+      "pass": true,
+      "detail": {
+        "actual": "Meshcore:R_Vishay_WSL2512_A3__A3_R55",
+        "expected_physical": "Meshcore:R_Vishay_WSL2512_A3",
+        "model_source": "Meshcore:R_Vishay_WSL2512_A3"
+      }
+    },
+    {
+      "name": "POWER 2512 physical-package library ID R56",
+      "pass": true,
+      "detail": {
+        "actual": "Meshcore:R_2512_6332Metric__A3_R56",
+        "expected_physical": "Meshcore:R_2512_6332Metric",
+        "model_source": "Meshcore:R_2512_6332Metric"
+      }
+    },
+    {
+      "name": "POWER 2512 physical-package library ID R71",
+      "pass": true,
+      "detail": {
+        "actual": "Meshcore:R_2512_6332Metric__A3_R71",
+        "expected_physical": "Meshcore:R_2512_6332Metric",
+        "model_source": "Meshcore:R_2512_6332Metric"
+      }
+    },
+    {
+      "name": "POWER TP1/TP6/TP9 form one straight row",
+      "pass": true,
+      "detail": {
+        "TP1": [
+          29.6,
+          1.3
+        ],
+        "TP6": [
+          7.6,
+          1.3
+        ],
+        "TP9": [
+          18.6,
+          1.3
+        ]
+      }
+    },
+    {
+      "name": "Read-only input files unchanged during proof",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "boards": {
+    "POWER": {
+      "parts": 123,
+      "track_segments": 858,
+      "graph_groups": 62
+    },
+    "LOGIC": {
+      "parts": 56,
+      "track_segments": 620,
+      "graph_groups": 54
+    }
+  },
+  "inputs": {
+    "design\\v2_electrical_contract.json": "478b416c5fa28fbe4cebbc594eb1b519e90cb6c393aba6f58130b6fecffdac08",
+    "design\\feature_a3_single_face_split_power.json": "c1046227f0af2687b4badb6cc1f251c912355ce904ac62e9be96ef2d2fcc356c",
+    "design\\feature_ina219_vertical.json": "693b5e48ba9c76f279b386b4c0329c77291013b6305e4e3bf458e72c796adf8b",
+    "tools\\v2_a3_feature_contract.py": "768a968361a1275169c75dd93d965805186e2e6218281d26fee9a1b5ecd6b0cc",
+    "tools\\v2_feature_contract.py": "36f875828c7f3e16c6917d47e6641f1fb85bbe97079add98f4f4941230736205",
+    "tools\\cad\\kicad_headless.py": "a71b7509282b3ce777d07c30b21e25afc0317e9dc7dfa903d48475d4abc74d9b",
+    "tools\\verify_v2_a3_native_boards.py": "89bd4f00ed8c27a9ba7eb66647cce067f892621fc4b6f803099891b77ded2d14",
+    "design\\MeshRepeater2_Power\\model.json": "62c0b86e994ccc206255ff8d80e1e566122be2902e333597eca7cede4213cd03",
+    "design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_pcb": "be0c865aff7f217989bab9ab264dd0a0c2cda1ecd81906dd05bbb1ab731a2f44",
+    "audit\\a3_2026_10_13\\schematic\\POWER\\netlist.xml": "fee1229c07a96236616468da41102f2410631fbdad657044f8b492550d62d5de",
+    "design\\MeshRepeater2_Logic\\model.json": "975a649c6e94f4fb5957482bc095a1b0ff49a15abf4cef667cc88e6c011a80d9",
+    "design\\MeshRepeater2_Logic\\MeshRepeater2_Logic.kicad_pcb": "ea936c8edc2d1d19b65868ca1c8f1fd98aeee777667ff6ef7b1d5d688f4b944b",
+    "audit\\a3_2026_10_13\\schematic\\LOGIC\\netlist.xml": "6c3b0f663cf8f11ccafcd4aafa4057160726775efeb478d37a6723800527e559"
+  }
+}

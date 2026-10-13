@@ -1,3 +1,5 @@
-STEP file 'C:/Users/Alksndr/Desktop/codex/Meshcore/projects/Mesh_Repeater_2_0/output/POWER/MeshRepeater2_Power.step' created.
+Wire self-interference check failed
+z: 1.43; bounding box: x0: 19.75; y0: 33.8; x1: 20.30048; y1: 34.575
+STEP file 'C:/Users/Alksndr/Desktop/codex/Meshcore/v2/output/POWER/MeshRepeater2_Power.step' created.
 
-Export time 19.326 s
+Export time 15.603 s

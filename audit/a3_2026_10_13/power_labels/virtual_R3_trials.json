@@ -1,0 +1,100 @@
+[
+  {
+    "trial": 0,
+    "virtual_R3_pose": [
+      20.5,
+      36.5,
+      0
+    ],
+    "unplaced": [
+      "C7",
+      "R3"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 1,
+    "virtual_R3_pose": [
+      20.0,
+      36.5,
+      0
+    ],
+    "unplaced": [
+      "C7"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 2,
+    "virtual_R3_pose": [
+      20.5,
+      36.0,
+      0
+    ],
+    "unplaced": [
+      "C7"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 3,
+    "virtual_R3_pose": [
+      21.0,
+      37.0,
+      0
+    ],
+    "unplaced": [
+      "R3"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 4,
+    "virtual_R3_pose": [
+      20.5,
+      37.0,
+      0
+    ],
+    "unplaced": [
+      "C7",
+      "R3"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 5,
+    "virtual_R3_pose": [
+      20.5,
+      36.5,
+      90
+    ],
+    "unplaced": [
+      "R3"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 6,
+    "virtual_R3_pose": [
+      20.0,
+      36.5,
+      90
+    ],
+    "unplaced": [
+      "C7"
+    ],
+    "CAD_written": false
+  },
+  {
+    "trial": 7,
+    "virtual_R3_pose": [
+      21.0,
+      36.5,
+      90
+    ],
+    "unplaced": [
+      "R3"
+    ],
+    "CAD_written": false
+  }
+]

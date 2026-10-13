@@ -1,0 +1,7722 @@
+{
+  "footprints": [
+    {
+      "ref": "U7",
+      "value": "SN74LVC2G125",
+      "position": [
+        64.0,
+        10.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            62.1,
+            9.025
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GPS_TX_MCU",
+          "pos": [
+            62.1,
+            9.675
+          ]
+        },
+        {
+          "num": "3",
+          "net": "GPS_RX_MCU",
+          "pos": [
+            62.1,
+            10.325
+          ]
+        },
+        {
+          "num": "4",
+          "net": "GND",
+          "pos": [
+            62.1,
+            10.975
+          ]
+        },
+        {
+          "num": "5",
+          "net": "GPS_TX_EXT",
+          "pos": [
+            65.9,
+            10.975
+          ]
+        },
+        {
+          "num": "6",
+          "net": "GPS_RX_EXT",
+          "pos": [
+            65.9,
+            10.325
+          ]
+        },
+        {
+          "num": "7",
+          "net": "GND",
+          "pos": [
+            65.9,
+            9.675
+          ]
+        },
+        {
+          "num": "8",
+          "net": "GPS_3V3",
+          "pos": [
+            65.9,
+            9.025
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "U7",
+          "pos": [
+            64.0,
+            10.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "SN74LVC2G125",
+          "pos": [
+            64.0,
+            12.4
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "FB1",
+      "value": "60R@100MHz / 3A",
+      "position": [
+        33.8,
+        14.45
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            32.65,
+            14.45
+          ]
+        },
+        {
+          "num": "2",
+          "net": "/RADIO_3V3",
+          "pos": [
+            34.95,
+            14.45
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "FB1",
+          "pos": [
+            36.3,
+            16.7
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "60R@100MHz / 3A",
+          "pos": [
+            33.8,
+            16.05
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R21",
+      "value": "1k",
+      "position": [
+        48.0,
+        45.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "RADIO_TXEN",
+          "pos": [
+            47.0875,
+            45.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "MODE",
+          "pos": [
+            48.9125,
+            45.0
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R21",
+          "pos": [
+            48.0,
+            43.1445
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "1k",
+          "pos": [
+            48.0,
+            46.65
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R44",
+      "value": "1k",
+      "position": [
+        68.0,
+        20.8
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GPS_EN",
+          "pos": [
+            68.0,
+            21.7125
+          ]
+        },
+        {
+          "num": "2",
+          "net": "/2. RTC_IO/GPS_EN_GATE",
+          "pos": [
+            68.0,
+            19.8875
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R44",
+          "pos": [
+            68.0,
+            23.2605
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "1k",
+          "pos": [
+            69.65,
+            20.8
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C26",
+      "value": "100nF 50V X7R",
+      "position": [
+        6.7,
+        27.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "USER_BTN",
+          "pos": [
+            5.75,
+            27.5
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            7.65,
+            27.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C26",
+          "pos": [
+            6.7,
+            25.6445
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            6.7,
+            29.18
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R33",
+      "value": "10k",
+      "position": [
+        28.7,
+        7.5
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            28.7,
+            8.4125
+          ]
+        },
+        {
+          "num": "2",
+          "net": "MCU_RESET",
+          "pos": [
+            28.7,
+            6.5875
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R33",
+          "pos": [
+            28.95,
+            5.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "10k",
+          "pos": [
+            30.35,
+            7.5
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "Q2",
+      "value": "AO3401A",
+      "position": [
+        63.5,
+        17.0
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/2. RTC_IO/GPS_GATE",
+          "pos": [
+            64.4375,
+            17.95
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SYS_3V3",
+          "pos": [
+            64.4375,
+            16.05
+          ]
+        },
+        {
+          "num": "3",
+          "net": "GPS_3V3",
+          "pos": [
+            62.5625,
+            17.0
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "Q2",
+          "pos": [
+            63.5,
+            14.3195
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "AO3401A",
+          "pos": [
+            63.5,
+            14.6
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R30",
+      "value": "4.7k",
+      "position": [
+        80.8,
+        14.4
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            79.8875,
+            14.4
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SCL",
+          "pos": [
+            81.7125,
+            14.4
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R30",
+          "pos": [
+            80.8,
+            12.5445
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "4.7k",
+          "pos": [
+            80.8,
+            16.05
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C25",
+      "value": "100nF 50V X7R",
+      "position": [
+        33.0,
+        17.3
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "BAT_ADC",
+          "pos": [
+            32.05,
+            17.3
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            33.95,
+            17.3
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C25",
+          "pos": [
+            33.0,
+            19.1555
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            33.0,
+            18.98
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R36",
+      "value": "10k",
+      "position": [
+        50.0,
+        38.035
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            50.9125,
+            38.035
+          ]
+        },
+        {
+          "num": "2",
+          "net": "WDT_RESET",
+          "pos": [
+            49.0875,
+            38.035
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R36",
+          "pos": [
+            50.0,
+            39.8905
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "10k",
+          "pos": [
+            50.0,
+            36.385
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R24",
+      "value": "33R",
+      "position": [
+        30.0,
+        23.58
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "Net-(M1-P1.15_{slash}_MOSI)",
+          "pos": [
+            29.0875,
+            23.58
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(M2-MOSI)",
+          "pos": [
+            30.9125,
+            23.58
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R24",
+          "pos": [
+            32.4605,
+            23.58
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "33R",
+          "pos": [
+            30.0,
+            25.23
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "SW2",
+      "value": "RESET",
+      "position": [
+        41.0,
+        58.2
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "",
+          "net": "",
+          "pos": [
+            44.505,
+            55.71
+          ]
+        },
+        {
+          "num": "",
+          "net": "",
+          "pos": [
+            37.495,
+            55.71
+          ]
+        },
+        {
+          "num": "1",
+          "net": "MCU_RESET",
+          "pos": [
+            43.25,
+            58.2
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            38.75,
+            58.2
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "SW2",
+          "pos": [
+            41.0,
+            61.69
+          ],
+          "angle": 180.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "RESET",
+          "pos": [
+            41.0,
+            56.01
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C57",
+      "value": "10uF 16V X7R",
+      "position": [
+        63.5,
+        3.2
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GPS_3V3",
+          "pos": [
+            64.45,
+            3.2
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            62.55,
+            3.2
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C57",
+          "pos": [
+            66.0,
+            3.2
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "10uF 16V X7R",
+          "pos": [
+            63.5,
+            1.52
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J13",
+      "value": "SMA 50Ohm",
+      "position": [
+        34.5,
+        4.25
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/ANT_SMA",
+          "pos": [
+            34.5,
+            4.25
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            31.96,
+            1.71
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            31.96,
+            6.79
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            37.04,
+            1.71
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            37.04,
+            6.79
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J13",
+          "pos": [
+            29.0,
+            1.77
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "SMA 50Ohm",
+          "pos": [
+            34.5,
+            11.25
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "TP4",
+      "value": "SYS_3V3",
+      "position": [
+        88.4,
+        8.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            88.4,
+            8.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "TP4",
+          "pos": [
+            86.2395,
+            8.5
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "SYS_3V3",
+          "pos": [
+            88.4,
+            10.25
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J10",
+      "value": "AVR ISP 3V3",
+      "position": [
+        35.7,
+        31.3
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "WDT_MISO",
+          "pos": [
+            35.7,
+            31.3
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SYS_3V3",
+          "pos": [
+            38.24,
+            31.3
+          ]
+        },
+        {
+          "num": "3",
+          "net": "WDT_SCK",
+          "pos": [
+            35.7,
+            33.84
+          ]
+        },
+        {
+          "num": "4",
+          "net": "WDT_MOSI_RESET",
+          "pos": [
+            38.24,
+            33.84
+          ]
+        },
+        {
+          "num": "5",
+          "net": "WDT_RESET",
+          "pos": [
+            35.7,
+            36.38
+          ]
+        },
+        {
+          "num": "6",
+          "net": "GND",
+          "pos": [
+            38.24,
+            36.38
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J10",
+          "pos": [
+            33.22,
+            33.84
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "AVR ISP 3V3",
+          "pos": [
+            36.97,
+            38.76
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C33",
+      "value": "100nF 50V X7R",
+      "position": [
+        41.525,
+        39.2
+      ],
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            41.525,
+            38.25
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            41.525,
+            40.15
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C33",
+          "pos": [
+            43.3805,
+            39.2
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            39.845,
+            39.2
+          ],
+          "angle": 270.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R27",
+      "value": "2.2M 0.1%",
+      "position": [
+        29.8,
+        19.0
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "BAT",
+          "pos": [
+            29.8,
+            19.9125
+          ]
+        },
+        {
+          "num": "2",
+          "net": "BAT_ADC",
+          "pos": [
+            29.8,
+            18.0875
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R27",
+          "pos": [
+            29.8,
+            21.4605
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "2.2M 0.1%",
+          "pos": [
+            31.45,
+            19.0
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R45",
+      "value": "100k",
+      "position": [
+        68.8,
+        10.9
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GPS_3V3",
+          "pos": [
+            69.7125,
+            10.9
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GPS_TX_EXT",
+          "pos": [
+            67.8875,
+            10.9
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R45",
+          "pos": [
+            68.8,
+            12.7555
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100k",
+          "pos": [
+            68.8,
+            9.25
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "Q3",
+      "value": "2N7002K",
+      "position": [
+        68.0,
+        17.0
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/2. RTC_IO/GPS_EN_GATE",
+          "pos": [
+            68.9375,
+            17.95
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            68.9375,
+            16.05
+          ]
+        },
+        {
+          "num": "3",
+          "net": "/2. RTC_IO/GPS_GATE",
+          "pos": [
+            67.0625,
+            17.0
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "Q3",
+          "pos": [
+            71.0,
+            17.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "2N7002K",
+          "pos": [
+            68.0,
+            14.6
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C27",
+      "value": "100nF 50V X7R",
+      "position": [
+        71.5,
+        7.365
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            72.45,
+            7.365
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            70.55,
+            7.365
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C27",
+          "pos": [
+            71.5,
+            5.5095
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            71.5,
+            5.685
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R37",
+      "value": "0R",
+      "position": [
+        42.5,
+        28.67
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "WDT_MOSI_RESET",
+          "pos": [
+            41.5875,
+            28.67
+          ]
+        },
+        {
+          "num": "2",
+          "net": "MCU_RESET",
+          "pos": [
+            43.4125,
+            28.67
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R37",
+          "pos": [
+            44.9605,
+            28.67
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "0R",
+          "pos": [
+            42.5,
+            30.32
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R42",
+      "value": "100k",
+      "position": [
+        64.5,
+        20.8
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            63.5875,
+            20.8
+          ]
+        },
+        {
+          "num": "2",
+          "net": "/2. RTC_IO/GPS_GATE",
+          "pos": [
+            65.4125,
+            20.8
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R42",
+          "pos": [
+            64.5,
+            22.6555
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100k",
+          "pos": [
+            64.5,
+            22.45
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "GPS / T114 P3",
+      "position": [
+        52.0,
+        3.0
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "unconnected-(J4-RESET_N-Pad1)",
+          "pos": [
+            56.375,
+            5.4
+          ]
+        },
+        {
+          "num": "2",
+          "net": "unconnected-(J4-PPS-Pad2)",
+          "pos": [
+            55.125,
+            5.4
+          ]
+        },
+        {
+          "num": "3",
+          "net": "unconnected-(J4-WAKE_UP-Pad3)",
+          "pos": [
+            53.875,
+            5.4
+          ]
+        },
+        {
+          "num": "4",
+          "net": "GPS_RX_EXT",
+          "pos": [
+            52.625,
+            5.4
+          ]
+        },
+        {
+          "num": "5",
+          "net": "GPS_TX_EXT",
+          "pos": [
+            51.375,
+            5.4
+          ]
+        },
+        {
+          "num": "6",
+          "net": "SYS_3V3",
+          "pos": [
+            50.125,
+            5.4
+          ]
+        },
+        {
+          "num": "7",
+          "net": "GPS_3V3",
+          "pos": [
+            48.875,
+            5.4
+          ]
+        },
+        {
+          "num": "8",
+          "net": "GND",
+          "pos": [
+            47.625,
+            5.4
+          ]
+        },
+        {
+          "num": "MP",
+          "net": "GND",
+          "pos": [
+            58.925,
+            2.5
+          ]
+        },
+        {
+          "num": "MP",
+          "net": "GND",
+          "pos": [
+            45.075,
+            2.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J4",
+          "pos": [
+            52.0,
+            2.5
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "GPS / T114 P3",
+          "pos": [
+            52.0,
+            -0.8
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J5",
+      "value": "UART3V3",
+      "position": [
+        2.5,
+        18.12
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            2.5,
+            18.12
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SYS_3V3",
+          "pos": [
+            2.5,
+            15.58
+          ]
+        },
+        {
+          "num": "3",
+          "net": "UART_TX",
+          "pos": [
+            2.5,
+            13.04
+          ]
+        },
+        {
+          "num": "4",
+          "net": "UART_RX",
+          "pos": [
+            2.5,
+            10.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J5",
+          "pos": [
+            2.5,
+            20.39
+          ],
+          "angle": 180.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "UART3V3",
+          "pos": [
+            2.5,
+            8.23
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R28",
+      "value": "2.2M 0.1%",
+      "position": [
+        29.8,
+        15.6
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "BAT_ADC",
+          "pos": [
+            29.8,
+            16.5125
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            29.8,
+            14.6875
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R28",
+          "pos": [
+            28.05,
+            17.1
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "2.2M 0.1%",
+          "pos": [
+            31.45,
+            15.6
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "NT1",
+      "value": "Cu link / cut for FL1",
+      "position": [
+        40.7,
+        4.25
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/ANT_RF",
+          "pos": [
+            41.2,
+            4.25
+          ]
+        },
+        {
+          "num": "2",
+          "net": "/ANT_SMA",
+          "pos": [
+            40.2,
+            4.25
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "NT1",
+          "pos": [
+            40.7,
+            7.25
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "Cu link / cut for FL1",
+          "pos": [
+            40.7,
+            5.45
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "SW1",
+      "value": "USER",
+      "position": [
+        29.0,
+        58.2
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "",
+          "net": "",
+          "pos": [
+            32.505,
+            55.71
+          ]
+        },
+        {
+          "num": "",
+          "net": "",
+          "pos": [
+            25.495,
+            55.71
+          ]
+        },
+        {
+          "num": "1",
+          "net": "USER_BTN",
+          "pos": [
+            31.25,
+            58.2
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            26.75,
+            58.2
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "SW1",
+          "pos": [
+            29.0,
+            61.69
+          ],
+          "angle": 180.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "USER",
+          "pos": [
+            29.0,
+            56.01
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R46",
+      "value": "100k",
+      "position": [
+        59.4,
+        9.675
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            58.4875,
+            9.675
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GPS_TX_MCU",
+          "pos": [
+            60.3125,
+            9.675
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R46",
+          "pos": [
+            59.4,
+            11.5305
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100k",
+          "pos": [
+            59.4,
+            11.325
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R23",
+      "value": "33R",
+      "position": [
+        30.0,
+        28.66
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "Net-(M1-P1.11_{slash}_SCK)",
+          "pos": [
+            29.0875,
+            28.66
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(M2-SCK)",
+          "pos": [
+            30.9125,
+            28.66
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R23",
+          "pos": [
+            30.0,
+            30.5155
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "33R",
+          "pos": [
+            30.0,
+            30.31
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J201",
+      "value": "INTERBOARD 2x6 VERTICAL",
+      "position": [
+        64.15,
+        49.0
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "FILTER_OUT",
+          "pos": [
+            64.15,
+            49.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            64.15,
+            51.54
+          ]
+        },
+        {
+          "num": "3",
+          "net": "FILTER_OUT",
+          "pos": [
+            66.69,
+            49.0
+          ]
+        },
+        {
+          "num": "4",
+          "net": "GND",
+          "pos": [
+            66.69,
+            51.54
+          ]
+        },
+        {
+          "num": "5",
+          "net": "FILTER_OUT",
+          "pos": [
+            69.23,
+            49.0
+          ]
+        },
+        {
+          "num": "6",
+          "net": "GND",
+          "pos": [
+            69.23,
+            51.54
+          ]
+        },
+        {
+          "num": "7",
+          "net": "SYS_3V3",
+          "pos": [
+            71.77,
+            49.0
+          ]
+        },
+        {
+          "num": "8",
+          "net": "GND",
+          "pos": [
+            71.77,
+            51.54
+          ]
+        },
+        {
+          "num": "9",
+          "net": "BAT",
+          "pos": [
+            74.31,
+            49.0
+          ]
+        },
+        {
+          "num": "10",
+          "net": "SDA",
+          "pos": [
+            74.31,
+            51.54
+          ]
+        },
+        {
+          "num": "11",
+          "net": "MODE",
+          "pos": [
+            76.85,
+            49.0
+          ]
+        },
+        {
+          "num": "12",
+          "net": "SCL",
+          "pos": [
+            76.85,
+            51.54
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J201",
+          "pos": [
+            61.35,
+            50.27
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "INTERBOARD 2x6 VERTICAL",
+          "pos": [
+            79.65,
+            50.27
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R31",
+      "value": "10k",
+      "position": [
+        6.7,
+        30.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            5.7875,
+            30.5
+          ]
+        },
+        {
+          "num": "2",
+          "net": "USER_BTN",
+          "pos": [
+            7.6125,
+            30.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R31",
+          "pos": [
+            6.7,
+            32.3555
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "10k",
+          "pos": [
+            6.7,
+            32.15
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J11",
+      "value": "LC OUT - SYS 3V3",
+      "position": [
+        86.0,
+        23.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "FILTER_OUT",
+          "pos": [
+            86.0,
+            23.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SYS_3V3",
+          "pos": [
+            86.0,
+            25.54
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J11",
+          "pos": [
+            86.0,
+            20.73
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "LC OUT - SYS 3V3",
+          "pos": [
+            86.0,
+            27.81
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C24",
+      "value": "100nF 50V X7R",
+      "position": [
+        37.6,
+        14.05
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/RADIO_3V3",
+          "pos": [
+            37.6,
+            15.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            37.6,
+            13.1
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C24",
+          "pos": [
+            37.1,
+            18.55
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            39.28,
+            14.05
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C21",
+      "value": "10uF 16V X7R",
+      "position": [
+        29.05,
+        11.3
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            29.05,
+            12.25
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            29.05,
+            10.35
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C21",
+          "pos": [
+            28.05,
+            14.3
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "10uF 16V X7R",
+          "pos": [
+            30.73,
+            11.3
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "TP7",
+      "value": "GND",
+      "position": [
+        87.0,
+        52.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            87.0,
+            52.0
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "TP7",
+          "pos": [
+            87.0,
+            49.8395
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "GND",
+          "pos": [
+            87.0,
+            53.75
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R35",
+      "value": "100k",
+      "position": [
+        59.4,
+        16.5
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            60.3125,
+            16.5
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(M2-NSS)",
+          "pos": [
+            58.4875,
+            16.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R35",
+          "pos": [
+            59.4,
+            14.6445
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100k",
+          "pos": [
+            59.4,
+            14.85
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "BT1",
+      "value": "CR2032 / holder",
+      "position": [
+        72.0,
+        35.0
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/2. RTC_IO/RTC_BAT",
+          "pos": [
+            86.65,
+            35.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            57.35,
+            35.0
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "BT1",
+          "pos": [
+            72.0,
+            35.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "CR2032 / holder",
+          "pos": [
+            72.0,
+            46.75
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R25",
+      "value": "33R",
+      "position": [
+        30.0,
+        26.12
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "Net-(M1-P1.13_{slash}_NSS)",
+          "pos": [
+            29.0875,
+            26.12
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(M2-NSS)",
+          "pos": [
+            30.9125,
+            26.12
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R25",
+          "pos": [
+            32.5,
+            26.87
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "33R",
+          "pos": [
+            30.0,
+            27.77
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "H203",
+      "value": "M3 GND contact",
+      "position": [
+        3.5,
+        56.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            3.5,
+            56.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "H203",
+          "pos": [
+            3.5,
+            52.7
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        },
+        {
+          "text": "M3 GND contact",
+          "pos": [
+            3.5,
+            60.3
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R29",
+      "value": "4.7k",
+      "position": [
+        80.8,
+        17.2
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            79.8875,
+            17.2
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SDA",
+          "pos": [
+            81.7125,
+            17.2
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R29",
+          "pos": [
+            80.8,
+            19.0555
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "4.7k",
+          "pos": [
+            80.8,
+            18.85
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "H201",
+      "value": "M3 GND contact",
+      "position": [
+        3.5,
+        3.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            3.5,
+            3.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "H201",
+          "pos": [
+            3.5,
+            -0.3
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        },
+        {
+          "text": "M3 GND contact",
+          "pos": [
+            3.5,
+            7.3
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "FL1",
+      "value": "S869M000S003",
+      "position": [
+        40.7,
+        4.25
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            41.6,
+            5.45
+          ]
+        },
+        {
+          "num": "2",
+          "net": "/ANT_RF",
+          "pos": [
+            41.9,
+            4.25
+          ]
+        },
+        {
+          "num": "3",
+          "net": "GND",
+          "pos": [
+            41.9,
+            3.05
+          ]
+        },
+        {
+          "num": "4",
+          "net": "GND",
+          "pos": [
+            39.5,
+            3.05
+          ]
+        },
+        {
+          "num": "5",
+          "net": "/ANT_SMA",
+          "pos": [
+            39.5,
+            4.25
+          ]
+        },
+        {
+          "num": "6",
+          "net": "GND",
+          "pos": [
+            39.5,
+            5.45
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "FL1",
+          "pos": [
+            44.45,
+            6.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "S869M000S003",
+          "pos": [
+            43.3,
+            4.25
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "U6",
+      "value": "ATtiny13A-SSU",
+      "position": [
+        44.0,
+        34.0
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "WDT_RESET",
+          "pos": [
+            46.475,
+            35.905
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(U6-PB3_{slash}_TXEN_IN)",
+          "pos": [
+            46.475,
+            34.635
+          ]
+        },
+        {
+          "num": "3",
+          "net": "unconnected-(U6-PB4-Pad3)",
+          "pos": [
+            46.475,
+            33.365
+          ]
+        },
+        {
+          "num": "4",
+          "net": "GND",
+          "pos": [
+            46.475,
+            32.095
+          ]
+        },
+        {
+          "num": "5",
+          "net": "WDT_MOSI_RESET",
+          "pos": [
+            41.525,
+            32.095
+          ]
+        },
+        {
+          "num": "6",
+          "net": "WDT_MISO",
+          "pos": [
+            41.525,
+            33.365
+          ]
+        },
+        {
+          "num": "7",
+          "net": "WDT_SCK",
+          "pos": [
+            41.525,
+            34.635
+          ]
+        },
+        {
+          "num": "8",
+          "net": "SYS_3V3",
+          "pos": [
+            41.525,
+            35.905
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "U6",
+          "pos": [
+            44.0,
+            34.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "ATtiny13A-SSU",
+          "pos": [
+            44.0,
+            30.6
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R39",
+      "value": "100k",
+      "position": [
+        50.0,
+        31.235
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "Net-(U6-PB3_{slash}_TXEN_IN)",
+          "pos": [
+            49.0875,
+            31.235
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            50.9125,
+            31.235
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R39",
+          "pos": [
+            50.0,
+            29.3795
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100k",
+          "pos": [
+            50.0,
+            32.885
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C56",
+      "value": "100nF 50V X7R",
+      "position": [
+        63.5,
+        6.3
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GPS_3V3",
+          "pos": [
+            64.45,
+            6.3
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            62.55,
+            6.3
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C56",
+          "pos": [
+            61.0,
+            6.3
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            63.5,
+            4.62
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C22",
+      "value": "100nF 50V X7R",
+      "position": [
+        32.1,
+        11.3
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            32.1,
+            12.25
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            32.1,
+            10.35
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C22",
+          "pos": [
+            34.6,
+            9.05
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100nF 50V X7R",
+          "pos": [
+            33.78,
+            11.3
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R38",
+      "value": "1k",
+      "position": [
+        50.0,
+        34.635
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "RADIO_TXEN",
+          "pos": [
+            50.9125,
+            34.635
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(U6-PB3_{slash}_TXEN_IN)",
+          "pos": [
+            49.0875,
+            34.635
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R38",
+          "pos": [
+            52.4605,
+            34.635
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "1k",
+          "pos": [
+            50.0,
+            32.985
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "H204",
+      "value": "M3 GND contact",
+      "position": [
+        86.5,
+        56.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            86.5,
+            56.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "H204",
+          "pos": [
+            86.5,
+            52.7
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        },
+        {
+          "text": "M3 GND contact",
+          "pos": [
+            86.5,
+            60.3
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "M2",
+      "value": "HT-RA62",
+      "position": [
+        48.0,
+        18.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/ANT_RF",
+          "pos": [
+            40.0,
+            11.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            40.0,
+            13.0
+          ]
+        },
+        {
+          "num": "3",
+          "net": "/RADIO_3V3",
+          "pos": [
+            40.0,
+            15.0
+          ]
+        },
+        {
+          "num": "4",
+          "net": "/RADIO_RST",
+          "pos": [
+            40.0,
+            17.0
+          ]
+        },
+        {
+          "num": "5",
+          "net": "RADIO_TXEN",
+          "pos": [
+            40.0,
+            19.0
+          ]
+        },
+        {
+          "num": "6",
+          "net": "/RADIO_DIO1",
+          "pos": [
+            40.0,
+            21.0
+          ]
+        },
+        {
+          "num": "7",
+          "net": "RADIO_TXEN",
+          "pos": [
+            40.0,
+            23.0
+          ]
+        },
+        {
+          "num": "8",
+          "net": "unconnected-(M2-DIO3-Pad8)",
+          "pos": [
+            40.0,
+            25.0
+          ]
+        },
+        {
+          "num": "9",
+          "net": "GND",
+          "pos": [
+            56.0,
+            25.0
+          ]
+        },
+        {
+          "num": "10",
+          "net": "/RADIO_BUSY",
+          "pos": [
+            56.0,
+            23.0
+          ]
+        },
+        {
+          "num": "11",
+          "net": "/RADIO_RXEN",
+          "pos": [
+            56.0,
+            21.0
+          ]
+        },
+        {
+          "num": "12",
+          "net": "Net-(M2-SCK)",
+          "pos": [
+            56.0,
+            19.0
+          ]
+        },
+        {
+          "num": "13",
+          "net": "Net-(M2-MISO)",
+          "pos": [
+            56.0,
+            17.0
+          ]
+        },
+        {
+          "num": "14",
+          "net": "Net-(M2-MOSI)",
+          "pos": [
+            56.0,
+            15.0
+          ]
+        },
+        {
+          "num": "15",
+          "net": "Net-(M2-NSS)",
+          "pos": [
+            56.0,
+            13.0
+          ]
+        },
+        {
+          "num": "16",
+          "net": "GND",
+          "pos": [
+            56.0,
+            11.0
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "M2",
+          "pos": [
+            48.0,
+            18.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "HT-RA62",
+          "pos": [
+            48.0,
+            37.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "M1",
+      "value": "NiceNano_CLONE_MODIFIED",
+      "position": [
+        18.0,
+        18.5
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/RADIO_RST",
+          "pos": [
+            25.62,
+            33.74
+          ]
+        },
+        {
+          "num": "2",
+          "net": "/RADIO_DIO1",
+          "pos": [
+            25.62,
+            31.2
+          ]
+        },
+        {
+          "num": "3",
+          "net": "Net-(M1-P1.11_{slash}_SCK)",
+          "pos": [
+            25.62,
+            28.66
+          ]
+        },
+        {
+          "num": "4",
+          "net": "Net-(M1-P1.13_{slash}_NSS)",
+          "pos": [
+            25.62,
+            26.12
+          ]
+        },
+        {
+          "num": "5",
+          "net": "Net-(M1-P1.15_{slash}_MOSI)",
+          "pos": [
+            25.62,
+            23.58
+          ]
+        },
+        {
+          "num": "6",
+          "net": "Net-(M1-P0.02_{slash}_MISO)",
+          "pos": [
+            25.62,
+            21.04
+          ]
+        },
+        {
+          "num": "7",
+          "net": "/RADIO_BUSY",
+          "pos": [
+            25.62,
+            18.5
+          ]
+        },
+        {
+          "num": "8",
+          "net": "BAT_ADC",
+          "pos": [
+            25.62,
+            15.96
+          ]
+        },
+        {
+          "num": "9",
+          "net": "SYS_3V3",
+          "pos": [
+            25.62,
+            13.42
+          ]
+        },
+        {
+          "num": "10",
+          "net": "MCU_RESET",
+          "pos": [
+            25.62,
+            10.88
+          ]
+        },
+        {
+          "num": "11",
+          "net": "GND",
+          "pos": [
+            25.62,
+            8.34
+          ]
+        },
+        {
+          "num": "12",
+          "net": "unconnected-(M1-RAW_-_NC-Pad12)",
+          "pos": [
+            25.62,
+            5.8
+          ]
+        },
+        {
+          "num": "13",
+          "net": "unconnected-(M1-BAT_-_NC-Pad13)",
+          "pos": [
+            25.62,
+            3.26
+          ]
+        },
+        {
+          "num": "14",
+          "net": "unconnected-(M1-P1.06_{slash}_spare-Pad14)",
+          "pos": [
+            10.38,
+            33.74
+          ]
+        },
+        {
+          "num": "15",
+          "net": "SDA",
+          "pos": [
+            10.38,
+            31.2
+          ]
+        },
+        {
+          "num": "16",
+          "net": "SCL",
+          "pos": [
+            10.38,
+            28.66
+          ]
+        },
+        {
+          "num": "17",
+          "net": "USER_BTN",
+          "pos": [
+            10.38,
+            26.12
+          ]
+        },
+        {
+          "num": "18",
+          "net": "GPS_EN",
+          "pos": [
+            10.38,
+            23.58
+          ]
+        },
+        {
+          "num": "19",
+          "net": "GPS_RX_MCU",
+          "pos": [
+            10.38,
+            21.04
+          ]
+        },
+        {
+          "num": "20",
+          "net": "GPS_TX_MCU",
+          "pos": [
+            10.38,
+            18.5
+          ]
+        },
+        {
+          "num": "21",
+          "net": "/RADIO_RXEN",
+          "pos": [
+            10.38,
+            15.96
+          ]
+        },
+        {
+          "num": "22",
+          "net": "GND",
+          "pos": [
+            10.38,
+            13.42
+          ]
+        },
+        {
+          "num": "23",
+          "net": "GND",
+          "pos": [
+            10.38,
+            10.88
+          ]
+        },
+        {
+          "num": "24",
+          "net": "UART_RX",
+          "pos": [
+            10.38,
+            8.34
+          ]
+        },
+        {
+          "num": "25",
+          "net": "UART_TX",
+          "pos": [
+            10.38,
+            5.8
+          ]
+        },
+        {
+          "num": "26",
+          "net": "GND",
+          "pos": [
+            10.38,
+            3.26
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "M1",
+          "pos": [
+            18.0,
+            18.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "NiceNano_CLONE_MODIFIED",
+          "pos": [
+            18.0,
+            -0.5
+          ],
+          "angle": 180.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "U4",
+      "value": "DS3231MZ+TRL",
+      "position": [
+        77.0,
+        8.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "unconnected-(U4-32kHz-Pad1)",
+          "pos": [
+            74.525,
+            6.095
+          ]
+        },
+        {
+          "num": "2",
+          "net": "SYS_3V3",
+          "pos": [
+            74.525,
+            7.365
+          ]
+        },
+        {
+          "num": "3",
+          "net": "unconnected-(U4-INT{slash}SQW-Pad3)",
+          "pos": [
+            74.525,
+            8.635
+          ]
+        },
+        {
+          "num": "4",
+          "net": "unconnected-(U4-RST-Pad4)",
+          "pos": [
+            74.525,
+            9.905
+          ]
+        },
+        {
+          "num": "5",
+          "net": "GND",
+          "pos": [
+            79.475,
+            9.905
+          ]
+        },
+        {
+          "num": "6",
+          "net": "/2. RTC_IO/RTC_BAT",
+          "pos": [
+            79.475,
+            8.635
+          ]
+        },
+        {
+          "num": "7",
+          "net": "SDA",
+          "pos": [
+            79.475,
+            7.365
+          ]
+        },
+        {
+          "num": "8",
+          "net": "SCL",
+          "pos": [
+            79.475,
+            6.095
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "U4",
+          "pos": [
+            77.0,
+            8.0
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "DS3231MZ+TRL",
+          "pos": [
+            77.0,
+            11.4
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R43",
+      "value": "100k",
+      "position": [
+        71.5,
+        20.8
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/2. RTC_IO/GPS_EN_GATE",
+          "pos": [
+            70.5875,
+            20.8
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            72.4125,
+            20.8
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R43",
+          "pos": [
+            71.5,
+            18.9445
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "100k",
+          "pos": [
+            71.5,
+            22.45
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "I2C3V3",
+      "position": [
+        86.0,
+        12.0
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "SYS_3V3",
+          "pos": [
+            86.0,
+            12.0
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            86.0,
+            14.54
+          ]
+        },
+        {
+          "num": "3",
+          "net": "SCL",
+          "pos": [
+            86.0,
+            17.08
+          ]
+        },
+        {
+          "num": "4",
+          "net": "SDA",
+          "pos": [
+            86.0,
+            19.62
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "J3",
+          "pos": [
+            86.0,
+            9.73
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "I2C3V3",
+          "pos": [
+            86.0,
+            21.89
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "C23",
+      "value": "22uF 25V X5R",
+      "position": [
+        35.6,
+        11.65
+      ],
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "/RADIO_3V3",
+          "pos": [
+            35.6,
+            12.6
+          ]
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "pos": [
+            35.6,
+            10.7
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "C23",
+          "pos": [
+            37.6,
+            10.65
+          ],
+          "angle": 90.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "22uF 25V X5R",
+          "pos": [
+            37.28,
+            11.65
+          ],
+          "angle": 90.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "R26",
+      "value": "33R",
+      "position": [
+        59.4,
+        18.8
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "Net-(M2-MISO)",
+          "pos": [
+            58.4875,
+            18.8
+          ]
+        },
+        {
+          "num": "2",
+          "net": "Net-(M1-P0.02_{slash}_MISO)",
+          "pos": [
+            60.3125,
+            18.8
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "R26",
+          "pos": [
+            59.4,
+            20.6555
+          ],
+          "angle": 0.0,
+          "layer": "F.Silkscreen",
+          "visible": false
+        },
+        {
+          "text": "33R",
+          "pos": [
+            59.4,
+            20.45
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "ref": "H202",
+      "value": "M3 GND contact",
+      "position": [
+        86.5,
+        3.5
+      ],
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "num": "1",
+          "net": "GND",
+          "pos": [
+            86.5,
+            3.5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "text": "H202",
+          "pos": [
+            86.5,
+            -0.3
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        },
+        {
+          "text": "M3 GND contact",
+          "pos": [
+            86.5,
+            7.3
+          ],
+          "angle": 0.0,
+          "layer": "F.Fab",
+          "visible": false
+        }
+      ]
+    }
+  ],
+  "power_copper": [
+    {
+      "uuid": "0a1aa8b4-7b90-4b6d-b344-8fb6844350ff",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        9.0,
+        13.04
+      ],
+      "end": [
+        9.0,
+        1.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "0bc54acf-555b-49b8-848b-af3419943da2",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.3125,
+        16.5
+      ],
+      "end": [
+        60.3,
+        16.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "1091afe2-02f6-4fbe-b5c4-9dfc0dc7d31d",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        42.0,
+        30.8
+      ],
+      "end": [
+        41.9,
+        30.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "12dd60e6-9059-4a3b-82d3-67c1aef8cef2",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.8,
+        15.8
+      ],
+      "end": [
+        70.8,
+        16.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "15301ffb-05e4-4d3d-b9b9-192a1d1c3a85",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.2,
+        15.1
+      ],
+      "end": [
+        70.7,
+        15.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "19825457-d992-409a-9ab0-e8817f435092",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        86.0,
+        10.9
+      ],
+      "end": [
+        88.4,
+        8.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "1c3e14e4-96f5-417c-8494-d080a1c32c78",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.3,
+        13.6
+      ],
+      "end": [
+        60.2,
+        13.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "1e2fc12e-3008-4866-9e1b-8391b5d5e3e0",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.8,
+        16.3
+      ],
+      "end": [
+        70.7,
+        16.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "2488f88f-4115-433c-aa79-97330587ec8d",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        41.9,
+        30.8
+      ],
+      "end": [
+        41.8,
+        30.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "28080356-c181-4e94-bf52-9c3d5bf153b4",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.9,
+        14.4
+      ],
+      "end": [
+        79.9,
+        17.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "28332875-8ea3-4dc3-bd1a-7d15181e72fa",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.5,
+        9.7
+      ],
+      "end": [
+        58.4875,
+        9.6875
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "2adda216-1bf8-4495-ae49-87f1f4df47f9",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        50.2,
+        36.8
+      ],
+      "end": [
+        50.7,
+        37.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "2b1320fe-7f65-427c-9487-e04ff1918437",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.9,
+        10.5
+      ],
+      "end": [
+        58.8,
+        10.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "2e82be26-8c0c-498a-9766-b2d96a97c520",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        5.7875,
+        30.5
+      ],
+      "end": [
+        4.8,
+        29.5125
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "2f886342-348e-4215-8e9a-7b44473576d6",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        41.9,
+        35.5
+      ],
+      "end": [
+        41.5,
+        35.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "34825988-078f-425a-bbae-b87f80d1a905",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        68.9,
+        15.1
+      ],
+      "end": [
+        70.2,
+        15.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "361c68f3-8a3a-41b7-97e9-6a24b796c295",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        50.3,
+        8.6
+      ],
+      "end": [
+        50.3,
+        6.15
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "3a5b3694-bc9e-4c22-9579-1f476e2c62e0",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        71.1,
+        52.8
+      ],
+      "end": [
+        77.4,
+        52.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "3d527420-8254-4aaf-8d10-ecf587d0d47c",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        28.7,
+        8.4
+      ],
+      "end": [
+        29.7,
+        9.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "42f3f45c-ad39-4072-bd48-e7a2052a83df",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        43.1,
+        35.5
+      ],
+      "end": [
+        43.1,
+        31.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "465cca0a-bf0e-4187-a790-3fcf4671c631",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        71.8,
+        49.6
+      ],
+      "end": [
+        70.5,
+        50.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "47b072cb-f6e7-4314-9300-7091638b552b",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        50.125,
+        5.4
+      ],
+      "end": [
+        50.125,
+        5.975
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "48de06fc-16ea-4880-abae-84766aa13747",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.9,
+        17.2
+      ],
+      "end": [
+        80.3,
+        17.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "4ac63bcb-9480-4206-9b04-82ce520edc0a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        3.2,
+        15.6
+      ],
+      "end": [
+        4.8,
+        17.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "4b66b97f-0152-45eb-9d79-596cad6adced",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.3,
+        16.5
+      ],
+      "end": [
+        60.3,
+        13.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "4c754fb5-c764-409a-b4f3-5ec243a2ec8e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.8,
+        10.4
+      ],
+      "end": [
+        58.8,
+        10.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "4d7e4e86-3877-4483-9439-3c21dbef6390",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        64.4875,
+        16.1
+      ],
+      "end": [
+        64.5,
+        16.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "4f71f69d-cf42-4fc8-b07a-66036ee72795",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        63.4,
+        20.6125
+      ],
+      "end": [
+        63.4,
+        19.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "4f9c1a93-4fcc-4084-9991-1ecddb1b8287",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        71.8,
+        49.0
+      ],
+      "end": [
+        71.8,
+        49.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "53b54e76-f595-4c77-9383-161fb199c00a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        31.7,
+        12.0
+      ],
+      "end": [
+        31.8,
+        12.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "55882e23-50ff-46fc-b469-81299a29774b",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        77.4,
+        52.8
+      ],
+      "end": [
+        78.1,
+        52.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "59531109-fc94-4ff8-a04a-a4a3f32292f2",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.5,
+        52.2
+      ],
+      "end": [
+        71.1,
+        52.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "59c95a27-0c7b-4d6d-aeac-9e5bbcb54209",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        78.1,
+        52.1
+      ],
+      "end": [
+        78.1,
+        47.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "5a8457ed-31ee-454a-aad3-db57afea96f4",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        88.4,
+        27.9
+      ],
+      "end": [
+        86.0,
+        25.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "5b4413f8-23d8-4d4c-af06-6b5c46890591",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.7,
+        10.2
+      ],
+      "end": [
+        58.7,
+        10.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "5d4590f4-6531-4b89-9d5d-3451a3b9cd11",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        72.465,
+        7.365
+      ],
+      "end": [
+        72.45,
+        7.365
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "5da50d76-0a04-4c96-a8be-5d16c586e4f8",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        4.8,
+        17.24
+      ],
+      "end": [
+        9.0,
+        13.04
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "5ee7a1b2-4a8c-4cb3-b2b9-9a0eddf21848",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        72.9,
+        8.5
+      ],
+      "end": [
+        72.9,
+        7.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "61bbdb00-3f14-48a4-b89e-fd12abcb5454",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        32.65,
+        15.15
+      ],
+      "end": [
+        32.65,
+        14.45
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "68560262-7452-4907-b4cf-9d21802df295",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        78.1,
+        47.6
+      ],
+      "end": [
+        88.4,
+        37.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "68ae89d4-0c43-40de-9fe2-07eb127a6522",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        72.9,
+        7.8
+      ],
+      "end": [
+        72.5,
+        7.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "6a25452d-72de-406d-bbe5-c7b7ca61e031",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.6,
+        11.5
+      ],
+      "end": [
+        59.0,
+        10.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "6c5fccf6-8a1a-450c-b88f-8e64bb69bf90",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.4875,
+        9.7875
+      ],
+      "end": [
+        58.4875,
+        9.675
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "6e234d38-8b64-4b65-94fe-8f53a680fc15",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.6,
+        9.8
+      ],
+      "end": [
+        58.5,
+        9.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "7502b3dc-6bc3-44f2-9431-dc215ed20db8",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        32.1,
+        12.2
+      ],
+      "end": [
+        32.1,
+        12.25
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "766e818e-f2cd-4c1c-9444-201e2db4393c",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        50.3,
+        6.15
+      ],
+      "end": [
+        50.125,
+        5.975
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "7728b42a-59d6-4aad-aed8-2fb47fdbbd0b",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.8,
+        10.3
+      ],
+      "end": [
+        58.7,
+        10.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "772c3bc5-b02e-43f6-8374-233271929e6e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        75.98,
+        18.6
+      ],
+      "end": [
+        76.98,
+        17.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "7a0373e1-768e-4b99-809c-78c090fe0408",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        76.98,
+        17.6
+      ],
+      "end": [
+        79.48,
+        17.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "7a9261f5-9cab-41cd-93a7-7a0ee62b233e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        72.45,
+        7.365
+      ],
+      "end": [
+        74.525,
+        7.365
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "7ee61598-6381-41df-aced-d89a56d44464",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.4875,
+        9.6875
+      ],
+      "end": [
+        58.4875,
+        9.675
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "8015a1a0-1127-4e65-a742-cfc34d615652",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.7,
+        15.6
+      ],
+      "end": [
+        70.7,
+        15.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "805fcbff-6714-4649-b87f-b6c1bf646788",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        29.05,
+        12.25
+      ],
+      "end": [
+        32.1,
+        12.25
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "8238877f-22b7-450c-a4d6-c48bb2625823",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        63.5875,
+        20.8
+      ],
+      "end": [
+        63.4,
+        20.6125
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "828db1a1-fcd0-4733-8f61-7c780c53024c",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        24.3,
+        12.1
+      ],
+      "end": [
+        25.62,
+        13.42
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "852c911f-edaf-47f7-9e59-e2ea2c1a9b47",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.7,
+        16.5
+      ],
+      "end": [
+        70.3,
+        16.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "8779d6ad-fb70-450f-be5a-96e563ec472a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        64.7,
+        19.2
+      ],
+      "end": [
+        64.0,
+        19.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "89bf9b4b-a123-4120-b18a-f81494d6d9b7",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.9,
+        14.4
+      ],
+      "end": [
+        79.8875,
+        14.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "8ef7edea-a9c0-4716-a6b1-3cf443ff0618",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        57.5,
+        8.6875
+      ],
+      "end": [
+        57.5,
+        8.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "905f9e25-5550-4929-aa30-a9305a80e80e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.0,
+        10.9
+      ],
+      "end": [
+        59.0,
+        10.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "90e17a76-71da-4b46-a28b-366ef44d7b93",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        43.1,
+        35.5
+      ],
+      "end": [
+        41.9,
+        35.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "93977531-8838-4075-900f-aa48ae9ec2ac",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        31.6,
+        12.0
+      ],
+      "end": [
+        31.7,
+        12.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "94421ed8-1330-4b64-b15c-206a36d775d1",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.0,
+        10.7
+      ],
+      "end": [
+        58.9,
+        10.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "94dd33a5-b55a-48d2-ad0c-1d0180c38344",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        28.7,
+        8.4125
+      ],
+      "end": [
+        28.7,
+        8.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "95a0728c-08c6-43d3-afa3-dc9e434f5903",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        85.8,
+        25.3
+      ],
+      "end": [
+        86.0,
+        25.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "96106784-4864-47d1-8482-dc91f6ee19ca",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        64.4375,
+        16.05
+      ],
+      "end": [
+        64.4875,
+        16.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "98a56820-800d-4722-9b0d-d1e930e70d3a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        44.4,
+        36.8
+      ],
+      "end": [
+        50.2,
+        36.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "99df6d12-677a-449f-b037-0eea67c2a62d",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        63.6,
+        19.6
+      ],
+      "end": [
+        63.4,
+        19.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "9c14c40e-7ec7-4c3d-8aa9-a539c514e14e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        41.525,
+        38.25
+      ],
+      "end": [
+        41.525,
+        35.905
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "9c2ef199-9de0-4ad5-9b6f-fab41c85f556",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.4875,
+        9.675
+      ],
+      "end": [
+        57.5,
+        8.6875
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "9db12a0e-5f13-43d2-9a8a-32bf10b05310",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.7,
+        10.1
+      ],
+      "end": [
+        58.6,
+        10.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "9ee7ca94-a4a6-40ac-bee1-e7a9e889230a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        27.88,
+        13.42
+      ],
+      "end": [
+        29.05,
+        12.25
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "a3366836-1215-42fd-8539-577d18a92f98",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        42.4,
+        31.2
+      ],
+      "end": [
+        42.0,
+        30.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "a5214bcc-b638-49f9-a2b8-106e27208477",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        29.05,
+        13.35
+      ],
+      "end": [
+        29.05,
+        12.25
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "a529ddba-a9bb-428b-9119-a3627e529d71",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        27.5,
+        13.42
+      ],
+      "end": [
+        25.62,
+        13.42
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "aaeae8c8-bbe6-4dd6-b748-8f950118a451",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.2,
+        13.5
+      ],
+      "end": [
+        60.2,
+        13.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "ac3707e8-48cb-4c08-a707-1e35790b0aba",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        38.8,
+        30.7
+      ],
+      "end": [
+        38.2,
+        31.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ad9cf466-33b8-4524-98c8-bc9535b77fa0",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        27.5,
+        13.42
+      ],
+      "end": [
+        27.88,
+        13.42
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ae14eea2-2bb8-492f-b941-6aea2e9da6d3",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.7,
+        12.0
+      ],
+      "end": [
+        58.4875,
+        9.7875
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "afddda0c-7f13-4d4c-93fa-4e964cd4abc1",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        50.7,
+        37.3
+      ],
+      "end": [
+        50.7,
+        37.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "b0959e0c-d098-4402-873f-466f10850525",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        2.5,
+        15.6
+      ],
+      "end": [
+        3.2,
+        15.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "b2177a60-85c0-4120-bef1-5e754bfbb309",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        9.0,
+        1.9
+      ],
+      "end": [
+        24.3,
+        1.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "b4713992-4bcf-4d7a-8e57-51749440dc4b",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        88.4,
+        37.3
+      ],
+      "end": [
+        88.4,
+        27.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "b739d400-1b58-4a10-914b-045991ae205a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        50.7,
+        37.8
+      ],
+      "end": [
+        50.9,
+        38.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "b94c1ba3-81df-4373-9ae9-c70b29f066dd",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.48,
+        17.6
+      ],
+      "end": [
+        79.88,
+        17.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "bfaf42df-dae8-4185-9740-a69bbd181cb9",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        43.1,
+        35.5
+      ],
+      "end": [
+        44.4,
+        36.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "bfd56961-6b7b-4e35-99c1-0be156eb203a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        30.9,
+        10.1
+      ],
+      "end": [
+        30.9,
+        11.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "bfea0cfd-f648-4900-ace4-5ab117d1ab9a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.7,
+        16.4
+      ],
+      "end": [
+        70.7,
+        16.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "cda5701b-c2bb-48e5-b7da-10544ce210cd",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.7875,
+        14.3
+      ],
+      "end": [
+        79.4,
+        14.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "cdeeb69a-43dd-488b-80ae-d3e902b80f43",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.3,
+        16.9
+      ],
+      "end": [
+        70.3,
+        17.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ce69b665-07d6-4c59-84f9-c84d54cff6a2",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        29.7,
+        9.4
+      ],
+      "end": [
+        30.2,
+        9.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "d1f152a5-69de-4251-84bd-7efa4aa870a1",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.5,
+        50.9
+      ],
+      "end": [
+        70.5,
+        52.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.25
+    },
+    {
+      "uuid": "d307cbe1-ec85-4cde-8e5f-004017b8b07e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        4.8,
+        29.5125
+      ],
+      "end": [
+        4.8,
+        17.24
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "d7ec433d-94f2-4804-ae02-99dbe5ae9190",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.9,
+        10.6
+      ],
+      "end": [
+        58.9,
+        10.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "e06bdb54-1dd5-4d14-b657-8f51be3348c0",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.7,
+        15.7
+      ],
+      "end": [
+        70.8,
+        15.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "e2fa0214-cb51-4cb6-971f-fa90c6fcbe7d",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        24.3,
+        1.9
+      ],
+      "end": [
+        24.3,
+        12.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "e4546640-f028-40c9-8ad1-71f9dba26806",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        58.6,
+        10.0
+      ],
+      "end": [
+        58.6,
+        9.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "e5df25ac-e7e8-4411-978d-4a0a5fbcd4c9",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        30.9,
+        11.3
+      ],
+      "end": [
+        31.6,
+        12.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "ec3b3baf-475c-4e25-a271-a07d6b5f71e2",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        64.0,
+        19.2
+      ],
+      "end": [
+        63.6,
+        19.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ed054e6e-76cb-4fa7-a9e6-7c766db632e3",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        86.0,
+        12.0
+      ],
+      "end": [
+        86.0,
+        10.9
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ee3e6ea0-489d-4847-9f0d-71f792f1a36e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        41.8,
+        30.7
+      ],
+      "end": [
+        38.8,
+        30.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ef549f7b-5be3-448c-b4b7-d37d923b8c00",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        32.0,
+        12.1
+      ],
+      "end": [
+        32.1,
+        12.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "f59868a3-8a46-4b5f-90f5-5d0d79e14e46",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        30.2,
+        9.4
+      ],
+      "end": [
+        30.9,
+        10.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "f5a931b4-d0c0-4278-a276-bc8fa340cf35",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        82.3,
+        12.0
+      ],
+      "end": [
+        79.9,
+        14.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "f78d5505-25f6-4b96-9780-4d5f3a2930e5",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.8875,
+        14.4
+      ],
+      "end": [
+        79.7875,
+        14.3
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "fc7945fa-f318-4d4b-9cd2-6a97bab194a0",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        31.8,
+        12.1
+      ],
+      "end": [
+        32.0,
+        12.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "ff62986a-ee95-4e55-9699-245691028ce8",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        43.1,
+        31.2
+      ],
+      "end": [
+        42.4,
+        31.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "07a44c8c-4136-4a78-a100-c3a430e35c49",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        29.05,
+        13.35
+      ],
+      "end": [
+        29.05,
+        13.35
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "08f3b822-e932-4fb6-a50c-c8160231554a",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        64.5,
+        16.1
+      ],
+      "end": [
+        64.5,
+        16.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "173d0a76-537b-41fb-a791-cc0fa7db5c95",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        60.2,
+        13.4
+      ],
+      "end": [
+        60.2,
+        13.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "62964bb4-241e-4797-9a0a-1deb88c3ef5a",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        50.3,
+        8.6
+      ],
+      "end": [
+        50.3,
+        8.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "6e11aa26-f524-4fd3-b63a-90c98d02821e",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        82.3,
+        12.0
+      ],
+      "end": [
+        82.3,
+        12.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "6e2b3358-5905-45b1-853c-f01cbd11fd51",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        72.9,
+        8.5
+      ],
+      "end": [
+        72.9,
+        8.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "7dc0561e-8131-4ec9-a3dd-6870723a9f37",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        59.6,
+        11.5
+      ],
+      "end": [
+        59.6,
+        11.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "8d9ef5fd-5ccb-4b98-8f0d-df6944142a60",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        68.9,
+        15.1
+      ],
+      "end": [
+        68.9,
+        15.1
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "b6f91707-d528-44e7-826c-485542485d5a",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        75.98,
+        18.6
+      ],
+      "end": [
+        75.98,
+        18.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "cd9f70dd-3e92-49c3-9d6c-85d41926f953",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        57.5,
+        8.6
+      ],
+      "end": [
+        57.5,
+        8.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "d0aa6c00-2dd7-48d7-bf65-344b9c39348a",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        64.7,
+        19.2
+      ],
+      "end": [
+        64.7,
+        19.2
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "d57bc6e5-fc63-4e3e-9dfb-d2905ed536e8",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        60.7,
+        12.0
+      ],
+      "end": [
+        60.7,
+        12.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "eb44df61-28b6-4501-a110-f15c1aaf7d96",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        32.65,
+        15.15
+      ],
+      "end": [
+        32.65,
+        15.15
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "f0a94db2-132b-4e52-9e8c-4795e0d12e55",
+      "kind": "via",
+      "net": "SYS_3V3",
+      "start": [
+        70.3,
+        17.8
+      ],
+      "end": [
+        70.3,
+        17.8
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "07e0046f-2c0d-4fe1-a6b3-5f5e260ee70d",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        38.2,
+        31.3
+      ],
+      "end": [
+        38.2,
+        31.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "1107118c-884e-4c02-aaf9-bf86ec2b5b51",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        64.5,
+        16.1
+      ],
+      "end": [
+        63.4,
+        15.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "1e5a15f8-b053-47a0-a20a-ca54851bf065",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.9,
+        12.7
+      ],
+      "end": [
+        59.8,
+        12.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "3574f19d-8c43-4852-9d70-2a62b0d31b1b",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        57.5,
+        8.6
+      ],
+      "end": [
+        50.3,
+        8.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "3669abc1-256a-4bd4-a37e-28f8d1dc42ec",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.0,
+        12.9
+      ],
+      "end": [
+        59.9,
+        12.8
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "39f71730-1279-458f-bc74-293c44c571a9",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        84.5,
+        25.54
+      ],
+      "end": [
+        75.76,
+        16.8
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "43146f3b-39b5-418a-bb5f-58c219fba9aa",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        34.5,
+        28.6
+      ],
+      "end": [
+        34.5,
+        28.4
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "4b63c1bd-8736-4539-984b-ea7c3f0b6bd5",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        34.5,
+        28.4
+      ],
+      "end": [
+        34.4,
+        28.3
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "4dd9d0a7-dce7-4b69-a1fd-6c5fc1a29556",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        63.4,
+        15.0
+      ],
+      "end": [
+        63.4,
+        14.7
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "50df40cf-4da4-4e79-84ea-1ddded8a0bdd",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.1,
+        13.2
+      ],
+      "end": [
+        60.0,
+        13.1
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "5a86970e-3abf-45b2-870b-db87197bd789",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        84.46,
+        27.08
+      ],
+      "end": [
+        75.98,
+        18.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "5e4c0cc3-052c-4c28-86f5-0f3cc274f9f3",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        38.2,
+        31.0
+      ],
+      "end": [
+        37.1,
+        29.9
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "5ff3237a-79c4-4433-b62a-773cb1bce39f",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        34.3,
+        16.8
+      ],
+      "end": [
+        32.65,
+        15.15
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "6186fa24-76a2-4fbb-9c40-b6935c649893",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.0,
+        13.1
+      ],
+      "end": [
+        60.0,
+        12.9
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "62539dcf-31c1-4fb4-b27c-b8e81590ecd3",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        86.0,
+        25.54
+      ],
+      "end": [
+        84.46,
+        27.08
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "691e9e1c-4233-49b1-b0fe-d915e54eafc9",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.7,
+        12.4
+      ],
+      "end": [
+        59.7,
+        12.3
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "779716bb-8fc5-4fc2-91e5-ccbdf0c63737",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        86.0,
+        25.54
+      ],
+      "end": [
+        84.5,
+        25.54
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "7d3590b5-34c0-445c-b4d0-496b87c0d2ea",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        34.3,
+        18.6
+      ],
+      "end": [
+        29.05,
+        13.35
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "7f381b8f-05a7-4535-b33b-554ccead801a",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        79.1,
+        12.0
+      ],
+      "end": [
+        75.6,
+        8.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "81efdc6c-ab57-48b6-b04c-ae3ebbdca3c5",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.9,
+        12.8
+      ],
+      "end": [
+        59.9,
+        12.7
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "93e536ed-6c26-4887-a9b9-e546ff95e0a3",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        35.8,
+        29.9
+      ],
+      "end": [
+        34.5,
+        28.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "9801856f-ca8b-411a-99d7-3c99121977e8",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        82.3,
+        12.0
+      ],
+      "end": [
+        79.1,
+        12.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "9aab1759-f7d7-4a4d-98d2-88fdb1de41ec",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.7,
+        12.3
+      ],
+      "end": [
+        59.6,
+        12.2
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "9fa3fa85-f723-4dab-b2d8-0892773749dd",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        34.4,
+        18.7
+      ],
+      "end": [
+        34.3,
+        18.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "9fb923d5-b053-4863-9646-d837cfc98f9e",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.8,
+        12.5
+      ],
+      "end": [
+        59.7,
+        12.4
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "a69d2442-5028-46c1-af62-a38910633517",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        70.3,
+        17.8
+      ],
+      "end": [
+        66.1,
+        17.8
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "b1559fc9-932b-4b75-ab8b-91899083e274",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.1,
+        13.3
+      ],
+      "end": [
+        60.1,
+        13.2
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "b6c7e76e-1be6-4e1f-8be8-78717cdbf339",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        63.4,
+        14.7
+      ],
+      "end": [
+        60.7,
+        12.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "bd7e9730-ec52-413e-a82c-b89f1042e4a6",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.6,
+        12.2
+      ],
+      "end": [
+        59.6,
+        11.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "bef3dabc-4bc1-4249-a288-dec144f60d07",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        75.6,
+        8.5
+      ],
+      "end": [
+        72.9,
+        8.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "c0648521-606a-4b89-8967-ecc094e8a0ed",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        75.76,
+        16.8
+      ],
+      "end": [
+        34.3,
+        16.8
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "c499376f-1737-4b08-b9cf-8ac1e6412daa",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        68.8,
+        15.0
+      ],
+      "end": [
+        68.9,
+        15.1
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "c583aee5-9290-4579-bdce-314862fd9ff7",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        37.1,
+        29.9
+      ],
+      "end": [
+        35.8,
+        29.9
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "d4314480-c5aa-4d10-9ba0-8609f31d16b9",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        59.8,
+        12.6
+      ],
+      "end": [
+        59.8,
+        12.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "df53e9a2-98a0-4928-9094-4f0002e9640c",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        34.4,
+        28.3
+      ],
+      "end": [
+        34.4,
+        18.7
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "e36f8bb3-2e96-44dc-bf53-d3c25f1a2efc",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        66.1,
+        17.8
+      ],
+      "end": [
+        64.7,
+        19.2
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "eb0ca4d6-475e-4817-a948-55a0ed04a0da",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        86.0,
+        12.0
+      ],
+      "end": [
+        82.3,
+        12.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "f7c99935-1b25-4498-a922-c18d7040c5b3",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        60.2,
+        13.4
+      ],
+      "end": [
+        60.1,
+        13.3
+      ],
+      "layer": "B.Cu",
+      "width": 0.2
+    },
+    {
+      "uuid": "fccb1c37-7f26-4a00-abf0-df9dda9279c1",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        63.4,
+        15.0
+      ],
+      "end": [
+        68.8,
+        15.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.4
+    },
+    {
+      "uuid": "ffa2a470-4808-4e78-80a7-a187439ec4a8",
+      "kind": "track",
+      "net": "SYS_3V3",
+      "start": [
+        75.98,
+        18.6
+      ],
+      "end": [
+        34.3,
+        18.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "01b7f017-c8a2-4433-b22d-703c400b73d7",
+      "kind": "track",
+      "net": "/RADIO_3V3",
+      "start": [
+        35.6,
+        14.45
+      ],
+      "end": [
+        36.15,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "507f3ac3-791e-4af0-97ce-d758cd201855",
+      "kind": "track",
+      "net": "/RADIO_3V3",
+      "start": [
+        36.15,
+        15.0
+      ],
+      "end": [
+        37.6,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "6826eebc-5cdc-4aaf-9d60-bd857fededfc",
+      "kind": "track",
+      "net": "/RADIO_3V3",
+      "start": [
+        37.6,
+        15.0
+      ],
+      "end": [
+        40.0,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "7ec9115a-85c1-4170-838d-a35df5238b4f",
+      "kind": "track",
+      "net": "/RADIO_3V3",
+      "start": [
+        34.95,
+        14.45
+      ],
+      "end": [
+        35.6,
+        14.45
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "ba72fc29-4953-4363-90c0-eecd3333ad51",
+      "kind": "track",
+      "net": "/RADIO_3V3",
+      "start": [
+        35.6,
+        12.6
+      ],
+      "end": [
+        35.6,
+        14.45
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "6b9f909a-46f7-4634-b2ba-66c84d0da2e6",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        84.4,
+        24.6
+      ],
+      "end": [
+        86.0,
+        23.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "86c34361-55eb-4fbf-9ce3-cb934ef061c9",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        66.7,
+        49.0
+      ],
+      "end": [
+        69.2,
+        49.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "c55b53ac-93b1-473f-bb60-68827d5423f3",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        84.4,
+        31.7
+      ],
+      "end": [
+        84.4,
+        24.6
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "f8b39ce2-1bad-4799-a5f7-55777d2fe3f9",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        64.2,
+        49.0
+      ],
+      "end": [
+        66.7,
+        49.0
+      ],
+      "layer": "F.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "56642138-7dcd-4075-8c6a-86d5f9680c9f",
+      "kind": "via",
+      "net": "FILTER_OUT",
+      "start": [
+        84.4,
+        31.7
+      ],
+      "end": [
+        84.4,
+        31.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.6
+    },
+    {
+      "uuid": "09d90f63-93e6-4cf8-be76-d279efddcac8",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        77.6,
+        53.0
+      ],
+      "end": [
+        84.4,
+        46.2
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "18d3c71e-f036-4176-ab2d-6149b6428c19",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        64.2,
+        49.0
+      ],
+      "end": [
+        64.2,
+        49.2
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "48bd3d08-cc39-4763-b856-94bd41822cc5",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        73.2,
+        54.5
+      ],
+      "end": [
+        76.1,
+        54.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "4c5f71c9-a524-499a-a803-950edb3b5fbe",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        62.6,
+        52.3
+      ],
+      "end": [
+        64.8,
+        54.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "7c715e31-556f-4477-8cd6-ac801f00a582",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        62.6,
+        50.8
+      ],
+      "end": [
+        62.6,
+        52.3
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "b75054cf-be42-4e6a-9c4a-220977929357",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        64.2,
+        49.2
+      ],
+      "end": [
+        62.6,
+        50.8
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "bd8ad31e-8fa8-4f1e-afda-6e9d581fe6a2",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        64.8,
+        54.5
+      ],
+      "end": [
+        73.2,
+        54.5
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "bf1a0904-0c54-4431-be01-8d3834b88e0f",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        84.4,
+        46.2
+      ],
+      "end": [
+        84.4,
+        31.7
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    },
+    {
+      "uuid": "f36b62f8-9e05-476e-983c-aea8b09944bd",
+      "kind": "track",
+      "net": "FILTER_OUT",
+      "start": [
+        76.1,
+        54.5
+      ],
+      "end": [
+        77.6,
+        53.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.8
+    }
+  ],
+  "drawings": [
+    {
+      "uuid": "b43e65f9-d98e-4f4e-a478-27c8801df6e5",
+      "type": "PCB_SHAPE",
+      "text": "",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "layer": "Edge.Cuts",
+      "angle": null
+    },
+    {
+      "uuid": "fa72c829-621e-42ae-bfdf-205e19776e2a",
+      "type": "PCB_SHAPE",
+      "text": "",
+      "pos": [
+        0.0,
+        60.0
+      ],
+      "layer": "Edge.Cuts",
+      "angle": null
+    },
+    {
+      "uuid": "b2c8519f-5c84-4482-8917-1c3dcf1c34ae",
+      "type": "PCB_SHAPE",
+      "text": "",
+      "pos": [
+        90.0,
+        0.0
+      ],
+      "layer": "Edge.Cuts",
+      "angle": null
+    },
+    {
+      "uuid": "b6b30bc6-1c4c-4dbf-87f5-65904db4da7d",
+      "type": "PCB_SHAPE",
+      "text": "",
+      "pos": [
+        90.0,
+        60.0
+      ],
+      "layer": "Edge.Cuts",
+      "angle": null
+    },
+    {
+      "uuid": "e74ebf41-0a14-437e-ab5f-d21bd0022d46",
+      "type": "PCB_TEXT",
+      "text": "C26",
+      "pos": [
+        6.7,
+        25.6515
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "a34a5147-b0f9-449e-b467-fcf5ae6037b1",
+      "type": "PCB_TEXT",
+      "text": "M1",
+      "pos": [
+        18.0,
+        37.1035
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "9e189727-8e2e-433a-b738-33eaf0769581",
+      "type": "PCB_TEXT",
+      "text": "R24",
+      "pos": [
+        30.0,
+        21.7315
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "e625294f-ddc6-4ebb-b1b4-c5fc2dc1107e",
+      "type": "PCB_TEXT",
+      "text": "R23",
+      "pos": [
+        30.0,
+        30.5085
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "44e9fbd5-fc49-44b6-a167-a1b4e4162e1d",
+      "type": "PCB_TEXT",
+      "text": "J13",
+      "pos": [
+        34.5,
+        9.0035
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "b67d6e2a-0741-49f5-8b16-24b9213efc95",
+      "type": "PCB_TEXT",
+      "text": "U6",
+      "pos": [
+        44.0,
+        30.4465
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "9d911859-57f7-40ac-bfb6-5d9f7cf36dd6",
+      "type": "PCB_TEXT",
+      "text": "R37",
+      "pos": [
+        45.5919,
+        28.67
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "d9f89109-6af3-4460-97c6-4f623ad979fc",
+      "type": "PCB_TEXT",
+      "text": "M2",
+      "pos": [
+        48.0,
+        8.3965
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "08efbbe9-8a0e-4c91-a18e-b4fcc214926e",
+      "type": "PCB_TEXT",
+      "text": "R39",
+      "pos": [
+        50.0,
+        29.3865
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "87f72490-c02a-4da5-8b47-6f4da56e0564",
+      "type": "PCB_TEXT",
+      "text": "R36",
+      "pos": [
+        50.0,
+        39.8835
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "102ef854-3931-4e50-9c11-23a53c4f4e41",
+      "type": "PCB_TEXT",
+      "text": "R38",
+      "pos": [
+        53.0919,
+        34.635
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "6c61a925-813c-4586-a1d1-b78d463dfa92",
+      "type": "PCB_TEXT",
+      "text": "J4",
+      "pos": [
+        61.1907,
+        1.44
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "8faa0773-7a39-4633-b63d-3bd94b6f476c",
+      "type": "PCB_TEXT",
+      "text": "U7",
+      "pos": [
+        63.5,
+        12.7535
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "a93f30c3-806d-43ee-845e-da347133153f",
+      "type": "PCB_TEXT",
+      "text": "Q2",
+      "pos": [
+        63.5,
+        14.4465
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "e7bcd861-cb4a-4182-91d4-1fb504c3b3f7",
+      "type": "PCB_TEXT",
+      "text": "R42",
+      "pos": [
+        64.5,
+        22.6485
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "a3ef97cb-0a12-4cd4-862e-82dd75e222e3",
+      "type": "PCB_TEXT",
+      "text": "C56",
+      "pos": [
+        66.5919,
+        6.3
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "36f82aad-902e-47ea-bcee-dfe7ba6dfcc8",
+      "type": "PCB_TEXT",
+      "text": "C57\n10uF",
+      "pos": [
+        66.8967,
+        3.2
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "4a0525dc-9227-4fcd-8086-c8b2fe314817",
+      "type": "PCB_TEXT",
+      "text": "R45",
+      "pos": [
+        68.3,
+        9.0515
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "17da414b-0aae-4828-9272-c0f5727deca4",
+      "type": "PCB_TEXT",
+      "text": "R43",
+      "pos": [
+        71.5,
+        18.9515
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "ec845ed6-b344-4160-9ad7-2e705e5474e1",
+      "type": "PCB_TEXT",
+      "text": "BT1",
+      "pos": [
+        72.0,
+        25.4965
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "6eb2bfe9-d24e-4faa-8adb-99d770c508e2",
+      "type": "PCB_TEXT",
+      "text": "U4",
+      "pos": [
+        77.0,
+        11.5535
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "b549f2f7-12c6-4381-9b9d-c2677d0f127b",
+      "type": "PCB_TEXT",
+      "text": "TP4",
+      "pos": [
+        85.8243,
+        7.5
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "969704a3-25c6-4253-9ca2-2afe889e775f",
+      "type": "PCB_TEXT",
+      "text": "J3",
+      "pos": [
+        86.0,
+        9.5165
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "819505de-de0a-4ff1-99e9-70237e7006a1",
+      "type": "PCB_TEXT",
+      "text": "TP7",
+      "pos": [
+        87.0,
+        49.9365
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "5d2323d9-d9cc-468d-9362-6d633cd89388",
+      "type": "PCB_TEXT",
+      "text": "C21",
+      "pos": [
+        28.05,
+        14.3919
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "b3c8b9bb-4298-432c-973f-f1a38637fdc8",
+      "type": "PCB_TEXT",
+      "text": "R33",
+      "pos": [
+        28.7,
+        4.4081
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "1be811e2-4d59-4d00-978b-25bdbade6049",
+      "type": "PCB_TEXT",
+      "text": "C23",
+      "pos": [
+        37.4485,
+        10.65
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "2f9f92c8-d4d5-40e5-86bf-ee4257db3606",
+      "type": "PCB_TEXT",
+      "text": "FL1",
+      "pos": [
+        40.7,
+        7.7276
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "19e2dc2d-63c1-4ce8-9410-4b706c753e38",
+      "type": "PCB_TEXT",
+      "text": "J201 2x6 H8.5",
+      "pos": [
+        70.5,
+        54.0
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "f4afcae1-e0ab-41ca-b456-d2ea7d654263",
+      "type": "PCB_TEXT",
+      "text": "J5\nUART",
+      "pos": [
+        2.5,
+        21.3865
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "719dc4a9-9307-4783-a33b-92dabdf46e5a",
+      "type": "PCB_TEXT",
+      "text": "H201 M3",
+      "pos": [
+        4.0,
+        7.612
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "1844e2f0-d10c-4e18-ac7c-e867b3e4fbb4",
+      "type": "PCB_TEXT",
+      "text": "R31\n10k",
+      "pos": [
+        6.7,
+        33.1315
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "a5206e9d-fb13-4f2f-9bb7-387a326b9014",
+      "type": "PCB_TEXT",
+      "text": "H203 M3",
+      "pos": [
+        10.0129,
+        56.5
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "9a95bcb2-009b-4f16-9c83-1a9b78c70f71",
+      "type": "PCB_TEXT",
+      "text": "SW1\nUSER",
+      "pos": [
+        29.0,
+        55.0135
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "22ead78b-5ad4-4b7f-979c-5ac9a3f838e4",
+      "type": "PCB_TEXT",
+      "text": "R25\n33R",
+      "pos": [
+        33.2271,
+        26.12
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "cb67626a-0775-4ba4-9488-11fc7debeba2",
+      "type": "PCB_TEXT",
+      "text": "C25\n100nF",
+      "pos": [
+        34.0,
+        22.1815
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "951620fe-2463-4f41-8f0f-4a2b1649e4f7",
+      "type": "PCB_TEXT",
+      "text": "J10\nISP",
+      "pos": [
+        36.97,
+        28.1435
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "ab303378-4e7f-429f-96b0-00c3a241fc9e",
+      "type": "PCB_TEXT",
+      "text": "NT1",
+      "pos": [
+        40.7,
+        1.288
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "52ebed43-5f54-4640-ad37-23bdd909c19f",
+      "type": "PCB_TEXT",
+      "text": "SW2\nRESET",
+      "pos": [
+        41.0,
+        55.0135
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "ffb22452-4b2f-40b6-8065-63f4cc710a4a",
+      "type": "PCB_TEXT",
+      "text": "R21\n1k",
+      "pos": [
+        48.0,
+        42.3685
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "a3d1fb6a-4d71-429e-b702-46791ca6cd46",
+      "type": "PCB_TEXT",
+      "text": "R46\n100k",
+      "pos": [
+        59.4,
+        7.0435
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "116c40b5-58f5-4f10-92dd-51d1cfc086a9",
+      "type": "PCB_TEXT",
+      "text": "R35\n100k",
+      "pos": [
+        59.4,
+        13.8685
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "7868c0fa-7059-4007-a432-aebd90691f23",
+      "type": "PCB_TEXT",
+      "text": "R26\n33R",
+      "pos": [
+        59.4,
+        21.4315
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "94ba1ba6-a45a-4ce7-a894-6a41b853c49c",
+      "type": "PCB_TEXT",
+      "text": "Q3\n2N7002K",
+      "pos": [
+        68.0,
+        13.6635
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "a8fa098c-a22b-4cf4-8695-9c4da9e6cb47",
+      "type": "PCB_TEXT",
+      "text": "C27\n100nF",
+      "pos": [
+        71.0,
+        4.7335
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "400ac33d-80a7-40eb-a6d6-d3feb2eb043f",
+      "type": "PCB_TEXT",
+      "text": "R30\n4.7k",
+      "pos": [
+        77.4443,
+        14.4
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "2308f05b-4c92-40e7-b5b2-72d043525e00",
+      "type": "PCB_TEXT",
+      "text": "H202 M3",
+      "pos": [
+        79.9871,
+        3.5
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "0cd06fdf-1ad4-4835-aa3d-32a12cb91915",
+      "type": "PCB_TEXT",
+      "text": "R29\n4.7k",
+      "pos": [
+        80.8,
+        19.8315
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "f84a4575-f220-481b-9ea9-6c563f0071a0",
+      "type": "PCB_TEXT",
+      "text": "J11\nLC/SYS",
+      "pos": [
+        81.5914,
+        24.27
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 0.0
+    },
+    {
+      "uuid": "eea70e01-e7bd-4881-90bb-946f0709b190",
+      "type": "PCB_TEXT",
+      "text": "C24\n100nF",
+      "pos": [
+        37.1,
+        18.0486
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "b8d5f885-7acd-4435-b0e8-83f32a1824b2",
+      "type": "PCB_TEXT",
+      "text": "C33\n100nF",
+      "pos": [
+        44.1565,
+        39.2
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "925c42c0-9906-499c-8e37-a7dac7a7dcee",
+      "type": "PCB_TEXT",
+      "text": "R44\n1k",
+      "pos": [
+        68.0,
+        24.0271
+      ],
+      "layer": "F.Silkscreen",
+      "angle": 90.0
+    },
+    {
+      "uuid": "1af9ce8b-37e0-4330-97cf-3c3fbdbb345d",
+      "type": "PCB_TEXT",
+      "text": "3 TX",
+      "pos": [
+        5.6514,
+        13.04
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "dd016520-4c48-41c9-80de-b56308a6195e",
+      "type": "PCB_TEXT",
+      "text": "4 RX",
+      "pos": [
+        5.7467,
+        10.5
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "7e295fa7-1f9c-4850-af43-76759610142d",
+      "type": "PCB_TEXT",
+      "text": "2 VIN",
+      "pos": [
+        5.9181,
+        15.58
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "202215bf-846b-48a1-bb5b-b0bdae11f79b",
+      "type": "PCB_TEXT",
+      "text": "1 GND",
+      "pos": [
+        6.1848,
+        18.12
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "7af78039-7f79-4948-b3c0-df2e0357770c",
+      "type": "PCB_TEXT",
+      "text": "G5 x1.5",
+      "pos": [
+        31.2976,
+        38.3769
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "d346ec25-e902-43ed-8b66-53c3e262b282",
+      "type": "PCB_TEXT",
+      "text": "5 RESET",
+      "pos": [
+        31.4748,
+        36.38
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "f98e66bd-1bca-4a41-a925-13723815dd24",
+      "type": "PCB_TEXT",
+      "text": "1 MISO",
+      "pos": [
+        31.8367,
+        31.3
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "f7fd9b66-c2b3-45c9-83e7-c093b543f70f",
+      "type": "PCB_TEXT",
+      "text": "3 SCK",
+      "pos": [
+        32.1033,
+        33.84
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "bd8d9e51-c90d-41c5-a3c6-b3831b095236",
+      "type": "PCB_TEXT",
+      "text": "G1 x1.5",
+      "pos": [
+        38.825,
+        17.9755
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "f28ee41a-ee61-4dd3-be8d-62100b5091fe",
+      "type": "PCB_TEXT",
+      "text": "J13 SMA\n1 RF\n2 GND",
+      "pos": [
+        41.5,
+        2.52
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "4baa23c3-ef63-4ad3-a2a6-8273e90fedb9",
+      "type": "PCB_TEXT",
+      "text": "2 VIN",
+      "pos": [
+        41.6081,
+        31.3
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "b557c99b-8427-4a7c-bc5f-94d54a81af07",
+      "type": "PCB_TEXT",
+      "text": "6 GND",
+      "pos": [
+        41.8748,
+        36.38
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "af32575b-56b8-40ab-bb3b-63c919a60c48",
+      "type": "PCB_TEXT",
+      "text": "4 MOSI",
+      "pos": [
+        42.1033,
+        33.84
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "3358b49a-1879-45c0-b28b-f75794712058",
+      "type": "PCB_TEXT",
+      "text": "8",
+      "pos": [
+        47.625,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "53e114e8-abd7-4906-8601-96f3333e481c",
+      "type": "PCB_TEXT",
+      "text": "7",
+      "pos": [
+        48.875,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "19d6289b-4700-4d0e-b149-3712be272a74",
+      "type": "PCB_TEXT",
+      "text": "6",
+      "pos": [
+        50.125,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "ac1523d9-6b6d-4ea3-a4cb-e26abaf67203",
+      "type": "PCB_TEXT",
+      "text": "5",
+      "pos": [
+        51.375,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "c668e41c-fc27-4800-aa44-370c58545108",
+      "type": "PCB_TEXT",
+      "text": "J4 GPS\n1 NC/RST  2 NC/PPS\n3 NC/WAKE  4 RX\n5 TX  6 BACKUP\n7 POWER  8 GND",
+      "pos": [
+        52.0,
+        10.44
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "36aaa9a2-3159-4165-9f9e-64abffa845f0",
+      "type": "PCB_TEXT",
+      "text": "4",
+      "pos": [
+        52.625,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "913a805f-6b69-4e23-8350-7bdd2f002415",
+      "type": "PCB_TEXT",
+      "text": "3",
+      "pos": [
+        53.875,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "11ceb372-21f6-4ea1-949d-a94044e77947",
+      "type": "PCB_TEXT",
+      "text": "G2 x1.5",
+      "pos": [
+        54.6222,
+        19.0019
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "d733e2f2-427e-4472-8d2f-133ec3804196",
+      "type": "PCB_TEXT",
+      "text": "2",
+      "pos": [
+        55.125,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "7451534b-032b-48fb-95a5-104eea2a39f0",
+      "type": "PCB_TEXT",
+      "text": "1",
+      "pos": [
+        56.375,
+        5.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "18c3bafa-1c84-42e9-9aa6-9af260c30eee",
+      "type": "PCB_TEXT",
+      "text": "G3 x2",
+      "pos": [
+        68.4714,
+        7.0894
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "8d35bc83-54fd-4ad7-9b66-ed6221b4d277",
+      "type": "PCB_TEXT",
+      "text": "G4 x1.5",
+      "pos": [
+        71.9421,
+        1.1894
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "014a03b6-da5a-4580-83da-20e5f0d9998a",
+      "type": "PCB_TEXT",
+      "text": "G7 x1.5",
+      "pos": [
+        79.7714,
+        3.0169
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "e4c53655-900f-458b-98d4-ce47b7301061",
+      "type": "PCB_TEXT",
+      "text": "2 GND",
+      "pos": [
+        82.3152,
+        14.54
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "29edb528-7290-4d89-84b6-3a199174be97",
+      "type": "PCB_TEXT",
+      "text": "4 SDA",
+      "pos": [
+        82.4105,
+        19.62
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "16913a6e-f9c3-497b-b09b-33db1cc2cdba",
+      "type": "PCB_TEXT",
+      "text": "3 SCL",
+      "pos": [
+        82.4295,
+        17.08
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "7223ffe7-ee6a-49c9-9239-09a569056373",
+      "type": "PCB_TEXT",
+      "text": "1 VIN",
+      "pos": [
+        82.5819,
+        12.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "f5c9335e-b373-4e7f-bdc7-1ee53bdf9fe3",
+      "type": "PCB_TEXT",
+      "text": "J11 LC / SYS\n1 LC_OUT\n2 SYS_3V3",
+      "pos": [
+        85.0,
+        28.77
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "1900ee8e-733b-475a-86c2-bd9b8c9ce88c",
+      "type": "PCB_TEXT",
+      "text": "G6 x1.5",
+      "pos": [
+        85.875,
+        43.2194
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "76c6b679-bf67-4295-8000-7dc50112fcb2",
+      "type": "PCB_TEXT",
+      "text": "1/3/5 OUT | 2/4/6/8 GND",
+      "pos": [
+        70.5,
+        54.5
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "e739642e-9340-477d-b3db-79897c3ae178",
+      "type": "PCB_TEXT",
+      "text": "7 3V3 | 9 BAT | 10 SDA",
+      "pos": [
+        70.5,
+        55.8
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "ec6d615d-d174-4ef1-9184-e12c6ce06019",
+      "type": "PCB_TEXT",
+      "text": "11 MODE | 12 SCL",
+      "pos": [
+        70.5,
+        57.1
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "084b2a37-a540-419c-bcc8-19f89e603877",
+      "type": "PCB_TEXT",
+      "text": "J201 2x6 H8.5",
+      "pos": [
+        70.5,
+        58.4
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "7555824a-7f69-49a3-b294-8b29e78ae325",
+      "type": "PCB_TEXT",
+      "text": "R38\n1k",
+      "pos": [
+        50.0,
+        34.635
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "c96b1854-d546-4202-b07a-1abdccec6934",
+      "type": "PCB_TEXT",
+      "text": "D3 CHARGE    D4 DONE",
+      "pos": [
+        54.0,
+        56.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "c3a624fb-f7f4-4a4e-bdd5-171f8f07b0f0",
+      "type": "PCB_TEXT",
+      "text": "REMOVE J11 BEFORE USB",
+      "pos": [
+        75.0,
+        24.27
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "d9376cdd-8936-4551-b6aa-bad614858afa",
+      "type": "PCB_TEXT",
+      "text": "J5\nUART",
+      "pos": [
+        5.5,
+        20.8
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "8eb2d319-321b-49cf-bd9c-95b534935d87",
+      "type": "PCB_TEXT",
+      "text": "SW1\nUSER",
+      "pos": [
+        29.0,
+        54.7
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "c4bcaf51-f2d7-4dfd-b6d5-0f1aeb5b68b0",
+      "type": "PCB_TEXT",
+      "text": "SW2\nRESET",
+      "pos": [
+        41.0,
+        54.7
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "bd01d389-2a6c-4f5d-87a6-bdcfaf51a539",
+      "type": "PCB_TEXT",
+      "text": "C26\n100nF",
+      "pos": [
+        6.7,
+        27.5
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "136f9b5b-e914-44c6-97ce-a345ac38cd89",
+      "type": "PCB_TEXT",
+      "text": "M1\nNiceNano",
+      "pos": [
+        18.0,
+        18.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "3df0c640-9081-4c65-b8f4-1030a560b1e8",
+      "type": "PCB_TEXT",
+      "text": "R37\n0R",
+      "pos": [
+        29.125,
+        41.3375
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "8e7dfed0-1bf4-4004-bd9e-f0838a48cd56",
+      "type": "PCB_TEXT",
+      "text": "R24\n33R",
+      "pos": [
+        30.0,
+        23.58
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "cb37e9d8-b07d-48db-8d8a-723adc32af2f",
+      "type": "PCB_TEXT",
+      "text": "R23\n33R",
+      "pos": [
+        30.0,
+        28.66
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "faa879af-6a79-4ea6-9e51-90d26105ee26",
+      "type": "PCB_TEXT",
+      "text": "U6\nATtiny13A",
+      "pos": [
+        31.375,
+        49.3325
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "e9f9a791-8fd5-4075-b750-c7ab410349a6",
+      "type": "PCB_TEXT",
+      "text": "FB1\n60R@100MHz",
+      "pos": [
+        33.8,
+        14.45
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "c10775c9-b898-481e-a82f-13565867e8fe",
+      "type": "PCB_TEXT",
+      "text": "M2\nHT-RA62",
+      "pos": [
+        48.0,
+        18.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "b02917df-8e67-4923-96b6-e62f9bbb983a",
+      "type": "PCB_TEXT",
+      "text": "Designed by @Alksndritm",
+      "pos": [
+        48.0,
+        46.5
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "0c1bc8ae-d810-4230-b953-439f7b616669",
+      "type": "PCB_TEXT",
+      "text": "J13\nSMA",
+      "pos": [
+        49.95,
+        21.9625
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "0932d072-893c-40cd-afd7-eeaa5d78b317",
+      "type": "PCB_TEXT",
+      "text": "R39\n100k",
+      "pos": [
+        50.0,
+        31.235
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "de9ec36d-3248-4fb8-9d83-1872334eb4a0",
+      "type": "PCB_TEXT",
+      "text": "R36\n10k",
+      "pos": [
+        50.0,
+        38.035
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "70795717-96b4-4bbb-b1c2-dd77ed81ae2f",
+      "type": "PCB_TEXT",
+      "text": "J4\nGPS",
+      "pos": [
+        52.0,
+        2.44
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "bfed6c18-a2a5-4ecc-8328-1155c703385b",
+      "type": "PCB_TEXT",
+      "text": "C56\n100nF",
+      "pos": [
+        63.5,
+        6.3
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "1f3dff0f-d9f2-4064-a39f-194b1bda4c9b",
+      "type": "PCB_TEXT",
+      "text": "Q2\nAO3401A",
+      "pos": [
+        63.5,
+        17.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "e05ea2b2-5324-4b60-b60a-7c4bc53b731a",
+      "type": "PCB_TEXT",
+      "text": "R42\n100k",
+      "pos": [
+        64.5,
+        20.8
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "cf530e3d-737d-47a8-85be-46dbb7006634",
+      "type": "PCB_TEXT",
+      "text": "U7\nSN74LVC2G125",
+      "pos": [
+        65.6,
+        10.05
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "fbd2ceae-bc08-4b00-a1d8-ffd2949ca89d",
+      "type": "PCB_TEXT",
+      "text": "R43\n100k",
+      "pos": [
+        71.5,
+        20.8
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "e6daf799-6046-49ab-a160-5e0a501b61bc",
+      "type": "PCB_TEXT",
+      "text": "BT1\nCR2032",
+      "pos": [
+        72.375,
+        4.15
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "54a1862e-1ade-4564-8ce6-f6b24d855d18",
+      "type": "PCB_TEXT",
+      "text": "R45\n100k",
+      "pos": [
+        75.2,
+        11.85
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "c40b3189-2d98-40bd-88f7-d3bbaf5a38bc",
+      "type": "PCB_TEXT",
+      "text": "U4\nDS3231M",
+      "pos": [
+        77.0,
+        8.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "4166809b-4e59-4131-b1db-bef75f044302",
+      "type": "PCB_TEXT",
+      "text": "J3\nI2C",
+      "pos": [
+        77.9,
+        16.1375
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "793d02d6-699a-4087-a3e8-8b9d46b67a31",
+      "type": "PCB_TEXT",
+      "text": "TP4",
+      "pos": [
+        81.5,
+        5.1725
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "734fb2a6-2d28-4b20-b852-f07c03450bcb",
+      "type": "PCB_TEXT",
+      "text": "H204 M3",
+      "pos": [
+        85.875,
+        52.125
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "20670de9-99ac-48c4-b91e-db79405c22a1",
+      "type": "PCB_TEXT",
+      "text": "TP7",
+      "pos": [
+        86.625,
+        45.375
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "7462c276-b019-4893-943f-665311d39b12",
+      "type": "PCB_TEXT",
+      "text": "R33\n10k",
+      "pos": [
+        28.7,
+        7.5
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "b65cd038-460b-4625-a8b5-2003b009f0ae",
+      "type": "PCB_TEXT",
+      "text": "R27\n2.2M",
+      "pos": [
+        29.8,
+        19.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "c2197028-5b92-4b89-b2be-6fcdebeaad07",
+      "type": "PCB_TEXT",
+      "text": "C21\n10uF",
+      "pos": [
+        33.9125,
+        21.725
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "a8d0e101-edd1-487d-ac48-9ba87acfc862",
+      "type": "PCB_TEXT",
+      "text": "R28\n2.2M",
+      "pos": [
+        35.0375,
+        28.175
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "3a175244-5b69-48bf-88e2-655d8b40f1ac",
+      "type": "PCB_TEXT",
+      "text": "C22\n100nF",
+      "pos": [
+        38.4875,
+        21.725
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "5d0d1b88-d32d-4364-87a4-617ea4aea767",
+      "type": "PCB_TEXT",
+      "text": "C23\n22uF",
+      "pos": [
+        43.7375,
+        22.25
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "f017fb61-7697-4044-8e24-3789e7e0f042",
+      "type": "PCB_TEXT",
+      "text": "FL1\nS869M000S003",
+      "pos": [
+        59.25,
+        28.3075
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 270.0
+    },
+    {
+      "uuid": "d53880d1-8ef0-4c94-a579-59330a00e791",
+      "type": "PCB_TEXT",
+      "text": "USB",
+      "pos": [
+        18.0,
+        4.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    },
+    {
+      "uuid": "a8ac2dd8-5fb3-4c56-94ae-1db307f8919f",
+      "type": "PCB_TEXT",
+      "text": "Mesh Repeater ver 2.0",
+      "pos": [
+        48.0,
+        50.0
+      ],
+      "layer": "B.Silkscreen",
+      "angle": 180.0
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "environment": "ProMicro_repeater",
+  "source_sha": "a366955cb2f67b8e6842d4f00d2b6a554dddd88a",
+  "source_version": "v1.17.1",
+  "attempt_executed": true,
+  "compilation_started": true,
+  "full_build_success": false,
+  "first_exit": 1,
+  "final_exit": 1,
+  "final_duration_seconds": 12.993,
+  "first_error": "Git SDK checkout: Filename too long",
+  "process_only_remedy": "GIT_CONFIG_COUNT=1,GIT_CONFIG_KEY_0=core.longpaths,GIT_CONFIG_VALUE_0=true",
+  "final_error": "ARM assembler cannot create SDK TinyUSB ports/*.cpp.o: No such file or directory",
+  "firmware_binary_produced": false,
+  "cxxconfig_headers_present": [
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\bits\\c++config.h",
+      "absolute_characters": 208,
+      "size": 58228
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\bits\\c++config.h",
+      "absolute_characters": 214,
+      "size": 58228
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v8-m.main\\bits\\c++config.h",
+      "absolute_characters": 224,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v8-m.main\\fpv5-sp\\softfp\\bits\\c++config.h",
+      "absolute_characters": 239,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v8-m.main\\fpv5-sp\\hard\\bits\\c++config.h",
+      "absolute_characters": 237,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v8-m.main\\fpv5\\softfp\\bits\\c++config.h",
+      "absolute_characters": 236,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v8-m.main\\fpv5\\hard\\bits\\c++config.h",
+      "absolute_characters": 234,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v8-m.base\\bits\\c++config.h",
+      "absolute_characters": 224,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7e-m\\bits\\c++config.h",
+      "absolute_characters": 220,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7e-m\\fpv5\\softfp\\bits\\c++config.h",
+      "absolute_characters": 232,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7e-m\\fpv5\\hard\\bits\\c++config.h",
+      "absolute_characters": 230,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7e-m\\fpv4-sp\\softfp\\bits\\c++config.h",
+      "absolute_characters": 235,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7e-m\\fpv4-sp\\hard\\bits\\c++config.h",
+      "absolute_characters": 233,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7-m\\bits\\c++config.h",
+      "absolute_characters": 219,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7-ar\\bits\\c++config.h",
+      "absolute_characters": 220,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7-ar\\fpv3\\softfp\\bits\\c++config.h",
+      "absolute_characters": 232,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7-ar\\fpv3\\hard\\bits\\c++config.h",
+      "absolute_characters": 230,
+      "size": 58225
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v6-m\\bits\\c++config.h",
+      "absolute_characters": 219,
+      "size": 58228
+    },
+    {
+      "path": "audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\hard\\bits\\c++config.h",
+      "absolute_characters": 213,
+      "size": 58228
+    }
+  ],
+  "logs": {
+    "SOFTWARE_BOM_BUILD_TMP\\platformio_build.log": {
+      "bytes": 4466,
+      "sha256": "cefdb6b852f4a3c1fe7185e2a6d4120b1aa794e5c94475c20778f158ee93b4ad"
+    },
+    "SOFTWARE_BOM_BUILD_TMP\\platformio_build_longpaths.log": {
+      "bytes": 166718,
+      "sha256": "5ec40f007893a0139a5b68e1b3d015bf4eb729f8b8ec92501e5b59b84f63ae84"
+    },
+    "SOFTWARE_BOM_BUILD_TMP\\pip_install.log": {
+      "bytes": 4520,
+      "sha256": "d2e7a2ea268c3057a34132ac8e60e59f93604b3e8eaf3eec5e71dee6784fb11c"
+    },
+    "SOFTWARE_BOM_BUILD_TMP\\platformio_build_canonical.log": {
+      "bytes": 199123,
+      "sha256": "d8a6ab4c4d1e13a553ed91f33ca8d75ae42380cc46f764b0dbe80bf196e2b656"
+    },
+    "SOFTWARE_BOM_toolchain_header_probe.log": {
+      "bytes": 8077,
+      "sha256": "febd3a176e2c9a5cc33c4adb68329f3d0978fa838ddaeb61df46c75158161772"
+    },
+    "SOFTWARE_BOM_toolchain_canonical_probe.log": {
+      "bytes": 9520,
+      "sha256": "3b857772cdef357f0c5622fa4d414e55a672df337b5b00feaa6209d34a1d16c2"
+    }
+  },
+  "packages": [
+    {
+      "name": "framework-arduinoadafruitnrf52",
+      "version": "1.10701.0",
+      "path": "SOFTWARE_BOM_BUILD_TMP\\core\\packages\\framework-arduinoadafruitnrf52\\package.json"
+    },
+    {
+      "name": "framework-cmsis",
+      "version": "2.50700.210515",
+      "path": "SOFTWARE_BOM_BUILD_TMP\\core\\packages\\framework-cmsis\\package.json"
+    },
+    {
+      "name": "tool-adafruit-nrfutil",
+      "version": "1.503.0",
+      "path": "SOFTWARE_BOM_BUILD_TMP\\core\\packages\\tool-adafruit-nrfutil\\package.json"
+    },
+    {
+      "name": "tool-scons",
+      "version": "4.41101.0",
+      "path": "SOFTWARE_BOM_BUILD_TMP\\core\\packages\\tool-scons\\package.json"
+    },
+    {
+      "name": "tool-sreccat",
+      "version": "1.164.0",
+      "path": "SOFTWARE_BOM_BUILD_TMP\\core\\packages\\tool-sreccat\\package.json"
+    },
+    {
+      "name": "toolchain-gccarmnoneeabi",
+      "version": "1.70201.0",
+      "path": "SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\package.json"
+    }
+  ],
+  "prior_sdk_compilation_duration_seconds": 224.151,
+  "canonical_probe_exit": 0,
+  "canonical_process_environment": {
+    "CPLUS_INCLUDE_PATH": "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\core\\packages\\toolchain-gccarmnoneeabi\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi\\thumb\\v7e-m\\fpv4-sp\\hard"
+  },
+  "blocked_object_paths": [
+    {
+      "path": "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\MeshCore-a366955cb2f67b8e6842d4f00d2b6a554dddd88a\\.pio\\build\\ProMicro_repeater\\libd50\\Adafruit_TinyUSB_Arduino\\arduino\\ports\\ch32\\Adafruit_TinyUSB_ch32.cpp.o",
+      "absolute_characters": 264,
+      "parent_exists": true
+    },
+    {
+      "path": "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\MeshCore-a366955cb2f67b8e6842d4f00d2b6a554dddd88a\\.pio\\build\\ProMicro_repeater\\libd50\\Adafruit_TinyUSB_Arduino\\arduino\\ports\\esp32\\Adafruit_TinyUSB_esp32.cpp.o",
+      "absolute_characters": 266,
+      "parent_exists": true
+    },
+    {
+      "path": "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\MeshCore-a366955cb2f67b8e6842d4f00d2b6a554dddd88a\\.pio\\build\\ProMicro_repeater\\libd50\\Adafruit_TinyUSB_Arduino\\arduino\\ports\\rp2040\\Adafruit_TinyUSB_rp2040.cpp.o",
+      "absolute_characters": 268,
+      "parent_exists": true
+    },
+    {
+      "path": "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\MeshCore-a366955cb2f67b8e6842d4f00d2b6a554dddd88a\\.pio\\build\\ProMicro_repeater\\libd50\\Adafruit_TinyUSB_Arduino\\arduino\\ports\\samd\\Adafruit_TinyUSB_samd.cpp.o",
+      "absolute_characters": 264,
+      "parent_exists": true
+    },
+    {
+      "path": "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\V2_ENGINEERING_AUDIT_A3_2026_10_13\\SOFTWARE_BOM_BUILD_TMP\\MeshCore-a366955cb2f67b8e6842d4f00d2b6a554dddd88a\\.pio\\build\\ProMicro_repeater\\libd50\\Adafruit_TinyUSB_Arduino\\arduino\\ports\\nrf\\Adafruit_TinyUSB_nrf.cpp.o",
+      "absolute_characters": 262,
+      "parent_exists": true
+    }
+  ],
+  "libraries": [
+    {
+      "name": "Adafruit AHTX0",
+      "version": "2.0.6",
+      "metadata_sha256": "84a991ccd18e521598b12deb2349215e8bb3d40135f4cfbe2ea7bba57bc02661"
+    },
+    {
+      "name": "Adafruit BME280 Library",
+      "version": "2.3.0",
+      "metadata_sha256": "f96c6043f3693b9ad57c14d8e49ec7e922b93f12e16445d0e2e7d3fb87450210"
+    },
+    {
+      "name": "Adafruit BMP280 Library",
+      "version": "2.6.8",
+      "metadata_sha256": "a796be2131e833f5b50a368b4d9e1b9b56391c5798f50ba2cf7eab1d39beffc3"
+    },
+    {
+      "name": "Adafruit BusIO",
+      "version": "1.17.4",
+      "metadata_sha256": "1f1c13c18d84a15f71e8e833aeaf1ada2d505cc915485174167ea661ed085194"
+    },
+    {
+      "name": "Adafruit GFX Library",
+      "version": "1.12.6",
+      "metadata_sha256": "e6b702f2d0463216bf4b89d10c1701ae0de2aabbee42f7088054e9e21949cc31"
+    },
+    {
+      "name": "Adafruit INA219",
+      "version": "1.2.3",
+      "metadata_sha256": "5867b0ab07111e5f7b95903665bc179c951109ff74a56e87b7ece7ac21884d67"
+    },
+    {
+      "name": "Adafruit INA3221 Library",
+      "version": "1.0.1",
+      "metadata_sha256": "566cf6986712eea9488a2ab465f1e1fb6b8dd2db627a903a4a1add8593240f6f"
+    },
+    {
+      "name": "Adafruit NeoPixel",
+      "version": "1.15.5",
+      "metadata_sha256": "91a42bcc6f06d3f6a828bd329c6c942dd2b61789276661f719c79e2f25e1120e"
+    },
+    {
+      "name": "Adafruit SH110X",
+      "version": "2.1.15",
+      "metadata_sha256": "c1e62541f9083082867cf3e5e5cfbd4a14604852add5c0ef910734efaae10086"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.5.17",
+      "metadata_sha256": "bfb5d85959c14de682a285496e3c905054a0b126b0ca2d7c1870307890e6bc9d"
+    },
+    {
+      "name": "Adafruit Unified Sensor",
+      "version": "1.1.15",
+      "metadata_sha256": "9898dcd235542e85f504cc0d1c5bff9e99f17602607dae944075fdcab6831d37"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "7.4.3",
+      "metadata_sha256": "45c8072598d097cf03031ee4f3230031105329903e022a2abd15b1c56157c770"
+    },
+    {
+      "name": "CayenneLPP",
+      "version": "1.6.1",
+      "metadata_sha256": "0ce33751b8ff3ea9b0745aa8c08cc0efb1b587b56c2d32051de55c0631635340"
+    },
+    {
+      "name": "Crypto",
+      "version": "0.4.0",
+      "metadata_sha256": "d6bc8abb2aef2c89f4d21175bcf0cc5c371dc986688acf38b183e60e24eac623"
+    },
+    {
+      "name": "CustomLFS",
+      "version": "0.2.1",
+      "metadata_sha256": "bfcdac0f1a00875d6f9dd90d37184c6267038a1926de84602b86f4cecb5fdcef"
+    },
+    {
+      "name": "Melopero RV3028",
+      "version": "1.2.0",
+      "metadata_sha256": "3419ab5fc35e69423e814fd007c46c22b0905f7078c0bc7cf53f58f39abf367d"
+    },
+    {
+      "name": "MicroNMEA",
+      "version": "2.0.6",
+      "metadata_sha256": "d7e422366889784117f88f4a9fffc0b1336151bb41f07ff8c9bc9e9628c48067"
+    },
+    {
+      "name": "RadioLib",
+      "version": "7.7.1",
+      "metadata_sha256": "7d02eff4b28ee2174db52b52ff099e359d1362ae63571586c87b836322b50731"
+    },
+    {
+      "name": "RTClib",
+      "version": "2.1.4",
+      "metadata_sha256": "d632778730dcd456c571204403b2b8c60a611e4574e2765512896df75ae69a6e"
+    },
+    {
+      "name": "Unity",
+      "version": "2.6.1",
+      "metadata_sha256": "d30e422a51aef4e810b65281e11df70fd819828c2eee54fdf80c6996fe6da61b"
+    }
+  ],
+  "classification": "Unavailable complete build due to Windows/toolchain paths; no source-code defect established",
+  "short_path_mapping_created": false
+}

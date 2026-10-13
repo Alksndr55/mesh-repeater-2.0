@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Separate radio supply branch. Ferrite60ohm at100MHz, conservative3A rating, DCRmax20mohm specifiedbyMurata. Nominal3mVdropat150mA. CustomCu lands per archivedMurataC31E6; mask/paste engineering choices. Prototype load-step/noise/resonance qualification required."
+	(property "Description" "Separate RADIO branch from POWER copper star NT2. FB1 feeds only HT-RA62 and C23/C24; no SYS connection on LOGIC."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

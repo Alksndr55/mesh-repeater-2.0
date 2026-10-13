@@ -1,0 +1,831 @@
+{
+  "changes": {
+    "R71": [
+      50,
+      4.5,
+      180
+    ],
+    "U12": [
+      57,
+      10.5,
+      180
+    ],
+    "C63": [
+      56,
+      5.8,
+      0
+    ],
+    "C64": [
+      51.8,
+      11.6,
+      90
+    ],
+    "R73": [
+      48.5,
+      7.7,
+      0
+    ],
+    "R72": [
+      48.5,
+      10.2,
+      0
+    ],
+    "C53": [
+      48,
+      13.4,
+      0
+    ],
+    "R17": [
+      52.3,
+      15.2,
+      180
+    ],
+    "R1": [
+      24.7,
+      28.95,
+      180
+    ],
+    "R56": [
+      24.7,
+      33.15,
+      0
+    ],
+    "R6": [
+      24.7,
+      36.25,
+      0
+    ],
+    "C6": [
+      24.7,
+      38.5,
+      180
+    ],
+    "C54": [
+      45.5,
+      26.3,
+      90
+    ],
+    "C55": [
+      45.5,
+      31.5,
+      90
+    ],
+    "R58": [
+      42.9,
+      34.3,
+      90
+    ],
+    "R55": [
+      49,
+      28,
+      -90
+    ],
+    "TP3": [
+      49.3,
+      33,
+      0
+    ],
+    "C61": [
+      49.9,
+      44.1,
+      -90
+    ],
+    "J11": [
+      86,
+      23,
+      90
+    ],
+    "NT2": [
+      83,
+      20.46,
+      0
+    ]
+  },
+  "removed_tracks": [
+    {
+      "uuid": "74b67d37-9009-410e-b802-84b0c84f8e2c",
+      "net": "GND",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "81212959-70a1-4b7e-ac47-b1152b5fc759",
+      "net": "GND",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "9da6c254-3469-4da4-b9f1-b1f27fbf2cf2",
+      "net": "BAT_SYS",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "4df49cc6-897b-4708-a9e2-9f8c311fc59f",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "4f9f5ef7-6115-49d0-abaf-619bc9fdc9a7",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "2f2118a3-051d-4338-8ad5-f697361a9e03",
+      "net": "Net-(U1-COM2)",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "24a09b9c-0204-4bb7-b05b-b205ad5ec3e7",
+      "net": "CHG_G_SHUNT",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "008f3d08-335c-455e-8929-22d69b85c2a6",
+      "net": "CHG_G_SHUNT",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "1b0ed9c4-c005-491c-9865-98fdcc3b44f5",
+      "net": "/4. Thermal/CHG_WARM",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "d0e89c05-5eb9-4c59-8ad6-21e1eb49c19b",
+      "net": "Net-(D1-K)",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "cb13e395-0a39-449e-a443-f70b2069637b",
+      "net": "/4. Thermal/CHG_VSHORT",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "d3e430e9-60b6-4478-bb29-a4b4e2f0d3ff",
+      "net": "Net-(U1-COM3)",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "d96adea7-00c0-48e5-936e-cde984b5284d",
+      "net": "Net-(U1-COM3)",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "1b0ee466-a7a1-48da-bcc0-20565f4f2880",
+      "net": "Net-(U1-COM2)",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "28899a95-2672-407e-b78f-e5440890c164",
+      "net": "Net-(U1-COM3)",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "ebb745ba-6b3a-44d6-b7a2-d435a501d877",
+      "net": "CHG_G_SHUNT",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "f88897c3-e1f3-4620-a09e-faaa594a57f1",
+      "net": "CHG_G_SHUNT",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "f7a45759-0378-4ccf-bb57-3ef37b3fb12e",
+      "net": "CHG_G_SHUNT",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "a5bab789-f107-46e2-a7d9-39da8883004e",
+      "net": "CHG_G_SHUNT",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "a3e85bee-1f55-4f49-8fc1-10394d417f1c",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "94cfc3d4-7840-46b9-9361-9db4c0627e5c",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "95088267-04a4-426e-aaff-daa4b5acaaf4",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "7800fa8b-19e4-4f35-b26f-73972560700c",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "6174dba1-6522-43ef-99e1-5b422a1b8893",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "3323cde9-b33c-4a78-89ee-787b81d478db",
+      "net": "CS_P",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "f54e2302-350c-417b-945a-4190fd53b097",
+      "net": "/2. Converter/SYS_LC_IN",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "d99b4c84-4444-4d51-84fd-c9addc2bf3c5",
+      "net": "/2. Converter/SYS_PRE",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "69519e40-117d-432b-8a28-461f41479684",
+      "net": "/2. Converter/SYS_PRE",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "bda894e7-356e-4178-b97e-99def88a2ba2",
+      "net": "/4. Thermal/CHG_VTH",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "10f0fd1d-fe28-47ad-ae6f-71ac07bd972c",
+      "net": "/4. Thermal/CHG_VTH",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "f4a9baf6-9019-45e1-8d06-91cb0a21835e",
+      "net": "Net-(U1-FB)",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "89616880-8265-41b1-bced-666456fce595",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "205b2e89-12ac-42c1-aff3-5e1849e5c3eb",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "775b8f94-4c81-48d3-b7c3-4a4466112355",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "74855d2c-d5f0-4d79-9159-21a44844b8c7",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "5dd2ff27-e01c-4b6f-9b1d-852ff3c55c03",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "6993ab0a-46da-41a2-99e6-75c04fecf380",
+      "net": "SOLAR",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "5fd0aef5-d40b-4d14-b65f-0f71b565b2d6",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "34ea9d7d-5978-4723-b7b7-aada3eabd794",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "262f22a0-a64b-4ee2-8c90-43f981d5ef84",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "4bc3b992-6380-420f-8fee-5e440a7313f1",
+      "net": "SOLAR",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "124d0b3a-e3e5-4257-a2a0-128192aa0f70",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "14738a07-dacc-4d84-ba7c-dd00ccf8dfdd",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "0a6348b4-b38d-409c-bc6e-1c896a44af44",
+      "net": "SOLAR",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "00e3a19c-962e-4cfd-8ad9-f3ad6575b8dc",
+      "net": "SOLAR",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "b5fb804c-182c-4508-98d2-dc7e3d17d43e",
+      "net": "BAT",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "e2f9bf7d-f1b9-4f6f-b8c1-d2f03ddb117c",
+      "net": "GND",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "a21330b1-cfdd-49b7-a8e7-c385aab88429",
+      "net": "GND",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "95ab77b9-10f7-4c5e-bf17-63196104ea30",
+      "net": "GND",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "3bfdfb0c-0827-402c-b69c-bff4606b4652",
+      "net": "GND",
+      "reason": "clearance"
+    },
+    {
+      "uuid": "21fed16e-dba5-4744-ac29-d258f592a98c",
+      "net": "GND",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "321ea341-805f-41bd-bed6-8a080759297b",
+      "net": "GND",
+      "reason": "shorting_items"
+    },
+    {
+      "uuid": "8f0a70b9-fa1d-4467-916a-ce62d2da7fc7",
+      "net": "Net-(C15-Pad1)",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "8712f57d-54a3-48a2-8874-ba6c0834b058",
+      "net": "BAT",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "0e62fd3c-f090-4659-8140-efe503284b1b",
+      "net": "BAT",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "45ea1bd4-d96b-4988-92bb-6036a6dd6a45",
+      "net": "BAT",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "689c50b2-29a2-4760-b5e3-4f055e8a820e",
+      "net": "BAT",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "b4d38cc8-1f2f-4781-8e90-e9222f2e1418",
+      "net": "SOLAR",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "a18dfeca-e39a-4a13-9702-5611e296252c",
+      "net": "/4. Thermal/CHG_TSENSE",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "a380680b-818f-47b5-9f63-64f5cf9f4367",
+      "net": "BAT_SYS",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "cc00a683-7d9c-4a68-b6cd-0a6ceeaee51f",
+      "net": "BAT_SYS",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "d93fe8a9-aa56-4976-9629-bb3ce19cc4bb",
+      "net": "BAT_SYS",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "44221d29-6273-4f83-b39b-2ac7cd7cced1",
+      "net": "SDA",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "42ba03e9-fa97-468b-ab46-b161834e62be",
+      "net": "SCL",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "cbaf82fe-2a60-48a7-991e-383d7859e98f",
+      "net": "SYS_3V3",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "96261f7b-94a0-4738-bf8b-28d3ab3f5242",
+      "net": "Net-(U12-IN+)",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "82fdce51-787b-413b-9b49-39241175256a",
+      "net": "/4. Thermal/CHG_VTH",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "31810ab9-dcaa-4257-b4fb-7701272186aa",
+      "net": "Net-(C16-Pad1)",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "c1aa92c4-43cf-4ba0-a607-941bb75bf831",
+      "net": "CS_P",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "2c9353ae-b715-4867-b24e-ce897291bceb",
+      "net": "CHG_CS_M",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "e2d3e26f-fcdd-4d16-8022-4933f45530fb",
+      "net": "Net-(D4-A)",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "589226d7-edfd-4ed1-8abd-5daf760cffc5",
+      "net": "Net-(D3-A)",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "7e6c2358-0041-4bce-bcd9-8e5b4f629070",
+      "net": "/2. Converter/FILTER_MID",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "b3f4b4ae-286f-44f7-88e8-09133fd50e7c",
+      "net": "FILTER_OUT",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "0fba16fa-0d45-4231-b02e-9f44cbf7490a",
+      "net": "Net-(U1-COM2)",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "05440acb-6194-4127-98ef-cced05fe4e74",
+      "net": "Net-(C6-Pad1)",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "be2bdf2c-5b87-4e34-99ca-63741c49f4c3",
+      "net": "Net-(C6-Pad1)",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "1c622d8a-689c-41a7-9a6c-16a81b5af8d6",
+      "net": "Net-(C6-Pad1)",
+      "reason": "via_dangling"
+    },
+    {
+      "uuid": "6191395e-6c52-4cfa-9160-5b5ce7c77839",
+      "net": "/4. Thermal/CHG_VSHORT",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "e8980b6a-6083-4a4c-b5e0-68a500965c78",
+      "net": "/4. Thermal/CHG_WARM",
+      "reason": "track_dangling"
+    },
+    {
+      "uuid": "33260933-8162-46c0-8f3d-7ed67ca6d586",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "b9f3047c-3b92-4733-939c-03c69a4ceaa0",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "384ea72b-2709-45b3-a002-681f591adc21",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "41d26901-66ef-4685-a866-d5a529adb95f",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "6998f8df-e9cd-43c7-aa6f-1f753f5ba4ed",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "7da9bea3-b280-4417-88f2-44cfda94cdb5",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "87705b7d-4439-483d-b09f-8c5df6b4d4b6",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "8b4f45b0-a03d-4c8d-9fe1-f2dc2cd48c2f",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "baecaa23-125e-4c04-88b1-14b656d53655",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "e9f3be6b-05e8-4496-980d-aef678f2e241",
+      "net": "BAT",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "61f92fd6-4a2c-4b6d-bb2b-f0b4b696a8a4",
+      "net": "SOLAR",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "2ee167c7-5dd7-40f0-9675-a5d292cea8a2",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "c57b2c59-6f7e-42ac-a2b8-57e57d626c03",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "dd9f5f6b-57bb-4c0d-892a-4510d76dad3e",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "0e1fe8ee-59e1-4b3e-9264-9202bf408f0b",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "6b44c926-7d7e-44e5-8a94-390d34b93dbd",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "52370f40-b603-45a8-90c4-53cb5665a04e",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "54700684-aa1b-40bc-b37e-13402870d026",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "57f68268-289e-43d9-a80b-9cd6b61537dd",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "62bf42ee-3359-4c3f-99e9-c328fbb07184",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "a3098fa6-cae7-483c-8fed-54fbc4417bb0",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "d66e8bc5-eaeb-4632-86f6-990f1b8a6088",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "f6bf582a-6609-48a5-8274-802619423d77",
+      "net": "BAT_SYS",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "1cc0f275-7949-4608-ad73-a072165bc413",
+      "net": "Net-(U1-FB)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "1d3cc7f7-6773-4530-86b2-71cfb58fa799",
+      "net": "Net-(U1-FB)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "24397e6e-3fc1-4e32-af2b-277506b7399e",
+      "net": "Net-(U1-FB)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "2d931b13-7bad-46a1-8090-ce88eb9434ae",
+      "net": "Net-(U1-FB)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "dbd6ea14-9bec-4289-851c-51d395bb3e38",
+      "net": "Net-(U1-FB)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "0960ec95-641c-496d-9de3-3a836a6578b3",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "358ecc82-4aa4-4017-a96c-211fa276ef43",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "36a67cbe-0bb9-42d5-b963-741f90b71c96",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "6a6353fe-a1c9-43ae-abfe-642e1c659925",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "b2688277-f311-47c6-bf9b-88f29534705f",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "e28e2419-ce88-4506-b305-29051c43f998",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "ec994d30-bfd1-49f0-80a9-fe71211c9b19",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "fd16c33c-41cc-4fdb-8eea-feac0d85ad98",
+      "net": "SDA",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "a389ee8f-64d8-465b-907a-dd421361448d",
+      "net": "SCL",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "913a20ff-165c-4989-95c9-52f5fa2b087a",
+      "net": "SCL",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "0c44fc10-cfa5-4255-b575-2e08e766d633",
+      "net": "SCL",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "712db2a4-f73d-4daa-b311-8c8514b3149f",
+      "net": "SCL",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "ddd57336-2f1b-4f1c-bf9f-45df32371c7a",
+      "net": "SCL",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "133b0719-de68-42c5-a1f8-b3e7928a19de",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "26af7686-0555-44bc-8ec4-b670aa7c6794",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "73f565d8-a0a5-4486-be6f-667ca4af1122",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "7d294fce-352a-4214-85a3-4e996dae4d89",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "b4f821e0-78a6-4b16-9e7a-6baa2f9e85c1",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "bda5de1c-7dda-4251-858c-95d1d92267f8",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "fe2311fc-e8d5-4a66-bb37-f27c2dca50c0",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "69f34d5b-f537-40cb-9f0e-c67bc4bb14af",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "8d5637a7-702f-4bef-8e0a-2eb895393723",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "8f77abba-2225-4b26-8529-7f69b59d8ef0",
+      "net": "CHG_CS_M",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "13ed353b-cf1f-4df4-9387-6066fc1cbd70",
+      "net": "Net-(U1-COM1)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "51ad9cf4-fef7-4a8f-8f48-4c4a376d158b",
+      "net": "Net-(U1-COM1)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "7dfd7b45-40b4-4c3c-b5a0-0c815fd7098a",
+      "net": "Net-(U1-COM1)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "e114ee0e-7654-4191-b895-217baf2d224c",
+      "net": "Net-(U1-COM1)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "f3ccc6dd-6737-4d76-b3b9-7b36047e09b0",
+      "net": "Net-(U1-VG)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "fad394ad-c568-4369-b866-9961eeaac5ad",
+      "net": "Net-(U1-VG)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "9bfa6fd3-a5ee-4deb-ac56-8ef0b665cf63",
+      "net": "Net-(U1-TEMP)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "e942903f-ea5b-4af0-9205-5cf2a3de8f81",
+      "net": "Net-(U1-TEMP)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "116704a6-432b-455a-943c-27c783272de2",
+      "net": "Net-(U1-MPPT)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "56930726-917a-4eb1-9ec4-94c66727c1fa",
+      "net": "Net-(U1-MPPT)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "f4d18bec-e9ba-4c3a-ad00-85d42c08fa09",
+      "net": "Net-(U1-MPPT)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "f28c63f1-69a2-40f5-a4c9-cd940c311cbc",
+      "net": "Net-(U1-COM3)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "0083a042-6d74-4337-af8e-6266668bc753",
+      "net": "Net-(U1-COM3)",
+      "reason": "rebuild changed monitor/CN leaves"
+    },
+    {
+      "uuid": "47d8258a-724e-473b-b984-7b72d50bf076",
+      "net": "Net-(U1-COM3)",
+      "reason": "rebuild changed monitor/CN leaves"
+    }
+  ]
+}

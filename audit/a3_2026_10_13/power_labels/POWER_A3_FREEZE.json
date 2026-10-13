@@ -1,0 +1,48 @@
+{
+  "board_sha256": "be0c865aff7f217989bab9ab264dd0a0c2cda1ecd81906dd05bbb1ab731a2f44",
+  "strict_native_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0,
+    "ignored_checks": 0
+  },
+  "final_drc": "audit/a3_2026_10_13/power_labels/drc_POWER_labels_final.json",
+  "final_drc_sha256": "8f21a24df5682e177e7efb4daa199440e0914c9fa451e00bd1103268436be681",
+  "annotation_baseline_sha256": "4fde0d03000f7ec29ba5448b2247fd4e963a3a7771d993e50405e9e2583bce19",
+  "all_non_board_silkscreen_s_expressions_preserved": true,
+  "all_footprint_poses_pads_nets_library_models_preserved": true,
+  "all_copper_tracks_vias_zones_board_settings_edgecuts_preserved": true,
+  "component_label_coverage": 123,
+  "front_labels": 65,
+  "back_labels": 111,
+  "silk_font_min_mm": 0.8,
+  "component_labels_follow_actual_body_axis": true,
+  "back_labels_projected_body_centres": true,
+  "no_group_callouts": true,
+  "front_back_option_segments_equal": true,
+  "option_segments_per_side": 27,
+  "option_groups": [
+    "BAL1",
+    "BAL2",
+    "COLD_A",
+    "COLD_B"
+  ],
+  "R56_excluded_from_optional_frames": true,
+  "connector_back_pinouts": [
+    "J7",
+    "J8",
+    "J12",
+    "J101",
+    "J11"
+  ],
+  "branding_restored": true,
+  "single_jumper_USB_warning": true,
+  "final_views": [
+    "audit/a3_2026_10_13/power_labels/views/POWER_front_labels.png",
+    "audit/a3_2026_10_13/power_labels/views/POWER_back_labels_projected.png"
+  ],
+  "PNG_sha256": {
+    "POWER_back_labels_projected.png": "91d1a373114b05fd540daa7d7c291dc1158589182f41b647cd7a8e2666c80676",
+    "POWER_front_labels.png": "1decea77e6e446a2c6bafa49809a2a1eeb0a6b2276634f8200b5dafec813c8d1"
+  }
+}

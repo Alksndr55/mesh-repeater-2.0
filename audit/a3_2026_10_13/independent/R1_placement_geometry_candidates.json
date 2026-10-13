@@ -1,0 +1,509 @@
+{
+  "source_sha256": "0c72243e1df24fbe11f1e55ccd3a13e80d850bf2de041777ce9c3b5a51bd361f",
+  "scope": "Read-only translated actual native courtyard centerlines, excluding drawing stroke as DRC does; no PCB/route changed",
+  "current_R1": {
+    "position": [
+      24.7,
+      28.7
+    ],
+    "orientation": 180.0,
+    "actual_courtyard_bounds": [
+      20.77,
+      26.61,
+      28.63,
+      30.79
+    ]
+  },
+  "candidates": [
+    {
+      "R1_centre": [
+        24.7,
+        28.7
+      ],
+      "R1_actual_courtyard_bounds": [
+        20.77,
+        26.610000000000003,
+        28.63,
+        30.789999999999996
+      ],
+      "margins": {
+        "R56": {
+          "x_separation_mm": -7.759999999999998,
+          "y_separation_mm": 0.43000000000000327,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            20.87,
+            31.22,
+            28.53,
+            35.08
+          ]
+        },
+        "C1": {
+          "x_separation_mm": -6.129999999999999,
+          "y_separation_mm": 0.060000000000002274,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            22.5,
+            24.25,
+            27.1,
+            26.55
+          ]
+        },
+        "Q4": {
+          "x_separation_mm": 0.4400000000000013,
+          "y_separation_mm": -3.739999999999995,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            29.07,
+            27.05,
+            32.93,
+            30.45
+          ]
+        },
+        "U1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -4.639999999999997,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            13.05,
+            25.75,
+            20.75,
+            31.25
+          ]
+        },
+        "D2": {
+          "x_separation_mm": -1.2799999999999976,
+          "y_separation_mm": -0.13999999999999702,
+          "rect_overlap": true,
+          "other_actual_courtyard_bounds": [
+            27.35,
+            22.25,
+            34.65,
+            26.75
+          ]
+        },
+        "L1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": 0.010000000000005116,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            28.65,
+            30.8,
+            41.55,
+            44.2
+          ]
+        }
+      },
+      "rect_overlaps": [
+        "D2"
+      ]
+    },
+    {
+      "R1_centre": [
+        24.7,
+        28.8
+      ],
+      "R1_actual_courtyard_bounds": [
+        20.77,
+        26.709999999999997,
+        28.63,
+        30.890000000000004
+      ],
+      "margins": {
+        "R56": {
+          "x_separation_mm": -7.759999999999998,
+          "y_separation_mm": 0.32999999999999474,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            20.87,
+            31.22,
+            28.53,
+            35.08
+          ]
+        },
+        "C1": {
+          "x_separation_mm": -6.129999999999999,
+          "y_separation_mm": 0.1599999999999966,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            22.5,
+            24.25,
+            27.1,
+            26.55
+          ]
+        },
+        "Q4": {
+          "x_separation_mm": 0.4400000000000013,
+          "y_separation_mm": -3.740000000000002,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            29.07,
+            27.05,
+            32.93,
+            30.45
+          ]
+        },
+        "U1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -4.540000000000003,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            13.05,
+            25.75,
+            20.75,
+            31.25
+          ]
+        },
+        "D2": {
+          "x_separation_mm": -1.2799999999999976,
+          "y_separation_mm": -0.0400000000000027,
+          "rect_overlap": true,
+          "other_actual_courtyard_bounds": [
+            27.35,
+            22.25,
+            34.65,
+            26.75
+          ]
+        },
+        "L1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -0.09000000000000341,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            28.65,
+            30.8,
+            41.55,
+            44.2
+          ]
+        }
+      },
+      "rect_overlaps": [
+        "D2"
+      ]
+    },
+    {
+      "R1_centre": [
+        24.7,
+        28.85
+      ],
+      "R1_actual_courtyard_bounds": [
+        20.77,
+        26.76,
+        28.63,
+        30.94
+      ],
+      "margins": {
+        "R56": {
+          "x_separation_mm": -7.759999999999998,
+          "y_separation_mm": 0.2799999999999976,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            20.87,
+            31.22,
+            28.53,
+            35.08
+          ]
+        },
+        "C1": {
+          "x_separation_mm": -6.129999999999999,
+          "y_separation_mm": 0.21000000000000085,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            22.5,
+            24.25,
+            27.1,
+            26.55
+          ]
+        },
+        "Q4": {
+          "x_separation_mm": 0.4400000000000013,
+          "y_separation_mm": -3.6899999999999977,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            29.07,
+            27.05,
+            32.93,
+            30.45
+          ]
+        },
+        "U1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -4.489999999999998,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            13.05,
+            25.75,
+            20.75,
+            31.25
+          ]
+        },
+        "D2": {
+          "x_separation_mm": -1.2799999999999976,
+          "y_separation_mm": 0.010000000000001563,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            27.35,
+            22.25,
+            34.65,
+            26.75
+          ]
+        },
+        "L1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -0.14000000000000057,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            28.65,
+            30.8,
+            41.55,
+            44.2
+          ]
+        }
+      },
+      "rect_overlaps": []
+    },
+    {
+      "R1_centre": [
+        24.7,
+        28.9
+      ],
+      "R1_actual_courtyard_bounds": [
+        20.77,
+        26.81,
+        28.63,
+        30.99
+      ],
+      "margins": {
+        "R56": {
+          "x_separation_mm": -7.759999999999998,
+          "y_separation_mm": 0.23000000000000043,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            20.87,
+            31.22,
+            28.53,
+            35.08
+          ]
+        },
+        "C1": {
+          "x_separation_mm": -6.129999999999999,
+          "y_separation_mm": 0.259999999999998,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            22.5,
+            24.25,
+            27.1,
+            26.55
+          ]
+        },
+        "Q4": {
+          "x_separation_mm": 0.4400000000000013,
+          "y_separation_mm": -3.6400000000000006,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            29.07,
+            27.05,
+            32.93,
+            30.45
+          ]
+        },
+        "U1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -4.440000000000001,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            13.05,
+            25.75,
+            20.75,
+            31.25
+          ]
+        },
+        "D2": {
+          "x_separation_mm": -1.2799999999999976,
+          "y_separation_mm": 0.05999999999999872,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            27.35,
+            22.25,
+            34.65,
+            26.75
+          ]
+        },
+        "L1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -0.18999999999999773,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            28.65,
+            30.8,
+            41.55,
+            44.2
+          ]
+        }
+      },
+      "rect_overlaps": []
+    },
+    {
+      "R1_centre": [
+        24.7,
+        28.95
+      ],
+      "R1_actual_courtyard_bounds": [
+        20.77,
+        26.860000000000003,
+        28.63,
+        31.039999999999996
+      ],
+      "margins": {
+        "R56": {
+          "x_separation_mm": -7.759999999999998,
+          "y_separation_mm": 0.18000000000000327,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            20.87,
+            31.22,
+            28.53,
+            35.08
+          ]
+        },
+        "C1": {
+          "x_separation_mm": -6.129999999999999,
+          "y_separation_mm": 0.3100000000000023,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            22.5,
+            24.25,
+            27.1,
+            26.55
+          ]
+        },
+        "Q4": {
+          "x_separation_mm": 0.4400000000000013,
+          "y_separation_mm": -3.5899999999999963,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            29.07,
+            27.05,
+            32.93,
+            30.45
+          ]
+        },
+        "U1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -4.389999999999997,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            13.05,
+            25.75,
+            20.75,
+            31.25
+          ]
+        },
+        "D2": {
+          "x_separation_mm": -1.2799999999999976,
+          "y_separation_mm": 0.11000000000000298,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            27.35,
+            22.25,
+            34.65,
+            26.75
+          ]
+        },
+        "L1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -0.23999999999999488,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            28.65,
+            30.8,
+            41.55,
+            44.2
+          ]
+        }
+      },
+      "rect_overlaps": []
+    },
+    {
+      "R1_centre": [
+        24.7,
+        29.0
+      ],
+      "R1_actual_courtyard_bounds": [
+        20.77,
+        26.91,
+        28.63,
+        31.09
+      ],
+      "margins": {
+        "R56": {
+          "x_separation_mm": -7.759999999999998,
+          "y_separation_mm": 0.129999999999999,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            20.87,
+            31.22,
+            28.53,
+            35.08
+          ]
+        },
+        "C1": {
+          "x_separation_mm": -6.129999999999999,
+          "y_separation_mm": 0.35999999999999943,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            22.5,
+            24.25,
+            27.1,
+            26.55
+          ]
+        },
+        "Q4": {
+          "x_separation_mm": 0.4400000000000013,
+          "y_separation_mm": -3.539999999999999,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            29.07,
+            27.05,
+            32.93,
+            30.45
+          ]
+        },
+        "U1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -4.34,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            13.05,
+            25.75,
+            20.75,
+            31.25
+          ]
+        },
+        "D2": {
+          "x_separation_mm": -1.2799999999999976,
+          "y_separation_mm": 0.16000000000000014,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            27.35,
+            22.25,
+            34.65,
+            26.75
+          ]
+        },
+        "L1": {
+          "x_separation_mm": 0.019999999999999574,
+          "y_separation_mm": -0.28999999999999915,
+          "rect_overlap": false,
+          "other_actual_courtyard_bounds": [
+            28.65,
+            30.8,
+            41.55,
+            44.2
+          ]
+        }
+      },
+      "rect_overlaps": []
+    }
+  ]
+}

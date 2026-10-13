@@ -1,0 +1,54 @@
+{
+  "old_SYS_via": [
+    64.5,
+    16.1
+  ],
+  "new_SYS_via": [
+    64.2,
+    15.8
+  ],
+  "removed": [
+    {
+      "uuid": "96106784-4864-47d1-8482-dc91f6ee19ca",
+      "net": "SYS_3V3",
+      "start": [
+        64.4375,
+        16.05
+      ],
+      "end": [
+        64.4875,
+        16.1
+      ],
+      "layer": "F.Cu",
+      "kind": "track"
+    },
+    {
+      "uuid": "4d7e4e86-3877-4483-9439-3c21dbef6390",
+      "net": "SYS_3V3",
+      "start": [
+        64.4875,
+        16.1
+      ],
+      "end": [
+        64.5,
+        16.1
+      ],
+      "layer": "F.Cu",
+      "kind": "track"
+    }
+  ],
+  "new45deg_link": {
+    "uuid": "af4ea4ea-7498-42bf-8376-8ea2b561602c",
+    "net": "SYS_3V3",
+    "start": [
+      64.4,
+      16.0
+    ],
+    "end": [
+      64.2,
+      15.8
+    ],
+    "layer": "F.Cu",
+    "kind": "track"
+  }
+}

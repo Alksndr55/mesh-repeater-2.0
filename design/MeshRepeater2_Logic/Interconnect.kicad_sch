@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Межплатное соединение / POWER ↔ LOGIC")
-		(date "2026-10-12")
-		(rev "V2.0-A2")
+		(date "2026-10-13")
+		(rev "V2.0-A3")
 		(comment 1 "Электрическая принципиальная; прототип")
 	)
 	(lib_symbols
@@ -9216,7 +9216,7 @@
 				(pin passive line
 					(at 12.7 27.94 180)
 					(length 5.08)
-					(name "FILTER_OUT"
+					(name "SYS_3V3"
 						(effects
 							(font
 								(size 0.95 0.95)
@@ -9252,7 +9252,7 @@
 				(pin passive line
 					(at 12.7 17.78 180)
 					(length 5.08)
-					(name "FILTER_OUT"
+					(name "SYS_3V3"
 						(effects
 							(font
 								(size 0.95 0.95)
@@ -9288,7 +9288,7 @@
 				(pin passive line
 					(at 12.7 7.62 180)
 					(length 5.08)
-					(name "FILTER_OUT"
+					(name "RADIO_3V3"
 						(effects
 							(font
 								(size 0.95 0.95)
@@ -9324,7 +9324,7 @@
 				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 5.08)
-					(name "SYS_3V3"
+					(name "RADIO_3V3"
 						(effects
 							(font
 								(size 0.95 0.95)
@@ -9342,7 +9342,7 @@
 				(pin passive line
 					(at 12.7 -7.62 180)
 					(length 5.08)
-					(name "GND"
+					(name "NC"
 						(effects
 							(font
 								(size 0.95 0.95)
@@ -9433,36 +9433,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V2.0-A2 / 2026-10-12 / инженерный прототип"
+	(text "0805"
 		(exclude_from_sim no)
-		(at 15.24 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b7743b4-862c-4ee3-9eb1-b9442bcc457e")
-	)
-	(text "RC0805FR-071KL"
-		(exclude_from_sim no)
-		(at 76.2 99.06 0)
+		(at 76.2 101.6 0)
 		(effects
 			(font
 				(size 0.95 0.95)
 			)
 		)
-		(uuid "407d00cb-a1dd-4ad1-a401-52a5b4459f59")
-	)
-	(text "MTJ H8.5 2X6P 10PCS"
-		(exclude_from_sim no)
-		(at 220.98 119.38 0)
-		(effects
-			(font
-				(size 1.05 1.05)
-			)
-		)
-		(uuid "544bbdf6-04f2-4395-ad28-86f31fddf97d")
+		(uuid "0f0f79f2-062a-4fe5-b007-52f076f4f534")
 	)
 	(text "THT 2x6 / 2.54 / vertical"
 		(exclude_from_sim no)
@@ -9472,29 +9451,18 @@
 				(size 1.05 1.05)
 			)
 		)
-		(uuid "5cf8bd8c-7340-4ad2-8271-baac60d3c9ba")
+		(uuid "1988a38a-0d1d-41ee-9647-03860f15242b")
 	)
-	(text "Mesh Repeater 2.0 — LOGIC / межплатные соединения"
+	(text "V2.0-A3 / 2026-10-13 / инженерный прототип"
 		(exclude_from_sim no)
-		(at 15.24 15.24 0)
-		(effects
-			(font
-				(size 1.7 1.7)
-			)
-			(justify left)
-		)
-		(uuid "5d947b07-6cfc-4bd7-a31a-1252c4e70815")
-	)
-	(text "До USB снять J11; вернуть только после отключения USB."
-		(exclude_from_sim no)
-		(at 25.4 148.59 0)
+		(at 15.24 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "63ae3e33-d32f-4f30-a6df-9122fe6578b2")
+		(uuid "7bc1179e-10d8-46fd-86ce-90d21543063c")
 	)
 	(text "R21 оставлен 1 кОм: RADIO_TXEN → R21 → MODE через штыри."
 		(exclude_from_sim no)
@@ -9505,38 +9473,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6de2377f-6967-4898-bdbd-e6a416f00b90")
-	)
-	(text "DS1022-1x40RUF11-B"
-		(exclude_from_sim no)
-		(at 76.2 55.88 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-		)
-		(uuid "721e5afe-956c-42f0-a0a4-837cfd992454")
-	)
-	(text "J11: шунт установлен для АКБ/солнца."
-		(exclude_from_sim no)
-		(at 25.4 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8fc953c2-13d4-4f78-afe0-9c73a2c76022")
-	)
-	(text "0805"
-		(exclude_from_sim no)
-		(at 76.2 101.6 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-		)
-		(uuid "9364adc1-011b-434c-a625-4da73da845da")
+		(uuid "81bce36d-f173-48a7-a7d7-b2b4db32badc")
 	)
 	(text "Экран/стойки: только GND/EMI; не обязательный силовой возврат."
 		(exclude_from_sim no)
@@ -9547,17 +9484,50 @@
 			)
 			(justify left)
 		)
-		(uuid "bb7df29d-473e-4974-bab4-47335c9631d3")
+		(uuid "86b9ba08-383a-4d2e-8249-b3ba41c952aa")
 	)
-	(text "1x2 / 2.54 / 90deg"
+	(text "J11 перенесена на POWER: один съёмный шунт для АКБ/солнца."
 		(exclude_from_sim no)
-		(at 76.2 58.42 0)
+		(at 25.4 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "910dc5c0-52e1-47ca-81ba-984292d06bd6")
+	)
+	(text "Mesh Repeater 2.0 — LOGIC / межплатные соединения"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "9cbc54cd-68b6-4e6d-8473-37046c68b9e8")
+	)
+	(text "До USB снять J11; вернуть только после отключения USB."
+		(exclude_from_sim no)
+		(at 25.4 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4d4a013-c215-4281-8663-0c7664c11f97")
+	)
+	(text "RC0805FR-071KL"
+		(exclude_from_sim no)
+		(at 76.2 99.06 0)
 		(effects
 			(font
 				(size 0.95 0.95)
 			)
 		)
-		(uuid "d38ce097-5176-4072-9eee-b6735616431c")
+		(uuid "c3bf9913-f7b6-4dc3-a469-47c1c344e709")
 	)
 	(text "Распиновка прямого соединения — interboard_connections.csv."
 		(exclude_from_sim no)
@@ -9568,97 +9538,21 @@
 			)
 			(justify left)
 		)
-		(uuid "fbf12454-a923-405d-a23d-951ad958c822")
+		(uuid "d885177c-3573-4ed4-ad4a-27cecefb98ee")
 	)
-	(wire
-		(pts
-			(xy 134.62 119.38) (xy 134.62 123.19)
+	(text "MTJ H8.5 2X6P 10PCS"
+		(exclude_from_sim no)
+		(at 220.98 119.38 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f024e2a-9649-4ad2-91a3-14ffcf46663f")
+		(uuid "e95dbcf4-764d-4084-8a8b-450a9f916ba9")
 	)
-	(wire
-		(pts
-			(xy 233.68 52.07) (xy 241.3 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a52a5fa-0428-4ea4-9589-137add079372")
-	)
-	(wire
-		(pts
-			(xy 111.76 78.74) (xy 111.76 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37525ec8-f3be-4007-bfad-6cdc568f6f4c")
-	)
-	(wire
-		(pts
-			(xy 238.76 175.26) (xy 238.76 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a818a98-910a-4043-8381-a901f819c400")
-	)
-	(wire
-		(pts
-			(xy 269.24 175.26) (xy 269.24 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7300fd-6340-468f-a3b0-d7da37e483c3")
-	)
-	(wire
-		(pts
-			(xy 233.68 72.39) (xy 241.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc84bc5-f79d-43d5-8ac5-b766b58a5dcc")
-	)
-	(wire
-		(pts
-			(xy 71.12 93.98) (xy 63.5 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc43d91-ea76-4e0d-aee8-6bae51a6eb3c")
-	)
-	(wire
-		(pts
-			(xy 233.68 92.71) (xy 241.3 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "647db3be-df4d-44d7-9435-64b010df7d3d")
-	)
-	(wire
-		(pts
-			(xy 208.28 175.26) (xy 208.28 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2b9eb9-92ed-413f-bada-796983851ad3")
+	(no_connect
+		(at 233.68 87.63)
+		(uuid "615225e5-0d36-401e-b890-56afcb3d6569")
 	)
 	(wire
 		(pts
@@ -9668,107 +9562,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8795f2f5-3b95-4196-87ef-300a1148d850")
+		(uuid "09ee88d1-4cf3-400d-a1aa-0faf9cde48ce")
 	)
 	(wire
 		(pts
-			(xy 111.76 53.34) (xy 111.76 60.96)
+			(xy 233.68 72.39) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e43dc41-fb43-4062-a752-5e9f8ca3b74a")
+		(uuid "0ebc48dd-d030-4c31-a912-3e5314bd88d6")
 	)
 	(wire
 		(pts
-			(xy 233.68 82.55) (xy 241.3 82.55)
+			(xy 238.76 175.26) (xy 238.76 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92a753b6-81d0-41a7-9649-2b5d9a6d5174")
-	)
-	(wire
-		(pts
-			(xy 233.68 97.79) (xy 241.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9409e952-4060-4fd4-8521-8cf7ea8947df")
-	)
-	(wire
-		(pts
-			(xy 233.68 102.87) (xy 241.3 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa0585f-cad2-4298-b119-f2a9443e9b25")
-	)
-	(wire
-		(pts
-			(xy 83.82 50.8) (xy 91.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c142d153-619f-445e-96eb-cc5efb470ccd")
-	)
-	(wire
-		(pts
-			(xy 233.68 107.95) (xy 241.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8ecdc85-736b-4d65-b4c8-2ede29b779c5")
-	)
-	(wire
-		(pts
-			(xy 68.58 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f561f1-f82f-4559-9926-0ffe8f270473")
-	)
-	(wire
-		(pts
-			(xy 177.8 175.26) (xy 177.8 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0eaddbb-724b-452f-921f-fc9e8ad9ca24")
-	)
-	(wire
-		(pts
-			(xy 111.76 119.38) (xy 106.68 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44d0ba9-6e49-4019-aa07-9037576494e0")
-	)
-	(wire
-		(pts
-			(xy 81.28 93.98) (xy 88.9 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f76291a5-0f77-4dc7-a35f-7dee281d9c77")
+		(uuid "12455a70-6fbb-479e-8450-3171ca7d6046")
 	)
 	(wire
 		(pts
@@ -9778,73 +9592,157 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f86ab54a-9f1a-4f63-8b26-2e63b926e552")
+		(uuid "212d13c2-8e50-4028-b8ce-c96b322caa10")
 	)
-	(global_label "SYS_3V3"
-		(shape input)
-		(at 91.44 50.8 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 233.68 52.07) (xy 241.3 52.07)
 		)
-		(uuid "095045c7-a0c0-4445-830a-940bc901b8df")
-		(property "Intersheetrefs" ""
-			(at 91.44 50.8 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "26dbf27b-8272-4cc3-bb15-e0dc333fc5eb")
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 241.3 97.79 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 233.68 97.79) (xy 241.3 97.79)
 		)
-		(uuid "1cb918c3-99db-44c1-bc56-0bffceb8a376")
-		(property "Intersheetrefs" ""
-			(at 241.3 97.79 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "31d9a008-9c07-4c22-bcc5-1d98cf74fa8e")
 	)
-	(global_label "FILTER_OUT"
-		(shape input)
-		(at 60.96 50.8 180)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 111.76 60.96)
 		)
-		(uuid "66014c02-4ba4-48d0-88c6-ef00bdd5e357")
-		(property "Intersheetrefs" ""
-			(at 60.96 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "4747719e-b29e-48c4-a2f9-225771050874")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aebb73b-e747-4d63-89a0-2372af11352d")
+	)
+	(wire
+		(pts
+			(xy 233.68 107.95) (xy 241.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7c9105-244e-486a-822f-8755cc06c0bc")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc6d330-5071-4d91-ae0b-bf9adc22dbfd")
+	)
+	(wire
+		(pts
+			(xy 269.24 175.26) (xy 269.24 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6977530b-ca69-463a-9990-869ca5496c82")
+	)
+	(wire
+		(pts
+			(xy 208.28 175.26) (xy 208.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bff347f-fab9-4116-a173-cccc2c2ed541")
+	)
+	(wire
+		(pts
+			(xy 233.68 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4bfa6f-67d5-4387-8f7b-f8543836ce71")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d4aeff-eb72-483c-9049-029295b0a5c5")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 134.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8e6303-20c6-44cf-ae7b-2267a103f3e4")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45da993-6c19-41f0-8b43-e6e231e058e2")
+	)
+	(wire
+		(pts
+			(xy 177.8 175.26) (xy 177.8 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99e2227-b5e6-46b5-9f13-275c162a55cc")
+	)
+	(wire
+		(pts
+			(xy 233.68 102.87) (xy 241.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0e32fc-db2f-4612-a5d3-b62b2f5fc677")
+	)
+	(wire
+		(pts
+			(xy 233.68 92.71) (xy 241.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f94367-1147-4e32-a32e-388180ee59d3")
 	)
 	(global_label "BAT"
 		(shape input)
@@ -9855,7 +9753,7 @@
 			)
 			(justify left)
 		)
-		(uuid "705233f8-c870-47cc-83c1-df6e9f109eb1")
+		(uuid "1bf5b0d0-588b-4276-b2ab-e4cd12eb6634")
 		(property "Intersheetrefs" ""
 			(at 241.3 92.71 180)
 			(hide yes)
@@ -9868,18 +9766,18 @@
 			)
 		)
 	)
-	(global_label "MODE"
+	(global_label "RADIO_3V3"
 		(shape input)
-		(at 241.3 102.87 0)
+		(at 241.3 82.55 0)
 		(effects
 			(font
 				(size 0.95 0.95)
 			)
 			(justify left)
 		)
-		(uuid "7124c3e1-5dcb-4826-b809-1e421b19d701")
+		(uuid "1ea07e18-96c6-4575-a66d-e3fa1e862acc")
 		(property "Intersheetrefs" ""
-			(at 241.3 102.87 180)
+			(at 241.3 82.55 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,119 +9797,9 @@
 			)
 			(justify right)
 		)
-		(uuid "72b3b0b9-d6e3-4561-af4a-b19c5ab1709a")
+		(uuid "282163d9-c1b7-404c-9511-fceaa4a2a2d3")
 		(property "Intersheetrefs" ""
 			(at 63.5 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-	)
-	(global_label "SYS_3V3"
-		(shape input)
-		(at 106.68 60.96 180)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify right)
-		)
-		(uuid "9696329c-4278-4454-b1a2-cf2f44c431db")
-		(property "Intersheetrefs" ""
-			(at 106.68 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-	)
-	(global_label "SYS_3V3"
-		(shape input)
-		(at 241.3 82.55 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify left)
-		)
-		(uuid "9a24406b-ddfc-4ace-b5ff-46606a3f43c1")
-		(property "Intersheetrefs" ""
-			(at 241.3 82.55 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-	)
-	(global_label "FILTER_OUT"
-		(shape input)
-		(at 241.3 52.07 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify left)
-		)
-		(uuid "aa2b6f03-9cb4-4247-8fc7-fc684df1dbb8")
-		(property "Intersheetrefs" ""
-			(at 241.3 52.07 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 241.3 107.95 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify left)
-		)
-		(uuid "cc299298-4170-46f5-b0e6-53538aa45f23")
-		(property "Intersheetrefs" ""
-			(at 241.3 107.95 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-	)
-	(global_label "FILTER_OUT"
-		(shape input)
-		(at 241.3 72.39 0)
-		(effects
-			(font
-				(size 0.95 0.95)
-			)
-			(justify left)
-		)
-		(uuid "d0f84a91-ff0a-431d-8c10-cd31bec6f4bb")
-		(property "Intersheetrefs" ""
-			(at 241.3 72.39 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,9 +9819,53 @@
 			)
 			(justify right)
 		)
-		(uuid "dfcbc521-38e2-450f-bfe3-18e7736867b7")
+		(uuid "6a13666c-3243-42f5-a216-4c22a17fca3d")
 		(property "Intersheetrefs" ""
 			(at 106.68 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 241.3 107.95 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left)
+		)
+		(uuid "6fc9789f-0df2-4f12-877d-62f943023269")
+		(property "Intersheetrefs" ""
+			(at 241.3 107.95 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "MODE"
+		(shape input)
+		(at 241.3 102.87 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left)
+		)
+		(uuid "73d454cb-574a-4898-bff1-ff178d5ec0ba")
+		(property "Intersheetrefs" ""
+			(at 241.3 102.87 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10053,7 +9885,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e1a519cb-7cdf-4724-8696-640ba0afd975")
+		(uuid "7b53060c-0571-4701-80b8-5d40dfcba548")
 		(property "Intersheetrefs" ""
 			(at 88.9 93.98 180)
 			(hide yes)
@@ -10066,7 +9898,95 @@
 			)
 		)
 	)
-	(global_label "FILTER_OUT"
+	(global_label "SYS_3V3"
+		(shape input)
+		(at 106.68 60.96 180)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify right)
+		)
+		(uuid "86f6cc2e-4023-45b9-b1e1-7e2a3c0ea273")
+		(property "Intersheetrefs" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 241.3 97.79 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left)
+		)
+		(uuid "9570a0e3-994f-4b95-9871-d8b8822b250f")
+		(property "Intersheetrefs" ""
+			(at 241.3 97.79 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "RADIO_3V3"
+		(shape input)
+		(at 241.3 72.39 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left)
+		)
+		(uuid "96694a51-63ee-45e7-bb7e-72b4e06382f4")
+		(property "Intersheetrefs" ""
+			(at 241.3 72.39 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "SYS_3V3"
+		(shape input)
+		(at 241.3 52.07 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left)
+		)
+		(uuid "9ed6402a-f216-4605-9772-2134ad67ccc6")
+		(property "Intersheetrefs" ""
+			(at 241.3 52.07 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "SYS_3V3"
 		(shape input)
 		(at 241.3 62.23 0)
 		(effects
@@ -10075,7 +9995,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e65a68d2-b186-416d-ac21-eea8ee21366e")
+		(uuid "ae236171-1235-4a91-adf5-b03ac93943e9")
 		(property "Intersheetrefs" ""
 			(at 241.3 62.23 180)
 			(hide yes)
@@ -10152,7 +10072,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "99d73a79-b998-4642-aca6-765f260eb825")
+			(uuid "b967ccfe-820b-4485-95c3-063d37559447")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -10393,7 +10313,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c1a918e-c3c2-4a03-b16d-9a1eeea42b8d")
+			(uuid "f140e541-0f5f-42c4-a91c-2c1e3fdf110d")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -10633,255 +10553,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ab2232d-473d-4217-947a-11d23ee661a4")
+			(uuid "18457c2c-f454-4d1f-9511-8e8fb22a8110")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
 				(path "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/f41cb747-67df-583a-8b1a-9bd19e8f35ea"
 					(reference "H204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Meshcore:JUMPER_H")
-		(at 76.2 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d4ae683-c931-5b98-a863-535e7892799b")
-		(property "Reference" "J11"
-			(at 76.2 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LC OUT - SYS 3V3"
-			(at 76.2 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Meshcore:Connfly_DS1022_1x02RUF11_B_Horizontal__V2_J11"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "U type1, A3.00 solder tail,B6.00 mating length,C6.07 abovePCB. Do not subtractAfromC. Mechanical v2 package; original functional pin numbers retained."
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "Connfly DS1022-1x40RUF11-B cut to2pins"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Vendor" "Danomsk"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.danomsk.ru/shop/7-kommutatsiya/121-razemy/306-soediniteli-pryamougolnye/202688-pls-40r2-ds1022-1x40ruf11-b-vilka-uglovaya-2-54mm-connfly/"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Fit_NaIon" "yes"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Fit_LTO_2S" "yes"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value_NaIon" "LC OUT - SYS 3V3"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value_LTO_2S" "LC OUT - SYS 3V3"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Assembly" "Na-ion: FIT; LTO 2S: FIT"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Nominal" "LC/SYS"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN_NaIon" "Connfly DS1022-1x40RUF11-B cut to2pins"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN_LTO_2S" "Connfly DS1022-1x40RUF11-B cut to2pins"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Fit_NaIon_NoCold" "yes"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value_NaIon_NoCold" "LC OUT - SYS 3V3"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN_NaIon_NoCold" "Connfly DS1022-1x40RUF11-B cut to2pins"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12fb8b5c-afb5-4d1b-b152-42b42926156b")
-		)
-		(pin "2"
-			(uuid "5eb34e9f-d3b0-46bf-9e98-00a3201b8877")
-		)
-		(instances
-			(project "MeshRepeater2_Logic"
-				(path "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/f41cb747-67df-583a-8b1a-9bd19e8f35ea"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10951,7 +10628,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6e8c5b5-7e91-4680-beb2-a398a74be6d2")
+			(uuid "e5b93850-b914-4690-9eef-18cd17b65348")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11191,7 +10868,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2998c307-ba85-4153-897a-6f114a8d2a1c")
+			(uuid "6b5c0057-a05c-44c5-8d7c-8833af5a5d30")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11266,7 +10943,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f4aff7c-6aa3-4365-80f3-fe7f3508d439")
+			(uuid "bc459179-5f2b-43fb-9af1-1f62c7af9da0")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11341,7 +11018,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdb2370b-bfd4-4cc5-900a-b9fbd4e259b6")
+			(uuid "60f26f3a-9a36-4394-bd9e-3ddf9aa872e5")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11416,7 +11093,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "39cc3e46-339f-4066-b00c-ad72d2b9dd70")
+			(uuid "d955b1bb-c117-4e4f-8b75-e81687510900")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11491,7 +11168,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "36dd3995-2595-4ef8-afc8-2af219ad7165")
+			(uuid "ce20ed25-da55-4d3f-ac57-c5ce130f983a")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11731,7 +11408,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b96e8061-fe50-4435-bcfa-c16bf56db062")
+			(uuid "9914dd81-fe7c-4407-9e5b-d027c8026aa3")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -11972,7 +11649,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1551daab-2854-4c9c-8a6d-0e4dd396ea97")
+			(uuid "bfb6b0e1-c420-419a-8c4a-2f01ffac6400")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -12047,7 +11724,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6d13231-cab3-4259-b798-c036f76136f0")
+			(uuid "0582bf47-5164-4b9b-a4ba-b6f0b94c5df5")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -12287,7 +11964,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e101718e-1fc0-4a19-95b4-af8b48777ccc")
+			(uuid "ab7ba015-11b2-46aa-b5d6-03d0583204e9")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -12362,7 +12039,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f33579a-34fb-40c9-bb2c-e8325ea4698d")
+			(uuid "f5180ac8-19a3-44aa-8ba7-49295831ec60")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -12437,7 +12114,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0694aa43-c366-4d84-8b33-f4296da4c0e9")
+			(uuid "279ffc31-0e7b-46c9-a5c9-8fd823e06894")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -12512,7 +12189,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd2cabb1-87e3-4c2d-957b-96e20e719d40")
+			(uuid "6a6ec41f-9def-4429-86a2-998b66aa787b")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -12575,7 +12252,7 @@
 				)
 			)
 		)
-		(property "Description" "Direct vertical connection through 12 isolated screen holes. Mirrored female pad grid gives physical 1:1 after LOGIC X180. Pin7 returns SYS_3V3 to INA219 only; remove J11 before USB as before. Exact generic pin section and mating limits require sample check."
+		(property "Description" "Direct vertical pair with continuous plastic-body shield cutout; pins1/3 SYS,5/7 RADIO,2/4/6 GND,8 NC,9 BAT,10 SDA,11 MODE,12 SCL. J11 is on POWER; remove before USB."
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12752,120 +12429,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4ef7173-2119-4ad0-b87f-fe2f1935f2e9")
+			(uuid "960af98b-4c94-4a94-84ab-df9c407dfc5a")
 		)
 		(pin "2"
-			(uuid "6df7ce2d-0527-4323-a39b-80d49efd9f04")
+			(uuid "c2ed9051-4021-46a6-b660-5ed75f6dc91b")
 		)
 		(pin "3"
-			(uuid "c582838d-4289-4abd-834c-ba02d8bda448")
+			(uuid "16bee4c5-8951-4306-bb26-3cd69e021b1b")
 		)
 		(pin "4"
-			(uuid "edc0ea19-6d3f-4fd3-875b-11bf5aa85298")
+			(uuid "64801dbf-055a-407d-ace2-05804213b655")
 		)
 		(pin "5"
-			(uuid "4f30ccf1-b90b-4685-9eeb-141a077eb392")
+			(uuid "450ed69b-97b9-4ca1-a3ca-5220f22e43da")
 		)
 		(pin "6"
-			(uuid "b529b611-983d-4cd1-919f-01c86a963705")
+			(uuid "7b0120b6-78ed-460b-b05d-687f28426e39")
 		)
 		(pin "7"
-			(uuid "12d95a25-1a6a-444d-b2d3-425ef987fd68")
+			(uuid "c04f7c53-6b01-450c-9059-695ec168b711")
 		)
 		(pin "8"
-			(uuid "4b70468e-a34e-4654-a0cb-32df78fd6f50")
+			(uuid "cb1353ac-d6d9-4233-b911-8b786effbe96")
 		)
 		(pin "9"
-			(uuid "d86e6d12-0849-4c6e-bfe5-72cd1cf792be")
+			(uuid "efe39a4c-22bc-4e13-bcd5-fb07e94ad986")
 		)
 		(pin "10"
-			(uuid "eab331b4-3245-4ddd-a595-b4d67e9c4598")
+			(uuid "3328a51b-6154-4f1b-8ab6-a3e0bbabd347")
 		)
 		(pin "11"
-			(uuid "173d9f06-98cf-4f4e-bad1-18b78f05e5e5")
+			(uuid "c90af000-5294-4b7d-b5b8-a067c5b53b07")
 		)
 		(pin "12"
-			(uuid "1d2834bd-fbbc-4506-8ce4-0f192e70f72b")
+			(uuid "7d538e8e-d6e6-4c09-bb55-733400affda7")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
 				(path "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/f41cb747-67df-583a-8b1a-9bd19e8f35ea"
 					(reference "J201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Meshcore:GND")
-		(at 233.68 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d57a1d59-8e3f-5acd-9546-57c1ce1eb982")
-		(property "Reference" "#PWR4010"
-			(at 233.68 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "946d9fa0-cab0-45f0-a65b-ff44ea0a58e5")
-		)
-		(instances
-			(project "MeshRepeater2_Logic"
-				(path "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/f41cb747-67df-583a-8b1a-9bd19e8f35ea"
-					(reference "#PWR4010")
 					(unit 1)
 				)
 			)
@@ -13100,10 +12702,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd1bb104-3577-4c29-ab18-46c632fa13fb")
+			(uuid "2614fed9-5316-4f86-a22f-ac9eb7a7026c")
 		)
 		(pin "2"
-			(uuid "317c9421-5e74-4e25-af91-318e5f16a5ba")
+			(uuid "df192579-2eb4-415a-84ba-437251453472")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"
@@ -13178,7 +12780,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "125c113e-8d07-457a-8980-c4d887b66d18")
+			(uuid "661cdbcb-7eb5-439a-b378-d2439cf7ffa5")
 		)
 		(instances
 			(project "MeshRepeater2_Logic"

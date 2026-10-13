@@ -1,0 +1,2665 @@
+{
+  "input_sha256": "24e7f986b5367bad9b9b7b468f39a2237bb83569585871b9a056a6da6072e729",
+  "placed_sha256": "8ea3a7028a04292c71129b3176f4d84a452fd8e9dabf50d3bc579a0a0325c7bc",
+  "changed": [
+    {
+      "ref": "D3",
+      "before": {
+        "at": [
+          51.0,
+          2.2
+        ],
+        "angle": 180.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          67,
+          2.4
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "D4",
+      "before": {
+        "at": [
+          56.0,
+          2.2
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          73,
+          2.4
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R10",
+      "before": {
+        "at": [
+          51.0,
+          7.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          67,
+          5.0
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R11",
+      "before": {
+        "at": [
+          56.0,
+          7.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          73,
+          5.0
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R71",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          47.5,
+          4.6
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "U12",
+      "before": {
+        "at": [
+          58.2,
+          12.8
+        ],
+        "angle": 90.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          56.0,
+          7.4
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R72",
+      "before": {
+        "at": [
+          54.0,
+          12.2
+        ],
+        "angle": 0.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "at": [
+          48.5,
+          10.0
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R73",
+      "before": {
+        "at": [
+          54.0,
+          9.8
+        ],
+        "angle": 0.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "at": [
+          48.5,
+          7.5
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "C64",
+      "before": {
+        "at": [
+          57.8,
+          7.7
+        ],
+        "angle": 90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "at": [
+          51.5,
+          8.65
+        ],
+        "angle": 90,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "C63",
+      "before": {
+        "at": [
+          61.0,
+          11.4
+        ],
+        "angle": 90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "at": [
+          54.5,
+          3.5
+        ],
+        "angle": 90,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "U1",
+      "before": {
+        "at": [
+          17.5,
+          28.5
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          16.9,
+          28.5
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R1",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          24.7,
+          28.4
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R56",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          24.7,
+          32.6
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "Q4",
+      "before": {
+        "at": [
+          29.5,
+          28.75
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          32,
+          28.75
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "L1",
+      "before": {
+        "at": [
+          33.8,
+          37.5
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          35.1,
+          37.5
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "U10",
+      "before": {
+        "at": [
+          44.8,
+          39.4
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          46.05,
+          39.4
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R58",
+      "before": {
+        "at": [
+          42.0,
+          34.2
+        ],
+        "angle": 90.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          44,
+          33.8
+        ],
+        "angle": 90,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "C7",
+      "before": {
+        "at": [
+          21.3,
+          33.0
+        ],
+        "angle": -90.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          18.6,
+          33.6
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R6",
+      "before": {
+        "at": [
+          24.8,
+          33.8
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          24.7,
+          35.1
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "C6",
+      "before": {
+        "at": [
+          24.8,
+          36.2
+        ],
+        "angle": 180.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          24.7,
+          37.6
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R55",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          49.3,
+          28.0
+        ],
+        "angle": -90,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "C54",
+      "before": {
+        "at": [
+          45.0,
+          27.299999
+        ],
+        "angle": 180.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          44.3,
+          27.3
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "C55",
+      "before": {
+        "at": [
+          45.0,
+          30.299999
+        ],
+        "angle": 180.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          44.3,
+          30.3
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R40",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          57.5,
+          32.5
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "R41",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          75.5,
+          32.5
+        ],
+        "angle": 180,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "TP9",
+      "before": {
+        "at": [
+          3.8,
+          15.5
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          3.3,
+          11.5
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "TP6",
+      "before": {
+        "at": [
+          4.0,
+          40.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          3.3,
+          14.5
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "TP1",
+      "before": {
+        "at": [
+          2.0,
+          45.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          3.3,
+          17.5
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "J11",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          86,
+          23
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    },
+    {
+      "ref": "NT2",
+      "before": {
+        "at": [
+          0.0,
+          0.0
+        ],
+        "angle": 0.0,
+        "side": "F.Cu"
+      },
+      "after": {
+        "at": [
+          83,
+          25.54
+        ],
+        "angle": 0,
+        "side": "F.Cu"
+      }
+    }
+  ],
+  "removed_tracks": [
+    {
+      "net": "SYS_3V3",
+      "start": [
+        60.1,
+        11.3
+      ],
+      "end": [
+        60.1,
+        10.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        61.0,
+        12.2
+      ],
+      "end": [
+        60.1,
+        11.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        61.0,
+        12.2
+      ],
+      "end": [
+        61.1,
+        12.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        71.8,
+        11.0
+      ],
+      "end": [
+        71.4,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        61.1,
+        12.3
+      ],
+      "end": [
+        70.1,
+        12.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        70.1,
+        12.3
+      ],
+      "end": [
+        71.4,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        61.0,
+        12.2
+      ],
+      "end": [
+        61.0,
+        12.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "SYS_3V3",
+      "start": [
+        61.0,
+        12.2
+      ],
+      "end": [
+        61.0,
+        12.35
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        57.6,
+        10.3
+      ],
+      "end": [
+        57.6,
+        10.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        59.1,
+        7.6
+      ],
+      "end": [
+        59.1,
+        9.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        58.5,
+        10.3
+      ],
+      "end": [
+        57.6,
+        10.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        55.9,
+        6.75
+      ],
+      "end": [
+        57.8,
+        6.75
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        57.8,
+        6.75
+      ],
+      "end": [
+        58.25,
+        6.75
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        58.25,
+        6.75
+      ],
+      "end": [
+        59.1,
+        7.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        54.9,
+        9.8
+      ],
+      "end": [
+        55.9,
+        8.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        59.1,
+        9.7
+      ],
+      "end": [
+        58.5,
+        10.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN-)",
+      "start": [
+        55.9,
+        8.8
+      ],
+      "end": [
+        55.9,
+        6.75
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        54.9,
+        11.7
+      ],
+      "end": [
+        56.3,
+        10.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        56.3,
+        9.5
+      ],
+      "end": [
+        56.3,
+        10.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        54.9,
+        12.2
+      ],
+      "end": [
+        54.9,
+        11.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        56.3,
+        9.5
+      ],
+      "end": [
+        56.3,
+        9.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        54.9,
+        12.2
+      ],
+      "end": [
+        54.9,
+        12.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        57.8,
+        8.65
+      ],
+      "end": [
+        57.8,
+        9.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        57.8,
+        9.0
+      ],
+      "end": [
+        57.3,
+        9.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(U12-IN+)",
+      "start": [
+        57.3,
+        9.5
+      ],
+      "end": [
+        56.3,
+        9.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        18.9249,
+        28.8424
+      ],
+      "end": [
+        14.6549,
+        28.8424
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        52.6,
+        4.7
+      ],
+      "end": [
+        55.1,
+        2.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        43.1,
+        11.8
+      ],
+      "end": [
+        50.2,
+        4.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        50.2,
+        4.7
+      ],
+      "end": [
+        52.6,
+        4.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        14.6549,
+        28.8424
+      ],
+      "end": [
+        14.6375,
+        28.825
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        37.1,
+        11.8
+      ],
+      "end": [
+        43.1,
+        11.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        18.9249,
+        28.8424
+      ],
+      "end": [
+        18.9249,
+        28.8424
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        37.1,
+        11.8
+      ],
+      "end": [
+        37.1,
+        11.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        36.3,
+        13.0
+      ],
+      "end": [
+        36.3,
+        12.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        18.9249,
+        28.8249
+      ],
+      "end": [
+        18.9249,
+        28.8424
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        18.9,
+        28.8
+      ],
+      "end": [
+        20.5,
+        28.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        20.5,
+        28.8
+      ],
+      "end": [
+        36.3,
+        13.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        18.9,
+        28.8
+      ],
+      "end": [
+        18.9249,
+        28.8249
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "DONE",
+      "start": [
+        36.3,
+        12.6
+      ],
+      "end": [
+        37.1,
+        11.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D4-A)",
+      "start": [
+        56.9,
+        7.0
+      ],
+      "end": [
+        56.9,
+        2.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D3-A)",
+      "start": [
+        57.9,
+        1.0
+      ],
+      "end": [
+        57.9,
+        8.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D3-A)",
+      "start": [
+        50.1,
+        2.2
+      ],
+      "end": [
+        50.1,
+        1.9
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D3-A)",
+      "start": [
+        50.1,
+        1.9
+      ],
+      "end": [
+        51.0,
+        1.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D3-A)",
+      "start": [
+        51.0,
+        1.0
+      ],
+      "end": [
+        57.9,
+        1.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D3-A)",
+      "start": [
+        57.9,
+        8.2
+      ],
+      "end": [
+        53.1,
+        8.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "Net-(D3-A)",
+      "start": [
+        53.1,
+        8.2
+      ],
+      "end": [
+        51.9,
+        7.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        76.95,
+        23.0
+      ],
+      "end": [
+        78.95,
+        23.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        78.95,
+        30.775
+      ],
+      "end": [
+        77.225,
+        32.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        77.0,
+        17.3
+      ],
+      "end": [
+        80.0,
+        14.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        67.7,
+        11.0
+      ],
+      "end": [
+        65.2,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        78.95,
+        23.0
+      ],
+      "end": [
+        78.95,
+        30.775
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        65.15,
+        11.0
+      ],
+      "end": [
+        64.15,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        67.69,
+        11.0
+      ],
+      "end": [
+        66.69,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        70.2,
+        11.0
+      ],
+      "end": [
+        67.7,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        77.0,
+        23.0
+      ],
+      "end": [
+        77.0,
+        17.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        80.0,
+        14.3
+      ],
+      "end": [
+        80.0,
+        14.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        79.9,
+        12.6
+      ],
+      "end": [
+        79.9,
+        12.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        62.8,
+        7.6
+      ],
+      "end": [
+        62.7,
+        7.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        79.5,
+        12.0
+      ],
+      "end": [
+        79.5,
+        6.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        62.6,
+        9.2
+      ],
+      "end": [
+        63.5,
+        10.1
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        80.0,
+        12.7
+      ],
+      "end": [
+        79.9,
+        12.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        62.6,
+        7.9
+      ],
+      "end": [
+        62.6,
+        9.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        67.69,
+        11.0
+      ],
+      "end": [
+        66.69,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        62.8,
+        7.5
+      ],
+      "end": [
+        62.8,
+        7.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        79.8,
+        12.3
+      ],
+      "end": [
+        79.5,
+        12.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        62.7,
+        7.8
+      ],
+      "end": [
+        62.6,
+        7.9
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        80.0,
+        14.3
+      ],
+      "end": [
+        80.0,
+        12.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        79.5,
+        6.8
+      ],
+      "end": [
+        63.5,
+        6.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        79.8,
+        12.4
+      ],
+      "end": [
+        79.8,
+        12.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        65.15,
+        11.0
+      ],
+      "end": [
+        64.15,
+        11.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        62.7,
+        7.7
+      ],
+      "end": [
+        62.7,
+        7.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        63.5,
+        6.8
+      ],
+      "end": [
+        62.8,
+        7.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "FILTER_OUT",
+      "start": [
+        79.9,
+        12.5
+      ],
+      "end": [
+        79.8,
+        12.4
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        15.8,
+        28.2
+      ],
+      "end": [
+        14.6,
+        28.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        14.612499,
+        28.2
+      ],
+      "end": [
+        14.6,
+        28.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        14.6375,
+        28.175
+      ],
+      "end": [
+        14.612499,
+        28.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        15.8,
+        25.5
+      ],
+      "end": [
+        15.8,
+        28.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        27.1,
+        11.8
+      ],
+      "end": [
+        29.0,
+        11.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        32.9,
+        7.9
+      ],
+      "end": [
+        46.2,
+        7.9
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        15.9,
+        25.4
+      ],
+      "end": [
+        15.8,
+        25.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        46.2,
+        7.9
+      ],
+      "end": [
+        51.9,
+        2.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        29.0,
+        11.8
+      ],
+      "end": [
+        32.9,
+        7.9
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        27.1,
+        11.8
+      ],
+      "end": [
+        27.1,
+        11.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        15.9,
+        25.4
+      ],
+      "end": [
+        15.9,
+        25.4
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.0,
+        25.1
+      ],
+      "end": [
+        16.0,
+        25.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        23.3,
+        15.6
+      ],
+      "end": [
+        23.2,
+        15.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        23.0,
+        15.9
+      ],
+      "end": [
+        22.9,
+        16.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.3,
+        24.5
+      ],
+      "end": [
+        16.2,
+        24.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.1,
+        25.0
+      ],
+      "end": [
+        16.0,
+        25.1
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        26.3,
+        12.8
+      ],
+      "end": [
+        23.5,
+        15.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        22.8,
+        18.0
+      ],
+      "end": [
+        16.3,
+        24.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        23.5,
+        15.6
+      ],
+      "end": [
+        23.3,
+        15.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.2,
+        24.7
+      ],
+      "end": [
+        16.1,
+        24.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        23.0,
+        15.8
+      ],
+      "end": [
+        23.0,
+        15.9
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        27.1,
+        11.8
+      ],
+      "end": [
+        26.4,
+        12.5
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.0,
+        25.2
+      ],
+      "end": [
+        15.9,
+        25.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.1,
+        24.8
+      ],
+      "end": [
+        16.1,
+        25.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        22.9,
+        16.2
+      ],
+      "end": [
+        22.8,
+        16.3
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        22.8,
+        16.3
+      ],
+      "end": [
+        22.8,
+        18.0
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        23.2,
+        15.7
+      ],
+      "end": [
+        23.1,
+        15.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        16.2,
+        24.6
+      ],
+      "end": [
+        16.2,
+        24.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        26.4,
+        12.5
+      ],
+      "end": [
+        26.4,
+        12.6
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        26.4,
+        12.6
+      ],
+      "end": [
+        26.3,
+        12.7
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        23.1,
+        15.7
+      ],
+      "end": [
+        23.0,
+        15.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        22.9,
+        16.0
+      ],
+      "end": [
+        22.9,
+        16.2
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        26.3,
+        12.7
+      ],
+      "end": [
+        26.3,
+        12.8
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    },
+    {
+      "net": "CHRG",
+      "start": [
+        15.9,
+        25.3
+      ],
+      "end": [
+        15.9,
+        25.4
+      ],
+      "reason": "superseded A2 feed/monitor/LED route"
+    }
+  ],
+  "old_pads": [
+    {
+      "ref": "D3",
+      "pin": "1",
+      "at": [
+        51.9375,
+        2.2
+      ],
+      "net": "CHRG",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "D3",
+      "pin": "2",
+      "at": [
+        50.0625,
+        2.2
+      ],
+      "net": "Net-(D3-A)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "D4",
+      "pin": "1",
+      "at": [
+        55.0625,
+        2.2
+      ],
+      "net": "DONE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "D4",
+      "pin": "2",
+      "at": [
+        56.9375,
+        2.2
+      ],
+      "net": "Net-(D4-A)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "at": [
+        50.0875,
+        7.0
+      ],
+      "net": "SOLAR",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "at": [
+        51.9125,
+        7.0
+      ],
+      "net": "Net-(D3-A)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "at": [
+        55.0875,
+        7.0
+      ],
+      "net": "SOLAR",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "at": [
+        56.9125,
+        7.0
+      ],
+      "net": "Net-(D4-A)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R71",
+      "pin": "1",
+      "at": [
+        46.5,
+        9.4625
+      ],
+      "net": "BAT_SYS",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "R71",
+      "pin": "2",
+      "at": [
+        46.5,
+        3.5375
+      ],
+      "net": "BAT",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "1",
+      "at": [
+        56.295,
+        15.275
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "2",
+      "at": [
+        57.565,
+        15.275
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "3",
+      "at": [
+        58.835,
+        15.275
+      ],
+      "net": "SDA",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "4",
+      "at": [
+        60.105,
+        15.275
+      ],
+      "net": "SCL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "5",
+      "at": [
+        60.105,
+        10.325
+      ],
+      "net": "SYS_3V3",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "6",
+      "at": [
+        58.835,
+        10.325
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "7",
+      "at": [
+        57.565,
+        10.325
+      ],
+      "net": "Net-(U12-IN-)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U12",
+      "pin": "8",
+      "at": [
+        56.295,
+        10.325
+      ],
+      "net": "Net-(U12-IN+)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R72",
+      "pin": "1",
+      "at": [
+        53.0875,
+        12.2
+      ],
+      "net": "BAT_SYS",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "R72",
+      "pin": "2",
+      "at": [
+        54.9125,
+        12.2
+      ],
+      "net": "Net-(U12-IN+)",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "R73",
+      "pin": "1",
+      "at": [
+        53.0875,
+        9.8
+      ],
+      "net": "BAT",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "R73",
+      "pin": "2",
+      "at": [
+        54.9125,
+        9.8
+      ],
+      "net": "Net-(U12-IN-)",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C64",
+      "pin": "1",
+      "at": [
+        57.8,
+        8.65
+      ],
+      "net": "Net-(U12-IN+)",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C64",
+      "pin": "2",
+      "at": [
+        57.8,
+        6.75
+      ],
+      "net": "Net-(U12-IN-)",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C63",
+      "pin": "1",
+      "at": [
+        61.0,
+        12.35
+      ],
+      "net": "SYS_3V3",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "C63",
+      "pin": "2",
+      "at": [
+        61.0,
+        10.45
+      ],
+      "net": "GND",
+      "layer": "B.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "at": [
+        14.6375,
+        26.225
+      ],
+      "net": "Net-(U1-VG)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "at": [
+        14.6375,
+        26.875
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "at": [
+        14.6375,
+        27.525
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "at": [
+        14.6375,
+        28.175
+      ],
+      "net": "CHRG",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "at": [
+        14.6375,
+        28.825
+      ],
+      "net": "DONE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "at": [
+        14.6375,
+        29.475
+      ],
+      "net": "Net-(U1-TEMP)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "at": [
+        14.6375,
+        30.125
+      ],
+      "net": "Net-(U1-MPPT)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "at": [
+        14.6375,
+        30.775
+      ],
+      "net": "Net-(U1-COM1)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "at": [
+        20.3625,
+        30.775
+      ],
+      "net": "Net-(U1-COM2)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "at": [
+        20.3625,
+        30.125
+      ],
+      "net": "Net-(U1-FB)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "at": [
+        20.3625,
+        29.475
+      ],
+      "net": "Net-(U1-COM3)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "at": [
+        20.3625,
+        28.825
+      ],
+      "net": "unconnected-(U1-NC-Pad12)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "at": [
+        20.3625,
+        28.175
+      ],
+      "net": "CS_P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "at": [
+        20.3625,
+        27.525
+      ],
+      "net": "BAT_SYS",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "at": [
+        20.3625,
+        26.875
+      ],
+      "net": "SOLAR",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "at": [
+        20.3625,
+        26.225
+      ],
+      "net": "/GATE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "at": [
+        26.6625,
+        28.4
+      ],
+      "net": "CHG_CS_M",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "at": [
+        23.7375,
+        28.4
+      ],
+      "net": "BAT_SYS",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R56",
+      "pin": "1",
+      "at": [
+        24.2875,
+        31.0
+      ],
+      "net": "CS_P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R56",
+      "pin": "2",
+      "at": [
+        26.1125,
+        31.0
+      ],
+      "net": "CHG_CS_M",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "Q4",
+      "pin": "1",
+      "at": [
+        28.5625,
+        27.8
+      ],
+      "net": "CHG_G_SHUNT",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "Q4",
+      "pin": "2",
+      "at": [
+        28.5625,
+        29.7
+      ],
+      "net": "CS_P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "Q4",
+      "pin": "3",
+      "at": [
+        30.4375,
+        28.75
+      ],
+      "net": "CHG_CS_M",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "L1",
+      "pin": "1",
+      "at": [
+        33.8,
+        32.55
+      ],
+      "net": "Net-(D1-K)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "L1",
+      "pin": "2",
+      "at": [
+        33.8,
+        42.45
+      ],
+      "net": "CS_P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "1",
+      "at": [
+        42.325,
+        37.495
+      ],
+      "net": "/4. Thermal/CHG_WARM",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "2",
+      "at": [
+        42.325,
+        38.765
+      ],
+      "net": "/4. Thermal/CHG_TSENSE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "3",
+      "at": [
+        42.325,
+        40.035
+      ],
+      "net": "/4. Thermal/CHG_VTH",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "4",
+      "at": [
+        42.325,
+        41.305
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "5",
+      "at": [
+        47.275,
+        41.305
+      ],
+      "net": "/4. Thermal/CHG_TSENSE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "6",
+      "at": [
+        47.275,
+        40.035
+      ],
+      "net": "/4. Thermal/CHG_VSHORT",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "7",
+      "at": [
+        47.275,
+        38.765
+      ],
+      "net": "/4. Thermal/CHG_WARM",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U10",
+      "pin": "8",
+      "at": [
+        47.275,
+        37.495
+      ],
+      "net": "SOLAR",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R58",
+      "pin": "1",
+      "at": [
+        42.0,
+        35.1125
+      ],
+      "net": "CS_P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R58",
+      "pin": "2",
+      "at": [
+        42.0,
+        33.2875
+      ],
+      "net": "CHG_G_SHUNT",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "at": [
+        21.3,
+        32.05
+      ],
+      "net": "Net-(U1-COM3)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "at": [
+        21.3,
+        33.95
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "at": [
+        23.8875,
+        33.8
+      ],
+      "net": "Net-(U1-COM2)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "at": [
+        25.7125,
+        33.8
+      ],
+      "net": "Net-(C6-Pad1)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "at": [
+        25.75,
+        36.2
+      ],
+      "net": "Net-(C6-Pad1)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "at": [
+        23.85,
+        36.2
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R55",
+      "pin": "1",
+      "at": [
+        45.775,
+        24.299999
+      ],
+      "net": "/2. Converter/SYS_PRE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R55",
+      "pin": "2",
+      "at": [
+        49.225,
+        24.299999
+      ],
+      "net": "/2. Converter/SYS_LC_IN",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C54",
+      "pin": "1",
+      "at": [
+        46.475,
+        27.299999
+      ],
+      "net": "/2. Converter/SYS_PRE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C54",
+      "pin": "2",
+      "at": [
+        43.525,
+        27.299999
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C55",
+      "pin": "1",
+      "at": [
+        46.475,
+        30.299999
+      ],
+      "net": "/2. Converter/SYS_PRE",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C55",
+      "pin": "2",
+      "at": [
+        43.525,
+        30.299999
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R40",
+      "pin": "1",
+      "at": [
+        59.225,
+        32.5
+      ],
+      "net": "/2. Converter/FILTER_MID",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R40",
+      "pin": "2",
+      "at": [
+        55.775,
+        32.5
+      ],
+      "net": "Net-(C15-Pad1)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R41",
+      "pin": "1",
+      "at": [
+        77.225,
+        32.5
+      ],
+      "net": "FILTER_OUT",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R41",
+      "pin": "2",
+      "at": [
+        73.775,
+        32.5
+      ],
+      "net": "Net-(C16-Pad1)",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP9",
+      "pin": "1",
+      "at": [
+        3.8,
+        15.5
+      ],
+      "net": "SOLAR",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP6",
+      "pin": "1",
+      "at": [
+        4.0,
+        40.0
+      ],
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP1",
+      "pin": "1",
+      "at": [
+        2.0,
+        45.0
+      ],
+      "net": "BAT",
+      "layer": "F.Cu"
+    }
+  ],
+  "pending": "Copper rerouting, parity, markings and native DRC are not complete."
+}

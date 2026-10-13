@@ -1,8 +1,8 @@
 {
   "board": "POWER",
-  "revision": "V2.0-A2",
+  "revision": "V2.0-A3",
   "project": "MeshRepeater2_Power",
-  "parts": 121,
+  "parts": 123,
   "baseline_pcb_sha256": "742ae27bb1d13893f6dc368e5c67f5c41b35a3e6765331fc7e9871297d23dec6",
   "sheets": [
     {
@@ -102,32 +102,31 @@
         },
         {
           "ref": "R56",
-          "mpn": "RC0805FR-071R8L",
-          "package": "0805",
+          "mpn": "RC2512FK-071R8L",
+          "package": "2512 / 6.3 x 3.2 mm",
           "at": [
             207.01,
             50.8
           ],
           "font_mm": 0.95,
           "lines": [
-            "RC0805FR-071R8L",
-            "0805"
+            "RC2512FK-071R8L",
+            "2512 / 6.3 x 3.2 mm"
           ],
           "placement": "below symbol; lower-right for vertical passive"
         },
         {
           "ref": "R1",
-          "mpn": "PT1206FR-7W0R28L",
-          "package": "1206",
+          "mpn": "WSL2512R2800FEA",
+          "package": "2512 / 6.3 x 3.2 mm",
           "at": [
             257.81,
             50.8
           ],
           "font_mm": 0.95,
           "lines": [
-            "PT1206FR-",
-            "7W0R28L",
-            "1206"
+            "WSL2512R2800FEA",
+            "2512 / 6.3 x 3.2 mm"
           ],
           "placement": "below symbol; lower-right for vertical passive"
         },
@@ -1753,17 +1752,16 @@
         },
         {
           "ref": "R55",
-          "mpn": "WSL1206R0470FEA",
-          "package": "1206 / 0.25 W",
+          "mpn": "WSL2512R0470FEA",
+          "package": "2512 / 6.3 x 3.2 mm",
           "at": [
             158.75,
             76.2
           ],
           "font_mm": 0.95,
           "lines": [
-            "WSL1206",
-            "R0470FEA",
-            "1206 / 0.25 W"
+            "WSL2512R0470FEA",
+            "2512 / 6.3 x 3.2 mm"
           ],
           "placement": "below symbol; lower-right for vertical passive"
         },
@@ -1799,16 +1797,16 @@
         },
         {
           "ref": "R40",
-          "mpn": "WSL1206R0220FEA",
-          "package": "WSL1206, 1206 (3216)",
+          "mpn": "WSL2512R0220FEA",
+          "package": "2512 / 6.3 x 3.2 mm",
           "at": [
             189.23,
             93.98
           ],
           "font_mm": 0.95,
           "lines": [
-            "WSL1206R0220FEA",
-            "WSL1206, 1206 (3216)"
+            "WSL2512R0220FEA",
+            "2512 / 6.3 x 3.2 mm"
           ],
           "placement": "below symbol; lower-right for vertical passive"
         },
@@ -1974,16 +1972,16 @@
         },
         {
           "ref": "R41",
-          "mpn": "WSL1206R0220FEA",
-          "package": "WSL1206, 1206 (3216)",
+          "mpn": "WSL2512R0220FEA",
+          "package": "2512 / 6.3 x 3.2 mm",
           "at": [
             303.53000000000003,
             93.98
           ],
           "font_mm": 0.95,
           "lines": [
-            "WSL1206R0220FEA",
-            "WSL1206, 1206 (3216)"
+            "WSL2512R0220FEA",
+            "2512 / 6.3 x 3.2 mm"
           ],
           "placement": "below symbol; lower-right for vertical passive"
         },
@@ -5337,7 +5335,7 @@
         {
           "ref": "R71",
           "mpn": "RL2512FK-070R1L",
-          "package": "2512 / 1W",
+          "package": "2512 / 6.3 x 3.2 mm",
           "at": [
             134.62,
             55.879999999999995
@@ -5345,7 +5343,7 @@
           "font_mm": 0.95,
           "lines": [
             "RL2512FK-070R1L",
-            "2512 / 1W"
+            "2512 / 6.3 x 3.2 mm"
           ],
           "placement": "below symbol; lower-right for vertical passive"
         },
@@ -5753,6 +5751,8 @@
       "name": "Interconnect",
       "page": 6,
       "refs": [
+        "J11",
+        "NT2",
         "H1",
         "H2",
         "H3",
@@ -5760,6 +5760,21 @@
         "J101"
       ],
       "annotations": [
+        {
+          "ref": "J11",
+          "mpn": "DS1022-1x40RUF11-B",
+          "package": "1x2 / 2.54 / 90deg",
+          "at": [
+            66.04,
+            50.8
+          ],
+          "font_mm": 0.95,
+          "lines": [
+            "DS1022-1x40RUF11-B",
+            "1x2 / 2.54 / 90deg"
+          ],
+          "placement": "below symbol; lower-right for vertical passive"
+        },
         {
           "ref": "J101",
           "mpn": "E-SIMPO L35mm A3C6 2x6P",
@@ -5780,13 +5795,37 @@
         {
           "name": "FILTER_OUT",
           "at": [
+            48.26,
+            45.72
+          ],
+          "angle": 0
+        },
+        {
+          "name": "SYS_3V3",
+          "at": [
+            76.2,
+            33.02
+          ],
+          "angle": 0
+        },
+        {
+          "name": "RADIO_3V3",
+          "at": [
+            119.38,
+            45.72
+          ],
+          "angle": 180
+        },
+        {
+          "name": "SYS_3V3",
+          "at": [
             241.3,
             52.07
           ],
           "angle": 180
         },
         {
-          "name": "FILTER_OUT",
+          "name": "SYS_3V3",
           "at": [
             241.3,
             62.23
@@ -5794,7 +5833,7 @@
           "angle": 180
         },
         {
-          "name": "FILTER_OUT",
+          "name": "RADIO_3V3",
           "at": [
             241.3,
             72.39
@@ -5802,7 +5841,7 @@
           "angle": 180
         },
         {
-          "name": "SYS_3V3",
+          "name": "RADIO_3V3",
           "at": [
             241.3,
             82.55
@@ -5843,6 +5882,56 @@
         }
       ],
       "wire_segments": [
+        [
+          [
+            58.42,
+            45.72
+          ],
+          [
+            48.26,
+            45.72
+          ]
+        ],
+        [
+          [
+            73.66,
+            45.72
+          ],
+          [
+            96.52,
+            45.72
+          ]
+        ],
+        [
+          [
+            83.82,
+            45.72
+          ],
+          [
+            83.82,
+            33.02
+          ]
+        ],
+        [
+          [
+            83.82,
+            33.02
+          ],
+          [
+            76.2,
+            33.02
+          ]
+        ],
+        [
+          [
+            106.68,
+            45.72
+          ],
+          [
+            119.38,
+            45.72
+          ]
+        ],
         [
           [
             177.8,

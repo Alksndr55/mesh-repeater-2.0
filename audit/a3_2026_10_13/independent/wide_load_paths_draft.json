@@ -1,0 +1,401 @@
+{
+  "scope": "DRAFT independent copper-only broad-load path review before complete CAD freeze; no final PASS",
+  "source_sha256": "4fde0d03000f7ec29ba5448b2247fd4e963a3a7771d993e50405e9e2583bce19",
+  "native_source_unchanged_during_read": true,
+  "rows": [
+    {
+      "source": [
+        "L1",
+        "2"
+      ],
+      "target": [
+        "R56",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 23.250725099390856,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "23343f24-21c2-411c-82ed-fce755e00168",
+        "4a70d6ca-af53-4f2e-8ecb-bfa3d87cde6f",
+        "65045064-4503-49cd-91be-2923dee2bfff",
+        "83fc4f80-f54f-4876-939b-17c0100dafac",
+        "9e5c1ccc-0b08-472c-9bf8-ada09d8742ef",
+        "adf9c532-7500-4509-aeac-451bc5908550",
+        "b1e45355-5911-4b59-a7af-1cf1065c8c6a",
+        "be095bda-e42a-495e-8dd1-ba1bd6453a34",
+        "cf3239d2-8d14-43b2-9675-052adde0e839",
+        "ea291f12-40f1-4789-8c51-0c442c4be393"
+      ],
+      "vias": [
+        {
+          "type": "via",
+          "uuid": "dd9719bc-7bc0-4399-9fe2-d775cec9766d",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "via",
+          "uuid": "a3096f50-df14-4ef1-abdd-4fc244642687",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "source": [
+        "L1",
+        "2"
+      ],
+      "target": [
+        "Q4",
+        "2"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 18.354601813909813,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "4a70d6ca-af53-4f2e-8ecb-bfa3d87cde6f",
+        "65045064-4503-49cd-91be-2923dee2bfff",
+        "6ac993b0-fbd6-40ea-bfc4-026a7b276378",
+        "83fc4f80-f54f-4876-939b-17c0100dafac",
+        "9e5c1ccc-0b08-472c-9bf8-ada09d8742ef"
+      ],
+      "vias": [
+        {
+          "type": "via",
+          "uuid": "dddd5ef3-5a5e-4a0d-a5af-dd044afb271d",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "via",
+          "uuid": "a3096f50-df14-4ef1-abdd-4fc244642687",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "source": [
+        "R56",
+        "2"
+      ],
+      "target": [
+        "R1",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 4.1,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "a40957c4-6a7d-417e-aea3-db79d1f6e5f5"
+      ],
+      "vias": []
+    },
+    {
+      "source": [
+        "Q4",
+        "3"
+      ],
+      "target": [
+        "R1",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 74.69163056034262,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "02853683-d42b-4cbb-835b-0da84a854867",
+        "093a6f03-681b-4eaf-a005-c6831e4942c1",
+        "1930c80a-bf0d-4f7a-bc4b-aa43773d4304",
+        "1ed5e565-fd78-4257-9959-e140155e5a68",
+        "2160bc55-4b4e-4b9a-9d74-eebd404e7abe",
+        "2db66dcb-13dd-47f0-8e1f-a59cd5bdb8b8",
+        "2eb1adf3-4285-4c51-a7ec-9f5e889d679c",
+        "3b998a76-c64d-42e0-8cf0-da57330a29a8",
+        "3fa411d6-4355-4684-8b96-e2fdc7116586",
+        "4b7c47f7-b258-46b6-903f-36f1ea5d1480",
+        "5ca85dc6-ed75-4466-988e-d00491b1bb7b",
+        "64114a38-d743-4d12-9c61-ed6be4472805",
+        "723fff77-7eb9-40e1-ab2e-f83896d7b86c",
+        "73c49ce4-52c2-4c6f-9f92-7da856f61972",
+        "7496a885-38d4-4ad9-b19e-13486091aa6e",
+        "784f14ba-c217-4c69-9e1f-14b17ecb3570",
+        "8a9672ca-e214-4c26-a2ef-b7fc246e8550",
+        "93d61bd8-62f7-4992-9473-66680e85081e",
+        "a06b4d6f-2930-45bf-b41f-8a814edc8c49",
+        "a40957c4-6a7d-417e-aea3-db79d1f6e5f5",
+        "b74642a2-7f35-4900-adf4-b2c01cf78ccf",
+        "c3e517bf-5819-4882-9681-0ea9658e7c06",
+        "cc61bf1e-74d1-478c-aadc-885295bd9ce8",
+        "cc72aff7-3ede-4b0a-99d0-36d9c902c940",
+        "d11a6690-b173-451f-8d1c-f46a944265e3",
+        "dae328dd-c397-4fde-a232-edb50d81fc97",
+        "e642934a-f8c2-452e-a977-5c1532715da4",
+        "e91101f5-70e5-46ee-937d-5f6bf42e59d7"
+      ],
+      "vias": [
+        {
+          "type": "via",
+          "uuid": "6ce940b3-6b81-4497-aadc-83672b4017de",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "via",
+          "uuid": "87b03247-fb33-4919-bc89-7c160b36447d",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "source": [
+        "R1",
+        "2"
+      ],
+      "target": [
+        "R71",
+        "1"
+      ],
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.80mm route from source pad to target pad"
+    },
+    {
+      "source": [
+        "R55",
+        "2"
+      ],
+      "target": [
+        "L3",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 6.4158461351353075,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "5716118f-ad2b-4460-a399-66d2382a1a22",
+        "61ca635b-b3a1-4e11-ad28-ea2b3b634c06",
+        "7cef495d-fde3-4fd0-afe3-c72bfb67d70d",
+        "d90019c1-f04f-4a06-b908-4b8e4d579481"
+      ],
+      "vias": [
+        {
+          "type": "via",
+          "uuid": "c382bdd7-bd0f-4d23-b9bb-a8e46342a093",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "via",
+          "uuid": "8a8419ca-43bb-4472-8665-fc921c427789",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "source": [
+        "L3",
+        "2"
+      ],
+      "target": [
+        "L4",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 4.1,
+      "minimum_track_width_mm": 1.2,
+      "track_uuids": [
+        "fbf852e0-1750-41d6-b556-5b2c36a4aadd"
+      ],
+      "vias": []
+    },
+    {
+      "source": [
+        "L4",
+        "2"
+      ],
+      "target": [
+        "J11",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 9.828427124746192,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "18001ee3-5f01-4e56-80e1-f8a560a39985",
+        "a272c5ed-44cc-41d5-bac2-4a43d1812125",
+        "a7e42e5d-c45b-4bd6-a4f3-d236516cfca4",
+        "f09cda6d-0c42-469a-84bd-2d203dda24ba"
+      ],
+      "vias": []
+    },
+    {
+      "source": [
+        "J11",
+        "2"
+      ],
+      "target": [
+        "NT2",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 2.5,
+      "minimum_track_width_mm": 1.0,
+      "track_uuids": [
+        "ec054793-1080-485c-a363-776c02e9a369"
+      ],
+      "vias": []
+    },
+    {
+      "source": [
+        "NT2",
+        "1"
+      ],
+      "target": [
+        "J101",
+        "1"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 55.489117933757896,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "13d4fec7-fa49-44c4-a616-3ae6c096e72e",
+        "199682e2-2ee3-4de9-9e83-c11c945f78fd",
+        "39ebfea6-2741-42e0-9a7d-bebd9b8477e4",
+        "410ce0d8-39f3-4c50-a2da-4786c385731a",
+        "66a0ab19-0af7-4b63-ad1f-f39d9e578d42",
+        "8d7bccdf-d7ca-446d-8c8d-b1782fb02183",
+        "9d31e46d-795f-4095-99c7-c6ce95975481",
+        "c7b3d958-dce0-412f-9ffe-45c26a306755",
+        "ec054793-1080-485c-a363-776c02e9a369",
+        "eda910b8-0b4a-4ee2-9358-26ce1f5142f3",
+        "f4c7771a-4c00-45a9-b3d2-fc8f72317aff",
+        "f8ed3f4c-5c93-4c7a-ba61-9ecd7456ff4c",
+        "fef34371-72fa-4f39-9d85-ee6fe41f1de1"
+      ],
+      "vias": []
+    },
+    {
+      "source": [
+        "NT2",
+        "1"
+      ],
+      "target": [
+        "J101",
+        "3"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 57.779117933757895,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "13d4fec7-fa49-44c4-a616-3ae6c096e72e",
+        "199682e2-2ee3-4de9-9e83-c11c945f78fd",
+        "39ebfea6-2741-42e0-9a7d-bebd9b8477e4",
+        "410ce0d8-39f3-4c50-a2da-4786c385731a",
+        "66a0ab19-0af7-4b63-ad1f-f39d9e578d42",
+        "7f9fb717-20cb-464f-8b1f-d8553f71d6b3",
+        "8d7bccdf-d7ca-446d-8c8d-b1782fb02183",
+        "9d31e46d-795f-4095-99c7-c6ce95975481",
+        "c7b3d958-dce0-412f-9ffe-45c26a306755",
+        "ec054793-1080-485c-a363-776c02e9a369",
+        "eda910b8-0b4a-4ee2-9358-26ce1f5142f3",
+        "f4c7771a-4c00-45a9-b3d2-fc8f72317aff",
+        "f8ed3f4c-5c93-4c7a-ba61-9ecd7456ff4c",
+        "fef34371-72fa-4f39-9d85-ee6fe41f1de1"
+      ],
+      "vias": []
+    },
+    {
+      "source": [
+        "NT2",
+        "2"
+      ],
+      "target": [
+        "J101",
+        "5"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 20.326349186104043,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "0422d4a8-7fbb-4c22-983a-0eca30e3f058",
+        "15029222-6657-488e-9c4c-59af344fa734",
+        "23a8aacc-d2cf-4a55-905e-feb064acb47f",
+        "44b0153f-e25a-4163-8e24-375646a0eb73",
+        "53dbd4b0-78cc-4610-b40e-cb1a32926e53",
+        "a3420667-3ac5-455b-b41e-eee132b9491b",
+        "e95273b9-ca15-4175-bfd2-a3432f467c73"
+      ],
+      "vias": [
+        {
+          "type": "via",
+          "uuid": "6e436540-08b3-4213-a07e-387178abd2ed",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "via",
+          "uuid": "381a54eb-1047-47b8-b5c4-81c743c0e4ec",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "source": [
+        "NT2",
+        "2"
+      ],
+      "target": [
+        "J101",
+        "7"
+      ],
+      "continuous_wide_path": true,
+      "route_mm": 20.326349186104043,
+      "minimum_track_width_mm": 0.8,
+      "track_uuids": [
+        "0422d4a8-7fbb-4c22-983a-0eca30e3f058",
+        "15029222-6657-488e-9c4c-59af344fa734",
+        "23a8aacc-d2cf-4a55-905e-feb064acb47f",
+        "53dbd4b0-78cc-4610-b40e-cb1a32926e53",
+        "a3420667-3ac5-455b-b41e-eee132b9491b",
+        "e95273b9-ca15-4175-bfd2-a3432f467c73",
+        "f86977ba-5231-4eae-943c-20ec093ca5a8"
+      ],
+      "vias": [
+        {
+          "type": "via",
+          "uuid": "6e436540-08b3-4213-a07e-387178abd2ed",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "via",
+          "uuid": "381a54eb-1047-47b8-b5c4-81c743c0e4ec",
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    }
+  ],
+  "failed_paths": [
+    {
+      "source": [
+        "R1",
+        "2"
+      ],
+      "target": [
+        "R71",
+        "1"
+      ],
+      "continuous_wide_path": false,
+      "reason": "No continuous >=0.80mm route from source pad to target pad"
+    }
+  ],
+  "status": "CENTRELINE_ONLY_MODEL_INCONCLUSIVE_NO_FINAL_BOARD_FINDING",
+  "method_limitation": "Centreline graph excludes real off-centre via and track intersections. Failure R1-R71 in this draft is a graph false negative; physical copper adjacency is checked separately with every thin track removed.",
+  "superseded_by": "native_wide_load_paths_draft.json"
+}

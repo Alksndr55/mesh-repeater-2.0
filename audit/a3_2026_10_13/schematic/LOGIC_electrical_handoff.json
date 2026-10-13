@@ -1,0 +1,64 @@
+{
+  "update_references": {
+    "J201": {
+      "nets": {
+        "1": "SYS_3V3",
+        "2": "GND",
+        "3": "SYS_3V3",
+        "4": "GND",
+        "5": "RADIO_3V3",
+        "6": "GND",
+        "7": "RADIO_3V3",
+        "8": null,
+        "9": "BAT",
+        "10": "SDA",
+        "11": "MODE",
+        "12": "SCL"
+      },
+      "note": "Direct vertical pair with continuous plastic-body shield cutout; pins1/3 SYS,5/7 RADIO,2/4/6 GND,8 NC,9 BAT,10 SDA,11 MODE,12 SCL. J11 is on POWER; remove before USB."
+    },
+    "FB1": {
+      "nets": {
+        "1": "RADIO_3V3",
+        "2": "RADIO_LOCAL_3V3"
+      },
+      "note": "Separate RADIO branch from POWER copper star NT2. FB1 feeds only HT-RA62 and C23/C24; no SYS connection on LOGIC."
+    },
+    "M2": {
+      "nets": {
+        "1": "ANT_RF",
+        "2": "GND",
+        "3": "RADIO_LOCAL_3V3",
+        "4": "RADIO_RST",
+        "5": "RADIO_TXEN",
+        "6": "RADIO_DIO1",
+        "7": "RADIO_TXEN",
+        "8": null,
+        "9": "GND",
+        "10": "RADIO_BUSY",
+        "11": "RADIO_RXEN",
+        "12": "SCK_RF",
+        "13": "MISO_RF",
+        "14": "MOSI_RF",
+        "15": "CS_RF",
+        "16": "GND"
+      }
+    },
+    "C23": {
+      "nets": {
+        "1": "RADIO_LOCAL_3V3",
+        "2": "GND"
+      }
+    },
+    "C24": {
+      "nets": {
+        "1": "RADIO_LOCAL_3V3",
+        "2": "GND"
+      }
+    }
+  },
+  "remove_references": [
+    "J11"
+  ],
+  "add_parts": []
+}

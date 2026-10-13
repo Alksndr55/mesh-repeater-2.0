@@ -1,0 +1,17 @@
+[
+  {
+    "ref": "FB1",
+    "library": "design\\MeshRepeater2_Logic\\Meshcore.pretty\\Ferrite_Murata_BLM21PG__V2_FB1.kicad_mod",
+    "updated_field": "Description"
+  },
+  {
+    "ref": "J201",
+    "library": "design\\MeshRepeater2_Logic\\Meshcore.pretty\\Ali_PinSocket_2x06_P2.54_H8.5_v2_mirror__V2_J201.kicad_mod",
+    "updated_field": "Description"
+  },
+  {
+    "ref": "M1",
+    "library": "design\\MeshRepeater2_Logic\\Meshcore.pretty\\NiceNano_13x2_Socket__V2_M1.kicad_mod",
+    "updated_field": "Description"
+  }
+]

@@ -230,7 +230,8 @@ def main():
     # A1 drawings describe the former IDC cable. Retain them as history instead
     # of regenerating them beside the current direct vertical interconnect.
     if (ROOT/'design/feature_ina219_vertical.json').is_file():
-        report={'renders':outputs,'revision':'V2.0-A2','dimensions':None,
+        revision='V2.0-A3' if (ROOT/'design/feature_a3_single_face_split_power.json').is_file() else 'V2.0-A2'
+        report={'renders':outputs,'revision':revision,'dimensions':None,
                 'harness_plan':None,'current_instructions':'docs/V2_ASSEMBLY_INSTRUCTIONS_RU.md',
                 'historical_A1_drawings':['MeshRepeater2_assembly_dimensions.svg',
                                           'MeshRepeater2_harness_routing_plan.svg'],

@@ -1,0 +1,239 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T01:10:43",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "MeshRepeater2_Power.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 33.7,
+                        "y": 25.05
+                    },
+                    "uuid": "4f175889-1d19-4fec-9069-ff7ff3028d27"
+                },
+                {
+                    "description": "Дорожка [CHG_CS_M] на F.Cu, длина 4,5000 mm",
+                    "pos": {
+                        "x": 37.4,
+                        "y": 28.8
+                    },
+                    "uuid": "e07f1796-f45d-4ef0-bd7d-7987091cdf67"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи CHG_CS_M и CHG_G_SHUNT)",
+            "items": [
+                {
+                    "description": "Перех. отв. [CHG_CS_M] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.6,
+                        "y": 28.3
+                    },
+                    "uuid": "4a9e0901-6de9-453a-888b-689163a1ff8a"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 30.0625,
+                        "y": 27.8
+                    },
+                    "uuid": "b5b05890-5d31-45c1-964e-466efffb4d36"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи CHG_CS_M и Net-(D1-K))",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_CS_M] на F.Cu, длина 0,8000 mm",
+                    "pos": {
+                        "x": 32.9,
+                        "y": 28.8
+                    },
+                    "uuid": "1e221af6-d59f-4f30-a1a3-d93eab250014"
+                },
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 33.7,
+                        "y": 25.05
+                    },
+                    "uuid": "4f175889-1d19-4fec-9069-ff7ff3028d27"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи CHG_CS_M и CHG_G_SHUNT)",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_CS_M] на F.Cu, длина 1,2000 mm",
+                    "pos": {
+                        "x": 29.6,
+                        "y": 28.3
+                    },
+                    "uuid": "7748d75c-a6c4-4d2f-b0db-6618f4947844"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 30.0625,
+                        "y": 27.8
+                    },
+                    "uuid": "b5b05890-5d31-45c1-964e-466efffb4d36"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Нарушение зазора ( зазор 0,2000 mm; текущий 0,1000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [CHG_CS_M] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 32.9,
+                        "y": 28.0
+                    },
+                    "uuid": "478866eb-039e-4a03-8f22-d867c4fbf9bf"
+                },
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 33.7,
+                        "y": 25.05
+                    },
+                    "uuid": "4f175889-1d19-4fec-9069-ff7ff3028d27"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Дорожка [CS_P] на F.Cu, длина 4,0000 mm",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 29.9
+                    },
+                    "uuid": "440387cb-061f-4bcd-8037-37cc2cd2ca88"
+                },
+                {
+                    "description": "Дорожка [Net-(D1-K)] на F.Cu, длина 6,1000 mm",
+                    "pos": {
+                        "x": 33.7,
+                        "y": 25.05
+                    },
+                    "uuid": "4f175889-1d19-4fec-9069-ff7ff3028d27"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Нарушение зазора между отв. (ограничения настроек отверстия зазор 0,2500 mm; текущий 0,0500 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 30.0625,
+                        "y": 27.8
+                    },
+                    "uuid": "b5b05890-5d31-45c1-964e-466efffb4d36"
+                },
+                {
+                    "description": "Перех. отв. [CHG_CS_M] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.6,
+                        "y": 28.3
+                    },
+                    "uuid": "4a9e0901-6de9-453a-888b-689163a1ff8a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Апертура передней паяльной маски объединяет элементы с различ. цепями",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_CS_M] на F.Cu, длина 1,2000 mm",
+                    "pos": {
+                        "x": 29.6,
+                        "y": 28.3
+                    },
+                    "uuid": "7748d75c-a6c4-4d2f-b0db-6618f4947844"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 30.0625,
+                        "y": 27.8
+                    },
+                    "uuid": "b5b05890-5d31-45c1-964e-466efffb4d36"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Апертура передней паяльной маски объединяет элементы с различ. цепями",
+            "items": [
+                {
+                    "description": "Перех. отв. [CHG_CS_M] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.6,
+                        "y": 28.3
+                    },
+                    "uuid": "4a9e0901-6de9-453a-888b-689163a1ff8a"
+                },
+                {
+                    "description": "Конт. пл. 1 [CHG_G_SHUNT] от Q4 на F.Cu",
+                    "pos": {
+                        "x": 30.0625,
+                        "y": 27.8
+                    },
+                    "uuid": "b5b05890-5d31-45c1-964e-466efffb4d36"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Дорожка [CHG_G_SHUNT] на F.Cu, длина 0,8000 mm",
+                    "pos": {
+                        "x": 31.1,
+                        "y": 27.8
+                    },
+                    "uuid": "062ef53b-fa17-4c58-903e-29d96ff91eb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "uuid": "16db8269-c482-4c44-965e-3a8ced3850a5",
+    "net": "MODE",
+    "start": [
+      75.4,
+      47.6
+    ],
+    "end": [
+      51.5,
+      47.6
+    ],
+    "layer": "F.Cu",
+    "kind": "track"
+  },
+  {
+    "uuid": "cb0a87c4-1b8a-4c5d-8482-3962ef285103",
+    "net": "MODE",
+    "start": [
+      76.8,
+      49.0
+    ],
+    "end": [
+      75.4,
+      47.6
+    ],
+    "layer": "F.Cu",
+    "kind": "track"
+  },
+  {
+    "uuid": "253815a7-0bfc-40c7-a6c2-23e715d31497",
+    "net": "BAT",
+    "start": [
+      73.0,
+      47.7
+    ],
+    "end": [
+      74.3,
+      49.0
+    ],
+    "layer": "B.Cu",
+    "kind": "track"
+  },
+  {
+    "uuid": "b31eb772-2405-4a2e-9a96-2049eec6a3dd",
+    "net": "BAT",
+    "start": [
+      64.6,
+      47.7
+    ],
+    "end": [
+      21.9,
+      47.7
+    ],
+    "layer": "B.Cu",
+    "kind": "track"
+  },
+  {
+    "uuid": "be93ef8f-907e-4b62-8828-4cf39801c6d0",
+    "net": "BAT",
+    "start": [
+      64.599999,
+      47.7
+    ],
+    "end": [
+      73.0,
+      47.7
+    ],
+    "layer": "B.Cu",
+    "kind": "track"
+  }
+]

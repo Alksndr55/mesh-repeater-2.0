@@ -1,0 +1,226 @@
+{
+  "snapshot_sha256": "4fde0d03000f7ec29ba5448b2247fd4e963a3a7771d993e50405e9e2583bce19",
+  "filter_bulk_witnesses": [
+    {
+      "found": true,
+      "net": "/2. Converter/SYS_LC_IN",
+      "from": [
+        "R55",
+        "2"
+      ],
+      "to": [
+        "L3",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 9.447967033465407,
+      "tracks": 3,
+      "vias": 2,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "5716118f-ad2b-4460-a399-66d2382a1a22",
+        "c382bdd7-bd0f-4d23-b9bb-a8e46342a093",
+        "d90019c1-f04f-4a06-b908-4b8e4d579481",
+        "8a8419ca-43bb-4472-8665-fc921c427789",
+        "61ca635b-b3a1-4e11-ad28-ea2b3b634c06"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          49072500,
+          30927500
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "/2. Converter/FILTER_MID",
+      "from": [
+        "L3",
+        "2"
+      ],
+      "to": [
+        "L4",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 4.1,
+      "tracks": 1,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        1.2
+      ],
+      "track_or_via_uuids": [
+        "fbf852e0-1750-41d6-b556-5b2c36a4aadd"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          62950000,
+          23000000
+        ]
+      ]
+    },
+    {
+      "found": true,
+      "net": "FILTER_OUT",
+      "from": [
+        "L4",
+        "2"
+      ],
+      "to": [
+        "J11",
+        "1"
+      ],
+      "min_width_constraint_mm": 0.8,
+      "geometric_length_including_pad_pickups_mm": 9.878427124746189,
+      "tracks": 4,
+      "vias": 0,
+      "actual_track_widths_mm": [
+        0.8
+      ],
+      "track_or_via_uuids": [
+        "18001ee3-5f01-4e56-80e1-f8a560a39985",
+        "a7e42e5d-c45b-4bd6-a4f3-d236516cfca4",
+        "a272c5ed-44cc-41d5-bac2-4a43d1812125",
+        "f09cda6d-0c42-469a-84bd-2d203dda24ba"
+      ],
+      "pad_pickup_node": [
+        0,
+        [
+          77000000,
+          23000000
+        ]
+      ]
+    }
+  ],
+  "IC_pin_escapes": [
+    {
+      "from": [
+        "U2",
+        "6"
+      ],
+      "to": [
+        "R55",
+        "1"
+      ],
+      "found": true,
+      "narrow_pieces": [
+        {
+          "width_mm": 0.6,
+          "length_mm": 0.9,
+          "a": [
+            42.95,
+            22.5
+          ],
+          "z": [
+            42.95,
+            23.4
+          ],
+          "resistance_milliohm_35umCu_20C": 0.7388571428571428,
+          "uuid": "1b975605-43aa-45f3-91bf-f3095121d567"
+        },
+        {
+          "width_mm": 0.3,
+          "length_mm": 1.85,
+          "a": [
+            42.95,
+            23.4
+          ],
+          "z": [
+            42.95,
+            25.25
+          ],
+          "resistance_milliohm_35umCu_20C": 3.037523809523809,
+          "uuid": "2fc65df5-7571-4d56-b7ca-fc1c63679839"
+        },
+        {
+          "width_mm": 0.25,
+          "length_mm": 0.8,
+          "a": [
+            42.75,
+            21.5
+          ],
+          "z": [
+            42.75,
+            22.3
+          ],
+          "resistance_milliohm_35umCu_20C": 1.576228571428571,
+          "uuid": "9c5f1207-7aca-4f82-97b7-ef2a03507c98"
+        },
+        {
+          "width_mm": 0.3,
+          "length_mm": 0.5656854249492381,
+          "a": [
+            42.95,
+            25.25
+          ],
+          "z": [
+            43.35,
+            25.65
+          ],
+          "resistance_milliohm_35umCu_20C": 0.9288015929642728,
+          "uuid": "a9247b8c-0927-4100-ba3d-fb5feac6d2e7"
+        }
+      ]
+    },
+    {
+      "from": [
+        "C53",
+        "1"
+      ],
+      "to": [
+        "U2",
+        "10"
+      ],
+      "found": true,
+      "narrow_pieces": [
+        {
+          "width_mm": 0.6,
+          "length_mm": 0.8,
+          "a": [
+            42.75,
+            17.85
+          ],
+          "z": [
+            42.75,
+            18.65
+          ],
+          "resistance_milliohm_35umCu_20C": 0.6567619047619047,
+          "uuid": "1fc2e57b-3ecf-490a-b885-d4be15b8fd18"
+        },
+        {
+          "width_mm": 0.6,
+          "length_mm": 2.4,
+          "a": [
+            42.95,
+            15.25
+          ],
+          "z": [
+            42.95,
+            17.65
+          ],
+          "resistance_milliohm_35umCu_20C": 1.970285714285714,
+          "uuid": "326ae40f-eeb0-4196-9a5e-bb2cdc785f95"
+        },
+        {
+          "width_mm": 0.25,
+          "length_mm": 0.85,
+          "a": [
+            42.75,
+            18.65
+          ],
+          "z": [
+            42.75,
+            19.5
+          ],
+          "resistance_milliohm_35umCu_20C": 1.6747428571428569,
+          "uuid": "3a4abe5d-dbb2-46d5-8fbd-35415c7bab5f"
+        }
+      ]
+    }
+  ],
+  "resistance_assumptions": "Geometrical straight copper-only resistance, resistivity0.01724 ohm*mm2/m at20C and nominal35umCu. Values in milliohms, numerically equal to mV/A. Excludes pads/vias/heating/etch tolerances; not an IPC current-rating claim."
+}
