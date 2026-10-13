@@ -1,0 +1,15 @@
+{
+  "method": "Exact native SVG paths; unprinted Fab text hidden; actual silk recolored for readability; gray Fab body geometry retained",
+  "views": [
+    {
+      "source": "MeshRepeater2_Logic_back_assembly.svg",
+      "output": "MeshRepeater2_Logic_back_labels.svg",
+      "unprinted_Fab_text_removed": 0
+    },
+    {
+      "source": "MeshRepeater2_Logic_front_assembly.svg",
+      "output": "MeshRepeater2_Logic_front_labels.svg",
+      "unprinted_Fab_text_removed": 0
+    }
+  ]
+}

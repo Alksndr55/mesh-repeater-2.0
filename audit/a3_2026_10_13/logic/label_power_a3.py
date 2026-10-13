@@ -42,9 +42,8 @@ def setup():
         value=bare(part.get('value',f.GetValue()),ref)
         lto=bare(part.get('value_lto2s',part.get('value',f.GetValue())),ref)
         if ref in ('R3','R4','R15','R16','C30','R56') and value!=lto:
-            if ref=='R56':return value+'/'+lto
             return 'N'+value+'\nL'+lto
-        special={'U1':'CN3722','U2':'TPS6\n3802','U8':'LMV431A','U9':'LMV431A',
+        special={'U1':'CN3722','U2':'TPS63802','U8':'LMV431A','U9':'LMV431A',
                  'U10':'LM393','U11':'LM285 2.5','U12':'INA219','TH1':'10k NTC',
                  'J1':'SOLAR','J6':'NTC','J9':'NTC'}
         if ref in special:return special[ref]
@@ -221,7 +220,11 @@ def main():
         backup.write_bytes(PCB.read_bytes())
     e.main(save=args.apply,profile='POWER',model_parts=parts,run_check=False)
     if args.apply:
-        legends();frames(groups);c.check('POWER_labels_final')
+        legends();frames(groups)
+        # Current POWER policy: one owner caption, two grouped cap banks, N/L R56.
+        from update_v2_power_marking_policy import apply_to_file
+        apply_to_file(PCB,OUT/'power_marking_policy.json')
+        c.check('POWER_labels_final')
     else:print('Proposal only. POWER CAD was not written.')
 
 if __name__=='__main__':main()

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "PCB_sha256": "12e74df30e5508e47b3c43e9dec60c0b6ef69deecccf31e52be580582903b156",
+  "individual_owners": 56,
+  "F_owner_captions": 38,
+  "B_owner_captions": 18,
+  "duplicates": 0,
+  "exports_match_live_PCB": true,
+  "missing_preview_links": [],
+  "POWER_SHIELD_preserved": true,
+  "copper_mask_placement_preserved": true,
+  "DRC": {
+    "violations": 0,
+    "unconnected": 0,
+    "parity": 0,
+    "ignored": 0
+  }
+}

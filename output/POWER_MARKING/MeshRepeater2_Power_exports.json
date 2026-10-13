@@ -1,0 +1,62 @@
+{
+  "pcb": "design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_pcb",
+  "sha256": "9a93c96d54e5286c47f6bac69b689c5958cd51ad0548119f8fd24ae560e4ffc7",
+  "artifacts": [
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_assembly_top.png",
+      "sha256": "483d7f30f29d5289fb5fad16f8899de293fe93ad68f6b84c6cd93e3a974e9207"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_assembly_top.svg",
+      "sha256": "4173208b1dbad2d66e6f4b83d4fbf450941e0715dd39fef6496fa94b95f76501"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_back.png",
+      "sha256": "3f2a2f95ca9de849617ea946e0aa15306b415e53353601b84c9741e2ba64ebcf"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_back.svg",
+      "sha256": "14cc04a888b9d68baf67c9ccc11be8d8541907e08fd78f5cd1e543dd8519f520"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_back_assembly.png",
+      "sha256": "c76103a71502ec1e18ee882efb48c75057c705756d8073bae3cb505ac32039fb"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_back_assembly.svg",
+      "sha256": "40a0e4ec4d581b11852f88e8605b95fc58a63213bd65d8907f53d489382072cd"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_back_labels.png",
+      "sha256": "03eddfc85459e8b16a1a9d12a02943d9c394d4f81712b39df3135d997fcfb8e1"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_back_labels.svg",
+      "sha256": "db390b2f123fa13c8013657862e05fa24e421983c9d8823ad9fbef2cbdf517a1"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_front.png",
+      "sha256": "15a490a4d462db143fef97dc6ef30962241a8aad36227991ef8b566fa99726f9"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_front.svg",
+      "sha256": "25071116665612819fab2b7faee66c546d9858755af096b9aae8e66f7571f0ab"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_front_assembly.png",
+      "sha256": "46db32e91ca151c53812059b61c112fa675fbd7adfc3efbdec16ae7c963adeff"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_front_assembly.svg",
+      "sha256": "251026910535f13bbddabb42b5774c37bc06d221479afdca776f7bfe3645870a"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_front_labels.png",
+      "sha256": "7f578b823cf8a8213abf9670cff40f3c290e29bd238fcd746a251c68764dfae8"
+    },
+    {
+      "path": "output\\POWER_MARKING\\MeshRepeater2_Power_front_labels.svg",
+      "sha256": "803423bed3c448f30203aeb715a7a1849ee5c67424cc49e53231417438bda26f"
+    }
+  ]
+}

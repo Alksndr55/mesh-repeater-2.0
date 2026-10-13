@@ -1,0 +1,529 @@
+{
+  "revision": "Local LOGIC marking update after published A3",
+  "before_sha256": "ea936c8edc2d1d19b65868ca1c8f1fd98aeee777667ff6ef7b1d5d688f4b944b",
+  "after_sha256": "12e74df30e5508e47b3c43e9dec60c0b6ef69deecccf31e52be580582903b156",
+  "only_F_B_silkscreen_drawings_changed": true,
+  "non_silkscreen_structure_matches_published_A3": true,
+  "mask_NT1_copper_RF_footprints_placement_unchanged": true,
+  "duplicate_captions_removed": 28,
+  "individual_owners_after": 56,
+  "duplicate_owners_after": 0,
+  "F_owner_count": 38,
+  "B_owner_count": 18,
+  "caption_policy": {
+    "before_sha256": "ea936c8edc2d1d19b65868ca1c8f1fd98aeee777667ff6ef7b1d5d688f4b944b",
+    "removed_duplicates": [
+      {
+        "ref": "R31",
+        "text": "R31\n10k",
+        "layer": "B.SilkS",
+        "uuid": "7e3d6070-61c9-4f90-afa3-0439cfc758db"
+      },
+      {
+        "ref": "C26",
+        "text": "C26\n100n",
+        "layer": "B.SilkS",
+        "uuid": "c4e090e8-3f4e-4bf1-b5f7-30e69d726dda"
+      },
+      {
+        "ref": "R23",
+        "text": "R23 33R",
+        "layer": "B.SilkS",
+        "uuid": "75ef78de-2ef9-4ca9-ad3f-c2c14bed5d76"
+      },
+      {
+        "ref": "C25",
+        "text": "C25\n100n",
+        "layer": "B.SilkS",
+        "uuid": "872143a4-fbc6-49be-ac76-e33ab71dfd17"
+      },
+      {
+        "ref": "R24",
+        "text": "R24 33R",
+        "layer": "B.SilkS",
+        "uuid": "a00ee87a-f0fc-4eab-a131-7b02b239268b"
+      },
+      {
+        "ref": "R25",
+        "text": "R25 33R",
+        "layer": "B.SilkS",
+        "uuid": "2cf707fd-7943-4cd7-bf23-38e984b67601"
+      },
+      {
+        "ref": "M2",
+        "text": "M2\nHT-RA62",
+        "layer": "B.SilkS",
+        "uuid": "83d3eae7-1317-4941-81cb-ef2cb1266c37"
+      },
+      {
+        "ref": "R21",
+        "text": "R21\n1k",
+        "layer": "B.SilkS",
+        "uuid": "06e13b4c-3791-46d2-978b-b0907ff9b674"
+      },
+      {
+        "ref": "R38",
+        "text": "R38\n1k",
+        "layer": "B.SilkS",
+        "uuid": "c06f1b9f-62e2-4abd-9a41-01525f655317"
+      },
+      {
+        "ref": "R36",
+        "text": "R36\n10k",
+        "layer": "B.SilkS",
+        "uuid": "fda14e95-cd91-48e3-afd4-7844d156c9b9"
+      },
+      {
+        "ref": "R39",
+        "text": "R39\n100k",
+        "layer": "B.SilkS",
+        "uuid": "6add400f-367b-4756-8e67-15eabcd5c3c0"
+      },
+      {
+        "ref": "Q2",
+        "text": "Q2\nAO3401A",
+        "layer": "F.SilkS",
+        "uuid": "c52f870c-29e3-4731-986b-998f1e2061ca"
+      },
+      {
+        "ref": "C57",
+        "text": "C57\n10u",
+        "layer": "B.SilkS",
+        "uuid": "1f504d3e-4eda-4d13-a20a-05d1fba14409"
+      },
+      {
+        "ref": "C56",
+        "text": "C56\n100n",
+        "layer": "B.SilkS",
+        "uuid": "2190962d-1a4e-484f-9a23-70bc8b6d9e35"
+      },
+      {
+        "ref": "R45",
+        "text": "R45\n100k",
+        "layer": "B.SilkS",
+        "uuid": "c6b49ec6-7031-4c2d-9692-6b3355802ba3"
+      },
+      {
+        "ref": "J201",
+        "text": "J201\n2x6",
+        "layer": "F.SilkS",
+        "uuid": "c9bc7358-0e15-484c-be55-fa8dc143de60"
+      },
+      {
+        "ref": "C27",
+        "text": "C27\n100n",
+        "layer": "B.SilkS",
+        "uuid": "1da76ff0-7199-474d-990b-ad0a19a827dd"
+      },
+      {
+        "ref": "R43",
+        "text": "R43\n100k",
+        "layer": "B.SilkS",
+        "uuid": "959438b0-fd70-4e64-96c1-430a17f811c2"
+      },
+      {
+        "ref": "R30",
+        "text": "R30\n4.7k",
+        "layer": "B.SilkS",
+        "uuid": "5a1ab9c4-bcc3-468b-853f-60d7901681aa"
+      },
+      {
+        "ref": "R29",
+        "text": "R29\n4.7k",
+        "layer": "B.SilkS",
+        "uuid": "d2963177-0890-448a-9372-db147a8f6aa7"
+      },
+      {
+        "ref": "TP4",
+        "text": "TP4",
+        "layer": "B.SilkS",
+        "uuid": "971e2c8c-39d0-42d3-bc82-6029e4bc1e38"
+      },
+      {
+        "ref": "TP7",
+        "text": "TP7",
+        "layer": "B.SilkS",
+        "uuid": "f3465a5b-0dae-43aa-bc2a-51abb7c450da"
+      },
+      {
+        "ref": "J5",
+        "text": "J5\nUART",
+        "layer": "F.SilkS",
+        "uuid": "13012ddf-2784-4bb6-9da0-bdeae4b9827e"
+      },
+      {
+        "ref": "M1",
+        "text": "M1\nNice!Nano",
+        "layer": "B.SilkS",
+        "uuid": "df6baa5d-e441-41f5-962c-8433bfa12edf"
+      },
+      {
+        "ref": "J10",
+        "text": "J10\nISP",
+        "layer": "F.SilkS",
+        "uuid": "3a18b666-7edc-4ee2-903f-01d60edc60f4"
+      },
+      {
+        "ref": "C33",
+        "text": "C33\n100n",
+        "layer": "B.SilkS",
+        "uuid": "364da6ba-7637-4e53-916d-13471a00402e"
+      },
+      {
+        "ref": "J3",
+        "text": "J3\nI2C",
+        "layer": "F.SilkS",
+        "uuid": "819bc073-a512-4f0c-823d-8a82b104d3d8"
+      },
+      {
+        "ref": "J4",
+        "text": "J4\nGPS",
+        "layer": "B.SilkS",
+        "uuid": "a786cdae-ae8d-4996-88b8-6da94df635ab"
+      }
+    ],
+    "removed_count": 28,
+    "owner_count": 56,
+    "axes": {
+      "U7": 0,
+      "FB1": 0,
+      "R21": 0,
+      "R44": 90,
+      "C26": 0,
+      "R33": 90,
+      "Q2": 90,
+      "R30": 0,
+      "C25": 0,
+      "R36": 0,
+      "R24": 0,
+      "SW2": 0,
+      "C57": 0,
+      "J13": 90,
+      "TP4": 0,
+      "J10": 90,
+      "C33": 90,
+      "R27": 90,
+      "R45": 0,
+      "Q3": 90,
+      "C27": 0,
+      "R37": 0,
+      "R42": 0,
+      "J4": 0,
+      "J5": 90,
+      "R28": 90,
+      "NT1": 0,
+      "SW1": 0,
+      "R46": 0,
+      "R23": 0,
+      "J201": 0,
+      "R31": 0,
+      "C24": 90,
+      "C21": 90,
+      "TP7": 0,
+      "R35": 0,
+      "BT1": 0,
+      "R25": 0,
+      "H203": 0,
+      "R29": 0,
+      "H201": 0,
+      "FL1": 90,
+      "U6": 90,
+      "R39": 0,
+      "C56": 0,
+      "C22": 90,
+      "R38": 0,
+      "H204": 0,
+      "M2": 0,
+      "M1": 90,
+      "U4": 90,
+      "R43": 0,
+      "J3": 90,
+      "C23": 90,
+      "R26": 0,
+      "H202": 0
+    },
+    "front_relocation": {
+      "placements": {
+        "M1": {
+          "uuid": "4e4a7a5d-402b-4226-8f37-102cef976675",
+          "text": "M1\nNice!Nano",
+          "xy_mm": [
+            18.0,
+            18.0
+          ],
+          "angle": 90.0,
+          "font_mm": 0.9,
+          "stroke_mm": 0.15,
+          "layer": "F.SilkS",
+          "mode": "within_own_body"
+        },
+        "M2": {
+          "uuid": "36ff2526-c0d7-48ea-b3d6-58a55a607742",
+          "text": "M2\nHT-RA62",
+          "xy_mm": [
+            48.0,
+            18.0
+          ],
+          "angle": 0.0,
+          "font_mm": 0.9,
+          "stroke_mm": 0.15,
+          "layer": "F.SilkS",
+          "mode": "within_own_body"
+        },
+        "BT1": {
+          "uuid": "a5cd7554-be37-4fb8-9acf-a22f35255487",
+          "text": "BT1\nCR2032",
+          "xy_mm": [
+            72.0,
+            35.0
+          ],
+          "angle": 0.0,
+          "font_mm": 0.9,
+          "stroke_mm": 0.15,
+          "layer": "F.SilkS",
+          "mode": "within_own_body"
+        },
+        "R37": {
+          "uuid": "403c0983-4b4c-49fb-a663-d4e23730d0b4",
+          "text": "R37\n0R",
+          "xy_mm": [
+            45.716905,
+            28.67
+          ],
+          "angle": 0.0,
+          "font_mm": 0.8,
+          "stroke_mm": 0.12,
+          "layer": "F.SilkS",
+          "mode": "adjacent_to_owner"
+        },
+        "R42": {
+          "uuid": "0eb32dae-7679-49b4-b138-51da09631f9d",
+          "text": "R42 100k",
+          "xy_mm": [
+            63.5,
+            22.703599
+          ],
+          "angle": 0.0,
+          "font_mm": 0.8,
+          "stroke_mm": 0.12,
+          "layer": "F.SilkS",
+          "mode": "adjacent_to_owner"
+        },
+        "R46": {
+          "uuid": "6bd0d14a-baae-4502-810a-cbef2de31a43",
+          "text": "R46 100k",
+          "xy_mm": [
+            57.9,
+            7.771399
+          ],
+          "angle": 0.0,
+          "font_mm": 0.8,
+          "stroke_mm": 0.12,
+          "layer": "F.SilkS",
+          "mode": "adjacent_to_owner"
+        },
+        "U4": {
+          "uuid": "5d8cb6c0-10e7-4c94-9edf-331152a741f5",
+          "text": "U4 DS3231M",
+          "xy_mm": [
+            75.5,
+            14.941667
+          ],
+          "angle": 90.0,
+          "font_mm": 0.8,
+          "stroke_mm": 0.12,
+          "layer": "F.SilkS",
+          "mode": "adjacent_to_owner"
+        },
+        "U6": {
+          "uuid": "3ff8a7f0-7c60-4e75-a681-d658ee7a51aa",
+          "text": "U6\nATtiny13A",
+          "xy_mm": [
+            44.0,
+            39.913095
+          ],
+          "angle": 90.0,
+          "font_mm": 0.8,
+          "stroke_mm": 0.12,
+          "layer": "F.SilkS",
+          "mode": "adjacent_to_owner"
+        }
+      },
+      "front_owner_count": 40,
+      "back_owner_count": 16,
+      "remaining_back_owners": [
+        "J5",
+        "FB1",
+        "J10",
+        "J4",
+        "Q2",
+        "U7",
+        "J201",
+        "J3",
+        "R33",
+        "C21",
+        "R28",
+        "R27",
+        "C22",
+        "C23",
+        "FL1",
+        "R44"
+      ],
+      "method": "Native glyphs expanded0.105mm, mask apertures, exposed vias, current silk text/graphics; body containment or owner-adjacent only; 0/90deg component axis. No PCB geometry save."
+    },
+    "after_sha256": "3eacee93e02d5120d39c0a411fad661e761bcf68d9f4fe779f3f942129444ee3"
+  },
+  "annotation_style": {
+    "connectors": [
+      {
+        "owner": "J3",
+        "text": "J3 I2C\n1 3V3 2 GND\n3 SCL 4 SDA",
+        "at_mm": [
+          85.4,
+          8.6
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      },
+      {
+        "owner": "J4",
+        "text": "J4 GPS\n1 NC 2 NC\n3 NC 4 RX\n5 TX 6 BACKUP\n7 POWER 8 GND",
+        "at_mm": [
+          52.0,
+          4.0
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      },
+      {
+        "owner": "J10",
+        "text": "J10 ISP\n1 MISO 2 3V3\n3 SCK 4 MOSI\n5 RST 6 GND",
+        "at_mm": [
+          36.97,
+          26.5
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      },
+      {
+        "owner": "J201",
+        "text": "J201 1/3 SYS 5/7 RADIO\n2/4/6 GND 8 NC\n9 BAT 10 SDA\n11 MODE 12 SCL",
+        "at_mm": [
+          70.5,
+          43.7
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      },
+      {
+        "owner": "J5",
+        "text": "J5 UART",
+        "at_mm": [
+          4.0,
+          7.8
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      },
+      {
+        "owner": "J13",
+        "text": "J13 SMA",
+        "at_mm": [
+          26.5,
+          1.1
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      },
+      {
+        "owner": "J5 pins",
+        "text": "1 GND\n2 3V3\n3 TX\n4 RX",
+        "at_mm": [
+          6.5,
+          14.31
+        ],
+        "angle": 0,
+        "layer": "B.SilkS",
+        "font_mm": 0.8,
+        "stroke_mm": 0.12
+      }
+    ],
+    "R43": {
+      "text": "R43\n100k",
+      "at_mm": [
+        71.5,
+        20.8
+      ],
+      "layer": "B.SilkS",
+      "angle": 0
+    },
+    "RF_option": {
+      "refs": [
+        "FL1",
+        "NT1"
+      ],
+      "outline_mm": [
+        [
+          38.57,
+          0.4
+        ],
+        [
+          43.2,
+          0.4
+        ],
+        [
+          43.2,
+          8.1
+        ],
+        [
+          38.57,
+          8.1
+        ],
+        [
+          38.57,
+          0.4
+        ]
+      ],
+      "line_mm": 0.3,
+      "identical_physical_F_B": true,
+      "title": "RF",
+      "title_at_mm": [
+        40.7,
+        9.4
+      ],
+      "title_font_mm": 1.0,
+      "title_stroke_mm": 0.22,
+      "NT1_cut_window_copper_and_mask_preserved": true
+    },
+    "before_sha256": "3eacee93e02d5120d39c0a411fad661e761bcf68d9f4fe779f3f942129444ee3",
+    "after_sha256": "12e74df30e5508e47b3c43e9dec60c0b6ef69deecccf31e52be580582903b156",
+    "only_F_B_silkscreen_drawings_changed": true
+  },
+  "KiCad": "10.0.6",
+  "DRC": {
+    "violations": 0,
+    "unconnected": 0,
+    "parity": 0,
+    "ignored": 0
+  },
+  "independent_review": {
+    "agent": "logic_silk_review",
+    "sha256": "12e74df30e5508e47b3c43e9dec60c0b6ef69deecccf31e52be580582903b156",
+    "passed": true,
+    "physical_non_silk_structure_and_all_caption_owners_checked": true,
+    "fresh_native_views_inspected": true,
+    "required_findings": []
+  }
+}

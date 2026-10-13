@@ -51,3 +51,25 @@ audit/power_layout_candidate.png
 !/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_BUILD_TMP/*.log
 /audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_MeshCore_source.zip
 /audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/git_diff_before.patch
+
+# Historical source versions stay local and in the A2/A3 Git history.
+# A4 automatic GitHub source archives contain only the current CAD projects.
+/archive/
+/baseline/
+/audit/source_s4_16/
+/audit/**/*.kicad_pcb
+/audit/**/*.kicad_sch
+/audit/**/*.kicad_pro
+/audit/**/*.kicad_prl
+/audit/**/*.kicad_dru
+/audit/**/*.kicad_mod
+/audit/**/*.kicad_sym
+/audit/**/fp-lib-table
+/audit/**/sym-lib-table
+/audit/fixes_2026_10_12/step_diagnosis_*.step
+/output/pdf/*_V2_A2*.pdf
+/output/pdf/MeshRepeater2_Power_schematic.pdf
+/output/pdf/MeshRepeater2_Logic_schematic.pdf
+/output/pdf/MeshRepeater2_assembly_manual_RU.pdf
+/output/pdf/MeshRepeater2_assembly_dimensions.pdf
+/output/pdf/SCHEMATIC_MANIFEST.json
