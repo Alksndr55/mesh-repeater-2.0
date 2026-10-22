@@ -1,0 +1,14 @@
+{
+  "V2_OVERVIEW_RU.html": {
+    "sha256": "d3f3208e37436580b6dbbb498488d3ae1a65a087c3b7b4752a28195d15daa256",
+    "local_links": 20,
+    "missing_links": [],
+    "before_after_switch_logic": "PASS"
+  },
+  "V2_ROUTING_CLEANUP_2026_10_22_RU.html": {
+    "sha256": "d3f3208e37436580b6dbbb498488d3ae1a65a087c3b7b4752a28195d15daa256",
+    "local_links": 20,
+    "missing_links": [],
+    "before_after_switch_logic": "PASS"
+  }
+}

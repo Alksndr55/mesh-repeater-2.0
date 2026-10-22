@@ -68,7 +68,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Vendor" "Danomsk / Yageo"
@@ -78,7 +78,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Vendor URL" "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/140061-chip-0805-1-8-1-rc0805fr-071r8l-yageo/"
@@ -88,7 +88,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Fit_NaIon" "yes"
@@ -98,7 +98,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Fit_LTO_2S" "yes"
@@ -108,7 +108,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Value_NaIon" "1.8 ohm 1% 0.125W"
@@ -118,7 +118,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Value_LTO_2S" "0R jumper"
@@ -128,7 +128,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Assembly" "Na-ion cold option: FIT; LTO 2S: 0R JUMPER"
@@ -138,7 +138,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Nominal" "Na:1.8R\nLTO:0R"
@@ -148,7 +148,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "MPN_NaIon" "RC0805FR-071R8L"
@@ -158,7 +158,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "MPN_LTO_2S" "RC0805JR-070RL"
@@ -168,7 +168,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "LCSC" ""
@@ -178,7 +178,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Fit_NaIon_NoCold" "yes"
@@ -188,7 +188,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "Value_NaIon_NoCold" "0R jumper"
@@ -198,7 +198,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(property "MPN_NaIon_NoCold" "RC0805JR-070RL"
@@ -208,7 +208,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
+			 (thickness 0.15))
 		)
 	)
 	(attr smd)
@@ -217,7 +217,7 @@
 		(start -2.177064 -1.71)
 		(end 2.177064 -1.71)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -227,7 +227,7 @@
 		(start -2.177064 1.71)
 		(end 2.177064 1.71)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")

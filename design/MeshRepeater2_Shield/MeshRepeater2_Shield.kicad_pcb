@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Mesh Repeater 2.0 / средний экран")
-		(date "2026-10-13")
-		(rev "V2.0-A3")
+		(date "2026-10-16")
+		(rev "V2.0-A4-FAB2")
 		(company "Designed by @Alksndritm")
 	)
 	(layers
@@ -757,8 +757,8 @@
 		(uuid "b6a53750-a506-44ff-ae4c-dd520ae087b9")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.13)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -768,8 +768,8 @@
 		(uuid "5a9e92a5-c049-4a1b-a412-831da48b0661")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.13)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -780,18 +780,18 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
-	(gr_text "90 × 60 мм; FR4 1,52 мм; медь 35 мкм"
+	(gr_text "90 × 60 мм; FR4 1,5 мм; медь 35 мкм"
 		(at 45 21 0)
 		(layer "F.SilkS")
 		(uuid "99f06edc-721d-468f-adea-56411a05e910")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -802,7 +802,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -813,7 +813,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -824,7 +824,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -835,7 +835,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -846,7 +846,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -881,7 +881,7 @@
 		(effects
 			(font
 				(size 1.05 1.05)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -897,7 +897,7 @@
 			)
 		)
 	)
-	(gr_text "Mesh Repeater 2.0 — ЭКРАН A3"
+	(gr_text "Mesh Repeater 2.0 — ЭКРАН A4-FAB2"
 		(at 35 8 0)
 		(layer "F.SilkS")
 		(uuid "935026b6-5e58-49f4-ad21-da5e741f6cb3")
@@ -915,8 +915,8 @@
 		(uuid "1ddeb13c-f9ac-4065-8a82-4a84e9106ab1")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.13)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -927,8 +927,8 @@
 		(uuid "03355b88-4f4b-4b2b-ba52-31b3ddf8169a")
 		(effects
 			(font
-				(size 0.95 0.95)
-				(thickness 0.13)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -940,7 +940,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -952,7 +952,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -964,7 +964,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -976,7 +976,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -988,19 +988,19 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "90 × 60 мм; FR4 1,52 мм; медь 35 мкм"
+	(gr_text "90 × 60 мм; FR4 1,5 мм; медь 35 мкм"
 		(at 45 39 180)
 		(layer "B.SilkS")
 		(uuid "3c826027-b99e-4cb0-83e0-b9409d698422")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -1012,7 +1012,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -1050,7 +1050,7 @@
 		(effects
 			(font
 				(size 1.05 1.05)
-				(thickness 0.13)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -1068,7 +1068,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Mesh Repeater 2.0 — ЭКРАН A3"
+	(gr_text "Mesh Repeater 2.0 — ЭКРАН A4-FAB2"
 		(at 35 52 180)
 		(layer "B.SilkS")
 		(uuid "476ccaf7-3371-4e55-b162-7773df45ff57")

@@ -1,0 +1,213 @@
+{
+  "SHIELD": {
+    "board": "SHIELD",
+    "phase": "after",
+    "source_files": {
+      "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_dru": "7d26c90af126d96870bb398b1ebb9b4794a676f3d12924c3dccdce8b3135b116",
+      "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pcb": "15820652da1d3b979402e062fbb74fb98a4f2d1d6de9235085a2d4532d9c435c",
+      "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_prl": "ab5410d2600b6db86c7290cce7910737ac9d4fc53acf4ae149e60859b3e7c392",
+      "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro": "c83b0c4fa0ae734d9c43ed2ed456a4738de551166f6c43e28463a343c41b773d",
+      "design/MeshRepeater2_Shield/fp-lib-table": "e6ce915eabd35abb311f2c32f3508cac976df828b04bbd8b0d0f911ee8d1fea0",
+      "design/MeshRepeater2_Shield/sym-lib-table": "05c9cca5d94b52e1428a38a991d8aeedc9e4d7dadb5d9c4fd20b09825952933c"
+    },
+    "sources_preserved": true,
+    "commands": [
+      {
+        "command": [
+          "pcb",
+          "drc",
+          "--format",
+          "json",
+          "--units",
+          "mm",
+          "--severity-all",
+          "--all-track-errors",
+          "--exit-code-violations",
+          "--refill-zones",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\SHIELD\\drc.json",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Shield\\MeshRepeater2_Shield.kicad_pcb"
+        ],
+        "exit_code": 0,
+        "stdout": "Найдено 0 нарушений\nНайдено 0 неподключенных элементов\nОтчет DRC сохранен в C:/Users/Alksndr/Desktop/codex/Meshcore/v2/audit/routing_cleanup_2026_10_22/after/SHIELD/drc.json\n",
+        "stderr": ""
+      }
+    ],
+    "drc": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0,
+      "ignored_checks": 0
+    }
+  },
+  "LOGIC": {
+    "board": "LOGIC",
+    "phase": "after",
+    "source_files": {
+      "design/MeshRepeater2_Logic/Interconnect.kicad_sch": "da63911b3d8c291ca936c081c80f7f9047cbf10145e804bde54db4be5e93b53c",
+      "design/MeshRepeater2_Logic/Meshcore.kicad_sym": "ad28b9cb641d3c7dd82e5880e678eb834fa577991ed7e45d8c2dcaaf6c53f699",
+      "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_dru": "90c9b0a954772947bd20337728bd640235bb508fba68315a820b7ea3f791c783",
+      "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pcb": "c3cea91efff79b5f737a00ea3b0976ceff944b20178516770259ff7276353d8a",
+      "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_prl": "7b45fe8aaa26a73a1a511fccf844286ae317e84b0926a2f506ba8ef58ec49df3",
+      "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro": "81c89780c7b6b28f7cc593de504cfa628e3be76e332baac1d168a309b145588f",
+      "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_sch": "bfd7d781dfcb9d5f96ec8f0daa92115c5e0562e1a0287d6f445be99951377e3e",
+      "design/MeshRepeater2_Logic/RTC_IO.kicad_sch": "d727cd1a33f18281a5c8cca1e83d838e3907ad54580d2d6423737adc64eccb93",
+      "design/MeshRepeater2_Logic/Watchdog.kicad_sch": "5841d0ca251ec243b5439bcff976005b944061121b2e096f40d44fd033aa249b",
+      "design/MeshRepeater2_Logic/fp-lib-table": "171b2bbb3fe5852d6777efc914cd42ec7939276e17cd6028dc151abd75600aeb",
+      "design/MeshRepeater2_Logic/sym-lib-table": "de9c5f16b051d9120f3e3276ba4ff164cdfd3dbf03ff7e7c7aa164f605c4678d"
+    },
+    "sources_preserved": true,
+    "commands": [
+      {
+        "command": [
+          "pcb",
+          "drc",
+          "--format",
+          "json",
+          "--units",
+          "mm",
+          "--severity-all",
+          "--all-track-errors",
+          "--exit-code-violations",
+          "--refill-zones",
+          "--schematic-parity",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\LOGIC\\drc.json",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Logic\\MeshRepeater2_Logic.kicad_pcb"
+        ],
+        "exit_code": 0,
+        "stdout": "Найдено 0 нарушений\nНайдено 0 неподключенных элементов\nНайдено 0 проблем с соответствием схеме\nОтчет DRC сохранен в C:/Users/Alksndr/Desktop/codex/Meshcore/v2/audit/routing_cleanup_2026_10_22/after/LOGIC/drc.json\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "sch",
+          "erc",
+          "--format",
+          "json",
+          "--severity-all",
+          "--exit-code-violations",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\LOGIC\\erc.json",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Logic\\MeshRepeater2_Logic.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Найдено 0 нарушений\nОтчёт ERC сохранен в C:/Users/Alksndr/Desktop/codex/Meshcore/v2/audit/routing_cleanup_2026_10_22/after/LOGIC/erc.json\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "sch",
+          "export",
+          "netlist",
+          "--format",
+          "kicadxml",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\LOGIC\\netlist.xml",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Logic\\MeshRepeater2_Logic.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "drc": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0,
+      "ignored_checks": 0
+    },
+    "erc": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0,
+      "ignored_checks": 0
+    }
+  },
+  "POWER": {
+    "board": "POWER",
+    "phase": "after",
+    "source_files": {
+      "design/MeshRepeater2_Power/BatteryMonitor.kicad_sch": "07a5623115d4b3cb45f5aba2527b43eb6e67fe7c6ef04f156de12a3f3f864a53",
+      "design/MeshRepeater2_Power/Converter.kicad_sch": "ca011c5ee58990b43d65289a44e4af43285f1782e7595ac47a489bef067176b5",
+      "design/MeshRepeater2_Power/Interconnect.kicad_sch": "0e09cd01e6bc71b5f7d08db94eb0d64ade7e14f2609d0a844a1bf44d683918b1",
+      "design/MeshRepeater2_Power/LTO_Balancer.kicad_sch": "4a728feb14ead392e272b8b625b3d21f60a58bc1f3c5f2143e4463273dca653e",
+      "design/MeshRepeater2_Power/Meshcore.kicad_sym": "80f887e0f0e64090182cc2acaf95bf54b91d00887b77fbc8623786478c26ac26",
+      "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_dru": "7d26c90af126d96870bb398b1ebb9b4794a676f3d12924c3dccdce8b3135b116",
+      "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pcb": "458a411eb25d42cc0b6395fb01c80aefa79b1fcdedcfea174da56f8f893665a2",
+      "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_prl": "49c045bdb337f2e5c38be0d9dca2edee85eb3cee83c88f38d0f1f416bad399f2",
+      "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro": "6506479df702c50b2b2a16d6496fcc7cf686c54e6eab06552a8c77d419cdb379",
+      "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_sch": "a07000f7684e7d2d38b395ee1c3875c4ec6c83993754297fa3d6371aab30013e",
+      "design/MeshRepeater2_Power/Thermal.kicad_sch": "97eca58e22e8933a92f44b8b897477ad84a9e30f55e51f905170f2fa67491670",
+      "design/MeshRepeater2_Power/fp-lib-table": "171b2bbb3fe5852d6777efc914cd42ec7939276e17cd6028dc151abd75600aeb",
+      "design/MeshRepeater2_Power/sym-lib-table": "de9c5f16b051d9120f3e3276ba4ff164cdfd3dbf03ff7e7c7aa164f605c4678d"
+    },
+    "sources_preserved": true,
+    "commands": [
+      {
+        "command": [
+          "pcb",
+          "drc",
+          "--format",
+          "json",
+          "--units",
+          "mm",
+          "--severity-all",
+          "--all-track-errors",
+          "--exit-code-violations",
+          "--refill-zones",
+          "--schematic-parity",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\POWER\\drc.json",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_pcb"
+        ],
+        "exit_code": 0,
+        "stdout": "Найдено 0 нарушений\nНайдено 0 неподключенных элементов\nНайдено 0 проблем с соответствием схеме\nОтчет DRC сохранен в C:/Users/Alksndr/Desktop/codex/Meshcore/v2/audit/routing_cleanup_2026_10_22/after/POWER/drc.json\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "sch",
+          "erc",
+          "--format",
+          "json",
+          "--severity-all",
+          "--exit-code-violations",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\POWER\\erc.json",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Найдено 0 нарушений\nОтчёт ERC сохранен в C:/Users/Alksndr/Desktop/codex/Meshcore/v2/audit/routing_cleanup_2026_10_22/after/POWER/erc.json\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "sch",
+          "export",
+          "netlist",
+          "--format",
+          "kicadxml",
+          "-o",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\audit\\routing_cleanup_2026_10_22\\after\\POWER\\netlist.xml",
+          "C:\\Users\\Alksndr\\Desktop\\codex\\Meshcore\\v2\\design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "drc": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0,
+      "ignored_checks": 0
+    },
+    "erc": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0,
+      "ignored_checks": 0
+    }
+  }
+}

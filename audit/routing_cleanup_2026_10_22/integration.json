@@ -1,0 +1,16 @@
+{
+  "POWER": {
+    "source": "design\\MeshRepeater2_Power\\MeshRepeater2_Power.kicad_pcb",
+    "candidate": "audit\\routing_cleanup_2026_10_22\\power\\candidate_project\\MeshRepeater2_Power.kicad_pcb",
+    "before_sha256": "981a86f4d2ce454258011968714630241bc10a3a0c9de036f4a199baf204bf99",
+    "after_sha256": "458a411eb25d42cc0b6395fb01c80aefa79b1fcdedcfea174da56f8f893665a2",
+    "only_routing_vias_and_fill_changed": true
+  },
+  "LOGIC": {
+    "source": "design\\MeshRepeater2_Logic\\MeshRepeater2_Logic.kicad_pcb",
+    "candidate": "audit\\routing_cleanup_2026_10_22\\logic\\candidate_project\\MeshRepeater2_Logic.kicad_pcb",
+    "before_sha256": "cc584c2183c788ebf350b1a663323f71adb592b499e648cd81908b7bc18bb8d0",
+    "after_sha256": "c3cea91efff79b5f737a00ea3b0976ceff944b20178516770259ff7276353d8a",
+    "only_routing_vias_and_fill_changed": true
+  }
+}

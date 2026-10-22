@@ -248,7 +248,7 @@
 		(start -3.87 -1.57)
 		(end 1.33 14.27)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type default)
 		)
 		(fill no)
@@ -293,8 +293,8 @@
 		(uuid "012517f7-f37e-4f72-9832-5ee33331f298")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.13)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

@@ -1,4 +1,11 @@
 # Local KiCad state and backups
+/design/**/*.rar
+# Manufacturing snapshots are published as release assets after regeneration.
+/manufacturing/*
+!/manufacturing/CURRENT_CAD_NOTICE_RU.txt
+# Isolated audit candidates and frozen source copies are not current projects.
+/audit/**/candidate*/
+/audit/**/baseline/
 *.kicad_prl
 *.lck
 ~*.lck

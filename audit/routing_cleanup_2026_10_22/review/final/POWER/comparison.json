@@ -1,0 +1,52 @@
+{
+  "board": "POWER",
+  "before_sha256": "981a86f4d2ce454258011968714630241bc10a3a0c9de036f4a199baf204bf99",
+  "after_sha256": "458a411eb25d42cc0b6395fb01c80aefa79b1fcdedcfea174da56f8f893665a2",
+  "all_nonrouting_invariants_preserved": true,
+  "all_footprints_and_pad_nets_preserved": true,
+  "via_changes": {
+    "removed": [
+      "81185681-0c83-454e-a262-39d92adcb265",
+      "f044cd72-8f18-47e2-a3da-b49d13ae2d79"
+    ],
+    "added": [],
+    "modified": [
+      "29ba1e2d-5572-4772-a409-9cdc6770a247",
+      "8cb75593-793b-4421-bbee-fc3652df60bd",
+      "e375f1ea-b9ab-4d95-b004-3a4c207c440c"
+    ]
+  },
+  "removed_segments": 46,
+  "reduced_track_length_mm": 88.82847901155901,
+  "reduced_non_gnd_length_mm": 23.243083514927775,
+  "removed_gnd_track_length_mm": 65.58539549663115,
+  "non_gnd_length_before_mm": 1487.5199619169077,
+  "non_gnd_length_after_mm": 1464.27687840198,
+  "min_width_before": 0.15,
+  "min_width_after": 0.15,
+  "bend_histogram_before": {
+    "45.0": 331,
+    "90.0": 17,
+    "135.0": 1
+  },
+  "bend_histogram_after": {
+    "45.0": 309,
+    "90.0": 11
+  },
+  "non_gnd_bend_histogram_before": {
+    "45.0": 294,
+    "90.0": 15,
+    "135.0": 1
+  },
+  "non_gnd_bend_histogram_after": {
+    "45.0": 278,
+    "90.0": 11
+  },
+  "nets_with_minimum_width_reduction": [],
+  "remaining_collinear_overlap_pairs": 0,
+  "remaining_exact_duplicates": 0,
+  "remaining_off_angle": 0,
+  "remaining_dangling": 16,
+  "ground_components_before": 1,
+  "ground_components_after": 1
+}

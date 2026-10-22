@@ -240,7 +240,7 @@
 		(start -1.9 -1.5)
 		(end -1.9 1.5)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -250,7 +250,7 @@
 		(start 1.9 -1.5)
 		(end 1.9 1.5)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -260,7 +260,7 @@
 		(center -1.95 1.95)
 		(end -1.85 1.95)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill no)

@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-22",
+  "release": "v2.0-a5",
+  "status": "PASS",
+  "scope": "Independent licensing policy and preservation review of current Mesh Repeater 2.0 publication files; no CAD edits.",
+  "standard_text_source": {
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt",
+    "reference_sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+    "method": "Independent local SHA256 and byte comparison against the official-download reference digest recorded by the publication coordinator."
+  },
+  "standard_text_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+      "bytes": 20850,
+      "matches_official_download_reference": true
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-SA-4.0.txt",
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+      "bytes": 20850,
+      "matches_official_download_reference": true
+    }
+  ],
+  "third_party_reference_git_commit": "261c9850f0552453948c2c04cb42d1e77ffee5f4",
+  "third_party_license_files": [
+    {
+      "path": "LICENSES/CC-BY-SA-4.0.txt",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "bytes": 20138,
+      "recorded_before_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "git_blob_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "matches_recorded_before": true,
+      "byte_identical_to_git_blob": true
+    },
+    {
+      "path": "LICENSES/CERN-OHL-P-2.0.txt",
+      "sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded",
+      "bytes": 8852,
+      "recorded_before_sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded",
+      "git_blob_sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded",
+      "matches_recorded_before": true,
+      "byte_identical_to_git_blob": true
+    },
+    {
+      "path": "LICENSES/KiCad-Libraries-LICENSE.md",
+      "sha256": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
+      "bytes": 2105,
+      "recorded_before_sha256": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
+      "git_blob_sha256": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
+      "matches_recorded_before": true,
+      "byte_identical_to_git_blob": true
+    }
+  ],
+  "policy_and_generator_files_at_review": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "913904cb227382764ad24a57eb8a7ac1501207102e6c9060f901ee46d70117f9"
+    },
+    {
+      "path": "docs/LICENSING_RU_EN.md",
+      "sha256": "d3243afa31d5ac2754d83f540a7fce3673757bd747e93eb24ba06db6e82bff44"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6a88fd1dcac1e75ed873a157c219648209c9ebaad0f77061edd2647c2a5d757a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "2d8db678b7b942ceea9d807214343794308e23d7dd314aa0a555362cfa5b87cf"
+    },
+    {
+      "path": "tools/build_rezonit_package.py",
+      "sha256": "7077a63bcafe18b3cf76ce319e375fe37cf4f35d293335f9c30b2e36119b190e"
+    }
+  ],
+  "checks": {
+    "official_standard_text_unmodified": true,
+    "two_standard_text_copies_byte_identical": true,
+    "three_third_party_licenses_unchanged": true,
+    "own_materials_only_scope_explicit": true,
+    "third_party_materials_not_relicensed_NC": true,
+    "personal_paid_fabrication_and_assembly_permitted": true,
+    "manufacturer_may_charge_for_personal_order_service": true,
+    "personal_order_permission_is_separate_additional_grant": true,
+    "no_stock_retail_or_resale_authorization": true,
+    "commercial_manufacture_sale_prior_written_permission": true,
+    "attribution_project_link_changes_sharealike": true,
+    "third_party_and_prior_grants_unaffected": true,
+    "statutory_exceptions_preserved": true,
+    "KiCad_collection_exception_preserved": true,
+    "CERN_original_license_notices_preserved": true,
+    "future_Rezonit_generator_includes_all_license_and_policy_files": true,
+    "future_Rezonit_attribution_retains_third_party_scope": true,
+    "future_Rezonit_generator_python_syntax_valid": true,
+    "CAD_hashes_unchanged": true
+  },
+  "CAD_files": [
+    {
+      "path": "design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pcb",
+      "sha256": "458a411eb25d42cc0b6395fb01c80aefa79b1fcdedcfea174da56f8f893665a2",
+      "matches_accepted_routing_revision": true
+    },
+    {
+      "path": "design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pcb",
+      "sha256": "c3cea91efff79b5f737a00ea3b0976ceff944b20178516770259ff7276353d8a",
+      "matches_accepted_routing_revision": true
+    },
+    {
+      "path": "design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pcb",
+      "sha256": "15820652da1d3b979402e062fbb74fb98a4f2d1d6de9235085a2d4532d9c435c",
+      "matches_accepted_routing_revision": true
+    }
+  ],
+  "policy_conflicts_found": [],
+  "notes": [
+    "The personal-order permission is an additional grant by the project author; the standard CC legal code is not edited.",
+    "The future Rezonit generator is checked for license inclusion and scope only; its A4-FAB1 output label remains historical, and no manufacturing package was regenerated by this reviewer.",
+    "Historical grants and upstream rights are not revoked; CC BY-NC-SA applies only to rights held by the project author."
+  ]
+}

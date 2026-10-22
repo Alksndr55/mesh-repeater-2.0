@@ -2,7 +2,11 @@ Mesh Repeater 2.0 — локальные 3D-модели
 
 Модели подключены относительными путями из сохранённой платы KiCad.
 Стандартные модели используют KICAD10_3DMODEL_DIR. Источники унаследованных
-моделей: ../asset_manifest.json и корневой THIRD_PARTY_NOTICES.md.
+моделей: ../../../THIRD_PARTY_NOTICES.md; прежний asset_manifest относится
+к историческому снимку, ссылка на него приведена в этих уведомлениях.
+Собственные модели — CC BY-NC-SA 4.0 в пределах прав автора;
+модели KiCad и другие сторонние материалы сохраняют свои лицензии.
+Полные условия: ../../../LICENSE.md и ../../../docs/LICENSING_RU_EN.md.
 Документированные новые разъёмы и кнопки проверены в
  docs/mechanical_library_checks.json и docs/mechanical_model_checks.json.
 
