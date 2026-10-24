@@ -1,11 +1,4 @@
-# Local KiCad state and backups
-/design/**/*.rar
-# Manufacturing snapshots are published as release assets after regeneration.
-/manufacturing/*
-!/manufacturing/CURRENT_CAD_NOTICE_RU.txt
-# Isolated audit candidates and frozen source copies are not current projects.
-/audit/**/candidate*/
-/audit/**/baseline/
+# Local CAD state and recovery files
 *.kicad_prl
 *.lck
 ~*.lck
@@ -14,8 +7,9 @@
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *.kicad_wks-bak
+*.FCBak
 fp-info-cache
-# Local build results
+# Local compiler/runtime products
 __pycache__/
 *.pyc
 *.o
@@ -23,60 +17,6 @@ __pycache__/
 *.map
 .DS_Store
 Thumbs.db
-# V2 intermediate renders and exploratory reports; final native checks retained.
-audit/manual/
-audit/routing_power/drc_*.json
-audit/routing_logic/drc_*.json
-audit/shield_singlelayer_probe.kicad_pro
-docs/mechanics/*.mesh.json.gz
-docs/mechanics/*_native_mesh.json.gz
-audit/routing_logic_star/before_*.kicad_pcb
-audit/routing_logic_star/drc_*.json
-!audit/routing_logic_star/drc_*_final.json
-# Промежуточные результаты
-
-audit/ground_diagnosis/
-audit/markings_logic/
-audit/markings_power/
-audit/library_variant_probe/
-audit/power_layout_candidate.png
-.publication_tmp/
+# Temporary work; current native reports remain versionable
 /tmp/
-# Large exported STEP transported losslessly as .step.gz; native libraries stay tracked.
-/output/POWER/MeshRepeater2_Power.step
-/output/LOGIC/MeshRepeater2_Logic.step
-/docs/mechanics/MeshRepeater2_assembly.step
-/docs/mechanics/MeshRepeater2_exploded.step
-
-# Local FreeCAD backups and STEP diagnostic logs
-*.FCBak
-/audit/fixes_2026_10_12/step_diagnosis_*.log
-
-# A3 engineering-audit environments remain local; retain small build logs.
-/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/CAD_CHECK/
-/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_BUILD_TMP/*
-!/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_BUILD_TMP/*.log
-/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/SOFTWARE_BOM_MeshCore_source.zip
-/audit/V2_ENGINEERING_AUDIT_A3_2026_10_13/git_diff_before.patch
-
-# Historical source versions stay local and in the A2/A3 Git history.
-# A4 automatic GitHub source archives contain only the current CAD projects.
-/archive/
-/baseline/
-/audit/source_s4_16/
-/audit/**/*.kicad_pcb
-/audit/**/*.kicad_sch
-/audit/**/*.kicad_pro
-/audit/**/*.kicad_prl
-/audit/**/*.kicad_dru
-/audit/**/*.kicad_mod
-/audit/**/*.kicad_sym
-/audit/**/fp-lib-table
-/audit/**/sym-lib-table
-/audit/fixes_2026_10_12/step_diagnosis_*.step
-/output/pdf/*_V2_A2*.pdf
-/output/pdf/MeshRepeater2_Power_schematic.pdf
-/output/pdf/MeshRepeater2_Logic_schematic.pdf
-/output/pdf/MeshRepeater2_assembly_manual_RU.pdf
-/output/pdf/MeshRepeater2_assembly_dimensions.pdf
-/output/pdf/SCHEMATIC_MANIFEST.json
+.publication_tmp/

@@ -1,3 +1,0 @@
-{"board": "POWER", "saved": {"violations": 0, "unconnected_items": 0, "schematic_parity": 0, "ignored_checks": 0}, "refilled": {"violations": 0, "unconnected_items": 0, "schematic_parity": 0, "ignored_checks": 0}, "ERC": 0}
-{"board": "LOGIC", "saved": {"violations": 0, "unconnected_items": 0, "schematic_parity": 0, "ignored_checks": 0}, "refilled": {"violations": 0, "unconnected_items": 0, "schematic_parity": 0, "ignored_checks": 0}, "ERC": 0}
-{"board": "SHIELD", "saved": {"violations": 0, "unconnected_items": 0, "schematic_parity": 0, "ignored_checks": 0}, "refilled": {"violations": 0, "unconnected_items": 0, "schematic_parity": 0, "ignored_checks": 0}, "ERC": null}

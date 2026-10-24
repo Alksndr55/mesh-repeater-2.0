@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "rows": 161,
+  "boards": {
+    "POWER": {
+      "pcb_references": 105,
+      "model_references": 105,
+      "native_xml_references": 105,
+      "rows_checked": 105
+    },
+    "LOGIC": {
+      "pcb_references": 56,
+      "model_references": 56,
+      "native_xml_references": 56,
+      "rows_checked": 56
+    },
+    "SHIELD": {
+      "scope": "mechanical board; excluded from electronic assembly BOM"
+    }
+  },
+  "scope": "Exact electronic Board/Reference set; three assembly Value/MPN/Fit columns; PCB/XML/model identity; actual PCB footprint, layer, coordinates and rotation. Mechanical SHIELD fabrication features are outside the assembly BOM.",
+  "failures": []
+}

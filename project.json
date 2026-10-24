@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "name": "Mesh Repeater",
+  "date": "2026-10-24",
+  "circuit": {
+    "project": "shared/schematic/MeshRepeater.kicad_pro",
+    "schematic": "shared/schematic/MeshRepeater.kicad_sch",
+    "profiles": "shared/variants.json"
+  },
+  "products": {
+    "v2": {
+      "version": "v2.06",
+      "legacy_revision": "A6",
+      "root": "v2",
+      "repository": "https://github.com/Alksndr55/mesh-repeater-2.0",
+      "bom": "v2/bom/COMPONENT_BOM.csv",
+      "boards": [
+        {
+          "name": "POWER",
+          "project": "v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro",
+          "schematic": "v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_sch",
+          "pcb": "v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pcb"
+        },
+        {
+          "name": "LOGIC",
+          "project": "v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro",
+          "schematic": "v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_sch",
+          "pcb": "v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pcb"
+        },
+        {
+          "name": "SHIELD",
+          "project": "v2/design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro",
+          "schematic": null,
+          "pcb": "v2/design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pcb"
+        }
+      ],
+      "documents": [
+        "docs/WORKFLOW_RU.md",
+        "docs/ASSEMBLY_COMMON_RU.md",
+        "v2/docs/ASSEMBLY_RU.md",
+        "v2/docs/MECHANICS_RU.md",
+        "v2/docs/LICENSING_RU_EN.md",
+        "docs/LIMITATIONS_RU.md"
+      ]
+    }
+  },
+  "leading_product": "v1"
+}

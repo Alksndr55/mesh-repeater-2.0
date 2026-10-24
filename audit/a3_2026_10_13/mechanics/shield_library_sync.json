@@ -1,9 +1,0 @@
-{
-  "date": "2026-10-13",
-  "pcb_sha256": "fd02b80ebdb509977bdfcd35df0430205db56f994914720b82cdbae6d73e3bec",
-  "footprint": "Shield_Interconnect_Window17p2x6p8_R0p6",
-  "native_library_graphics_equal": true,
-  "window_edge_graphic_count": 8,
-  "no_pin_drills": true,
-  "mechanical_excluded_from_bom_and_position": true
-}

@@ -1,1 +1,0 @@
-{"files": 4, "manifest": "docs/step_transport.json", "copies": [{"path": "output/POWER/MeshRepeater2_Power.step.gz", "size": 3643593}, {"path": "output/LOGIC/MeshRepeater2_Logic.step.gz", "size": 3160808}, {"path": "docs/mechanics/MeshRepeater2_assembly.step.gz", "size": 7519866}, {"path": "docs/mechanics/MeshRepeater2_exploded.step.gz", "size": 7519842}]}
