@@ -1,0 +1,59 @@
+{
+  "format_version": 1,
+  "status": "PASS",
+  "product_version": "v2.09",
+  "date": "2026-10-30",
+  "pcb_sha256": "a0e92eeb73246a3e0993a6582cfd8700deedc286539ab043debe9b0ac8423982",
+  "reviewer": "root independent native geometry and two-face visual review; Astra 6 Ultra board audit",
+  "reviewed_faces": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "audit_model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "checks": {
+    "whole_paths": "PASS",
+    "parallel_spacing": "PASS",
+    "signal_and_ground_duplicates": "PASS",
+    "critical_returns": "PASS",
+    "pad_entries_and_junctions": "PASS",
+    "ground_plane_connections": "PASS",
+    "thermal_reliefs": "PASS"
+  },
+  "grid_mm": 5,
+  "grid_origin_mm": [
+    0,
+    0
+  ],
+  "off_grid_vias": [],
+  "retained_ground_tracks": [],
+  "solid_ground_connections": [
+    {
+      "kind": "pad",
+      "uuid": "cb491e8b-4d59-4bfc-93f8-c8aecb058c65",
+      "reference": "GF1",
+      "pad": "1",
+      "electrical_reason": "Continuous shield foil and its GF1 ground contact; mechanical RF shield, no ordinary soldered electronic pad."
+    },
+    {
+      "kind": "zone",
+      "uuid": "0d7efd52-02cb-455c-9e91-8ff5a9efc0cb",
+      "name": "CONTINUOUS_GND_FOIL",
+      "connection_mode": "yes",
+      "electrical_reason": "Continuous shield foil and its GF1 ground contact; mechanical RF shield, no ordinary soldered electronic pad."
+    }
+  ],
+  "audited_candidate_sha256": "7dd86d370a6cc74904aa8b963e915371235fd3133e3891c3768b5186fc33587d",
+  "copper_unchanged_after_version_date_labels": {
+    "segment": true,
+    "via": true,
+    "arc": true,
+    "zone": true,
+    "net": true,
+    "layers": true,
+    "setup": true,
+    "general": true,
+    "footprint": true
+  },
+  "scope": "User-listed and analogous pad approaches, whole paths, parallel groups, GND overlays, real thermal reliefs, width changes, grid and exceptions. Preserves component/zone geometry, RF and critical returns. Native/static CAD evidence; no physical bench or RF approval."
+}

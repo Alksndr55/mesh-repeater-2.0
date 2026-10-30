@@ -1,15 +1,33 @@
-# Mesh Repeater v2.06
+# Mesh Repeater v2.09
 
-Designed by @Alksndritm. Исполнение POWER + LOGIC + SHIELD, платы 90×60 мм. Электрические изменения следуют ведущей v1, разводка адаптирована к двум рабочим платам. Общая схема содержит 150 функциональных позиций; текущая BOM POWER/LOGIC — 161 позиция и три варианта сборки. Прежнее обозначение этой редакции — A6.
+Исполнение POWER + LOGIC + SHIELD, 90×60 мм. Ведущая электрическая схема — v1.
 
-[Скачать готовый KiCad ZIP](https://github.com/Alksndr55/mesh-repeater-2.0/releases/download/v2.06/Mesh_Repeater_v2.06_KiCad.zip) · [SHA256](https://github.com/Alksndr55/mesh-repeater-2.0/releases/download/v2.06/SHA256SUMS.txt) · [Описание выпуска](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.06).
+[Готовый архив KiCad](https://github.com/Alksndr55/mesh-repeater-2.0/releases/download/v2.09/Mesh_Repeater_v2.09_KiCad.zip) · [Страница выпуска](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.09)
 
-- Открыть в KiCad: [POWER](v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro), [LOGIC](v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro), [SHIELD](v2/design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro).
-- [Общая электрическая схема](shared/schematic/MeshRepeater.kicad_pro), [PDF](shared/output/pdf/MeshRepeater_schematic.pdf), [физические профили](shared/variants.json).
-- [BOM](v2/bom/COMPONENT_BOM.csv), [сборка v2](v2/docs/ASSEMBLY_RU.md), [механика](v2/docs/MECHANICS_RU.md), [общая сборка](docs/ASSEMBLY_COMMON_RU.md).
-- [Свежие проверки CAD](v2/audit/current/checks.json), [проверка BOM](v2/audit/current/bom.json), [состав выпуска](RELEASE_MANIFEST.json).
-- [Единый процесс выпуска](docs/WORKFLOW_RU.md), [лицензия](v2/LICENSE.md).
+## Открытие проекта
 
-Для редактирования нужен KiCad 10 со стандартными библиотеками. Локальные библиотеки, модели, watchdog и текущие проверяющие команды входят в проект. Производственный экспорт выполняется отдельно.
+Полностью распакуйте архив перед открытием. Используйте KiCad 10 с официальными библиотеками; локальные модели и посадочные места включены.
 
-Инженерный прототип. Нулевые ERC/DRC не заменяют испытаний собранного стека. Перед USB снять J11 на POWER; доработка Nice!Nano и принятые ограничения LTO сохраняются. [Полный перечень ограничений](docs/LIMITATIONS_RU.md).
+- [POWER](v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro)
+- [LOGIC](v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro)
+- [SHIELD](v2/design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro)
+
+Общая электрическая схема: [KiCad](shared/schematic/MeshRepeater.kicad_pro), [PDF](shared/output/pdf/MeshRepeater_schematic.pdf).
+
+## Состав выпуска
+
+Исправлены подводы дорожек и острые стыки, удалены лишние GND-дорожки поверх заливки, восстановлены реальные термобарьеры. Земляные vias расположены по сетке 5 мм; местные исключения записаны в `routing_review.json` каждой платы. Расстановка и критические RF/Kelvin-участки сохранены.
+
+Watchdog **v1.00** включён в [v2/design/watchdog_reference](v2/design/watchdog_reference). Исходник и HEX совпадают с [канонической прошивкой](https://github.com/Alksndr55/watchdog/releases/tag/v1.00). Прошивка микросхемы и установка fuse выполняются отдельно.
+
+- [Полный список изменений разводки](docs/ROUTING_RESULT_RU.md)
+- [BOM](v2/bom/COMPONENT_BOM.csv) и [сборка](v2/docs/ASSEMBLY_RU.md)
+- [Свежие проверки](v2/audit/current/checks.json)
+- [Порядок выпуска](docs/WORKFLOW_RU.md), [аппаратные ограничения](docs/LIMITATIONS_RU.md)
+- [Лицензия](v2/LICENSE.md)
+
+ERC/DRC и соответствие общей схеме проверены для точных файлов выпуска. Проверка распакованного пакета выполнена независимо. Это инженерный прототип; CAD-проверки не являются испытанием платы.
+
+Каталоги `v2/`, `shared/`, `docs/`, `tools/project/` составляют переносимый проект этого исполнения. Архив другого исполнения, исторические снимки и производственные пакеты в него не включены.
+
+Designed by @Alksndritm.

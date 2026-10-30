@@ -1,0 +1,388 @@
+{
+  "format_version": 1,
+  "status": "PASS",
+  "product_version": "v2.09",
+  "date": "2026-10-30",
+  "pcb_sha256": "a31718d55881527e7f67f04c4150810ac9064586397384008fb8f669bcfa5ddc",
+  "reviewer": "root independent native geometry and two-face visual review; Astra 6 Ultra board audit",
+  "reviewed_faces": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "audit_model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "checks": {
+    "whole_paths": "PASS",
+    "parallel_spacing": "PASS",
+    "signal_and_ground_duplicates": "PASS",
+    "critical_returns": "PASS",
+    "pad_entries_and_junctions": "PASS",
+    "ground_plane_connections": "PASS",
+    "thermal_reliefs": "PASS"
+  },
+  "grid_mm": 5,
+  "grid_origin_mm": [
+    0,
+    0
+  ],
+  "off_grid_vias": [
+    {
+      "uuid": "c46289d8-5b17-4109-9806-cedc1b39510b",
+      "xy_mm": [
+        61.2,
+        8.125
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short local ground return for U7.1 translator ground; final removal probe shows this via is not required for DC connectivity"
+    },
+    {
+      "uuid": "c7ca64a9-58f1-400f-bddd-305ba01da4f0",
+      "xy_mm": [
+        61.4,
+        6.3
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short local ground return for C56.2 GPS rail decoupling; final removal probe shows this via is not required for DC connectivity"
+    },
+    {
+      "uuid": "31a86191-56ea-49ee-8afd-d5b7df876e51",
+      "xy_mm": [
+        62.1,
+        11.725
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for U7.4"
+    },
+    {
+      "uuid": "31e2d266-a812-4cb7-85ad-f134fd1dbd52",
+      "xy_mm": [
+        7.65,
+        29.0
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C26.2"
+    },
+    {
+      "uuid": "fca47ee8-0511-4439-905b-3ae468285ecd",
+      "xy_mm": [
+        32.95,
+        18.55
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C25.2"
+    },
+    {
+      "uuid": "87249bf7-0136-4ac9-85d2-5277eb576c45",
+      "xy_mm": [
+        61.3,
+        3.2
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C57.2"
+    },
+    {
+      "uuid": "83feb417-26c2-4df1-b7b8-44f8d34d742c",
+      "xy_mm": [
+        41.525,
+        41.4
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C33.2"
+    },
+    {
+      "uuid": "9f83f2fb-d9f8-45cd-b329-8b63cd339412",
+      "xy_mm": [
+        71.55,
+        8.365
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C27.2"
+    },
+    {
+      "uuid": "18cf0466-7a65-4037-a8e7-6b812092f41b",
+      "xy_mm": [
+        37.6,
+        11.7
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C24.2"
+    },
+    {
+      "uuid": "f091044f-d7d8-4147-9c60-46efd5f28f51",
+      "xy_mm": [
+        28.05,
+        11.35
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C21.2"
+    },
+    {
+      "uuid": "d3c0fecf-265e-439b-b462-0a5a6431e611",
+      "xy_mm": [
+        46.475,
+        31.095
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for U6.4"
+    },
+    {
+      "uuid": "f4251451-eb9d-4885-bcb7-54c3598e855f",
+      "xy_mm": [
+        32.1,
+        9.1
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C22.2"
+    },
+    {
+      "uuid": "1eb9a9fc-ae69-4bb5-acc8-227129eb1f71",
+      "xy_mm": [
+        41.5,
+        13.0
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for M2.2"
+    },
+    {
+      "uuid": "f9b9f228-baf6-4c8e-b578-0c6b56cc32ab",
+      "xy_mm": [
+        56.0,
+        26.25
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for M2.9"
+    },
+    {
+      "uuid": "cb6d7786-42fc-4d39-9ed3-377322ed7d8c",
+      "xy_mm": [
+        54.5,
+        11.0
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for M2.16"
+    },
+    {
+      "uuid": "3e3917d2-5c19-4ce0-bb01-1742fbe69c75",
+      "xy_mm": [
+        79.475,
+        10.905
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for U4.5"
+    },
+    {
+      "uuid": "7d9f7449-942c-4e35-a7f5-e67f9b049a78",
+      "xy_mm": [
+        35.6,
+        9.45
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short interlayer return for C23.2"
+    },
+    {
+      "uuid": "b64dacd8-f4db-43f8-98f5-accafd4b0f11",
+      "xy_mm": [
+        34.5,
+        2.25
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "6c3af18c-45f8-4231-ade4-ea25eecb845f",
+      "xy_mm": [
+        34.5,
+        6.25
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "f2daf997-f076-4b69-99ff-dd394c616ed0",
+      "xy_mm": [
+        39.5,
+        2.25
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "6f6a5b45-37aa-4dfd-ab76-8911ca545587",
+      "xy_mm": [
+        39.5,
+        6.25
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "e99c0042-f8b5-4f62-bbef-01ba1179fba6",
+      "xy_mm": [
+        41.2,
+        2.25
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "1c4f569e-cd81-4580-b1fe-db9bcb8c04cc",
+      "xy_mm": [
+        41.2,
+        6.25
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "7635d79d-6878-4938-afad-40163ba2f2a5",
+      "xy_mm": [
+        45.5,
+        6.95
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "986b5b2f-ecde-4b1e-a33f-be910a3bfde3",
+      "xy_mm": [
+        43.535,
+        10.293
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "0ea45291-2bca-439f-b1a9-585c17a995bf",
+      "xy_mm": [
+        40.707,
+        7.465
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "ea2278d7-287c-4ec9-8cee-016126a325b9",
+      "xy_mm": [
+        38.939,
+        9.232
+      ],
+      "category": "rf_fence",
+      "electrical_reason": "RF CPW interlayer fence return alongside unchanged J13/FL1/NT1/M2 RF path; maintains local RF return, not just DC continuity"
+    },
+    {
+      "uuid": "79dcd727-d053-4b07-80b1-e983293bd00b",
+      "xy_mm": [
+        67.2,
+        9.675
+      ],
+      "category": "local_return",
+      "electrical_reason": "Short local GND reference for U7.7 OE2 input, 1.3mm from pad; via remains .45mm beyond pad copper and does not bridge the .2mm thermal moat. Final removal test proves DC continuity also exists through filled copper."
+    }
+  ],
+  "retained_ground_tracks": [],
+  "solid_ground_connections": [
+    {
+      "kind": "zone",
+      "uuid": "d9c3640b-4cc2-4529-945e-d2479332016f",
+      "name": "RF_CPW_GND_1",
+      "electrical_reason": "Preserved RF CPW return zone: continuous coplanar ground and fixed .25mm RF clearance, not an ordinary solder-pad thermal zone"
+    },
+    {
+      "kind": "pad",
+      "uuid": "108e4351-3145-4fc2-be01-6e153f16b701",
+      "ref": "J13",
+      "pin": "2",
+      "electrical_reason": "RF SMA shield pad requires broad continuous return into CPW ground"
+    },
+    {
+      "kind": "pad",
+      "uuid": "30df2823-48e0-4c1e-b028-640d3bd97a44",
+      "ref": "J13",
+      "pin": "2",
+      "electrical_reason": "RF SMA shield pad requires broad continuous return into CPW ground"
+    },
+    {
+      "kind": "pad",
+      "uuid": "1efb9129-c6bf-41ca-aca5-22e804cf5f57",
+      "ref": "J13",
+      "pin": "2",
+      "electrical_reason": "RF SMA shield pad requires broad continuous return into CPW ground"
+    },
+    {
+      "kind": "pad",
+      "uuid": "ad7b0585-6aa3-4776-a881-e1e7de9e49a9",
+      "ref": "J13",
+      "pin": "2",
+      "electrical_reason": "RF SMA shield pad requires broad continuous return into CPW ground"
+    },
+    {
+      "kind": "pad",
+      "uuid": "329bdf51-180f-462a-b7fb-76b2fe8590b7",
+      "ref": "H203",
+      "pin": "1",
+      "electrical_reason": "Mechanical mounting/shield contact copper, no soldered electronic pin; preserved broad chassis ground contact"
+    },
+    {
+      "kind": "pad",
+      "uuid": "ac53e49f-b1f9-4d33-b1fc-b5084911c3e5",
+      "ref": "H201",
+      "pin": "1",
+      "electrical_reason": "Mechanical mounting/shield contact copper, no soldered electronic pin; preserved broad chassis ground contact"
+    },
+    {
+      "kind": "pad",
+      "uuid": "664fbe67-881b-4a14-8160-3492ec309fa1",
+      "ref": "FL1",
+      "pin": "1",
+      "electrical_reason": "RF filter ground pad requires short continuous RF return"
+    },
+    {
+      "kind": "pad",
+      "uuid": "10114ff9-f955-41a6-a06c-f58142ddedf8",
+      "ref": "FL1",
+      "pin": "3",
+      "electrical_reason": "RF filter ground pad requires short continuous RF return"
+    },
+    {
+      "kind": "pad",
+      "uuid": "67cc2680-2e7c-4a78-8e68-79c92a4d90e0",
+      "ref": "FL1",
+      "pin": "4",
+      "electrical_reason": "RF filter ground pad requires short continuous RF return"
+    },
+    {
+      "kind": "pad",
+      "uuid": "38a1b4f1-25c5-439c-b2de-3bd4cee5cec2",
+      "ref": "FL1",
+      "pin": "6",
+      "electrical_reason": "RF filter ground pad requires short continuous RF return"
+    },
+    {
+      "kind": "pad",
+      "uuid": "14102a26-30f6-406a-8c61-2e8a62e638a6",
+      "ref": "H204",
+      "pin": "1",
+      "electrical_reason": "Mechanical mounting/shield contact copper, no soldered electronic pin; preserved broad chassis ground contact"
+    },
+    {
+      "kind": "pad",
+      "uuid": "a57337f4-ed99-4875-95cc-923135fa17a0",
+      "ref": "H202",
+      "pin": "1",
+      "electrical_reason": "Mechanical mounting/shield contact copper, no soldered electronic pin; preserved broad chassis ground contact"
+    }
+  ],
+  "audited_candidate_sha256": "d331288ce1fa1f90cac63273c9e1b29bb9a290a48af0c03ee827af7e165b9ba4",
+  "copper_unchanged_after_version_date_labels": {
+    "segment": true,
+    "via": true,
+    "arc": true,
+    "zone": true,
+    "net": true,
+    "layers": true,
+    "setup": true,
+    "general": true,
+    "footprint": true
+  },
+  "scope": "User-listed and analogous pad approaches, whole paths, parallel groups, GND overlays, real thermal reliefs, width changes, grid and exceptions. Preserves component/zone geometry, RF and critical returns. Native/static CAD evidence; no physical bench or RF approval."
+}

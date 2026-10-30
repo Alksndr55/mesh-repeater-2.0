@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "User project watchdog/main.c: PB3 rising-edge heartbeat, PB0 open-drain reset. 1350 WDT ticks (~3h) then1s reset; source firmware unchanged. Danomsk S4.6 approved substitution. Совпадает точный MPN; в наличии две детали."
+	(property "Description" "Watchdog v1.00: PB3 activity input, PB0 open-drain reset; full WDT restart, boundary-edge handling, stuck-HIGH timeout. 1350 WDT periods (typ. ~3.5h at 3.3V), one nominal 1s reset period; LFUSE=0x73, HFUSE=0xFB. Danomsk S4.6 approved substitution. Совпадает точный MPN; в наличии две детали."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

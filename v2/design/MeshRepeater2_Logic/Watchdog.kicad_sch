@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "6f94559e-7e06-54db-8d6a-74e7222a02c0")
 	(paper "A3")
-	(title_block (title "ATtiny13A / watchdog") (date "2026-10-24") (rev "v2.06") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "ATtiny13A / watchdog") (date "2026-10-30") (rev "v2.09") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names
@@ -11575,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Description" "User project watchdog/main.c: PB3 rising-edge heartbeat, PB0 open-drain reset. 1350 WDT ticks (~3h) then1s reset; source firmware unchanged. Danomsk S4.6 approved substitution. Совпадает точный MPN; в наличии две детали."
+		(property "Description" "Watchdog v1.00: PB3 activity input, PB0 open-drain reset; full WDT restart, boundary-edge handling, stuck-HIGH timeout. 1350 WDT periods (typ. ~3.5h at 3.3V), one nominal 1s reset period; LFUSE=0x73, HFUSE=0xFB. Danomsk S4.6 approved substitution. Совпадает точный MPN; в наличии две детали."
 			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)

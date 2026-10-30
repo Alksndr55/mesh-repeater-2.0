@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "product_version": "v2.09",
+  "boards": [
+    {
+      "pcb_sha256": "b3614370dea6b04f0b51633e94c1d30e4b62241e5df6a1e48247ab84b77074de",
+      "segments": 486,
+      "via_count": 175,
+      "short_segments_below_0_05mm": [
+        {
+          "uuid": "7578b518-058b-4148-8935-3f83407a35f7",
+          "net": "/4. Thermal/CHG_VREF",
+          "layer": "F.Cu",
+          "start_mm": [
+            47.5125,
+            44.6
+          ],
+          "end_mm": [
+            47.5,
+            44.6
+          ],
+          "width_mm": 0.2,
+          "length_mm": 0.0125
+        },
+        {
+          "uuid": "24837f63-cbea-4d39-b0f7-810e4d20a93f",
+          "net": "CS_P",
+          "layer": "F.Cu",
+          "start_mm": [
+            34.9625,
+            30.45
+          ],
+          "end_mm": [
+            34.95,
+            30.45
+          ],
+          "width_mm": 0.8,
+          "length_mm": 0.0125
+        },
+        {
+          "uuid": "3cb09524-ef61-40cd-b1f9-6efb5d23e22b",
+          "net": "CHG_G_SHUNT",
+          "layer": "F.Cu",
+          "start_mm": [
+            29.25,
+            27.1125
+          ],
+          "end_mm": [
+            29.25,
+            27.1
+          ],
+          "width_mm": 0.2,
+          "length_mm": 0.0125
+        },
+        {
+          "uuid": "bbc14e64-6866-4d59-98e1-4ad8b0e1f996",
+          "net": "CHG_G_SHUNT",
+          "layer": "F.Cu",
+          "start_mm": [
+            32.6,
+            46.85
+          ],
+          "end_mm": [
+            32.5875,
+            46.8625
+          ],
+          "width_mm": 0.2,
+          "length_mm": 0.01767766952966369
+        },
+        {
+          "uuid": "d9781cba-7b2d-4c94-bd0a-9aa9015ea8dc",
+          "net": "/4. Thermal/CHG_WARM",
+          "layer": "F.Cu",
+          "start_mm": [
+            40.6,
+            46.85
+          ],
+          "end_mm": [
+            40.5875,
+            46.8625
+          ],
+          "width_mm": 0.2,
+          "length_mm": 0.01767766952966369
+        }
+      ],
+      "name": "POWER",
+      "ground_vias": 106,
+      "ground_on_grid": 95,
+      "ground_off_grid": 11,
+      "review_sha256": "a22bd5b6d3c758a54b6035f2d2fe95d6cd9769dfde722e578ac3bbe84e561e11",
+      "retained_ground_tracks": 3,
+      "solid_ground_connections": 5,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "pcb_sha256": "a31718d55881527e7f67f04c4150810ac9064586397384008fb8f669bcfa5ddc",
+      "segments": 414,
+      "via_count": 197,
+      "short_segments_below_0_05mm": [],
+      "name": "LOGIC",
+      "ground_vias": 107,
+      "ground_on_grid": 79,
+      "ground_off_grid": 28,
+      "review_sha256": "9426a4923f1116e0669a028e002a2e3ad820c072336f0cc75b4e87349ef61ef7",
+      "retained_ground_tracks": 0,
+      "solid_ground_connections": 13,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "pcb_sha256": "a0e92eeb73246a3e0993a6582cfd8700deedc286539ab043debe9b0ac8423982",
+      "segments": 0,
+      "via_count": 0,
+      "short_segments_below_0_05mm": [],
+      "name": "SHIELD",
+      "ground_vias": 0,
+      "ground_on_grid": 0,
+      "ground_off_grid": 0,
+      "review_sha256": "a95e275f79994c2347dddab506e7a047500ef3c3c553000adf485cff0b4949f2",
+      "retained_ground_tracks": 0,
+      "solid_ground_connections": 2,
+      "failures": [],
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "scope": "Measured routing geometry, grid ledger and exact-PCB two-face review. Whole-path style, parallel spacing and electrical return needs are reviewed explicitly; DRC alone is not routing acceptance."
+}

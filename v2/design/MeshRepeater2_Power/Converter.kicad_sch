@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "42ef98e6-fce3-5ab2-af9c-d8935080cf5c")
 	(paper "A3")
-	(title_block (title "TPS63802 / питание и фильтр") (date "2026-10-24") (rev "v2.06") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "TPS63802 / питание и фильтр") (date "2026-10-30") (rev "v2.09") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names

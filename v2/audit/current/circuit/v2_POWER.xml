@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Users\Alksndr\Desktop\codex\Meshcore\v2\design\MeshRepeater2_Power\MeshRepeater2_Power.kicad_sch</source>
-    <date>2026-10-24T20:21:10</date>
-    <tool>Eeschema 10.0.6</tool>
+    <date>2026-10-30T23:19:39</date>
+    <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CN3722 / зарядка Na-ion и LTO</title>
         <company/>
-        <rev>v2.06</rev>
-        <date>2026-10-24</date>
+        <rev>v2.09</rev>
+        <date>2026-10-30</date>
         <source>MeshRepeater2_Power.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>TPS63802 / питание и фильтр</title>
         <company/>
-        <rev>v2.06</rev>
-        <date>2026-10-24</date>
+        <rev>v2.09</rev>
+        <date>2026-10-30</date>
         <source>Converter.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>LMV431A / LTO 2S опция</title>
         <company/>
-        <rev>v2.06</rev>
-        <date>2026-10-24</date>
+        <rev>v2.09</rev>
+        <date>2026-10-30</date>
         <source>LTO_Balancer.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>LM393XK / холодный заряд Na-ion</title>
         <company/>
-        <rev>v2.06</rev>
-        <date>2026-10-24</date>
+        <rev>v2.09</rev>
+        <date>2026-10-30</date>
         <source>Thermal.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -80,8 +80,8 @@
       <title_block>
         <title>INA219 / батарея и ток</title>
         <company/>
-        <rev>v2.06</rev>
-        <date>2026-10-24</date>
+        <rev>v2.09</rev>
+        <date>2026-10-30</date>
         <source>BatteryMonitor.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -98,8 +98,8 @@
       <title_block>
         <title>Межплатное соединение / POWER ↔ LOGIC</title>
         <company/>
-        <rev>v2.06</rev>
-        <date>2026-10-24</date>
+        <rev>v2.09</rev>
+        <date>2026-10-30</date>
         <source>Interconnect.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
