@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "42ef98e6-fce3-5ab2-af9c-d8935080cf5c")
 	(paper "A3")
-	(title_block (title "TPS63802 / питание и фильтр") (date "2026-10-30") (rev "v2.09") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "TPS63802 / питание и фильтр") (date "2026-11-06") (rev "v2.10") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names
@@ -14778,7 +14778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Meshcore:L_Coilcraft_XGL4020_471MEC__V2_L2"
+		(property "Footprint" "Meshcore:L_Coilcraft_XGL4020_471MEC_HandSolderUniversal"
 			(at 87.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14799,7 +14799,7 @@
 				)
 			)
 		)
-		(property "Description" "Shielded 0.47uH power inductor; body 4.0+/-0.3mm square, maximum height 2.10mm. Official Coilcraft recommended copper lands; mask, paste and F.Cu under-coil keepout are engineering choices."
+		(property "Description" "Required 0.47uH power inductor; reference MPN XGL4020-471MEC. Custom hand-solder lands extend the outer copper edges by 0.5mm each. The user-supplied donor inductor has no confirmed MPN: inductance, saturation current, DCR, dimensions and operating temperature require confirmation; enlarged lands do not establish electrical compatibility."
 			(at 87.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16020,7 +16020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Meshcore:C_0603_1608Metric__V2_C13"
+		(property "Footprint" "Meshcore:C_0805_2012Metric"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16041,7 +16041,7 @@
 				)
 			)
 		)
-		(property "Description" "Danomsk S4.6 approved substitution. Точный MPN местного каталога; высокочастотная развязка TPS63802."
+		(property "Description" "Высокочастотная развязка входа TPS63802: 100nF, 50V, X7R, 0805. Унифицированный CL21B104KBCNNNC; сохранить короткое соединение VIN-GND."
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16052,7 +16052,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16085,7 +16085,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/731-kondensatory-smd-0603/142040-chip-kond-0603-x7r-0-1uf-10-50v-cl10b104kb8nnnc-cc0603-sam/"
+		(property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16162,7 +16162,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon" "CL10B104KB8NNNC"
+		(property "MPN_NaIon" "CL21B104KBCNNNC"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16173,7 +16173,7 @@
 				)
 			)
 		)
-		(property "MPN_LTO_2S" "CL10B104KB8NNNC"
+		(property "MPN_LTO_2S" "CL21B104KBCNNNC"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16206,7 +16206,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon_NoCold" "CL10B104KB8NNNC"
+		(property "MPN_NaIon_NoCold" "CL21B104KBCNNNC"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)

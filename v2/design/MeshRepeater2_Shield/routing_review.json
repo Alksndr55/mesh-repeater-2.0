@@ -1,16 +1,14 @@
 {
   "format_version": 1,
   "status": "PASS",
-  "product_version": "v2.09",
-  "date": "2026-10-30",
-  "pcb_sha256": "a0e92eeb73246a3e0993a6582cfd8700deedc286539ab043debe9b0ac8423982",
-  "reviewer": "root independent native geometry and two-face visual review; Astra 6 Ultra board audit",
+  "product_version": "v2.10",
+  "date": "2026-11-06",
+  "pcb_sha256": "82ece25f81bc8096141510050d9da055e15b93c41e755cb36554a8a89bf5918b",
+  "reviewer": "root: both-face native export and exact geometry preservation comparison",
   "reviewed_faces": [
     "F.Cu",
     "B.Cu"
   ],
-  "audit_model": "gpt-6-astra",
-  "reasoning_effort": "ultra",
   "checks": {
     "whole_paths": "PASS",
     "parallel_spacing": "PASS",
@@ -55,5 +53,10 @@
     "general": true,
     "footprint": true
   },
-  "scope": "User-listed and analogous pad approaches, whole paths, parallel groups, GND overlays, real thermal reliefs, width changes, grid and exceptions. Preserves component/zone geometry, RF and critical returns. Native/static CAD evidence; no physical bench or RF approval."
+  "scope": "User-listed and analogous pad approaches, whole paths, parallel groups, GND overlays, real thermal reliefs, width changes, grid and exceptions. Preserves component/zone geometry, RF and critical returns. Native/static CAD evidence; no physical bench or RF approval.",
+  "evidence": [
+    "history/assembly-standard-2026-11-06/SHIELD_both.png",
+    "history/assembly-standard-2026-11-06/SHIELD_final_drc.json"
+  ],
+  "skipped_grid_points": []
 }

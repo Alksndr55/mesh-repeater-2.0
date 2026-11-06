@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "5ebd556d-efa6-5255-bbf8-be7ff705421d")
 	(paper "A3")
-	(title_block (title "DS3231M / разъёмы") (date "2026-10-30") (rev "v2.09") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "DS3231M / разъёмы") (date "2026-11-06") (rev "v2.10") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names
@@ -14906,7 +14906,7 @@
 				)
 			)
 		)
-		(property "Description" "Both UART directions buffered from switched GPS supply. TI Ioff partial-power-down protection prevents UART back-power; DCT pinout: 1 OE1, 2 A1, 3 Y2, 4 GND, 5 A2, 6 Y1, 7 OE2, 8 VCC."
+		(property "Description" "Both UART directions buffered from switched GPS supply. TI Ioff partial-power-down protection prevents UART back-power. Package SSOP (DCT), 8 pins; pin 1 = OE1. DCT pinout: 1 OE1, 2 A1, 3 Y2, 4 GND, 5 A2, 6 Y1, 7 OE2, 8 VCC."
 			(at 330.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14950,7 +14950,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.ti.com/product/SN74LVC2G125"
+		(property "Vendor URL" "https://www.ti.com/product/SN74LVC2G125/part-details/SN74LVC2G125DCTR"
 			(at 330.2 139.7 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,844 @@
+{
+  "status": "PASS",
+  "format": "KiCad PDF with invisible component-body text",
+  "native_pdf_sha256": "ea2b1980468562ce5740707a31991e9e1c3efa5eed8ba1e3f9feea5ec93b0b34",
+  "pdf_sha256": "d93a5815f0765160925a0753e3560b167ca19c05fc850f11d09b371dc065587a",
+  "schematic_sha256": {
+    "v2/design/MeshRepeater2_Logic/Interconnect.kicad_sch": "19cb482b8141f61fd00f7ba0678559d375ffaa52b9eb17a95c0432f6ad2b97a0",
+    "v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_sch": "d800ccade1b253f22886057d6c15d38afc324b67f1471f7ba11c9ce4493408cd",
+    "v2/design/MeshRepeater2_Logic/RTC_IO.kicad_sch": "a8eda9d75da2bac689fef18a5da0f2e7b1ec52a10252b28f00adf0115d05cec5",
+    "v2/design/MeshRepeater2_Logic/Watchdog.kicad_sch": "a9989f9daa0a19507e3f71156890fc1591f2c86a1ae889d9bc0501bf90a8ae36"
+  },
+  "components": 56,
+  "pages": 4,
+  "body_regions": {
+    "1": [
+      {
+        "reference": "R35",
+        "body_pdf": [
+          453.24000000000007,
+          493.0559999999999,
+          468.36000000000007,
+          499.53599999999994
+        ]
+      },
+      {
+        "reference": "C22",
+        "body_pdf": [
+          683.2800000000001,
+          359.13599999999997,
+          699.1200000000001,
+          374.256
+        ]
+      },
+      {
+        "reference": "C24",
+        "body_pdf": [
+          769.6800000000001,
+          625.536,
+          785.52,
+          640.656
+        ]
+      },
+      {
+        "reference": "FB1",
+        "body_pdf": [
+          704.7900000000001,
+          733.536,
+          720.8100000000001,
+          737.856
+        ]
+      },
+      {
+        "reference": "R23",
+        "body_pdf": [
+          428.04,
+          640.656,
+          443.16,
+          647.136
+        ]
+      },
+      {
+        "reference": "FL1",
+        "body_pdf": [
+          770.04,
+          488.73599999999993,
+          813.96,
+          525.4559999999999
+        ]
+      },
+      {
+        "reference": "NT1",
+        "body_pdf": [
+          784.08,
+          541.0408818897637,
+          799.92,
+          552.3511181102361
+        ]
+      },
+      {
+        "reference": "R25",
+        "body_pdf": [
+          428.04,
+          597.4559999999999,
+          443.16,
+          603.9359999999999
+        ]
+      },
+      {
+        "reference": "R24",
+        "body_pdf": [
+          428.04,
+          626.2559999999999,
+          443.16,
+          632.7359999999999
+        ]
+      },
+      {
+        "reference": "M2",
+        "body_pdf": [
+          546.84,
+          542.7359999999999,
+          677.1600000000001,
+          701.856
+        ]
+      },
+      {
+        "reference": "C23",
+        "body_pdf": [
+          704.8800000000001,
+          625.536,
+          720.7200000000001,
+          640.656
+        ]
+      },
+      {
+        "reference": "R27",
+        "body_pdf": [
+          83.16000000000001,
+          495.9359999999999,
+          89.64000000000001,
+          511.0559999999999
+        ]
+      },
+      {
+        "reference": "R26",
+        "body_pdf": [
+          489.24,
+          611.8559999999999,
+          504.36,
+          618.3359999999999
+        ]
+      },
+      {
+        "reference": "C21",
+        "body_pdf": [
+          611.28,
+          359.13599999999997,
+          627.1200000000001,
+          374.256
+        ]
+      },
+      {
+        "reference": "SW2",
+        "body_pdf": [
+          100.44000000000001,
+          337.53599999999983,
+          115.56000000000002,
+          352.65599999999984
+        ]
+      },
+      {
+        "reference": "R31",
+        "body_pdf": [
+          291.96000000000004,
+          409.5359999999999,
+          298.44000000000005,
+          424.6559999999999
+        ]
+      },
+      {
+        "reference": "C25",
+        "body_pdf": [
+          150.48000000000002,
+          438.33599999999996,
+          166.32000000000002,
+          453.45599999999996
+        ]
+      },
+      {
+        "reference": "C26",
+        "body_pdf": [
+          362.88,
+          344.73599999999993,
+          378.7200000000001,
+          359.85599999999994
+        ]
+      },
+      {
+        "reference": "J13",
+        "body_pdf": [
+          885.2400000000001,
+          495.9359999999999,
+          907.5600000000001,
+          518.2559999999999
+        ]
+      },
+      {
+        "reference": "R28",
+        "body_pdf": [
+          83.16000000000001,
+          438.33599999999996,
+          89.64000000000001,
+          453.45599999999996
+        ]
+      },
+      {
+        "reference": "M1",
+        "body_pdf": [
+          150.84000000000003,
+          499.5359999999999,
+          353.1600000000001,
+          701.856
+        ]
+      },
+      {
+        "reference": "SW1",
+        "body_pdf": [
+          251.64000000000001,
+          337.53599999999983,
+          266.76000000000005,
+          352.65599999999984
+        ]
+      }
+    ],
+    "2": [
+      {
+        "reference": "J3",
+        "body_pdf": [
+          568.44,
+          639.9359999999999,
+          597.96,
+          698.256
+        ]
+      },
+      {
+        "reference": "J5",
+        "body_pdf": [
+          568.44,
+          521.136,
+          597.96,
+          579.4559999999999
+        ]
+      },
+      {
+        "reference": "U4",
+        "body_pdf": [
+          179.64,
+          531.9359999999999,
+          266.76000000000005,
+          676.656
+        ]
+      },
+      {
+        "reference": "C57",
+        "body_pdf": [
+          928.0800000000002,
+          650.7359999999999,
+          943.9200000000001,
+          665.856
+        ]
+      },
+      {
+        "reference": "R44",
+        "body_pdf": [
+          690.84,
+          554.2559999999999,
+          705.96,
+          560.7359999999999
+        ]
+      },
+      {
+        "reference": "Q2",
+        "body_pdf": [
+          752.0400000000001,
+          672.3359999999999,
+          781.5600000000001,
+          692.856
+        ]
+      },
+      {
+        "reference": "R29",
+        "body_pdf": [
+          320.76000000000005,
+          675.9359999999999,
+          327.24,
+          691.0559999999999
+        ]
+      },
+      {
+        "reference": "R46",
+        "body_pdf": [
+          846.3600000000002,
+          665.136,
+          852.84,
+          680.256
+        ]
+      },
+      {
+        "reference": "R30",
+        "body_pdf": [
+          392.76,
+          675.9359999999999,
+          399.24,
+          691.0559999999999
+        ]
+      },
+      {
+        "reference": "BT1",
+        "body_pdf": [
+          74.88000000000001,
+          567.9359999999999,
+          97.92,
+          597.4559999999999
+        ]
+      },
+      {
+        "reference": "U7",
+        "body_pdf": [
+          899.6400000000001,
+          387.9359999999999,
+          972.36,
+          503.85599999999994
+        ]
+      },
+      {
+        "reference": "J4",
+        "body_pdf": [
+          1061.64,
+          621.9359999999999,
+          1119.96,
+          752.256
+        ]
+      },
+      {
+        "reference": "R42",
+        "body_pdf": [
+          691.5600000000001,
+          614.7359999999999,
+          698.0400000000001,
+          629.856
+        ]
+      },
+      {
+        "reference": "C27",
+        "body_pdf": [
+          100.08000000000003,
+          661.536,
+          115.92,
+          676.656
+        ]
+      },
+      {
+        "reference": "C56",
+        "body_pdf": [
+          1100.8800000000003,
+          398.73599999999993,
+          1116.72,
+          413.85599999999994
+        ]
+      },
+      {
+        "reference": "R45",
+        "body_pdf": [
+          846.3600000000002,
+          571.536,
+          852.84,
+          586.656
+        ]
+      },
+      {
+        "reference": "Q3",
+        "body_pdf": [
+          752.0400000000001,
+          542.7359999999999,
+          770.76,
+          572.2559999999999
+        ]
+      },
+      {
+        "reference": "R43",
+        "body_pdf": [
+          720.3600000000001,
+          503.1359999999999,
+          726.8400000000001,
+          518.2559999999999
+        ]
+      }
+    ],
+    "3": [
+      {
+        "reference": "J10",
+        "body_pdf": [
+          611.6400000000001,
+          553.536,
+          641.16,
+          640.656
+        ]
+      },
+      {
+        "reference": "R33",
+        "body_pdf": [
+          489.9600000000001,
+          686.7359999999999,
+          496.44000000000005,
+          701.856
+        ]
+      },
+      {
+        "reference": "R37",
+        "body_pdf": [
+          410.04,
+          647.856,
+          425.16,
+          654.3359999999999
+        ]
+      },
+      {
+        "reference": "R38",
+        "body_pdf": [
+          93.24000000000001,
+          575.856,
+          108.36000000000003,
+          582.336
+        ]
+      },
+      {
+        "reference": "U6",
+        "body_pdf": [
+          244.44,
+          549.9359999999999,
+          331.56000000000006,
+          680.2559999999999
+        ]
+      },
+      {
+        "reference": "R39",
+        "body_pdf": [
+          169.56000000000003,
+          528.3359999999999,
+          176.04000000000002,
+          543.4559999999999
+        ]
+      },
+      {
+        "reference": "R36",
+        "body_pdf": [
+          169.56000000000003,
+          647.136,
+          176.04000000000002,
+          662.2559999999999
+        ]
+      },
+      {
+        "reference": "C33",
+        "body_pdf": [
+          92.88000000000002,
+          672.3359999999999,
+          108.72000000000001,
+          687.4559999999999
+        ]
+      }
+    ],
+    "4": [
+      {
+        "reference": "TP4",
+        "body_pdf": [
+          314.2800000000001,
+          695.376,
+          319.32000000000005,
+          700.4159999999999
+        ]
+      },
+      {
+        "reference": "H204",
+        "body_pdf": [
+          755.6400000000002,
+          351.93599999999986,
+          770.76,
+          367.05599999999987
+        ]
+      },
+      {
+        "reference": "H202",
+        "body_pdf": [
+          582.84,
+          351.93599999999986,
+          597.96,
+          367.05599999999987
+        ]
+      },
+      {
+        "reference": "H201",
+        "body_pdf": [
+          496.44000000000005,
+          351.93599999999986,
+          511.5600000000001,
+          367.05599999999987
+        ]
+      },
+      {
+        "reference": "TP7",
+        "body_pdf": [
+          314.2800000000001,
+          623.376,
+          319.32000000000005,
+          628.4159999999999
+        ]
+      },
+      {
+        "reference": "H203",
+        "body_pdf": [
+          669.24,
+          351.93599999999986,
+          684.36,
+          367.05599999999987
+        ]
+      },
+      {
+        "reference": "J201",
+        "body_pdf": [
+          604.44,
+          528.3359999999999,
+          648.36,
+          701.856
+        ]
+      },
+      {
+        "reference": "R21",
+        "body_pdf": [
+          208.44000000000003,
+          572.2559999999999,
+          223.56000000000003,
+          578.7359999999999
+        ]
+      }
+    ]
+  },
+  "verification": [
+    {
+      "page": 1,
+      "render_144dpi_identical": true,
+      "render_sha256": "7ac7bdbba3a861ad9385bc81e95a87c58999007b5be10c47ceea68e1135e4350",
+      "body_targets": [
+        {
+          "reference": "R35",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C22",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C24",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "FB1",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R23",
+          "body_hit_samples": 11,
+          "samples": 15
+        },
+        {
+          "reference": "FL1",
+          "body_hit_samples": 14,
+          "samples": 15
+        },
+        {
+          "reference": "NT1",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R25",
+          "body_hit_samples": 10,
+          "samples": 15
+        },
+        {
+          "reference": "R24",
+          "body_hit_samples": 10,
+          "samples": 15
+        },
+        {
+          "reference": "M2",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C23",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R27",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R26",
+          "body_hit_samples": 10,
+          "samples": 15
+        },
+        {
+          "reference": "C21",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "SW2",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R31",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C25",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C26",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "J13",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "R28",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "M1",
+          "body_hit_samples": 14,
+          "samples": 15
+        },
+        {
+          "reference": "SW1",
+          "body_hit_samples": 15,
+          "samples": 15
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "render_144dpi_identical": true,
+      "render_sha256": "5f5f80f727028f792652a12d9690c16cdbdbb744706c508b8a56fff5a20a644a",
+      "body_targets": [
+        {
+          "reference": "J3",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "J5",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "U4",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "C57",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R44",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "Q2",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R29",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R46",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R30",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "BT1",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "U7",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "J4",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R42",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C27",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C56",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R45",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "Q3",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "R43",
+          "body_hit_samples": 15,
+          "samples": 15
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "render_144dpi_identical": true,
+      "render_sha256": "254fd6cf26144d3d58edec471603a862dfd93c10bc14e84f61d2fd56ba851ddd",
+      "body_targets": [
+        {
+          "reference": "J10",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "R33",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R37",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R38",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "U6",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "R39",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R36",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "C33",
+          "body_hit_samples": 15,
+          "samples": 15
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "render_144dpi_identical": true,
+      "render_sha256": "64c2dd53c2c0f64b0bdb55e137457cd813cb415e8240c3e94158d7e43b80274f",
+      "body_targets": [
+        {
+          "reference": "TP4",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "H204",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "H202",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "H201",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "TP7",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "H203",
+          "body_hit_samples": 13,
+          "samples": 15
+        },
+        {
+          "reference": "J201",
+          "body_hit_samples": 15,
+          "samples": 15
+        },
+        {
+          "reference": "R21",
+          "body_hit_samples": 15,
+          "samples": 15
+        }
+      ]
+    }
+  ],
+  "original_text_has_priority": true,
+  "schematics_unchanged": true,
+  "scope": "Body graphics only; existing text, pin labels and net names retain their original hit priority.",
+  "product": "v2",
+  "version": "v2.10",
+  "board": "LOGIC"
+}

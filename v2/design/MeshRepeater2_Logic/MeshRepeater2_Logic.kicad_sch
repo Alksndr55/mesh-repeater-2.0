@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "105ad8a7-7e6b-542d-bfd4-ec797b1696df")
 	(paper "A3")
-	(title_block (title "Nice!Nano / HT-RA62") (date "2026-10-30") (rev "v2.09") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "Nice!Nano / HT-RA62") (date "2026-11-06") (rev "v2.10") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names
@@ -15820,7 +15820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 107.95 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15852,7 +15852,7 @@
 				)
 			)
 		)
-		(property "Description" "Danomsk S4.6 approved substitution. 10kΩ, 0805, 1%; только непрецизионные позиции, не заменять этим R4/R8/R14. Покупка кратно 10 шт."
+		(property "Description" "Подтяжка USER_BTN (M1 P1.00) к SYS_3V3: 100k, 0805, 1%. С C26=100nF номинальная постоянная времени 10ms; отпускание до 0.7VDD примерно 12ms без внутренней подтяжки. Ток нажатой кнопки при 3.3V около 33uA. Проверить debounce и утечки собранной платы; гарантированный максимум обычной GPIO-утечки в использованной спецификации Nordic не приведён."
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15863,7 +15863,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805FR-0710KL"
+		(property "MPN" "RC0805FR-07100KL"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15896,7 +15896,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/140222-chip-0805-10k-1-rc0805fr-0710kl-yageo/"
+		(property "Vendor URL" "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/134751-chip-0805-100k-1-rc0805fr-07100k-yageo/"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15929,7 +15929,7 @@
 				)
 			)
 		)
-		(property "Value_NaIon" "10k"
+		(property "Value_NaIon" "100k"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15940,7 +15940,7 @@
 				)
 			)
 		)
-		(property "Value_LTO_2S" "10k"
+		(property "Value_LTO_2S" "100k"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15962,7 +15962,7 @@
 				)
 			)
 		)
-		(property "Nominal" "10k"
+		(property "Nominal" "100k"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15973,7 +15973,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon" "RC0805FR-0710KL"
+		(property "MPN_NaIon" "RC0805FR-07100KL"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15984,7 +15984,7 @@
 				)
 			)
 		)
-		(property "MPN_LTO_2S" "RC0805FR-0710KL"
+		(property "MPN_LTO_2S" "RC0805FR-07100KL"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16006,7 +16006,7 @@
 				)
 			)
 		)
-		(property "Value_NaIon_NoCold" "10k"
+		(property "Value_NaIon_NoCold" "100k"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16017,7 +16017,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon_NoCold" "RC0805FR-0710KL"
+		(property "MPN_NaIon_NoCold" "RC0805FR-07100KL"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16097,7 +16097,7 @@
 				)
 			)
 		)
-		(property "Description" "50ms nominalADC RC; firmware must allowsettling and use correct divider2 Danomsk S4.6 approved substitution. Точный текущий MPN. C3 остаётся между SOLAR и VG; C25 остаётся в фильтре BAT_ADC."
+		(property "Description" "Фильтр BAT_ADC: R27 || R28 = 1.1M, C25=100nF, номинальная постоянная времени 110ms. Прошивка должна учитывать установление, вход ADC и утечки; деление 1:2."
 			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)

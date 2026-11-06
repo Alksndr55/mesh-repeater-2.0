@@ -433,7 +433,7 @@
 		(uuid "954b72f8-3634-4ccc-99f8-321ad5596b31")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step"
+	(model "${KIPRJMOD}/3dmodels/kicad_standard/Diode_SMD.3dshapes/D_SMB.step"
 		(offset
 			(xyz 0 0 0)
 		)

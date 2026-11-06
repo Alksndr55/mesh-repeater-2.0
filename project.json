@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "name": "Mesh Repeater",
-  "date": "2026-10-30",
+  "date": "2026-11-06",
   "circuit": {
     "project": "shared/schematic/MeshRepeater.kicad_pro",
     "schematic": "shared/schematic/MeshRepeater.kicad_sch",
@@ -9,7 +9,7 @@
   },
   "products": {
     "v2": {
-      "version": "v2.09",
+      "version": "v2.10",
       "legacy_revision": "A6",
       "root": "v2",
       "repository": "https://github.com/Alksndr55/mesh-repeater-2.0",

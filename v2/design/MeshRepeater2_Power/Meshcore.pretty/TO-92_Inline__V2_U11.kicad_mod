@@ -377,7 +377,7 @@
 		(uuid "149e7d6c-96d7-49c3-91a9-566a7780e06d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
+	(model "${KIPRJMOD}/3dmodels/kicad_standard/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
 		(offset
 			(xyz 0 0 0)
 		)

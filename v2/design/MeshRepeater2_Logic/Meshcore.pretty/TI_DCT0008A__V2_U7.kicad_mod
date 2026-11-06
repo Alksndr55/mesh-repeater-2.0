@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(locked yes)
 	(layer "F.Cu")
-	(descr "TI DCT0008A, 4220784/D 10/2025: body max3.1x3.1, lead span4.25, H1.3; pads1.1x0.4, centres +/-1.9, pitch0.65.")
+	(descr "TI SSOP (DCT), DCT0008A; visible F.SilkS triangle above pin 1 added 2026-11-06. TI DCT0008A, 4220784/D 10/2025: body max3.1x3.1, lead span4.25, H1.3; pads1.1x0.4, centres +/-1.9, pitch0.65.")
 	(tags "SOT TO_SOT_SMD")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -403,7 +403,7 @@
 		(size 1.1 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
-		(zone_connect 2)
+		(zone_connect -1)
 		(uuid "96179d24-3818-4c5d-a041-ba69a994e1de")
 	)
 	(pad "8" smd roundrect
@@ -424,5 +424,13 @@
 		(rotate
 			(xyz 0 0 0)
 		)
+	)
+
+	(fp_poly
+		(pts (xy -2.3 -1.72) (xy -1.8 -1.72) (xy -2.05 -1.44))
+		(stroke (width 0.1) (type solid))
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "081aef4f-8b05-456a-b0a4-8bf9395e9a3c")
 	)
 )

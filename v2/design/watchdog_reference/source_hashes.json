@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "watchdog_version": "v1.00",
-  "product_version": "v2.09",
+  "product_version": "v2.10",
   "canonical": {
     "root": "../../../watchdog",
     "release_url": "https://github.com/Alksndr55/watchdog/releases/tag/v1.00",
@@ -101,7 +101,7 @@
     },
     "verification/integration_checks.json": {
       "bytes": 3958,
-      "sha256": "1f4044569a80a4ff6635763aa183e8ce58a72a0dadcfa998808a659b3d5b1d2a",
+      "sha256": "833b910d454ed41e351fc07c4670551efaed092f1dd85f4b7a07b21c807baddf",
       "origin": "Mesh Repeater board integration",
       "exact_copy": false
     },

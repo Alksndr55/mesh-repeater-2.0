@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "9bf063ca-8dd7-5d02-b206-98ca09b055e4")
 	(paper "A3")
-	(title_block (title "LM393XK / холодный заряд Na-ion") (date "2026-10-30") (rev "v2.09") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "LM393XK / холодный заряд Na-ion") (date "2026-11-06") (rev "v2.10") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names
@@ -11292,7 +11292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 100V X7R"
+		(property "Value" "100nF 50V X7R"
 			(at 325.12 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11324,7 @@
 				)
 			)
 		)
-		(property "Description" "Local100nF bypass from U10 SOLAR supply toGND."
+		(property "Description" "Локальная развязка U10 SOLAR-GND: 100nF, 50V, X7R, 0805, как параллельный C2. В пределах рабочего входа CN3722 7.5-28V; холодный Voc панели и выбросы требуют отдельной проверки входного узла."
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11335,7 +11335,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KKX7R0BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11357,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Danomsk / Yageo"
+		(property "Vendor" "Danomsk"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11368,7 +11368,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/168995-chip-kond-0805-x7r-0-1uf-10-100v-cc0805kkx7r0bb104-cc0805-yageo/"
+		(property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11401,7 +11401,7 @@
 				)
 			)
 		)
-		(property "Value_NaIon" "100nF 100V X7R"
+		(property "Value_NaIon" "100nF 50V X7R"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11412,7 +11412,7 @@
 				)
 			)
 		)
-		(property "Value_LTO_2S" "100nF 100V X7R"
+		(property "Value_LTO_2S" "100nF 50V X7R"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11445,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon" "CC0805KKX7R0BB104"
+		(property "MPN_NaIon" "CL21B104KBCNNNC"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11456,7 +11456,7 @@
 				)
 			)
 		)
-		(property "MPN_LTO_2S" "CC0805KKX7R0BB104"
+		(property "MPN_LTO_2S" "CL21B104KBCNNNC"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11478,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Value_NaIon_NoCold" "100nF 100V X7R"
+		(property "Value_NaIon_NoCold" "100nF 50V X7R"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11489,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon_NoCold" "CC0805KKX7R0BB104"
+		(property "MPN_NaIon_NoCold" "CL21B104KBCNNNC"
 			(at 321.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12671,7 +12671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 100V X7R"
+		(property "Value" "100nF 50V X7R"
 			(at 304.8 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12703,7 +12703,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF comparator-output filter toGND, unchanged from T2."
+		(property "Description" "Фильтр выхода компаратора CHG_WARM-GND: 100nF, 50V, X7R, 0805. Узел подтянут к опорным примерно 2.5V; ёмкость и временная постоянная сохранены."
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12714,7 +12714,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KKX7R0BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12736,7 +12736,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Danomsk / Yageo"
+		(property "Vendor" "Danomsk"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12747,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/168995-chip-kond-0805-x7r-0-1uf-10-100v-cc0805kkx7r0bb104-cc0805-yageo/"
+		(property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12780,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Value_NaIon" "100nF 100V X7R"
+		(property "Value_NaIon" "100nF 50V X7R"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12791,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Value_LTO_2S" "100nF 100V X7R"
+		(property "Value_LTO_2S" "100nF 50V X7R"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12824,7 +12824,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon" "CC0805KKX7R0BB104"
+		(property "MPN_NaIon" "CL21B104KBCNNNC"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12835,7 +12835,7 @@
 				)
 			)
 		)
-		(property "MPN_LTO_2S" "CC0805KKX7R0BB104"
+		(property "MPN_LTO_2S" "CL21B104KBCNNNC"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12857,7 +12857,7 @@
 				)
 			)
 		)
-		(property "Value_NaIon_NoCold" "100nF 100V X7R"
+		(property "Value_NaIon_NoCold" "100nF 50V X7R"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12868,7 +12868,7 @@
 				)
 			)
 		)
-		(property "MPN_NaIon_NoCold" "CC0805KKX7R0BB104"
+		(property "MPN_NaIon_NoCold" "CL21B104KBCNNNC"
 			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)

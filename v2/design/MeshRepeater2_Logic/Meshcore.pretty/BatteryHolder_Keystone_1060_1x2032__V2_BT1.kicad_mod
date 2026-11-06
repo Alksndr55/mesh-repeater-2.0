@@ -814,7 +814,7 @@
 		(uuid "395ac7ea-3266-4960-88e0-c38b6da098de")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1060_1x2032.step"
+	(model "${KIPRJMOD}/3dmodels/kicad_standard/Battery.3dshapes/BatteryHolder_Keystone_1060_1x2032.step"
 		(offset
 			(xyz 0 0 0)
 		)

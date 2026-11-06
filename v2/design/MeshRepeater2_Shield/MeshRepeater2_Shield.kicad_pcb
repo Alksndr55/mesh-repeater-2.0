@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Mesh Repeater 2.0 / средний экран")
-		(date "2026-10-30")
-		(rev "v2.09")
+		(date "2026-11-06")
+		(rev "v2.10")
 		(company "Designed by @Alksndritm")
 	)
 	(layers
@@ -897,7 +897,7 @@
 			)
 		)
 	)
-	(gr_text "Mesh Repeater v2.09 — ЭКРАН"
+	(gr_text "Mesh Repeater v2.10 — ЭКРАН"
 		(at 35 8 0)
 		(layer "F.SilkS")
 		(uuid "935026b6-5e58-49f4-ad21-da5e741f6cb3")
@@ -1068,7 +1068,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Mesh Repeater v2.09 — ЭКРАН"
+	(gr_text "Mesh Repeater v2.10 — ЭКРАН"
 		(at 35 52 180)
 		(layer "B.SilkS")
 		(uuid "476ccaf7-3371-4e55-b162-7773df45ff57")

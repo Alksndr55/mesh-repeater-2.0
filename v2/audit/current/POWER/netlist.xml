@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Users\Alksndr\Desktop\codex\Meshcore\v2\design\MeshRepeater2_Power\MeshRepeater2_Power.kicad_sch</source>
-    <date>2026-10-30T23:19:26</date>
+    <date>2026-11-06T22:42:53</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CN3722 / зарядка Na-ion и LTO</title>
         <company/>
-        <rev>v2.09</rev>
-        <date>2026-10-30</date>
+        <rev>v2.10</rev>
+        <date>2026-11-06</date>
         <source>MeshRepeater2_Power.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>TPS63802 / питание и фильтр</title>
         <company/>
-        <rev>v2.09</rev>
-        <date>2026-10-30</date>
+        <rev>v2.10</rev>
+        <date>2026-11-06</date>
         <source>Converter.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>LMV431A / LTO 2S опция</title>
         <company/>
-        <rev>v2.09</rev>
-        <date>2026-10-30</date>
+        <rev>v2.10</rev>
+        <date>2026-11-06</date>
         <source>LTO_Balancer.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>LM393XK / холодный заряд Na-ion</title>
         <company/>
-        <rev>v2.09</rev>
-        <date>2026-10-30</date>
+        <rev>v2.10</rev>
+        <date>2026-11-06</date>
         <source>Thermal.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -80,8 +80,8 @@
       <title_block>
         <title>INA219 / батарея и ток</title>
         <company/>
-        <rev>v2.09</rev>
-        <date>2026-10-30</date>
+        <rev>v2.10</rev>
+        <date>2026-11-06</date>
         <source>BatteryMonitor.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -98,8 +98,8 @@
       <title_block>
         <title>Межплатное соединение / POWER ↔ LOGIC</title>
         <company/>
-        <rev>v2.09</rev>
-        <date>2026-10-30</date>
+        <rev>v2.10</rev>
+        <date>2026-11-06</date>
         <source>Interconnect.kicad_sch</source>
         <comment number="1" value="Электрическая принципиальная; прототип"/>
         <comment number="2" value=""/>
@@ -1738,44 +1738,44 @@ LTO:0R</field>
     </comp>
     <comp ref="C13">
       <value>100nF 50V X7R</value>
-      <footprint>Meshcore:C_0603_1608Metric__V2_C13</footprint>
-      <description>Danomsk S4.6 approved substitution. Точный MPN местного каталога; высокочастотная развязка TPS63802.</description>
+      <footprint>Meshcore:C_0805_2012Metric</footprint>
+      <description>Высокочастотная развязка входа TPS63802: 100nF, 50V, X7R, 0805. Унифицированный CL21B104KBCNNNC; сохранить короткое соединение VIN-GND.</description>
       <fields>
-        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="MPN">CL21B104KBCNNNC</field>
         <field name="LCSC"/>
         <field name="Vendor">Danomsk</field>
-        <field name="Vendor URL">https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/731-kondensatory-smd-0603/142040-chip-kond-0603-x7r-0-1uf-10-50v-cl10b104kb8nnnc-cc0603-sam/</field>
+        <field name="Vendor URL">https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/</field>
         <field name="Fit_NaIon">yes</field>
         <field name="Fit_LTO_2S">yes</field>
         <field name="Value_NaIon">100nF 50V X7R</field>
         <field name="Value_LTO_2S">100nF 50V X7R</field>
         <field name="Assembly">Na-ion: FIT; LTO 2S: FIT</field>
         <field name="Nominal">100nF</field>
-        <field name="MPN_NaIon">CL10B104KB8NNNC</field>
-        <field name="MPN_LTO_2S">CL10B104KB8NNNC</field>
+        <field name="MPN_NaIon">CL21B104KBCNNNC</field>
+        <field name="MPN_LTO_2S">CL21B104KBCNNNC</field>
         <field name="Fit_NaIon_NoCold">yes</field>
         <field name="Value_NaIon_NoCold">100nF 50V X7R</field>
-        <field name="MPN_NaIon_NoCold">CL10B104KB8NNNC</field>
-        <field name="Footprint">Meshcore:C_0603_1608Metric__V2_C13</field>
+        <field name="MPN_NaIon_NoCold">CL21B104KBCNNNC</field>
+        <field name="Footprint">Meshcore:C_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Danomsk S4.6 approved substitution. Точный MPN местного каталога; высокочастотная развязка TPS63802.</field>
+        <field name="Description">Высокочастотная развязка входа TPS63802: 100nF, 50V, X7R, 0805. Унифицированный CL21B104KBCNNNC; сохранить короткое соединение VIN-GND.</field>
       </fields>
       <libsource lib="Meshcore" part="C_V" description=""/>
-      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="MPN" value="CL21B104KBCNNNC"/>
       <property name="LCSC" value=""/>
       <property name="Vendor" value="Danomsk"/>
-      <property name="Vendor URL" value="https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/731-kondensatory-smd-0603/142040-chip-kond-0603-x7r-0-1uf-10-50v-cl10b104kb8nnnc-cc0603-sam/"/>
+      <property name="Vendor URL" value="https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"/>
       <property name="Fit_NaIon" value="yes"/>
       <property name="Fit_LTO_2S" value="yes"/>
       <property name="Value_NaIon" value="100nF 50V X7R"/>
       <property name="Value_LTO_2S" value="100nF 50V X7R"/>
       <property name="Assembly" value="Na-ion: FIT; LTO 2S: FIT"/>
       <property name="Nominal" value="100nF"/>
-      <property name="MPN_NaIon" value="CL10B104KB8NNNC"/>
-      <property name="MPN_LTO_2S" value="CL10B104KB8NNNC"/>
+      <property name="MPN_NaIon" value="CL21B104KBCNNNC"/>
+      <property name="MPN_LTO_2S" value="CL21B104KBCNNNC"/>
       <property name="Fit_NaIon_NoCold" value="yes"/>
       <property name="Value_NaIon_NoCold" value="100nF 50V X7R"/>
-      <property name="MPN_NaIon_NoCold" value="CL10B104KB8NNNC"/>
+      <property name="MPN_NaIon_NoCold" value="CL21B104KBCNNNC"/>
       <property name="Sheetname" value="2. Converter"/>
       <property name="Sheetfile" value="Converter.kicad_sch"/>
       <sheetpath names="/2. Converter/" tstamps="/c6347a5b-cf03-5861-98ac-e2c1a7088209/"/>
@@ -2176,8 +2176,8 @@ LTO:0R</field>
     </comp>
     <comp ref="L2">
       <value>0.47uH</value>
-      <footprint>Meshcore:L_Coilcraft_XGL4020_471MEC__V2_L2</footprint>
-      <description>Shielded 0.47uH power inductor; body 4.0+/-0.3mm square, maximum height 2.10mm. Official Coilcraft recommended copper lands; mask, paste and F.Cu under-coil keepout are engineering choices.</description>
+      <footprint>Meshcore:L_Coilcraft_XGL4020_471MEC_HandSolderUniversal</footprint>
+      <description>Required 0.47uH power inductor; reference MPN XGL4020-471MEC. Custom hand-solder lands extend the outer copper edges by 0.5mm each. The user-supplied donor inductor has no confirmed MPN: inductance, saturation current, DCR, dimensions and operating temperature require confirmation; enlarged lands do not establish electrical compatibility.</description>
       <fields>
         <field name="MPN">XGL4020-471MEC</field>
         <field name="LCSC">C5837785</field>
@@ -2194,9 +2194,9 @@ LTO:0R</field>
         <field name="Fit_NaIon_NoCold">yes</field>
         <field name="Value_NaIon_NoCold">0.47uH</field>
         <field name="MPN_NaIon_NoCold">XGL4020-471MEC</field>
-        <field name="Footprint">Meshcore:L_Coilcraft_XGL4020_471MEC__V2_L2</field>
+        <field name="Footprint">Meshcore:L_Coilcraft_XGL4020_471MEC_HandSolderUniversal</field>
         <field name="Datasheet"/>
-        <field name="Description">Shielded 0.47uH power inductor; body 4.0+/-0.3mm square, maximum height 2.10mm. Official Coilcraft recommended copper lands; mask, paste and F.Cu under-coil keepout are engineering choices.</field>
+        <field name="Description">Required 0.47uH power inductor; reference MPN XGL4020-471MEC. Custom hand-solder lands extend the outer copper edges by 0.5mm each. The user-supplied donor inductor has no confirmed MPN: inductance, saturation current, DCR, dimensions and operating temperature require confirmation; enlarged lands do not establish electrical compatibility.</field>
       </fields>
       <libsource lib="Meshcore" part="L_H" description=""/>
       <property name="MPN" value="XGL4020-471MEC"/>
@@ -3732,45 +3732,45 @@ LTO:49.9k</field>
       </units>
     </comp>
     <comp ref="C60">
-      <value>100nF 100V X7R</value>
+      <value>100nF 50V X7R</value>
       <footprint>Meshcore:C_0805_2012Metric__V2_C60</footprint>
-      <description>Local100nF bypass from U10 SOLAR supply toGND.</description>
+      <description>Локальная развязка U10 SOLAR-GND: 100nF, 50V, X7R, 0805, как параллельный C2. В пределах рабочего входа CN3722 7.5-28V; холодный Voc панели и выбросы требуют отдельной проверки входного узла.</description>
       <fields>
-        <field name="MPN">CC0805KKX7R0BB104</field>
+        <field name="MPN">CL21B104KBCNNNC</field>
         <field name="LCSC"/>
-        <field name="Vendor">Danomsk / Yageo</field>
-        <field name="Vendor URL">https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/168995-chip-kond-0805-x7r-0-1uf-10-100v-cc0805kkx7r0bb104-cc0805-yageo/</field>
+        <field name="Vendor">Danomsk</field>
+        <field name="Vendor URL">https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/</field>
         <field name="Fit_NaIon">yes</field>
         <field name="Fit_LTO_2S">no</field>
-        <field name="Value_NaIon">100nF 100V X7R</field>
-        <field name="Value_LTO_2S">100nF 100V X7R</field>
+        <field name="Value_NaIon">100nF 50V X7R</field>
+        <field name="Value_LTO_2S">100nF 50V X7R</field>
         <field name="Assembly">Na-ion cold option: FIT; LTO 2S: DNP</field>
         <field name="Nominal">100nF</field>
-        <field name="MPN_NaIon">CC0805KKX7R0BB104</field>
-        <field name="MPN_LTO_2S">CC0805KKX7R0BB104</field>
+        <field name="MPN_NaIon">CL21B104KBCNNNC</field>
+        <field name="MPN_LTO_2S">CL21B104KBCNNNC</field>
         <field name="Fit_NaIon_NoCold">no</field>
-        <field name="Value_NaIon_NoCold">100nF 100V X7R</field>
-        <field name="MPN_NaIon_NoCold">CC0805KKX7R0BB104</field>
+        <field name="Value_NaIon_NoCold">100nF 50V X7R</field>
+        <field name="MPN_NaIon_NoCold">CL21B104KBCNNNC</field>
         <field name="Footprint">Meshcore:C_0805_2012Metric__V2_C60</field>
         <field name="Datasheet"/>
-        <field name="Description">Local100nF bypass from U10 SOLAR supply toGND.</field>
+        <field name="Description">Локальная развязка U10 SOLAR-GND: 100nF, 50V, X7R, 0805, как параллельный C2. В пределах рабочего входа CN3722 7.5-28V; холодный Voc панели и выбросы требуют отдельной проверки входного узла.</field>
       </fields>
       <libsource lib="Meshcore" part="C_V" description=""/>
-      <property name="MPN" value="CC0805KKX7R0BB104"/>
+      <property name="MPN" value="CL21B104KBCNNNC"/>
       <property name="LCSC" value=""/>
-      <property name="Vendor" value="Danomsk / Yageo"/>
-      <property name="Vendor URL" value="https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/168995-chip-kond-0805-x7r-0-1uf-10-100v-cc0805kkx7r0bb104-cc0805-yageo/"/>
+      <property name="Vendor" value="Danomsk"/>
+      <property name="Vendor URL" value="https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"/>
       <property name="Fit_NaIon" value="yes"/>
       <property name="Fit_LTO_2S" value="no"/>
-      <property name="Value_NaIon" value="100nF 100V X7R"/>
-      <property name="Value_LTO_2S" value="100nF 100V X7R"/>
+      <property name="Value_NaIon" value="100nF 50V X7R"/>
+      <property name="Value_LTO_2S" value="100nF 50V X7R"/>
       <property name="Assembly" value="Na-ion cold option: FIT; LTO 2S: DNP"/>
       <property name="Nominal" value="100nF"/>
-      <property name="MPN_NaIon" value="CC0805KKX7R0BB104"/>
-      <property name="MPN_LTO_2S" value="CC0805KKX7R0BB104"/>
+      <property name="MPN_NaIon" value="CL21B104KBCNNNC"/>
+      <property name="MPN_LTO_2S" value="CL21B104KBCNNNC"/>
       <property name="Fit_NaIon_NoCold" value="no"/>
-      <property name="Value_NaIon_NoCold" value="100nF 100V X7R"/>
-      <property name="MPN_NaIon_NoCold" value="CC0805KKX7R0BB104"/>
+      <property name="Value_NaIon_NoCold" value="100nF 50V X7R"/>
+      <property name="MPN_NaIon_NoCold" value="CL21B104KBCNNNC"/>
       <property name="Sheetname" value="4. Thermal"/>
       <property name="Sheetfile" value="Thermal.kicad_sch"/>
       <sheetpath names="/4. Thermal/" tstamps="/e2d8a33e-0cfd-53b0-af40-1bc9c9cc1820/"/>
@@ -3838,45 +3838,45 @@ LTO:49.9k</field>
       </units>
     </comp>
     <comp ref="C62">
-      <value>100nF 100V X7R</value>
+      <value>100nF 50V X7R</value>
       <footprint>Meshcore:C_0805_2012Metric__V2_C62</footprint>
-      <description>100nF comparator-output filter toGND, unchanged from T2.</description>
+      <description>Фильтр выхода компаратора CHG_WARM-GND: 100nF, 50V, X7R, 0805. Узел подтянут к опорным примерно 2.5V; ёмкость и временная постоянная сохранены.</description>
       <fields>
-        <field name="MPN">CC0805KKX7R0BB104</field>
+        <field name="MPN">CL21B104KBCNNNC</field>
         <field name="LCSC"/>
-        <field name="Vendor">Danomsk / Yageo</field>
-        <field name="Vendor URL">https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/168995-chip-kond-0805-x7r-0-1uf-10-100v-cc0805kkx7r0bb104-cc0805-yageo/</field>
+        <field name="Vendor">Danomsk</field>
+        <field name="Vendor URL">https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/</field>
         <field name="Fit_NaIon">yes</field>
         <field name="Fit_LTO_2S">no</field>
-        <field name="Value_NaIon">100nF 100V X7R</field>
-        <field name="Value_LTO_2S">100nF 100V X7R</field>
+        <field name="Value_NaIon">100nF 50V X7R</field>
+        <field name="Value_LTO_2S">100nF 50V X7R</field>
         <field name="Assembly">Na-ion cold option: FIT; LTO 2S: DNP</field>
         <field name="Nominal">100nF</field>
-        <field name="MPN_NaIon">CC0805KKX7R0BB104</field>
-        <field name="MPN_LTO_2S">CC0805KKX7R0BB104</field>
+        <field name="MPN_NaIon">CL21B104KBCNNNC</field>
+        <field name="MPN_LTO_2S">CL21B104KBCNNNC</field>
         <field name="Fit_NaIon_NoCold">no</field>
-        <field name="Value_NaIon_NoCold">100nF 100V X7R</field>
-        <field name="MPN_NaIon_NoCold">CC0805KKX7R0BB104</field>
+        <field name="Value_NaIon_NoCold">100nF 50V X7R</field>
+        <field name="MPN_NaIon_NoCold">CL21B104KBCNNNC</field>
         <field name="Footprint">Meshcore:C_0805_2012Metric__V2_C62</field>
         <field name="Datasheet"/>
-        <field name="Description">100nF comparator-output filter toGND, unchanged from T2.</field>
+        <field name="Description">Фильтр выхода компаратора CHG_WARM-GND: 100nF, 50V, X7R, 0805. Узел подтянут к опорным примерно 2.5V; ёмкость и временная постоянная сохранены.</field>
       </fields>
       <libsource lib="Meshcore" part="C_V" description=""/>
-      <property name="MPN" value="CC0805KKX7R0BB104"/>
+      <property name="MPN" value="CL21B104KBCNNNC"/>
       <property name="LCSC" value=""/>
-      <property name="Vendor" value="Danomsk / Yageo"/>
-      <property name="Vendor URL" value="https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/168995-chip-kond-0805-x7r-0-1uf-10-100v-cc0805kkx7r0bb104-cc0805-yageo/"/>
+      <property name="Vendor" value="Danomsk"/>
+      <property name="Vendor URL" value="https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"/>
       <property name="Fit_NaIon" value="yes"/>
       <property name="Fit_LTO_2S" value="no"/>
-      <property name="Value_NaIon" value="100nF 100V X7R"/>
-      <property name="Value_LTO_2S" value="100nF 100V X7R"/>
+      <property name="Value_NaIon" value="100nF 50V X7R"/>
+      <property name="Value_LTO_2S" value="100nF 50V X7R"/>
       <property name="Assembly" value="Na-ion cold option: FIT; LTO 2S: DNP"/>
       <property name="Nominal" value="100nF"/>
-      <property name="MPN_NaIon" value="CC0805KKX7R0BB104"/>
-      <property name="MPN_LTO_2S" value="CC0805KKX7R0BB104"/>
+      <property name="MPN_NaIon" value="CL21B104KBCNNNC"/>
+      <property name="MPN_LTO_2S" value="CL21B104KBCNNNC"/>
       <property name="Fit_NaIon_NoCold" value="no"/>
-      <property name="Value_NaIon_NoCold" value="100nF 100V X7R"/>
-      <property name="MPN_NaIon_NoCold" value="CC0805KKX7R0BB104"/>
+      <property name="Value_NaIon_NoCold" value="100nF 50V X7R"/>
+      <property name="MPN_NaIon_NoCold" value="CL21B104KBCNNNC"/>
       <property name="Sheetname" value="4. Thermal"/>
       <property name="Sheetfile" value="Thermal.kicad_sch"/>
       <sheetpath names="/4. Thermal/" tstamps="/e2d8a33e-0cfd-53b0-af40-1bc9c9cc1820/"/>

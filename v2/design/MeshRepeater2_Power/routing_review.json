@@ -1,16 +1,14 @@
 {
   "format_version": 1,
   "status": "PASS",
-  "product_version": "v2.09",
-  "date": "2026-10-30",
-  "pcb_sha256": "b3614370dea6b04f0b51633e94c1d30e4b62241e5df6a1e48247ab84b77074de",
-  "reviewer": "root independent native geometry and two-face visual review; Astra 6 Ultra board audit; independent LOGIC agent cross-review",
+  "product_version": "v2.10",
+  "date": "2026-11-06",
+  "pcb_sha256": "e33b7553accff70c3e046695d013b6121f8c4cabe5a97c24169dede3ea7c6de3",
+  "reviewer": "footprint_standardization agent: independent native topology, filled-copper and two-face visual review, 2026-11-06",
   "reviewed_faces": [
     "F.Cu",
     "B.Cu"
   ],
-  "audit_model": "gpt-6-astra",
-  "reasoning_effort": "ultra",
   "checks": {
     "whole_paths": "PASS",
     "parallel_spacing": "PASS",
@@ -27,58 +25,13 @@
   ],
   "off_grid_vias": [
     {
-      "uuid": "6fa663e7-8b5a-4244-8b97-37e8df014551",
+      "uuid": "00a644c5-5d1b-4fbe-9501-a31baf790b6d",
       "xy_mm": [
-        9.1875,
-        28.4
-      ],
-      "category": "island_bridge",
-      "electrical_reason": "Native filled-polygon graph with grid-only stitching leaves isolated F.Cu R9.2 polygon; shifted via outside pad thermal gap connects that isolated island to B.Cu GND. Grid(10,30) would shunt the pad thermal gap."
-    },
-    {
-      "uuid": "f3e4eb3d-b1e3-44d6-8a73-02b7413a8094",
-      "xy_mm": [
-        12.7,
-        26.875
-      ],
-      "category": "local_return",
-      "electrical_reason": "Local CN3722 U1 ground return at pins2/3, keeping a close low-inductance controller ground connection to bottom plane; same F.Cu polygon also contains C8.2."
-    },
-    {
-      "uuid": "6864ccae-adca-49af-8af7-61f81136ae61",
-      "xy_mm": [
-        23.85,
-        40.1
-      ],
-      "category": "local_return",
-      "electrical_reason": "Close C4 charger bypass return outside thermal gap; original left-hand position was constrained by BAT_SYS power trace, so final via is directly above C4 ground pad."
-    },
-    {
-      "uuid": "d3954400-0410-4885-af0f-2aff9a87aa63",
-      "xy_mm": [
-        39.8,
+        43.75,
         20.5
       ],
       "category": "local_return",
-      "electrical_reason": "Left return via of U2 ground pins, joined at the IC to PGND by the preserved short 0.2 mm route per TI recommendation."
-    },
-    {
-      "uuid": "2de1d48f-dd93-41ee-951d-9dc5c26b05f0",
-      "xy_mm": [
-        40.1,
-        16.6
-      ],
-      "category": "local_return",
-      "electrical_reason": "Close TPS63802 C12 input-bypass ground return outside thermal gap; native F.Cu polygon4 connects C12/C52 ground to U2 PGND without duplicate overlay tracks."
-    },
-    {
-      "uuid": "7efb48f2-70f8-4f06-82d1-c4f37fc87dbd",
-      "xy_mm": [
-        41.05,
-        24.7
-      ],
-      "category": "local_return",
-      "electrical_reason": "Close TPS63802 C14 output-bypass ground return outside thermal gap; native same-layer filled polygon4 links capacitor to U2 PGND. Short paired input/output return per TI layout recommendations."
+      "electrical_reason": "Right PGND return at U2.8 keeps switching loop short; position exactly clears 0.25 mm pad thermal gap and L2 keepout, verified native DRC. Via diameter/drill remain0.6/0.3mm."
     },
     {
       "uuid": "0c1f765a-7dbd-4474-a4e5-36a3a123e091",
@@ -90,6 +43,51 @@
       "electrical_reason": "Close C62 supply bypass return, outside pad thermal gap; avoids forcing the comparator/reference bypass return over the 5mm grid spacing."
     },
     {
+      "uuid": "2de1d48f-dd93-41ee-951d-9dc5c26b05f0",
+      "xy_mm": [
+        40.1,
+        16.6
+      ],
+      "category": "local_return",
+      "electrical_reason": "Close TPS63802 C12 input-bypass ground return outside thermal gap; native F.Cu polygon4 connects C12/C52 ground to U2 PGND without duplicate overlay tracks."
+    },
+    {
+      "uuid": "6864ccae-adca-49af-8af7-61f81136ae61",
+      "xy_mm": [
+        23.85,
+        40.1
+      ],
+      "category": "local_return",
+      "electrical_reason": "Close C4 charger bypass return outside thermal gap; original left-hand position was constrained by BAT_SYS power trace, so final via is directly above C4 ground pad."
+    },
+    {
+      "uuid": "6fa663e7-8b5a-4244-8b97-37e8df014551",
+      "xy_mm": [
+        9.1875,
+        28.4
+      ],
+      "category": "island_bridge",
+      "electrical_reason": "Native filled-polygon graph with grid-only stitching leaves isolated F.Cu R9.2 polygon; shifted via outside pad thermal gap connects that isolated island to B.Cu GND. Grid(10,30) would shunt the pad thermal gap."
+    },
+    {
+      "uuid": "7e42638a-6b92-4643-bdba-b4189351e61b",
+      "xy_mm": [
+        58.05,
+        5.8
+      ],
+      "category": "local_return",
+      "electrical_reason": "Close C63 U12 supply decoupling ground return outside pad thermal gap; nearby original gridpoint55,10 is invalid because it shunts U12.6 thermal."
+    },
+    {
+      "uuid": "7efb48f2-70f8-4f06-82d1-c4f37fc87dbd",
+      "xy_mm": [
+        41.05,
+        24.7
+      ],
+      "category": "local_return",
+      "electrical_reason": "Close TPS63802 C14 output-bypass ground return outside thermal gap; native same-layer filled polygon4 links capacitor to U2 PGND. Short paired input/output return per TI layout recommendations."
+    },
+    {
       "uuid": "ba2a2120-f4cf-4e0b-ac39-7e9d280672da",
       "xy_mm": [
         43.575,
@@ -97,15 +95,6 @@
       ],
       "category": "island_bridge",
       "electrical_reason": "Connects isolated U10/R61 F.Cu ground island to bottom GND while retaining thermal clearance at U10.4; counterfactual via removal creates native DRC unconnected item."
-    },
-    {
-      "uuid": "00a644c5-5d1b-4fbe-9501-a31baf790b6d",
-      "xy_mm": [
-        43.75,
-        20.5
-      ],
-      "category": "local_return",
-      "electrical_reason": "Right PGND return at U2.8 keeps switching loop short; position exactly clears 0.25 mm pad thermal gap and L2 keepout, verified native DRC. Via diameter/drill remain0.6/0.3mm."
     },
     {
       "uuid": "c1c0228e-3abf-49dc-a297-42c7e8b3a556",
@@ -117,13 +106,22 @@
       "electrical_reason": "Close C60 supply bypass return for U10 comparator; moved outside pad thermal gap, keeping short decoupling return to bottom plane."
     },
     {
-      "uuid": "7e42638a-6b92-4643-bdba-b4189351e61b",
+      "uuid": "d3954400-0410-4885-af0f-2aff9a87aa63",
       "xy_mm": [
-        58.05,
-        5.8
+        39.8,
+        20.5
       ],
       "category": "local_return",
-      "electrical_reason": "Close C63 U12 supply decoupling ground return outside pad thermal gap; nearby original gridpoint55,10 is invalid because it shunts U12.6 thermal."
+      "electrical_reason": "Left return via of U2 ground pins, joined at the IC to PGND by the preserved short 0.2 mm route per TI recommendation."
+    },
+    {
+      "uuid": "f3e4eb3d-b1e3-44d6-8a73-02b7413a8094",
+      "xy_mm": [
+        12.7,
+        26.875
+      ],
+      "category": "local_return",
+      "electrical_reason": "Local CN3722 U1 ground return at pins2/3, keeping a close low-inductance controller ground connection to bottom plane; same F.Cu polygon also contains C8.2."
     }
   ],
   "retained_ground_tracks": [
@@ -219,5 +217,33 @@
     "general": true,
     "footprint": true
   },
-  "scope": "User-listed and analogous pad approaches, whole paths, parallel groups, GND overlays, real thermal reliefs, width changes, grid and exceptions. Preserves component/zone geometry, RF and critical returns. Native/static CAD evidence; no physical bench or RF approval."
+  "scope": "User-listed and analogous pad approaches, whole paths, parallel groups, GND overlays, real thermal reliefs, width changes, grid and exceptions. Preserves component/zone geometry, RF and critical returns. Native/static CAD evidence; no physical bench or RF approval.",
+  "evidence": [
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/REVIEW_RU.md",
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/POWER.json",
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/POWER_F_Cu.png",
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/POWER_B_Cu.png",
+    "history/assembly-standard-2026-11-06/footprints/thermals-final/POWER.json",
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/reviewed_geometry_freeze.json",
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/reviewed_geometry_current.json",
+    "history/assembly-standard-2026-11-06/footprints/geometry-final/render_manifest.json",
+    "history/assembly-standard-2026-11-06/footprints/thermals-final/render_manifest.json",
+    "history/assembly-standard-2026-11-06/footprints/thermals-final/POWER_copper.png"
+  ],
+  "skipped_grid_points": [
+    {
+      "xy_mm": [
+        20,
+        20
+      ],
+      "electrical_reason": "SOLAR vertical T-branch clearance prevents this ground grid point"
+    },
+    {
+      "xy_mm": [
+        80,
+        20
+      ],
+      "electrical_reason": "L4.2 FILTER_OUT land shifted +1.5 mm X leaves only 0.01623 mm to the ground via at (80,20), below required 0.20 mm"
+    }
+  ]
 }

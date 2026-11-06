@@ -1,7 +1,7 @@
 {
   "project": "MeshRepeater2_Logic",
-  "revision": "v2.09",
-  "schematic_revision": "v2.09",
+  "revision": "v2.10",
+  "schematic_revision": "v2.10",
   "schematic_date": "2026-10-24",
   "board": {
     "width": 90,
@@ -648,7 +648,7 @@
       "rotation": 0.0,
       "mpn": "CL21B104KBCNNNC",
       "lcsc": "",
-      "note": "50ms nominalADC RC; firmware must allowsettling and use correct divider2 Danomsk S4.6 approved substitution. Точный текущий MPN. C3 остаётся между SOLAR и VG; C25 остаётся в фильтре BAT_ADC.",
+      "note": "Фильтр BAT_ADC: R27 || R28 = 1.1M, C25=100nF, номинальная постоянная времени 110ms. Прошивка должна учитывать установление, вход ADC и утечки; деление 1:2.",
       "dnp": false,
       "group": "",
       "vendor": "Danomsk",
@@ -826,8 +826,8 @@
         "MP": "GND"
       },
       "footprint": "Meshcore:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal__V2_J4",
-      "x": 52.0,
-      "y": 3.0,
+      "x": 52.5,
+      "y": 5.0,
       "rotation": 180.0,
       "mpn": "53261-0871",
       "lcsc": "",
@@ -1003,7 +1003,7 @@
     {
       "ref": "R31",
       "kind": "R",
-      "value": "10k",
+      "value": "100k",
       "nets": {
         "1": "SYS_3V3",
         "2": "USER_BTN"
@@ -1012,14 +1012,14 @@
       "x": 6.7,
       "y": 30.5,
       "rotation": 0.0,
-      "mpn": "RC0805FR-0710KL",
+      "mpn": "RC0805FR-07100KL",
       "lcsc": "",
-      "note": "Danomsk S4.6 approved substitution. 10kΩ, 0805, 1%; только непрецизионные позиции, не заменять этим R4/R8/R14. Покупка кратно 10 шт.",
+      "note": "Подтяжка USER_BTN (M1 P1.00) к SYS_3V3: 100k, 0805, 1%. С C26=100nF номинальная постоянная времени 10ms; отпускание до 0.7VDD примерно 12ms без внутренней подтяжки. Ток нажатой кнопки при 3.3V около 33uA. Проверить debounce и утечки собранной платы; гарантированный максимум обычной GPIO-утечки в использованной спецификации Nordic не приведён.",
       "dnp": false,
       "group": "",
       "vendor": "Danomsk",
-      "vendor_url": "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/140222-chip-0805-10k-1-rc0805fr-0710kl-yageo/",
-      "qualification": "10kΩ, 0805, 1%; только непрецизионные позиции, не заменять этим R4/R8/R14. Покупка кратно 10 шт.",
+      "vendor_url": "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/134751-chip-0805-100k-1-rc0805fr-07100k-yageo/",
+      "qualification": "Подтяжка USER_BTN (M1 P1.00) к SYS_3V3: 100k, 0805, 1%. С C26=100nF номинальная постоянная времени 10ms; отпускание до 0.7VDD примерно 12ms без внутренней подтяжки. Ток нажатой кнопки при 3.3V около 33uA. Проверить debounce и утечки собранной платы; гарантированный максимум обычной GPIO-утечки в использованной спецификации Nordic не приведён.",
       "procurement_package": "0805 (2.0 × 1.25 мм)",
       "procurement_checked_at": "2026-10-09",
       "schematic_uuid": "e030de6d-5afb-54f5-b2dc-7e14d3f56e2e",
@@ -1037,10 +1037,10 @@
         "rotation": 0.0
       },
       "fit_naion_no_cold": true,
-      "value_lto2s": "10k",
-      "value_naion_no_cold": "10k",
-      "mpn_lto2s": "RC0805FR-0710KL",
-      "mpn_naion_no_cold": "RC0805FR-0710KL",
+      "value_lto2s": "100k",
+      "value_naion_no_cold": "100k",
+      "mpn_lto2s": "RC0805FR-07100KL",
+      "mpn_naion_no_cold": "RC0805FR-07100KL",
       "source_footprint_before_v2_graphic_variant": "Meshcore:R_0805_2012Metric"
     },
     {
@@ -1998,12 +1998,12 @@
       "rotation": 0.0,
       "mpn": "SN74LVC2G125DCTR",
       "lcsc": "",
-      "note": "Both UART directions buffered from switched GPS supply. TI Ioff partial-power-down protection prevents UART back-power; DCT pinout: 1 OE1, 2 A1, 3 Y2, 4 GND, 5 A2, 6 Y1, 7 OE2, 8 VCC.",
+      "note": "Both UART directions buffered from switched GPS supply. TI Ioff partial-power-down protection prevents UART back-power. Package SSOP (DCT), 8 pins; pin 1 = OE1. DCT pinout: 1 OE1, 2 A1, 3 Y2, 4 GND, 5 A2, 6 Y1, 7 OE2, 8 VCC.",
       "dnp": false,
       "group": "gps",
       "vendor": "Other supplier",
-      "vendor_url": "https://www.ti.com/product/SN74LVC2G125",
-      "procurement_package": "SO-8 (150 mil), 8 выводов",
+      "vendor_url": "https://www.ti.com/product/SN74LVC2G125/part-details/SN74LVC2G125DCTR",
+      "procurement_package": "SSOP (DCT), 8 выводов; TI DCT0008A",
       "schematic_uuid": "a28d3dc5-3c89-5b38-b9ff-3fba19df10af",
       "sheet_path": "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/36fe1213-2f27-532f-a671-158c04b54ac0",
       "fit_naion": true,
@@ -3116,7 +3116,7 @@
       "Value_NaIon_NoCold": "100nF 50V X7R",
       "Fit_NaIon_NoCold": "yes",
       "MPN_NaIon_NoCold": "CL21B104KBCNNNC",
-      "Footprint": "Meshcore:C_0805_2012Metric",
+      "Footprint": "Meshcore:C_0805_2012Metric__V2_C25",
       "Assembly": "Na-ion: FIT; LTO 2S: FIT",
       "Vendor_URL": "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/"
     },
@@ -3227,18 +3227,18 @@
     },
     "R31": {
       "Reference": "R31",
-      "Value_NaIon": "10k",
-      "Value_LTO_2S": "10k",
+      "Value_NaIon": "100k",
+      "Value_LTO_2S": "100k",
       "Fit_NaIon": "yes",
       "Fit_LTO_2S": "yes",
-      "MPN_NaIon": "RC0805FR-0710KL",
-      "MPN_LTO_2S": "RC0805FR-0710KL",
-      "Value_NaIon_NoCold": "10k",
+      "MPN_NaIon": "RC0805FR-07100KL",
+      "MPN_LTO_2S": "RC0805FR-07100KL",
+      "Value_NaIon_NoCold": "100k",
       "Fit_NaIon_NoCold": "yes",
-      "MPN_NaIon_NoCold": "RC0805FR-0710KL",
-      "Footprint": "Meshcore:R_0805_2012Metric",
+      "MPN_NaIon_NoCold": "RC0805FR-07100KL",
+      "Footprint": "Meshcore:R_0805_2012Metric__V2_R31",
       "Assembly": "Na-ion: FIT; LTO 2S: FIT",
-      "Vendor_URL": "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/140222-chip-0805-10k-1-rc0805fr-0710kl-yageo/"
+      "Vendor_URL": "https://www.danomsk.ru/shop/6-rezistory/86-rezistory-postoyannye/268-rezistory-chip-0805/134751-chip-0805-100k-1-rc0805fr-07100k-yageo/"
     },
     "C26": {
       "Reference": "C26",
@@ -3581,9 +3581,9 @@
       "Value_NaIon_NoCold": "SN74LVC2G125",
       "Fit_NaIon_NoCold": "yes",
       "MPN_NaIon_NoCold": "SN74LVC2G125DCTR",
-      "Footprint": "Meshcore:TI_DCT0008A",
+      "Footprint": "Meshcore:TI_DCT0008A__V2_U7",
       "Assembly": "Na-ion: FIT; LTO 2S: FIT",
-      "Vendor_URL": "https://www.ti.com/product/SN74LVC2G125"
+      "Vendor_URL": "https://www.ti.com/product/SN74LVC2G125/part-details/SN74LVC2G125DCTR"
     },
     "C56": {
       "Reference": "C56",
