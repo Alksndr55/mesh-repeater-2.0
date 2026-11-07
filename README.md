@@ -137,3 +137,9 @@ Mesh Repeater v2 переносит электрическую часть вед
 Собственные материалы — [CC BY-NC-SA 4.0](v2/LICENSE.md). Сторонние компоненты, модели и программы сохраняют свои лицензии.
 
 Проекты прошивок — [MeshCore](https://github.com/meshcore-dev/MeshCore) и [Meshtastic](https://github.com/meshtastic/firmware).
+
+## Поддержать проект
+
+Собираем на осциллограф **Siglent SDS1204X HD**. Он поможет измерять пульсации питания, проверять переходные процессы и отлаживать новые ревизии Mesh Repeater.
+
+[Поддержать покупку через Т‑Банк](https://t.tb.ru/pm_short/89zrJmEhG7B)
