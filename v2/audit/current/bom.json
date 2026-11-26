@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "rows": 161,
+  "rows": 162,
   "boards": {
     "POWER": {
       "pcb_references": 105,
@@ -9,10 +9,10 @@
       "rows_checked": 105
     },
     "LOGIC": {
-      "pcb_references": 56,
-      "model_references": 56,
-      "native_xml_references": 56,
-      "rows_checked": 56
+      "pcb_references": 57,
+      "model_references": 57,
+      "native_xml_references": 57,
+      "rows_checked": 57
     },
     "SHIELD": {
       "scope": "mechanical board; excluded from electronic assembly BOM"

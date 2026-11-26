@@ -1,10 +1,9 @@
-# Mesh Repeater v2.10
+# Mesh Repeater v2.11
 
 Designed by @Alksndritm. Текущее исполнение общего проекта.
 Электрические изменения следуют ведущей v1; разводка адаптирована к двум платам.
-Предыдущий опубликованный выпуск от 30.10.2026: [v2.09 на GitHub](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.09).
-Предыдущая публикация — [v2.06](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.06)
-(прежнее обозначение A6). Локальная редакция от 06.11.2026 — v2.10. Следующий номер — v2.11.
+C65 (100 нФ, 0805) расположен на LOGIC со стороны NiceNano у R33 и подключён
+между MCU_RESET и GND. Следующий номер — v2.12.
 
 [POWER](design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro) · [LOGIC](design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro) · [SHIELD](design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro)
 

@@ -1,10 +1,10 @@
 {
   "format_version": 1,
   "status": "PASS",
-  "product_version": "v2.10",
-  "date": "2026-11-06",
-  "pcb_sha256": "e33b7553accff70c3e046695d013b6121f8c4cabe5a97c24169dede3ea7c6de3",
-  "reviewer": "footprint_standardization agent: independent native topology, filled-copper and two-face visual review, 2026-11-06",
+  "product_version": "v2.11",
+  "date": "2026-11-26",
+  "pcb_sha256": "50df8529b4b8939cd6d75f66b0da8f5f9725dbb194023157c291fb6fd932c995",
+  "reviewer": "Codex: 2026-11-26 exact copper comparison and two-face review",
   "reviewed_faces": [
     "F.Cu",
     "B.Cu"
@@ -245,5 +245,6 @@
       ],
       "electrical_reason": "L4.2 FILTER_OUT land shifted +1.5 mm X leaves only 0.01623 mm to the ground via at (80,20), below required 0.20 mm"
     }
-  ]
+  ],
+  "current_revision_review": "Version text and date update; compared inherited paths, vias and ground exception geometry with prior board."
 }

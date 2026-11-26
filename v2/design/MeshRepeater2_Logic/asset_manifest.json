@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "revision": "v2.10",
-  "date": "2026-11-06",
-  "board_sha256": "610b807974ffc4da1fd784fd025fbc52a427f579edfd3571ffd0dda3d52e1f09",
+  "revision": "v2.11",
+  "date": "2026-11-26",
+  "board_sha256": "935860417efbabe50d9e7fed09c9e3ac01d739e80921fbb498e8877676aba8a4",
   "scope": "Current local assets, preserving previously recorded origin and licensing. References are derived from current model/footprint assignments.",
   "license_scope": "Original project_generated contributions remain CC-BY-NC-SA-4.0. Previously attributed KiCad assets retain their KiCad library licence and exception. Unrecorded provenance remains unknown; no ownership or new licence is inferred.",
   "assets": [
@@ -444,7 +444,8 @@
         "C27",
         "C33",
         "C56",
-        "C57"
+        "C57",
+        "C65"
       ],
       "used_by_current_board": true
     },
@@ -1534,8 +1535,10 @@
     },
     {
       "file": "Meshcore.pretty/C_0805_2012Metric.kicad_mod",
-      "sha256": "e890bdf55fa18fc6df6878eb1b5251a991e1b93985509175eb269d3d002880b4",
-      "references": [],
+      "sha256": "7242d437b4826cde2a85ed7ef657becfe27591355e2783caf77168e4993aa13a",
+      "references": [
+        "C65"
+      ],
       "description": "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)",
       "origin": "kicad_library_derivative",
       "upstream_file": "Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",

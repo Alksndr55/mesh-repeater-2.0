@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Mesh Repeater 2.0 — POWER")
-		(date "2026-11-06")
-		(rev "v2.10")
+		(date "2026-11-26")
+		(rev "v2.11")
 		(company "Designed by @Alksndritm")
 	)
 	(layers
@@ -39643,7 +39643,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Mesh Repeater v2.10\nDesigned by @Alksndritm"
+	(gr_text "Mesh Repeater v2.11\nDesigned by @Alksndritm"
 		(at 26 57.1 0)
 		(layer "B.SilkS")
 		(uuid "2e7bc9a9-b056-46fb-8621-f64d66aeafe1")

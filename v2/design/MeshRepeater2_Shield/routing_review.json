@@ -1,10 +1,10 @@
 {
   "format_version": 1,
   "status": "PASS",
-  "product_version": "v2.10",
-  "date": "2026-11-06",
-  "pcb_sha256": "82ece25f81bc8096141510050d9da055e15b93c41e755cb36554a8a89bf5918b",
-  "reviewer": "root: both-face native export and exact geometry preservation comparison",
+  "product_version": "v2.11",
+  "date": "2026-11-26",
+  "pcb_sha256": "97145afe5c78e68c451fa44a865fe25efb9fe9d9d63f150eaa3fe29927ecb2ed",
+  "reviewer": "Codex: 2026-11-26 exact copper comparison and two-face review",
   "reviewed_faces": [
     "F.Cu",
     "B.Cu"
@@ -58,5 +58,6 @@
     "history/assembly-standard-2026-11-06/SHIELD_both.png",
     "history/assembly-standard-2026-11-06/SHIELD_final_drc.json"
   ],
-  "skipped_grid_points": []
+  "skipped_grid_points": [],
+  "current_revision_review": "Version text and date update; compared inherited paths, vias and ground exception geometry with prior board."
 }

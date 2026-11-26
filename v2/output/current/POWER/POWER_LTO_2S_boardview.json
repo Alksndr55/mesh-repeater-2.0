@@ -2,12 +2,12 @@
   "status": "PASS",
   "format": "GenCAD 1.4",
   "units": "THOU",
-  "pcb_sha256": "e33b7553accff70c3e046695d013b6121f8c4cabe5a97c24169dede3ea7c6de3",
-  "cad_sha256": "0148e5a63485b430db74a68b10b3d42f8079597e5ded82fdcf31ab84107e9b18",
-  "native_export_sha256": "38c5015a90f10f308ea3c4c295956416385a3cbd676fbb1f3c496b6dfc335f3f",
+  "pcb_sha256": "50df8529b4b8939cd6d75f66b0da8f5f9725dbb194023157c291fb6fd932c995",
+  "cad_sha256": "cff4d8a9757a20fdac2c091dc7974213e2a3fff0017193d169beb8d98e3e43b6",
+  "native_export_sha256": "698d369ba77bdc078e2b81bb4f37e7377a2b744ff24bce620f9f05ecfaeea951",
   "pcb_file": "MeshRepeater2_Power.kicad_pcb",
-  "cad_file": "Mesh_Repeater_v2.10_POWER_LTO_2S.cad",
-  "revision": "v2.10",
+  "cad_file": "Mesh_Repeater_v2.11_POWER_LTO_2S.cad",
+  "revision": "v2.11",
   "kicad_version": "10.0.7",
   "removed_non_copper_pads": 28,
   "repaired_padstacks": 184,
@@ -128,7 +128,7 @@
     "U9": "LMV431A"
   },
   "assembly_variant": "LTO_2S",
-  "model_sha256": "741d5d977209c5b9e1917a17216581dbfd5638225cca0e05770104279beea8da",
+  "model_sha256": "118443bd34e6cb243d513efc1d2ad297a1d31a3424fcf68aea39220d64fd993c",
   "model_file": "model.json",
   "component_fitted": {
     "C1": true,
@@ -348,6 +348,6 @@
   "model_unchanged": true,
   "validation_scope": "Native PCB/file comparison only; this build does not claim a GUI check.",
   "product": "v2",
-  "version": "v2.10",
+  "version": "v2.11",
   "board": "POWER"
 }

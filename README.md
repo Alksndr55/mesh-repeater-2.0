@@ -4,11 +4,11 @@
 
 ### Плата LoRa-репитера для MeshCore и Meshtastic
 
-**v2.10 · POWER + LOGIC + SHIELD · 90 × 60 мм**
+**v2.11 · POWER + LOGIC + SHIELD · 90 × 60 мм**
 
 Солнечное питание · Na-ion 1S / LTO 2S · аппаратный watchdog
 
-[Скачать готовый комплект](https://github.com/Alksndr55/mesh-repeater-2.0/releases/download/v2.10/Mesh_Repeater_v2.10_KiCad.zip) · [Релиз v2.10](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.10) · [Одноплатная версия v1](https://github.com/Alksndr55/mesh-repeater)
+[Скачать готовый комплект](https://github.com/Alksndr55/mesh-repeater-2.0/releases/download/v2.11/Mesh_Repeater_v2.11_KiCad.zip) · [Релиз v2.11](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.11) · [Одноплатная версия v1](https://github.com/Alksndr55/mesh-repeater)
 
 <img src="media/v2.10-assembly-hero.png" alt="Mesh Repeater v2.10 в сборе: LOGIC, SHIELD и POWER на стойках" width="880">
 
@@ -100,9 +100,11 @@ Mesh Repeater v2 переносит электрическую часть вед
 
 При 3,3 В и комнатной температуре расчётные ориентиры составляют около **3,5 часа** ожидания и **1,2 секунды** сброса. При длительном молчании радиомодуля или застрявшем высоком TXEN тайм-аут тоже срабатывает. [Подключение и прошивка watchdog](v2/design/watchdog_reference/INTEGRATION_RU.txt)
 
+В v2.11 на стороне NiceNano платы LOGIC установлен C65 (100 нФ, 0805) между MCU_RESET и GND.
+
 ## От схемы — к детали на плате
 
-В ZIP уже включён **portable NexusBV**. Запуск `START.cmd` открывает меню с CAD и PDF-схемой нужной платы и сборки. Двойной щелчок по обозначению или свободной части тела символа в PDF помогает найти компонент на бордвью.
+В ZIP уже включён **portable NexusBV**. Запустите `START_NaIon_COLD.cmd` для Na-ion с COLD или `START_LTO_2S.cmd` для LTO. Затем выберите POWER, LOGIC или SHIELD. Двойной щелчок по обозначению или телу символа в PDF находит компонент на плате.
 
 - Шесть CAD: по **NaIon_COLD** и **LTO_2S** для POWER, LOGIC и SHIELD, с номиналами и DNP. Для SHIELD открывается только CAD.
 - PDF-схемы, BOM, инструкции по электрической и механической сборке.
@@ -111,20 +113,20 @@ Mesh Repeater v2 переносит электрическую часть вед
 
 ## С чего начать
 
-1. Скачайте **Mesh_Repeater_v2.10_KiCad.zip** из [релиза](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.10) и полностью распакуйте его.
-2. Для просмотра запустите `START.cmd` в Windows; для редактирования откройте [POWER](v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro), [LOGIC](v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro) или [SHIELD](v2/design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro) в KiCad 10.
+1. Скачайте **Mesh_Repeater_v2.11_KiCad.zip** из [релиза](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.11) и полностью распакуйте его.
+2. Для просмотра запустите файл для нужной химии в Windows; для редактирования откройте [POWER](v2/design/MeshRepeater2_Power/MeshRepeater2_Power.kicad_pro), [LOGIC](v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_pro) или [SHIELD](v2/design/MeshRepeater2_Shield/MeshRepeater2_Shield.kicad_pro) в KiCad 10.
 3. Выберите вариант аккумулятора и собирайте комплект по [BOM](v2/bom/COMPONENT_BOM.csv), [общей инструкции](docs/ASSEMBLY_COMMON_RU.md) и [описанию механики](v2/docs/MECHANICS_RU.md).
 
 **Перед первым включением:** модуль NiceNano требует указанной в инструкции доработки питания. Перед подключением USB нужно снять шунт **J11**, а вернуть его после отключения USB. J8 и J12 соединены с общей BAT: независимые аккумуляторы к ним одновременно не подключают.
 
 ## Документация
 
-[Общая схема PDF](shared/output/pdf/MeshRepeater_schematic.pdf) · [Схема KiCad](shared/schematic/MeshRepeater.kicad_pro) · [Сборка v2](v2/docs/ASSEMBLY_RU.md) · [Аппаратные ограничения](docs/LIMITATIONS_RU.md) · [Изменения выпуска](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.10)
+[Общая схема PDF](shared/output/pdf/MeshRepeater_schematic.pdf) · [Схема KiCad](shared/schematic/MeshRepeater.kicad_pro) · [Сборка v2](v2/docs/ASSEMBLY_RU.md) · [Аппаратные ограничения](docs/LIMITATIONS_RU.md) · [Изменения выпуска](https://github.com/Alksndr55/mesh-repeater-2.0/releases/tag/v2.11)
 
 <details>
 <summary><strong>Статус проекта и проверки</strong></summary>
 
-Это предварительный инженерный выпуск. Для точных файлов v2.10 проверены общая схема, BOM, ERC/DRC, соответствие плат схеме и комплектность архива. Эти проверки не заменяют испытания собранного устройства: дальность связи, автономность, температурные режимы и эффективность экрана здесь не заявляются как измеренные характеристики.
+Это предварительный инженерный выпуск. Для точных файлов v2.11 проверены общая схема, BOM, ERC/DRC, соответствие плат схеме и комплектность архива. Эти проверки не заменяют испытания собранного устройства: дальность связи, автономность, температурные режимы и эффективность экрана здесь не заявляются как измеренные характеристики.
 
 [Отчёт проверок](v2/audit/current/checks.json) · [Экспорт CAD/PDF](v2/audit/current/exports.json) · [Манифест файлов](RELEASE_MANIFEST.json)
 

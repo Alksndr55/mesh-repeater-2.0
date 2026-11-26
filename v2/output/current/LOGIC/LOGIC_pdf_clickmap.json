@@ -1,15 +1,15 @@
 {
   "status": "PASS",
   "format": "KiCad PDF with invisible component-body text",
-  "native_pdf_sha256": "ea2b1980468562ce5740707a31991e9e1c3efa5eed8ba1e3f9feea5ec93b0b34",
-  "pdf_sha256": "d93a5815f0765160925a0753e3560b167ca19c05fc850f11d09b371dc065587a",
+  "native_pdf_sha256": "dc66a0a87b77196e7d3e639ca1bbc35994196113832b8044d4b788a5d4dafa42",
+  "pdf_sha256": "972bc9b0bc449020cadbf08b215eb6096ac59f3441a7591ba7bfb940f153a793",
   "schematic_sha256": {
-    "v2/design/MeshRepeater2_Logic/Interconnect.kicad_sch": "19cb482b8141f61fd00f7ba0678559d375ffaa52b9eb17a95c0432f6ad2b97a0",
-    "v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_sch": "d800ccade1b253f22886057d6c15d38afc324b67f1471f7ba11c9ce4493408cd",
-    "v2/design/MeshRepeater2_Logic/RTC_IO.kicad_sch": "a8eda9d75da2bac689fef18a5da0f2e7b1ec52a10252b28f00adf0115d05cec5",
-    "v2/design/MeshRepeater2_Logic/Watchdog.kicad_sch": "a9989f9daa0a19507e3f71156890fc1591f2c86a1ae889d9bc0501bf90a8ae36"
+    "v2/design/MeshRepeater2_Logic/Interconnect.kicad_sch": "cdf605925ef0563b117d43266b5a4df29be6eb9e96967b089b841109b6fa4189",
+    "v2/design/MeshRepeater2_Logic/MeshRepeater2_Logic.kicad_sch": "d308149818a98d6b71c156aa2a44bfd7da180bf6264dd6667040f3760acb2f9f",
+    "v2/design/MeshRepeater2_Logic/RTC_IO.kicad_sch": "a61e6f4fc64c3ff8647b33101df9dbb7aae4622aaba82b6e077540221cf5e105",
+    "v2/design/MeshRepeater2_Logic/Watchdog.kicad_sch": "5e598bdd2fc1e23d36b469003bda7591f2fac698b40eef9c6e7940764b211bc5"
   },
-  "components": 56,
+  "components": 57,
   "pages": 4,
   "body_regions": {
     "1": [
@@ -20,6 +20,10 @@
           493.0559999999999,
           468.36000000000007,
           499.53599999999994
+        ],
+        "label_pdf": [
+          455.2114960656,
+          518.7645354312
         ]
       },
       {
@@ -29,6 +33,10 @@
           359.13599999999997,
           699.1200000000001,
           374.256
+        ],
+        "label_pdf": [
+          701.9552126016,
+          367.5645354312
         ]
       },
       {
@@ -38,6 +46,10 @@
           625.536,
           785.52,
           640.656
+        ],
+        "label_pdf": [
+          788.3552126016,
+          633.9645354312
         ]
       },
       {
@@ -47,6 +59,10 @@
           733.536,
           720.8100000000001,
           737.856
+        ],
+        "label_pdf": [
+          707.382992124,
+          756.3645354312
         ]
       },
       {
@@ -56,6 +72,10 @@
           640.656,
           443.16,
           647.136
+        ],
+        "label_pdf": [
+          419.2114960656,
+          648.3645354312
         ]
       },
       {
@@ -65,6 +85,10 @@
           488.73599999999993,
           813.96,
           525.4559999999999
+        ],
+        "label_pdf": [
+          786.925700784,
+          536.7645354312
         ]
       },
       {
@@ -74,6 +98,10 @@
           541.0408818897637,
           799.92,
           552.3511181102361
+        ],
+        "label_pdf": [
+          786.6685984247999,
+          565.5645354311999
         ]
       },
       {
@@ -83,6 +111,10 @@
           597.4559999999999,
           443.16,
           603.9359999999999
+        ],
+        "label_pdf": [
+          419.2114960656,
+          601.5645354311999
         ]
       },
       {
@@ -92,6 +124,10 @@
           626.2559999999999,
           443.16,
           632.7359999999999
+        ],
+        "label_pdf": [
+          419.2114960656,
+          630.3645354312
         ]
       },
       {
@@ -101,6 +137,10 @@
           542.7359999999999,
           677.1600000000001,
           701.856
+        ],
+        "label_pdf": [
+          607.8687873984,
+          716.7645354312
         ]
       },
       {
@@ -110,6 +150,10 @@
           625.536,
           720.7200000000001,
           640.656
+        ],
+        "label_pdf": [
+          723.5552126015999,
+          633.9645354312
         ]
       },
       {
@@ -119,6 +163,10 @@
           495.9359999999999,
           89.64000000000001,
           511.0559999999999
+        ],
+        "label_pdf": [
+          97.15521260159998,
+          504.3645354312
         ]
       },
       {
@@ -128,6 +176,10 @@
           611.8559999999999,
           504.36,
           618.3359999999999
+        ],
+        "label_pdf": [
+          480.4114960656,
+          615.9645354312
         ]
       },
       {
@@ -137,6 +189,10 @@
           359.13599999999997,
           627.1200000000001,
           374.256
+        ],
+        "label_pdf": [
+          629.9552126016,
+          367.5645354312
         ]
       },
       {
@@ -146,6 +202,10 @@
           337.53599999999983,
           115.56000000000002,
           352.65599999999984
+        ],
+        "label_pdf": [
+          102.1543936992,
+          360.3645354312
         ]
       },
       {
@@ -155,6 +215,10 @@
           409.5359999999999,
           298.44000000000005,
           424.6559999999999
+        ],
+        "label_pdf": [
+          305.9552126016,
+          417.9645354312
         ]
       },
       {
@@ -164,6 +228,10 @@
           438.33599999999996,
           166.32000000000002,
           453.45599999999996
+        ],
+        "label_pdf": [
+          169.1552126016,
+          446.7645354312
         ]
       },
       {
@@ -173,6 +241,10 @@
           344.73599999999993,
           378.7200000000001,
           359.85599999999994
+        ],
+        "label_pdf": [
+          381.5552126016,
+          353.16453543119997
         ]
       },
       {
@@ -182,6 +254,10 @@
           495.9359999999999,
           907.5600000000001,
           518.2559999999999
+        ],
+        "label_pdf": [
+          894.8400944904,
+          529.5645354311999
         ]
       },
       {
@@ -191,6 +267,10 @@
           438.33599999999996,
           89.64000000000001,
           453.45599999999996
+        ],
+        "label_pdf": [
+          97.15521260159998,
+          446.7645354312
         ]
       },
       {
@@ -200,6 +280,10 @@
           499.5359999999999,
           353.1600000000001,
           701.856
+        ],
+        "label_pdf": [
+          247.8687873984,
+          716.7645354312
         ]
       },
       {
@@ -209,6 +293,10 @@
           337.53599999999983,
           266.76000000000005,
           352.65599999999984
+        ],
+        "label_pdf": [
+          253.3543936992,
+          360.3645354312
         ]
       }
     ],
@@ -220,6 +308,10 @@
           639.9359999999999,
           597.96,
           698.256
+        ],
+        "label_pdf": [
+          579.7544881896,
+          713.1645354312
         ]
       },
       {
@@ -229,6 +321,10 @@
           521.136,
           597.96,
           579.4559999999999
+        ],
+        "label_pdf": [
+          579.7544881896,
+          594.3645354312
         ]
       },
       {
@@ -238,6 +334,10 @@
           531.9359999999999,
           266.76000000000005,
           676.656
+        ],
+        "label_pdf": [
+          219.23999999999998,
+          691.5645354311999
         ]
       },
       {
@@ -247,6 +347,10 @@
           650.7359999999999,
           943.9200000000001,
           665.856
+        ],
+        "label_pdf": [
+          946.7552126016001,
+          659.1645354312
         ]
       },
       {
@@ -256,6 +360,10 @@
           554.2559999999999,
           705.96,
           560.7359999999999
+        ],
+        "label_pdf": [
+          692.8114960656,
+          579.9645354312
         ]
       },
       {
@@ -265,6 +373,10 @@
           672.3359999999999,
           781.5600000000001,
           692.856
+        ],
+        "label_pdf": [
+          762.84,
+          720.3645354312
         ]
       },
       {
@@ -274,6 +386,10 @@
           675.9359999999999,
           327.24,
           691.0559999999999
+        ],
+        "label_pdf": [
+          334.75521260159996,
+          684.3645354312
         ]
       },
       {
@@ -283,6 +399,10 @@
           665.136,
           852.84,
           680.256
+        ],
+        "label_pdf": [
+          860.3552126016,
+          673.5645354311999
         ]
       },
       {
@@ -292,6 +412,10 @@
           675.9359999999999,
           399.24,
           691.0559999999999
+        ],
+        "label_pdf": [
+          406.75521260159996,
+          684.3645354312
         ]
       },
       {
@@ -301,6 +425,10 @@
           567.9359999999999,
           97.92,
           597.4559999999999
+        ],
+        "label_pdf": [
+          81.1544881896,
+          525.9645354312
         ]
       },
       {
@@ -310,6 +438,10 @@
           387.9359999999999,
           972.36,
           503.85599999999994
+        ],
+        "label_pdf": [
+          932.04,
+          518.7645354312
         ]
       },
       {
@@ -319,6 +451,10 @@
           621.9359999999999,
           1119.96,
           752.256
+        ],
+        "label_pdf": [
+          1087.3544881895998,
+          767.1645354312
         ]
       },
       {
@@ -328,6 +464,10 @@
           614.7359999999999,
           698.0400000000001,
           629.856
+        ],
+        "label_pdf": [
+          705.5552126015999,
+          623.1645354312
         ]
       },
       {
@@ -337,6 +477,10 @@
           661.536,
           115.92,
           676.656
+        ],
+        "label_pdf": [
+          118.7552126016,
+          669.9645354312
         ]
       },
       {
@@ -346,6 +490,10 @@
           398.73599999999993,
           1116.72,
           413.85599999999994
+        ],
+        "label_pdf": [
+          1086.8677795296,
+          407.16453543119997
         ]
       },
       {
@@ -355,6 +503,10 @@
           571.536,
           852.84,
           586.656
+        ],
+        "label_pdf": [
+          860.3552126016,
+          579.9645354312
         ]
       },
       {
@@ -364,6 +516,10 @@
           542.7359999999999,
           770.76,
           572.2559999999999
+        ],
+        "label_pdf": [
+          791.64,
+          558.3645354312
         ]
       },
       {
@@ -373,6 +529,10 @@
           503.1359999999999,
           726.8400000000001,
           518.2559999999999
+        ],
+        "label_pdf": [
+          734.3552126016,
+          511.5645354312
         ]
       }
     ],
@@ -384,6 +544,10 @@
           553.536,
           641.16,
           640.656
+        ],
+        "label_pdf": [
+          621.2400944904,
+          655.5645354311999
         ]
       },
       {
@@ -393,6 +557,10 @@
           686.7359999999999,
           496.44000000000005,
           701.856
+        ],
+        "label_pdf": [
+          503.95521260159995,
+          695.1645354312
         ]
       },
       {
@@ -402,6 +570,10 @@
           647.856,
           425.16,
           654.3359999999999
+        ],
+        "label_pdf": [
+          412.0114960656,
+          673.5645354311999
         ]
       },
       {
@@ -411,6 +583,10 @@
           575.856,
           108.36000000000003,
           582.336
+        ],
+        "label_pdf": [
+          95.21149606559999,
+          601.5645354311999
         ]
       },
       {
@@ -420,6 +596,10 @@
           549.9359999999999,
           331.56000000000006,
           680.2559999999999
+        ],
+        "label_pdf": [
+          284.04,
+          695.1645354312
         ]
       },
       {
@@ -429,6 +609,10 @@
           528.3359999999999,
           176.04000000000002,
           543.4559999999999
+        ],
+        "label_pdf": [
+          183.55521260159998,
+          536.7645354312
         ]
       },
       {
@@ -438,6 +622,10 @@
           647.136,
           176.04000000000002,
           662.2559999999999
+        ],
+        "label_pdf": [
+          183.55521260159998,
+          655.5645354311999
         ]
       },
       {
@@ -447,6 +635,23 @@
           672.3359999999999,
           108.72000000000001,
           687.4559999999999
+        ],
+        "label_pdf": [
+          111.55521260159999,
+          680.7645354312
+        ]
+      },
+      {
+        "reference": "C65",
+        "body_pdf": [
+          514.08,
+          611.136,
+          529.9200000000001,
+          626.256
+        ],
+        "label_pdf": [
+          532.7552126016,
+          619.5645354311999
         ]
       }
     ],
@@ -458,6 +663,10 @@
           695.376,
           319.32000000000005,
           700.4159999999999
+        ],
+        "label_pdf": [
+          311.55448818959997,
+          709.5645354311999
         ]
       },
       {
@@ -467,6 +676,10 @@
           351.93599999999986,
           770.76,
           367.05599999999987
+        ],
+        "label_pdf": [
+          755.8114960656,
+          374.7645354312
         ]
       },
       {
@@ -476,6 +689,10 @@
           351.93599999999986,
           597.96,
           367.05599999999987
+        ],
+        "label_pdf": [
+          583.0114960656,
+          374.7645354312
         ]
       },
       {
@@ -485,6 +702,10 @@
           351.93599999999986,
           511.5600000000001,
           367.05599999999987
+        ],
+        "label_pdf": [
+          496.61149606559997,
+          374.7645354312
         ]
       },
       {
@@ -494,6 +715,10 @@
           623.376,
           319.32000000000005,
           628.4159999999999
+        ],
+        "label_pdf": [
+          311.55448818959997,
+          637.5645354311999
         ]
       },
       {
@@ -503,6 +728,10 @@
           351.93599999999986,
           684.36,
           367.05599999999987
+        ],
+        "label_pdf": [
+          669.4114960656,
+          374.7645354312
         ]
       },
       {
@@ -512,6 +741,10 @@
           528.3359999999999,
           648.36,
           701.856
+        ],
+        "label_pdf": [
+          619.5259842552,
+          716.7645354312
         ]
       },
       {
@@ -521,6 +754,10 @@
           572.2559999999999,
           223.56000000000003,
           578.7359999999999
+        ],
+        "label_pdf": [
+          210.4114960656,
+          597.9645354312
         ]
       }
     ]
@@ -529,316 +766,417 @@
     {
       "page": 1,
       "render_144dpi_identical": true,
-      "render_sha256": "7ac7bdbba3a861ad9385bc81e95a87c58999007b5be10c47ceea68e1135e4350",
+      "render_sha256": "d90da467d1c3172ba902d747013b32fdc6077e3f17680a3394de67a3d0e06355",
       "body_targets": [
         {
-          "reference": "R35",
+          "reference": "C21",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "C22",
           "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "C24",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "FB1",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R23",
-          "body_hit_samples": 11,
-          "samples": 15
-        },
-        {
-          "reference": "FL1",
-          "body_hit_samples": 14,
-          "samples": 15
-        },
-        {
-          "reference": "NT1",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R25",
-          "body_hit_samples": 10,
-          "samples": 15
-        },
-        {
-          "reference": "R24",
-          "body_hit_samples": 10,
-          "samples": 15
-        },
-        {
-          "reference": "M2",
-          "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "C23",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
-          "reference": "R27",
+          "reference": "C24",
           "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R26",
-          "body_hit_samples": 10,
-          "samples": 15
-        },
-        {
-          "reference": "C21",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "SW2",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R31",
-          "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "C25",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "C26",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "FB1",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "FL1",
+          "body_hit_samples": 14,
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "J13",
           "body_hit_samples": 13,
-          "samples": 15
-        },
-        {
-          "reference": "R28",
-          "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "M1",
           "body_hit_samples": 14,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "M2",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "NT1",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R23",
+          "body_hit_samples": 11,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R24",
+          "body_hit_samples": 10,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R25",
+          "body_hit_samples": 10,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R26",
+          "body_hit_samples": 10,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R27",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R28",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R31",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R35",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "SW1",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "SW2",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
         }
       ]
     },
     {
       "page": 2,
       "render_144dpi_identical": true,
-      "render_sha256": "5f5f80f727028f792652a12d9690c16cdbdbb744706c508b8a56fff5a20a644a",
+      "render_sha256": "0beaa3061cbbdb6dfa10c5f179a415eb0c9585fcdd64ff87abc5e5d8f16d52fc",
       "body_targets": [
-        {
-          "reference": "J3",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "J5",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "U4",
-          "body_hit_samples": 13,
-          "samples": 15
-        },
-        {
-          "reference": "C57",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R44",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "Q2",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R29",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R46",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R30",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
         {
           "reference": "BT1",
           "body_hit_samples": 13,
-          "samples": 15
-        },
-        {
-          "reference": "U7",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "J4",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R42",
-          "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "C27",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "C56",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
-          "reference": "R45",
+          "reference": "C57",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "J3",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "J4",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "J5",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "Q2",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "Q3",
           "body_hit_samples": 13,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R29",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R30",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R42",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "R43",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R44",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R45",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R46",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "U4",
+          "body_hit_samples": 13,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "U7",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
         }
       ]
     },
     {
       "page": 3,
       "render_144dpi_identical": true,
-      "render_sha256": "254fd6cf26144d3d58edec471603a862dfd93c10bc14e84f61d2fd56ba851ddd",
+      "render_sha256": "912ce8cb1785e280cd59189c00a9560109cf66325b86fc713748964f877aa9bc",
       "body_targets": [
+        {
+          "reference": "C33",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "C65",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
         {
           "reference": "J10",
           "body_hit_samples": 13,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "R33",
           "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R37",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "R38",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "U6",
-          "body_hit_samples": 13,
-          "samples": 15
-        },
-        {
-          "reference": "R39",
-          "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "R36",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
-          "reference": "C33",
+          "reference": "R37",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R38",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "R39",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "U6",
+          "body_hit_samples": 13,
+          "samples": 15,
+          "reference_search_hits": 2
         }
       ]
     },
     {
       "page": 4,
       "render_144dpi_identical": true,
-      "render_sha256": "64c2dd53c2c0f64b0bdb55e137457cd813cb415e8240c3e94158d7e43b80274f",
+      "render_sha256": "fe3df5349f4a6caae3be90eeb6479896f2ea7975510700257d89dd8b7b4c4364",
       "body_targets": [
         {
-          "reference": "TP4",
-          "body_hit_samples": 15,
-          "samples": 15
-        },
-        {
-          "reference": "H204",
+          "reference": "H201",
           "body_hit_samples": 13,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "H202",
           "body_hit_samples": 13,
-          "samples": 15
-        },
-        {
-          "reference": "H201",
-          "body_hit_samples": 13,
-          "samples": 15
-        },
-        {
-          "reference": "TP7",
-          "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "H203",
           "body_hit_samples": 13,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "H204",
+          "body_hit_samples": 13,
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "J201",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
         },
         {
           "reference": "R21",
           "body_hit_samples": 15,
-          "samples": 15
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "TP4",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
+        },
+        {
+          "reference": "TP7",
+          "body_hit_samples": 15,
+          "samples": 15,
+          "reference_search_hits": 2
         }
       ]
     }
   ],
+  "suppressed_reference_mentions": {
+    "1": [
+      "FL1",
+      "FB1",
+      "FB1",
+      "J13",
+      "FL1",
+      "NT1",
+      "FL1",
+      "FL1",
+      "NT1",
+      "J13",
+      "FL1",
+      "NT1",
+      "FL1"
+    ],
+    "2": [
+      "J4",
+      "J4",
+      "J4",
+      "Q2",
+      "U7",
+      "J4",
+      "BT1",
+      "J5",
+      "J3"
+    ],
+    "3": [
+      "R38",
+      "R37",
+      "J10",
+      "J10"
+    ],
+    "4": [
+      "R21",
+      "R21",
+      "J201"
+    ]
+  },
   "original_text_has_priority": true,
   "schematics_unchanged": true,
-  "scope": "Body graphics only; existing text, pin labels and net names retain their original hit priority.",
+  "scope": "Component bodies and printed references. Mentions in other text are excluded from reference search.",
   "product": "v2",
-  "version": "v2.10",
+  "version": "v2.11",
   "board": "LOGIC"
 }

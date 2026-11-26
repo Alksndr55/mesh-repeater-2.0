@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "6f94559e-7e06-54db-8d6a-74e7222a02c0")
 	(paper "A3")
-	(title_block (title "ATtiny13A / watchdog") (date "2026-11-06") (rev "v2.10") (comment 1 "Электрическая принципиальная; прототип"))
+	(title_block (title "ATtiny13A / watchdog") (date "2026-11-26") (rev "v2.11") (comment 1 "Электрическая принципиальная; прототип"))
 	(lib_symbols
 		(symbol "Meshcore:ATtiny13A"
 			(pin_names
@@ -9846,16 +9846,7 @@
 		)
 		(uuid "3b991eef-ca13-4a55-9133-444405288989")
 	)
-	(wire
-		(pts
-			(xy 152.4 67.31) (xy 190.5 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ecfc200-df26-465b-86dc-606f5bfc67be")
-	)
+	(wire (pts (xy 152.4 67.31) (xy 173.99 67.31)) (stroke (width 0) (type default)) (uuid "4ecfc200-df26-465b-86dc-606f5bfc67be"))
 	(wire
 		(pts
 			(xy 127 35.56) (xy 132.08 35.56)
@@ -12594,4 +12585,11 @@
 			)
 		)
 	)
+(symbol (lib_id "Meshcore:C_V") (at 184.15 78.74 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b92fda9a-755e-4c6d-a28f-3d482cf69dd8") (property "Reference" "C65" (at 187.96 77.47 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100nF 50V X7R" (at 187.96 80.01 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Meshcore:C_0805_2012Metric" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Datasheet" "" (at 184.15 78.74 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "100 нФ между MCU_RESET и GND." (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "MPN" "CL21B104KBCNNNC" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "LCSC" "" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Vendor" "Danomsk" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Vendor URL" "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Fit_NaIon" "yes" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Fit_LTO_2S" "yes" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Value_NaIon" "100nF 50V X7R" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Value_LTO_2S" "100nF 50V X7R" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Assembly" "Na-ion: FIT; LTO 2S: FIT" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Nominal" "100nF" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "MPN_NaIon" "CL21B104KBCNNNC" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "MPN_LTO_2S" "CL21B104KBCNNNC" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Fit_NaIon_NoCold" "yes" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Value_NaIon_NoCold" "100nF 50V X7R" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "MPN_NaIon_NoCold" "CL21B104KBCNNNC" (at 184.15 78.74 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (pin "1" (uuid "dad22bdc-cb24-4fe5-b016-932e5cb4151f")) (pin "2" (uuid "5beb1175-aa46-4b25-9e9b-906258acba7d")) (instances (project "MeshRepeater2_Logic" (path "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/028fb4c6-10e2-5047-ac36-6e7a4a84eab0" (reference "C65") (unit 1)))))
+(symbol (lib_id "Meshcore:GND") (at 184.15 86.36 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "cef6ba4f-64b6-4c0d-aba5-a75e05350f7c") (property "Reference" "#PWR3005" (at 184.15 86.36 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Value" "GND" (at 184.15 86.36 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1 1)))) (property "Footprint" "" (at 184.15 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 184.15 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 184.15 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c0a3db1a-4640-47ad-8d3b-a0ac20c976d2")) (instances (project "MeshRepeater2_Logic" (path "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/028fb4c6-10e2-5047-ac36-6e7a4a84eab0" (reference "#PWR3005") (unit 1)))))
+(wire (pts (xy 173.99 67.31) (xy 184.15 67.31)) (stroke (width 0) (type default)) (uuid "517555a4-a563-43e7-a4a7-4a559d58ee93"))
+(wire (pts (xy 184.15 67.31) (xy 190.5 67.31)) (stroke (width 0) (type default)) (uuid "c84d3771-b344-47e3-8167-dda542e3ea04"))
+(wire (pts (xy 184.15 67.31) (xy 184.15 73.66)) (stroke (width 0) (type default)) (uuid "036a0510-6ee6-4464-aed0-12ef0bfa83e1"))
+(wire (pts (xy 184.15 83.82) (xy 184.15 86.36)) (stroke (width 0) (type default)) (uuid "4058c033-b09d-4803-b0b7-6c23a21495b6"))
+(junction (at 184.15 67.31) (diameter 0) (color 0 0 0 0) (uuid "52628e0e-8e4e-4d77-a32b-42a58cd4b69d"))
 )

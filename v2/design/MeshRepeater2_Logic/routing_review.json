@@ -1,10 +1,10 @@
 {
   "format_version": 1,
   "status": "PASS",
-  "product_version": "v2.10",
-  "date": "2026-11-06",
-  "pcb_sha256": "610b807974ffc4da1fd784fd025fbc52a427f579edfd3571ffd0dda3d52e1f09",
-  "reviewer": "footprint_standardization agent: independent native topology, filled-copper and two-face visual review, 2026-11-06",
+  "product_version": "v2.11",
+  "date": "2026-11-26",
+  "pcb_sha256": "935860417efbabe50d9e7fed09c9e3ac01d739e80921fbb498e8877676aba8a4",
+  "reviewer": "Codex: 2026-11-26 exact copper comparison and two-face review",
   "reviewed_faces": [
     "F.Cu",
     "B.Cu"
@@ -386,5 +386,6 @@
     "history/assembly-standard-2026-11-06/footprints/thermals-final/render_manifest.json",
     "history/assembly-standard-2026-11-06/footprints/thermals-final/LOGIC_copper.png"
   ],
-  "skipped_grid_points": []
+  "skipped_grid_points": [],
+  "current_revision_review": "C65 is on F.Cu, with a direct MCU_RESET segment and a thermal GND pad. Reviewed local filled copper on both sides; inherited tracks, vias and exception geometry compared with the previous revision."
 }

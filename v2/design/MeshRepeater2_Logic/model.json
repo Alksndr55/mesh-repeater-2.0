@@ -1,7 +1,7 @@
 {
   "project": "MeshRepeater2_Logic",
-  "revision": "v2.10",
-  "schematic_revision": "v2.10",
+  "revision": "v2.11",
+  "schematic_revision": "v2.11",
   "schematic_date": "2026-10-24",
   "board": {
     "width": 90,
@@ -2423,6 +2423,41 @@
       "mpn_lto2s": "MTJ H8.5 2X6P 10PCS",
       "mpn_naion_no_cold": "MTJ H8.5 2X6P 10PCS",
       "source_footprint_before_v2_graphic_variant": "Meshcore:Ali_PinSocket_2x06_P2.54_H8.5_v2_mirror"
+    },
+    {
+      "ref": "C65",
+      "kind": "C",
+      "value": "100nF 50V X7R",
+      "nets": {
+        "1": "MCU_RESET",
+        "2": "GND"
+      },
+      "footprint": "Meshcore:C_0805_2012Metric",
+      "x": 28.7,
+      "y": 4.0,
+      "rotation": 90,
+      "mpn": "CL21B104KBCNNNC",
+      "lcsc": "",
+      "note": "100 нФ между MCU_RESET и GND.",
+      "dnp": false,
+      "group": "watchdog",
+      "vendor": "Danomsk",
+      "vendor_url": "https://www.danomsk.ru/shop/5-kondensatory/89-kondensatory-keramicheskie/732-kondensatory-smd-0805/196705-chip-kond-0805-x7r-0-10uf-10-50v-cl21b104kbcnnnc-cc0805-sam/",
+      "qualification": "Замена развязки ATtiny на доступный Samsung с теми же ёмкостью, допуском, диэлектриком и напряжением.",
+      "procurement_package": "0805 (2012), X7R, 100nF ±10%, 50V",
+      "procurement_checked_at": "2026-10-09T21:23:39+06:00",
+      "schematic_uuid": "b92fda9a-755e-4c6d-a28f-3d482cf69dd8",
+      "sheet_path": "/105ad8a7-7e6b-542d-bfd4-ec797b1696df/028fb4c6-10e2-5047-ac36-6e7a4a84eab0",
+      "fit_naion": true,
+      "fit_lto2s": true,
+      "assembly_default_dnp": false,
+      "assembly": "Na-ion: FIT; LTO 2S: FIT",
+      "native_layer": "F.Cu",
+      "fit_naion_no_cold": true,
+      "value_lto2s": "100nF 50V X7R",
+      "value_naion_no_cold": "100nF 50V X7R",
+      "mpn_lto2s": "CL21B104KBCNNNC",
+      "mpn_naion_no_cold": "CL21B104KBCNNNC"
     }
   ],
   "usb_isolation_jumper": {

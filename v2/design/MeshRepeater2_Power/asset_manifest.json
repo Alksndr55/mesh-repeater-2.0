@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "revision": "v2.10",
-  "date": "2026-11-06",
-  "board_sha256": "e33b7553accff70c3e046695d013b6121f8c4cabe5a97c24169dede3ea7c6de3",
+  "revision": "v2.11",
+  "date": "2026-11-26",
+  "board_sha256": "50df8529b4b8939cd6d75f66b0da8f5f9725dbb194023157c291fb6fd932c995",
   "scope": "Current local assets, preserving previously recorded origin and licensing. References are derived from current model/footprint assignments.",
   "license_scope": "Original project_generated contributions remain CC-BY-NC-SA-4.0. Previously attributed KiCad assets retain their KiCad library licence and exception. Unrecorded provenance remains unknown; no ownership or new licence is inferred.",
   "assets": [
